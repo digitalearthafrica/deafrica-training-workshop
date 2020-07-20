@@ -19,3 +19,4 @@ with, so ensure you have access to the email you provided.
    :align: center
    :width: 250px
    :alt: Digital Earth Africa Sanbox Register Form
+

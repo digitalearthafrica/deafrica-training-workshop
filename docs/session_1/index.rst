@@ -15,4 +15,5 @@ In this session, you will learn:
    :caption: Contents:
 
    01_what_is_digital_earth_africa
-   02_create_a_user_account.rst
+   02_create_a_user_account
+   03_jupyter_lab

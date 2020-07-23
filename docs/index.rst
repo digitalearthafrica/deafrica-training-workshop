@@ -11,6 +11,7 @@ Digital Earth Africa Training
    :caption: Contents:
 
    session_1/index
+   session_2/index
 
 
 Indices and tables

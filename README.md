@@ -1,4 +1,4 @@
-# notebooks-training
+# deafrica-training-workshop
 Training material on how to use DE Africa data
 
 Prototype at https://digitalearthafrica.github.io/notebooks-training/index.html

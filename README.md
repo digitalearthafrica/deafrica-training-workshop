@@ -3,7 +3,8 @@ Training material on how to use DE Africa data
 
 Prototype at https://digitalearthafrica.github.io/deafrica-training-workshop/
 
-## To edit docs on the sandbox (replace `<branch_name>`)
+## To edit docs on the sandbox
+(replace `<branch_name>` with the name of your new branch that relates to your change)
 ```
 mkdir dev
 cd dev
@@ -11,8 +12,11 @@ git clone https://github.com/digitalearthafrica/deafrica-training-workshop.git
 cd deafrica-training-workshop
 git checkout -b <branch_name>
 ```
-Make your changes
-You can use the Git panel to commit files by selecting the menu **Git** -> **Git Interface**
+You can now make your changes by adding, editing or deleting notebooks
+* 
+
+When you are ready to commit your files, you can use the Git panel.
+From the menu bar, select the **Git** -> **Git Interface** (or click the git button on the left panel, a diamond with a branch on it)
 * Click the + next to _Changed_ files to move them  _Staged_
 * Click the + next to _Untracked_ files to add them and move them  _Staged_
 * Enter a commit message in the _Summary_ field at the bottom of the panel and click commit.
@@ -22,6 +26,11 @@ You can use the Git panel to commit files by selecting the menu **Git** -> **Git
 git config --global credential.helper store
 git push --set-upstream origin <branch_name>
 ```
+To start a pull request:
+* You can now go to https://github.com/digitalearthafrica/deafrica-training-workshop
+* There should be a notification box that says something like `<branch_name> recently pushed`. Click the button **Create Pull request**
+* Put in a description of your changes
+* Add some people to review your changes
 
 > **Troubleshooting:** If you get the error message: 
 `remote: Invalid username or password.

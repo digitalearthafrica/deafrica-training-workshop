@@ -11,4 +11,4 @@ In this session, you will learn:
 
    01_data_available
    02_maps_portal
-   03_working_with_jupyter_cells
+   03_working_with_jupyter_notebooks

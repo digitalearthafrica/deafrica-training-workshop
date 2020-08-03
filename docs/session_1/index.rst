@@ -17,4 +17,4 @@ In this session, you will learn:
    01_what_is_digital_earth_africa
    02_create_a_user_account
    03_navigate_the_sandbox
-   06_help_documentation
+   05_help_documentation

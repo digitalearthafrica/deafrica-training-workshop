@@ -29,6 +29,11 @@ release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 
+# The document name of the “master” document, that is, the document that contains
+# the root toctree directive. Default is 'index'.
+# Changed in version 2.0: The default is changed to 'index' from 'contents'.
+master_doc = 'index'
+
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.

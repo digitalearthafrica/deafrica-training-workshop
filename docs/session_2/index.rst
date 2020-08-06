@@ -14,3 +14,4 @@ In this session, you will learn:
    03_working_with_jupyter_notebooks
    04_loading_data
    05_rgb
+   06_xarray

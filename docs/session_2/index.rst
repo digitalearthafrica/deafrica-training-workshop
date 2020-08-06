@@ -13,3 +13,4 @@ In this session, you will learn:
    02_maps_portal
    03_working_with_jupyter_notebooks
    04_loading_data
+   05_rgb

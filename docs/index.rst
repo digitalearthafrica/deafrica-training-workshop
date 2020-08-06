@@ -12,6 +12,7 @@ Digital Earth Africa Training
 
    session_1/index
    session_2/index
+   Frequently_asked_questions
 
 
 Indices and tables

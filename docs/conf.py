@@ -70,3 +70,10 @@ html_show_sourcelink = False
 
 # Don't execute notebooks
 nbsphinx_execute = 'never'
+
+# Use table-wrapping style
+html_context = {
+    'css_files': [
+        '_static/theme_override.css',  # override wide tables in RTD theme
+        ],
+     }

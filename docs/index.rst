@@ -8,16 +8,8 @@ Digital Earth Africa Training
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
 
    session_1/index
    session_2/index
+
    Frequently_asked_questions
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

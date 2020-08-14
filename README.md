@@ -1,7 +1,7 @@
 # deafrica-training-workshop
 Training material on how to use DE Africa data
 
-Prototype at https://digitalearthafrica.github.io/deafrica-training-workshop/
+https://training.digitalearthafrica.org/en/latest/
 
 ## To edit docs on the sandbox
 (replace `<branch_name>` with the name of your new branch that relates to your change)
@@ -57,9 +57,11 @@ open _build/html/index.html
 ### Website generation
 * For youtube embedding: `pip install ytsphinx`
 * For ipynb conversion: you will need to install `pandoc`, either from `conda-forge` or with `apt-get`
+* Hosted on ReadTheDocs
+  * Project at: https://readthedocs.org/projects/digital-earth-africa-workshop/
 * 	GitHub Actions:
-  * Pull Request: make sure it builds
-  * Commits to `master` branch: Builds docs, pushed to `gh-pages` branch for publishing to https://digitalearthafrica.github.io/deafrica-training-workshop/
+  * Pull Request: make sure it builds, failing on warnings
+  * To be disabled soon: ~Commits to `master` branch: Builds docs, pushed to `gh-pages` branch for publishing to https://digitalearthafrica.github.io/deafrica-training-workshop/~
 
 ### PDF generation without latex
 * To install: `pip install rinohtype`

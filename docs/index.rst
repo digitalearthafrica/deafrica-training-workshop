@@ -8,8 +8,14 @@ Digital Earth Africa Training
 
 .. toctree::
    :maxdepth: 1
+   :caption: Lessons
 
    session_1/index
    session_2/index
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Other information
+
    Frequently_asked_questions
+   License

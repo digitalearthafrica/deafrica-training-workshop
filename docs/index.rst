@@ -23,4 +23,5 @@ Digital Earth Africa Training
    :caption: Other information
 
    Frequently_asked_questions
+   help_documentation
    License

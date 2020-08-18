@@ -6,9 +6,7 @@
 Digital Earth Africa Training
 =============================
 
-.. note:: replace with Edward & Kenneth's video
-
-.. youtube:: 4SXSWM--w9o
+.. youtube:: -jGkL9kx6rg
    :width: 100%
 
 .. toctree::

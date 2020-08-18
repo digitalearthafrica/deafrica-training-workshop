@@ -15,3 +15,4 @@ In this session, you will learn:
    04_loading_data
    05_rgb
    06_xarray
+   07_plotting

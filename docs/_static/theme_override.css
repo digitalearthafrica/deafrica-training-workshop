@@ -11,3 +11,44 @@
       overflow: visible !important;
    }
 }
+
+.youtube_wrapper {
+   margin-bottom: 3em;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    font-family: "Arial", sans-serif;
+    color: #eeaf30;
+}
+
+.wy-nav-side {
+	  background-color: #000000;
+}
+
+.wy-menu {
+    color: #eeaf30;
+}
+
+div.wy-side-nav-search {
+    margin-bottom: 10px;
+    background: linear-gradient(to left, rgb(122, 184, 0) 33%, transparent 33%, transparent 34%, rgb(238, 175, 48) 34%) bottom left no-repeat, white;
+	  background-size: 100% 5px, 100% 100%;
+}
+
+
+div.document a:visited {
+/* Same colour as unvisited */
+    color: #2980B9;
+}
+
+.wy-nav-content {
+    background-color: white;
+}

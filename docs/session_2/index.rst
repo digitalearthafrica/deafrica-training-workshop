@@ -1,13 +1,12 @@
 .. _session_2:
 
-Session 2
-=========
+Session 2: Applications
+=======================
 
 In this session, you will learn:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
 
    01_products_intro
    02_maps_portal

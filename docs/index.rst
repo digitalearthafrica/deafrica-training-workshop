@@ -6,6 +6,8 @@
 Digital Earth Africa Training
 =============================
 
+Welcome to the Digital Earth Africa training course! To get started, watch the short introductory video below.
+
 .. youtube:: -jGkL9kx6rg
    :width: 100%
 
@@ -20,6 +22,7 @@ Digital Earth Africa Training
    :maxdepth: 1
    :caption: Other information
 
+   Course_logistics
    Frequently_asked_questions
    help_documentation
    License

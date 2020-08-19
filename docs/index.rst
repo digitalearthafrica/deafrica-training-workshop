@@ -18,7 +18,7 @@ Welcome to the Digital Earth Africa training course! To get started, watch the s
    session_1/index
    session_2/index
    
-Sessions 3-6 will be added shortly.
+Sessions 3 -- 6 will be added shortly.
 
 .. toctree::
    :maxdepth: 1

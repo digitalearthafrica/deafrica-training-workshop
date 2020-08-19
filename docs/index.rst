@@ -16,7 +16,6 @@ Digital Earth Africa Training
    :caption: Lessons
 
    session_1/index
-   session_2/index
 
 .. toctree::
    :maxdepth: 1

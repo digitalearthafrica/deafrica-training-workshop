@@ -10,6 +10,7 @@ In this session, you will learn:
 
    01_products_intro
    02_maps_portal
+   Load_data_exercise
    03_working_with_jupyter_notebooks
    04_loading_data
    05_rgb

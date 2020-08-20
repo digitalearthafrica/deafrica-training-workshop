@@ -27,4 +27,5 @@ Sessions 3 -- 6 will be added shortly.
    Course_logistics
    Frequently_asked_questions
    help_documentation
+   Maps_help
    License

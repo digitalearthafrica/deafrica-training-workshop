@@ -9,10 +9,6 @@ In this session, you will learn:
    :maxdepth: 1
 
    01_products_intro
-   02_maps_portal
-   Load_data_exercise
-   03_working_with_jupyter_notebooks
+   02_deafrica_map
+   03_data_availability
    04_loading_data
-   05_rgb
-   06_xarray
-   07_plotting

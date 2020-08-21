@@ -12,4 +12,3 @@ In this session, you will learn:
    02_create_a_user_account
    03_navigate_the_sandbox
    04_running_a_notebook
-   05_help_documentation

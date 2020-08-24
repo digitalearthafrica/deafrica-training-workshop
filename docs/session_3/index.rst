@@ -11,3 +11,4 @@ In this session you will learn:
    01_cloud_masking
    02_intro_geomedian
    03_geomedian_exercise
+   04_xarray_timeseries

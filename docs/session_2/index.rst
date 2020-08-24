@@ -1,9 +1,9 @@
 .. _session_2:
 
-Session 2: Applications
+Session 2: Datasets
 =======================
 
-In this session, you will learn:
+This session is all about the datasets available through Digital Earth Africa. 
 
 .. toctree::
    :maxdepth: 1

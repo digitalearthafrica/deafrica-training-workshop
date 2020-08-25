@@ -17,6 +17,7 @@ Welcome to the Digital Earth Africa training course! To get started, watch the s
 
    session_1/index
    session_3/index
+   session_4/index
    
 Sessions 2 -- 6 will be added shortly.
 

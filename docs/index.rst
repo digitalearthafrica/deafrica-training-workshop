@@ -6,11 +6,13 @@
 Digital Earth Africa Training
 =============================
 
-Welcome to the Digital Earth Africa training course! This is a 6-week, self-paced online course. It should take around 2 hours per week to complete. Participants who successfully complete the course will receive Certification of Completion at the end of training.
+Welcome to the Digital Earth Africa training course!
+
+This is a 6-week, self-paced online course. It should take around 2 hours per week to complete. Participants who successfully complete the course will receive Certification of Completion at the end of training.
 
 To get started, watch the short introductory video below. Then click **Session 1: Introduction** to begin.
 
-Should you require help, see :doc:`Frequently_asked_questions` and :doc:`Contact_us`.
+Should you require help, see the `Frequently_asked_questions` and `Contact_us` pages.
 
 .. youtube:: -jGkL9kx6rg
    :width: 100%

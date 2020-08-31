@@ -18,6 +18,12 @@ Should you require help, see the **Frequently asked questions** and **Contact us
    :width: 100%
 
 .. toctree::
+   :hidden:
+
+   Home <self>
+
+
+.. toctree::
    :maxdepth: 1
    :caption: Lessons
 

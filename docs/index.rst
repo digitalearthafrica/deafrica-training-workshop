@@ -12,7 +12,7 @@ This is a 6-week, self-paced online course. It should take around 2 hours per we
 
 To get started, watch the short introductory video below. Then click **Session 1: Introduction** to begin.
 
-Should you require help, see the **Frequently asked questions** and **Contact us** pages.
+Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Contact_us` pages.
 
 .. youtube:: -jGkL9kx6rg
    :width: 100%

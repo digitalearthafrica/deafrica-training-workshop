@@ -28,6 +28,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    :caption: Lessons
 
    session_1/index
+   session_4/index
    
 Sessions 2 -- 6 will be added shortly.
 

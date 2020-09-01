@@ -1,4 +1,4 @@
-.. _session_1:
+.. _session_4:
 
 Session 4: Introduction
 =======================

@@ -6,9 +6,9 @@
 Digital Earth Africa Training
 =============================
 
-.. note:: replace with Edward & Kenneth's video
+Welcome to the Digital Earth Africa training course! To get started, watch the short introductory video below.
 
-.. youtube:: 4SXSWM--w9o
+.. youtube:: -jGkL9kx6rg
    :width: 100%
 
 .. toctree::
@@ -17,10 +17,15 @@ Digital Earth Africa Training
 
    session_1/index
    session_2/index
+   
+Sessions 3 -- 6 will be added shortly.
 
 .. toctree::
    :maxdepth: 1
    :caption: Other information
 
+   Course_logistics
    Frequently_asked_questions
+   help_documentation
+   Maps_help
    License

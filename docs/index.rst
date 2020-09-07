@@ -6,26 +6,38 @@
 Digital Earth Africa Training
 =============================
 
-Welcome to the Digital Earth Africa training course! To get started, watch the short introductory video below. Then click **Session 1: Introduction** to begin.
+Welcome to the Digital Earth Africa training course!
+
+This is a 6-week, self-paced online course. It should take around 2 hours per week to complete. Participants who successfully complete the course will receive a Certification of Completion at the end of training.
+
+To get started, watch the short introductory video below. Then click **Session 1: Introduction** to begin. Other sessions will be added as the course progresses.
+
+Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Contact_us` pages.
 
 .. youtube:: -jGkL9kx6rg
    :width: 100%
+
+.. toctree::
+   :hidden:
+
+   Home <self>
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Lessons
 
    session_1/index
-   session_3/index
-   session_4/index
+   session_2/index
    
-Sessions 2 -- 6 will be added shortly.
+Sessions 3 -- 6 will be added shortly.
 
 .. toctree::
    :maxdepth: 1
    :caption: Other information
 
-   Course_logistics
+   Contact_us
    Frequently_asked_questions
    help_documentation
+   Maps_help
    License

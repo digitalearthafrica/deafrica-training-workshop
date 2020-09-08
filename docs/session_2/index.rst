@@ -14,3 +14,4 @@ Click on **Digital Earth Africa products** to get started. If you would like to 
    02_deafrica_map
    03_data_availability
    04_Load_data_exercise
+   05_Solution

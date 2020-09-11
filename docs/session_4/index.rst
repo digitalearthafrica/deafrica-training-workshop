@@ -8,4 +8,4 @@ In this session you will learn:
 .. toctree::
    :maxdepth: 1
 
-   01_xarray_timeseries
+   01_band_indices

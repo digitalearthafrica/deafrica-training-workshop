@@ -8,4 +8,4 @@ In this session you will learn:
 .. toctree::
    :maxdepth: 1
 
-   2_calulcate_ndvi_part_1
+   02_calculate_ndvi_part_1

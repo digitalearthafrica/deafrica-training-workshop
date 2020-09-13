@@ -9,3 +9,4 @@ In this session you will learn:
    :maxdepth: 1
 
    02_calculate_ndvi_part_1
+   03_calculate_ndvi_part_2

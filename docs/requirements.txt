@@ -3,3 +3,4 @@ sphinx_rtd_theme
 ytsphinx
 ipython
 ipywidgets
+pygments>=2.4.1

@@ -13,3 +13,4 @@ First, we will introduce composites and geomedians. Then, the exercise will walk
    01_intro_composites
    02_cloud_masking
    03_geomedian_exercise
+   04_s3_solution

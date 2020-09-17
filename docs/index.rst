@@ -31,7 +31,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    session_2/index
    session_3/index
    session_4/index
-
+   
 Sessions 5 -- 6 will be added shortly.
 
 .. toctree::

@@ -34,6 +34,13 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    
 Sessions 5 -- 6 will be added shortly.
 
+Latest Updates
+-------------------
+
+ - **17/09/2020:** `Session 4: Indices <./session_4/index.rst>`_ has been added.
+ - **15/09/2020:** The `Session 3 quiz <./session_3/04_s3_solution.ipynb>`_ is live. Video slides are now available to download under each video.
+ - **10/09/2020:** `Session 3: Composites <./session_3/index.rst>`_ has been added.
+
 .. toctree::
    :maxdepth: 1
    :caption: Other information

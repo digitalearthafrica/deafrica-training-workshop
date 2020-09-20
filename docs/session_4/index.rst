@@ -7,8 +7,6 @@ In this session, we will explore combining multiple bands into various indices t
 
 First, we will introduce several band indices and what they measure. Then we will calculate the geomedian for each season, and show how to measure changes in vegetation over time.
 
-Finally we will cover other ways to analyse timeseries data using the ``xarray`` library.
-
 
 .. toctree::
    :maxdepth: 1
@@ -16,4 +14,3 @@ Finally we will cover other ways to analyse timeseries data using the ``xarray``
    01_band_indices
    02_calculate_ndvi_part_1
    03_calculate_ndvi_part_2
-   04_distributed_xarray_timeseries

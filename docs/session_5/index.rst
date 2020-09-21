@@ -1,7 +1,7 @@
 .. _session_5:
 
 Session 5: Vegetation Analyses
-=======================
+==============================
 
 --- Intro text ---
 

@@ -14,3 +14,4 @@ First, we will introduce several band indices and what they measure. Then we wil
    01_band_indices
    02_calculate_ndvi_part_1
    03_calculate_ndvi_part_2
+   04_s4_solution

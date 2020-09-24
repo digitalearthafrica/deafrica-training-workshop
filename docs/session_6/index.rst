@@ -1,4 +1,4 @@
-.. _session_4:
+.. _session_6:
 
 Session 6: Indices
 ==================

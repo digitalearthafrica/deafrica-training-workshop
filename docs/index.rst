@@ -52,4 +52,5 @@ Latest Updates
    Frequently_asked_questions
    help_documentation
    Maps_help
+   Geomedian_widget
    License

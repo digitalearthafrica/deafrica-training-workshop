@@ -37,6 +37,8 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
+ - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
+ - **22/09/2020:** The `Session 4 quiz <./session_3/04_s4_solution.ipynb>`_ is live.
  - **17/09/2020:** `Session 4: Indices <./session_4/index.rst>`_ has been added.
  - **15/09/2020:** The `Session 3 quiz <./session_3/04_s3_solution.ipynb>`_ is live. Video slides are now available to download under each video.
  - **10/09/2020:** `Session 3: Composites <./session_3/index.rst>`_ has been added.

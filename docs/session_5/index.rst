@@ -12,3 +12,4 @@ This session will focus on case studies related to vegetation. First, we'll cove
 
    01_vegetation_analysis
    02_vegetation_exercise
+   03_s5_solution

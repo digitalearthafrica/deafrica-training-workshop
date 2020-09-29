@@ -32,6 +32,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    session_3/index
    session_4/index
    session_5/index
+   Course_wrap-up
    
 Session 6 will be added shortly.
 

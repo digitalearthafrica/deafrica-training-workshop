@@ -13,3 +13,4 @@ This session will focus on case studies related to water. First, we'll cover the
 
    01_intro_water_analyses
    02_water_extent
+   03_s6_solution

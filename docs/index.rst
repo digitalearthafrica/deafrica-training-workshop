@@ -32,13 +32,14 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    session_3/index
    session_4/index
    session_5/index
+   session_6/index
    Course_wrap-up
-   
-Session 6 will be added shortly.
 
 Latest Updates
 -------------------
 
+ - **2/10/2020** `Course Wrap-up <Course_wrap_up.ipynb>`_ has been added.
+ - **1/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
  - **29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live.
  - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
  - **22/09/2020:** The `Session 4 quiz <./session_4/04_s4_solution.ipynb>`_ is live.

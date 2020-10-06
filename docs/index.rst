@@ -38,8 +38,9 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
- - **2/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
- - **1/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
+ - **06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey.
+ - **02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
+ - **01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
  - **29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live.
  - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
  - **22/09/2020:** The `Session 4 quiz <./session_4/04_s4_solution.ipynb>`_ is live.

@@ -38,11 +38,12 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
+ - **09/11/2020:** Check out the `Events <./Events.ipynb>`_ page to find out how to join our virtual live sessions.
  - **05/11/2020:** The `GIS web services tutorial <./OWS_tutorial.ipynb>`_ is live.
- - **28/10/2020:** Confused about `geomedians <./session_3/03_geomedian_exercise.ipynb>`_? See the new `geomedian widget <./Geomedian_widget.ipynb>`_
+ - **28/10/2020:** Confused about `geomedians <./session_3/03_geomedian_exercise.ipynb>`_? See the new `geomedian widget <./Geomedian_widget.ipynb>`_.
  - **14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has been added. This makes the quiz available to anyone who did not originally receive the link from the mailing list.
  - **06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey.
- - **02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
+ - **02/10/2020:** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
  - **01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
  - **29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live.
  - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
@@ -53,6 +54,7 @@ Latest Updates
 
    Contact_us
    Frequently_asked_questions
+   Events
    help_documentation
    Maps_help
    Geomedian_widget

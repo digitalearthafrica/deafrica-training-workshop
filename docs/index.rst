@@ -55,6 +55,7 @@ Latest Updates
    Contact_us
    Frequently_asked_questions
    help_documentation
-   Maps_help
+   Quiz_index
    Geomedian_widget
+   Maps_help
    License

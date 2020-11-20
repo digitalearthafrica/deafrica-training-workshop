@@ -38,6 +38,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
+ - **20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline.
  - **14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has been added. This makes the quiz available to anyone who did not originally receive the link from the mailing list.
  - **06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey.
  - **02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
@@ -54,6 +55,7 @@ Latest Updates
 
    Contact_us
    Frequently_asked_questions
+   Download_course
    help_documentation
    Maps_help
    Geomedian_widget

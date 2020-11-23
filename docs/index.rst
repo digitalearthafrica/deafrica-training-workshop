@@ -28,6 +28,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    :caption: Lessons
 
    session_1/index
+   python_basics/index
    session_2/index
    session_3/index
    session_4/index

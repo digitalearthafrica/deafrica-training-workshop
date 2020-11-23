@@ -1,129 +1,113 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, Digital Earth Africa
-# This file is distributed under the same license as the Digital Earth
-# Africa Training package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Digital Earth Africa Training \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 20:32+1100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Digital Earth Africa Training\n"
+"Language: fr\n"
+
+#: ../../Frequently_asked_questions.ipynb:9
+msgid "Frequently asked questions"
+msgstr "Questions fréquemment posées"
+
+#: ../../Frequently_asked_questions.ipynb:29
+msgid "I forgot my DE Africa Sandbox password. How do I reset it?"
+msgstr "J’ai oublié mon mot de passe DE Africa Sandbox. Comment puis-je le réinitialiser ?"
+
+#: ../../Frequently_asked_questions.ipynb:31
+msgid "Visit the Sandbox homepage at https://sandbox.digitalearth.africa/hub/login and click **Login or Sign up**. Click **Forgot your password?** and follow the instructions to reset your password."
+msgstr "Visitez la page d’accueil de Sandbox à https://sandbox.digitalearth.africa/hub/login et cliquez sur **Login or Sign up**. Cliquez sur **Forgot your password?** et suivez les instructions pour réinitialiser votre mot de passe."
+
+#: ../../Frequently_asked_questions.ipynb:33
+msgid "|c8fa5d5444fb485bbbf1699e437607ea|"
+msgstr "|c8fa5d5444fb485bbbf1699e437607ea|"
+
+#: ../../Frequently_asked_questions.ipynb:48
+msgid "I accidentally deleted a pre-loaded notebook in the Sandbox. How do I get it back?"
+msgstr "J’ai accidentellement supprimé un bloc-notes pré-chargé dans le Bac à sable. Comment puis-je le récupérer?"
+
+#: ../../Frequently_asked_questions.ipynb:50
+msgid "The DE Africa Sandbox session automatically loads several folders of default notebooks. If you have accidentally deleted any of the folders or notebooks, they can be restored by restarting the server. 1. Save any open working files. 2. Select **File -> Hub Control Panel**. This will open a new tab. 3. On the new tab, select **Stop My Server**. The server will take a few minutes to stop. 4. When the server has stopped, the buttons will refresh. Select **Start My Server**. 5. Select **Launch Server** and **Start**."
+msgstr "La session DE Africa Sandbox charge automatiquement plusieurs dossiers de blocs-notes par défaut. Si vous avez accidentellement supprimé l’un des dossiers ou des blocs-notes, ils peuvent être restaurés en redémarrant le serveur. 1. Enregistrez tous les fichiers de travail ouverts. 2. Sélectionnez **File -> Hub Control Panel**. Cela ouvrira un nouvel onglet. 3. Sous le nouvel onglet, sélectionnez **Stop My Server**. Le serveur prendra quelques minutes pour s’arrêter. 4. Lorsque le serveur s’est arrêté, les boutons se rafraîchissent. Sélectionnez **Start My Server**. 5. Sélectionnez **Launch Server** et **Start**."
+
+#: ../../Frequently_asked_questions.ipynb:53
+msgid "This should reload all default folders and notebooks for the DE Africa Sandbox. Note that this will **not** overwrite files that have been added, renamed, or modified. Additionally, this only applies to default pre-loaded files and will not restore personal notebooks that have been deleted."
+msgstr "Cela devrait recharger tous les dossiers et ordinateurs portables par défaut pour le Bac à sable DE Africa. Notez que cela ne sera pas ** ** remplacer les fichiers qui ont été ajoutés, renommés ou modifiés. En outre, cela ne s’applique qu’aux fichiers préchargés par défaut et ne restaurera pas les blocs-notes personnels qui ont été supprimés."
 
 #: ../../index.rst:20
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: ../../index.rst:26 068cc3cbd0554eefabc9b5558a0aa982
 msgid "Lessons"
-msgstr ""
+msgstr "Leçons"
 
 #: ../../index.rst:52 2d0f1f11ce70438db6133bb1f5c66076
 msgid "Other information"
-msgstr ""
+msgstr "Autres informations"
 
 #: ../../index.rst:7 34391944fba244d2a004cdf22fe0b2a0
 msgid "Digital Earth Africa Training"
-msgstr ""
+msgstr "Formation à Digital Earth Africa"
 
 #: ../../index.rst:9 ffc2b7a5306a40fab40c48e6a241b3c3
 msgid "Welcome to the Digital Earth Africa training course!"
-msgstr ""
+msgstr "Bienvenue au cours de formation de Digital Earth Africa !"
 
 #: ../../index.rst:11 c3d37506d7ac4d9d925eaf33dc874f40
-msgid ""
-"This is a 6-week, self-paced online course. It should take around 2 hours"
-" per week to complete. Participants who successfully complete the course "
-"will receive a Certification of Completion at the end of training."
-msgstr ""
+msgid "This is a 6-week, self-paced online course. It should take around 2 hours per week to complete. Participants who successfully complete the course will receive a Certification of Completion at the end of training."
+msgstr "Il s'agit d'un cours en ligne de 6 semaines, à rythme libre. Il devrait prendre environ 2 heures par semaine. Les participants qui réussissent le cours recevront un certificat de réussite à la fin de la formation."
 
 #: ../../index.rst:13 38e3e6a9e0614095a6d3ce34192675bd
-msgid ""
-"To get started, watch the short introductory video below. Then click "
-"**Session 1: Introduction** to begin. Other sessions will be added as the"
-" course progresses."
-msgstr ""
+msgid "To get started, watch the short introductory video below. Then click **Session 1: Introduction** to begin. Other sessions will be added as the course progresses."
+msgstr "Pour commencer, regardez la courte vidéo d'introduction ci-dessous. Cliquez ensuite sur **Session 1 : Introduction** pour commencer. D'autres sessions seront ajoutées au fur et à mesure de la progression du cours."
 
 #: ../../index.rst:15 17b4c98cdece4786be380b2c93f93272
-msgid ""
-"Should you require help, see the :doc:`Frequently_asked_questions` and "
-":doc:`Contact_us` pages."
-msgstr ""
+msgid "Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Contact_us` pages."
+msgstr "Si vous avez besoin d'aide, consultez les pages :doc:`Frequently_asked_questions` et :doc:`Contact_us`."
 
 #: ../../index.rst:39 f26ad246fad44584a63da332168bbf44
 msgid "Latest Updates"
-msgstr ""
+msgstr "Dernières mises à jour"
 
 #: ../../index.rst:41 02a12186568c4e9c803307d87d05911a
-msgid ""
-"**20/11/2020:** The training material can be downloaded as a single PDF "
-"from the page `Download course content <./Download_course.ipynb>`_. Note "
-"videos and Sandbox access are not available offline."
-msgstr ""
+msgid "**20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline."
+msgstr "**20/11/2020:** Le matériel de formation peut être téléchargé en un seul PDF à partir de la page `Télécharger le contenu du cours <./Télécharger_le_cours.ipynb>`_. Notez que les vidéos et l'accès au Sandbox ne sont pas disponibles hors ligne."
 
 #: ../../index.rst:42 a7bdd33c0bda4ddf91478e6b1ff2588b
-msgid ""
-"**14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has "
-"been added. This makes the quiz available to anyone who did not "
-"originally receive the link from the mailing list."
-msgstr ""
+msgid "**14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has been added. This makes the quiz available to anyone who did not originally receive the link from the mailing list."
+msgstr "**14/10/2020:** Le quiz de la session 1 <./session_1/05_s1_quiz.ipynb>`_ a été ajouté. Le quiz est ainsi accessible à tous ceux qui n'ont pas reçu le lien de la liste de diffusion à l'origine."
 
 #: ../../index.rst:43 d42b063d582843288a7b89b81df31542
-msgid ""
-"**06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ "
-"is live. Check your email for the link to the final feedback survey."
-msgstr ""
+msgid "**06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey."
+msgstr "**06/10/2020:** Le quiz de la `Session 6 <./session_6/03_s6_solution.ipynb>`_ est en direct. Vérifiez votre email pour le lien vers l'enquête finale."
 
 #: ../../index.rst:44 4ff04507ca734ef2b4ec7957d53da17b
-msgid ""
-"**02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ "
-"has been added."
-msgstr ""
+msgid "**02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added."
+msgstr "**02/10/2020** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ a été ajouté."
 
 #: ../../index.rst:45 602132eea4de4839af4a1b1a91335364
-msgid ""
-"**01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has "
-"been added."
-msgstr ""
+msgid "**01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added."
+msgstr "**01/10/2020:** `Session 6 : Analyses de l'eau <./session_6/index.rst>`_ a été ajoutée."
 
 #: ../../index.rst:46 4683f32e23604c609bc6f36a771bb5fc
-msgid ""
-"**29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ "
-"is live."
-msgstr ""
+msgid "**29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live."
+msgstr "**29/09/2020:** Le quiz de la `Session 5 <./session_5/03_s5_solution.ipynb>`_ est en direct."
 
 #: ../../index.rst:47 fdb8ad8677364a93acd64e744ee886fe
-msgid ""
-"**24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_"
-" has been added."
-msgstr ""
+msgid "**24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added."
+msgstr "**24/09/2020:** `Session 5 : Analyses de la végétation <./session_5/index.rst>`_ a été ajoutée."
 
 #: ../../index.rst:48 ae9de7bae0284ac7bdc61cd309b19b28
-msgid ""
-"**22/09/2020:** The `Session 4 quiz <./session_4/04_s4_solution.ipynb>`_ "
-"is live."
-msgstr ""
+msgid "**22/09/2020:** The `Session 4 quiz <./session_4/04_s4_solution.ipynb>`_ is live."
+msgstr "**22/09/2020:** Le quiz de la `Session 4 <./session_4/04_s4_solution.ipynb>`_ est en direct."
 
 #: ../../index.rst:49 5d30af79dfdb4b06a99578f15229fb75
-msgid ""
-"**17/09/2020:** `Session 4: Indices <./session_4/index.rst>`_ has been "
-"added."
-msgstr ""
+msgid "**17/09/2020:** `Session 4: Indices <./session_4/index.rst>`_ has been added."
+msgstr "**17/09/2020:** `Session 4 : Indices <./session_4/index.rst>`_ a été ajouté."
 
 #: ../../index.rst:50 01e40d7f8a8f499f861364de1439ff2c
-msgid ""
-"**15/09/2020:** The `Session 3 quiz <./session_3/04_s3_solution.ipynb>`_ "
-"is live. Video slides are now available to download under each video."
-msgstr ""
-
-#~ msgid "replace with Edward & Kenneth's video"
-#~ msgstr ""
+msgid "**15/09/2020:** The `Session 3 quiz <./session_3/04_s3_solution.ipynb>`_ is live. Video slides are now available to download under each video."
+msgstr "**15/09/2020:** Le quiz de la `Session 3 <./session_3/04_s3_solution.ipynb>`_ est en direct. Des diapositives sont maintenant disponibles au téléchargement sous chaque vidéo."
 

@@ -85,3 +85,8 @@ html_context = {
         '_static/theme_override.css',  # override wide tables in RTD theme
         ],
      }
+
+
+# Translation options
+gettext_uuid = True
+gettext_compact = False

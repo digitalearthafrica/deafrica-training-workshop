@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_5/03_s5_solution.ipynb:9 2c459073d83d40e9940ca953b6dc6757
+msgid "Session 5 Quiz and Solution"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:20 58ba9a32712941f3950d88a976cc3d2e
+msgid ""
+"In Session 5, you looked at the framework of a case study. Building on "
+"elements from previous sessions — such as loading data, calculating an "
+"index, and plotting results — you used a new index, the Enhanced "
+"Vegetation Index (EVI), to show differences over time. The first half of "
+"EVI data was compared to the second half, and mapped to show relative "
+"increase or decrease."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:32 ca52e587e8c349d49db3421cd24f76e0
+msgid "Quiz"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:43 b596849efc574663aee8eac36e80f291
+msgid ""
+"If you would like to be awarded a certificate of achievement at the end "
+"of the course, we ask that you `complete the quiz "
+"<https://docs.google.com/forms/d/e/1FAIpQLSfAck3EJgxeYDfTyseB0VwVmcyDMNq_PiFCnm3-JIoSRae3xw/viewform?usp=sf_link>`__."
+" You will need to supply your email address to progress towards the "
+"certificate. After you complete the quiz, you can check if your answers "
+"were correct by pressing the **View Accuracy** button."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:45 624e5d4f35534a74acc6281f73febeb2
+msgid ""
+"This quiz does not require a notebook to solve. However, you may find the"
+" EVI vegetation change detection notebook useful as a reference. If you "
+"would like to confirm that your vegetation change notebook works as "
+"expected, you can check it against the solution notebook provided below."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:56 168c043c65184f8e82d320e9ba89954a
+msgid ""
+"The solution notebook below does not contain the answer to the quiz. Use "
+"it to check that you implemented the exercise correctly, then use your "
+"exercise notebook to help with the quiz. Accessing the solution notebook "
+"will not affect your progression towards the certificate."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:65 9d059e97799e490ba5acb7ba4ff20ba0
+msgid "Solution notebook"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:76 457869dd9c3749478db33f00b3fc283a
+msgid ""
+"We strongly encourage you to attempt the exercise on the previous page "
+"before downloading the solution below. This will help you learn how to "
+"use the Sandbox independently for your own analyses."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:84 2195f3f220734e988b05608fdf34025f
+msgid ""
+"`Download the solution notebook for the Session 5 exercise "
+"<../_static/session_5/Vegetation_exercise.ipynb>`__"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:86 d8b623790e3c43e5a20be214e2aedc78
+msgid ""
+"To view a solution notebook on the Sandbox, you will need to first "
+"download it to your computer, then upload it to the Sandbox. Follow these"
+" instructions:"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:88 0854bfa34034422195790e643d64457a
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:89 4fac9d46add24d6b88cf78da8ed9908f
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:90 ccab72c3d1fc4bdfb85c5d4afb07149d
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:92 87a64fd5f9be474581c864230b5172f9
+msgid "|a49a6d81f08248f08e2f5ab09d030b28|"
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:94 81037c67a46d422d9073c7f3127dda01
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../session_5/03_s5_solution.ipynb:95 cda07bf650e04827b67e0a4805e46543
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+

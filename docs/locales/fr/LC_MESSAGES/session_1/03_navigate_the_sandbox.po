@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:9
+#: 29064bca648b43b7ac08b823cd34ce62
+msgid "Navigating the Sandbox"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:11
+#: 02fabd60551d4f51871285b86a041ed8
+msgid ""
+"Now you have created a user account and successfully logged in, this "
+"session will teach you about the main elements of the Sandbox."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:13
+#: bce5a865d30e47cfbef0900c2a10a3ef
+msgid ""
+"If you do not yet have a Digital Earth Africa account, follow the steps "
+"in `Create a Digital Earth Africa account "
+"<02_create_a_user_account.ipynb>`__."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:33
+#: d9b08509d53640d3bb227ef526869c48
+msgid "Overview"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:35
+#: b64acb90a23244b9929398b64ab4db3e
+msgid ""
+"The Digital Earth Africa Sandbox uses a JupyterLab interface. JupyterLab "
+"is a web-based interactive coding environment. It has a user-friendly "
+"interface to make file navigation and workflows more intuitive. Within "
+"the Sandbox, we create Jupyter Notebooks to contain and execute code."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:47
+#: 1e6d230f299b4edc937aff1cd7b16d0a
+msgid "The JupyterLab interface"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:49
+#: 51501bbc660242c691d85890d76ad1d3
+msgid ""
+"When the Sandbox starts up, you will be presented with three main "
+"sections, as numbered in the diagram below:"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:51
+#: 8a0712246e9b4171855a759a8db1f9f1
+msgid "|655950b7f88e436787c4fbaed0550470|"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:53
+#: bab3ed3094ee494a99c2ea42155e1fed
+msgid ""
+"**Main work area:** Enables you to arrange documents and other windows "
+"(such as terminals or code consoles) into panels of tabs that can be "
+"resized or subdivided. Open files will be displated in this area. Most of"
+" your work will be done here."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:55
+#: 577eefe6154b44a2acb55bb823adf13a
+msgid ""
+"**Left sidebar:** Contains a file browser, the list of running kernels "
+"and terminals, the command palette, the notebook cell tools inspector, "
+"and the tabs list. By default, the file browser is selected; this will be"
+" the most useful toolbar for new users."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:57
+#: 86d51444332f48bc98ef15cb94e5a019
+msgid ""
+"**Horizontal menu bar:** Exposes actions available in JupyterLab, "
+"including actions related to saving, editing, viewing and running "
+"notebooks. When you are done, you can select **File -> Log Out** to quit "
+"your Sandbox session and free up server space."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:72
+#: dbb8070d7a2d4638ae25b2d165207342
+msgid "Open a Jupyter Notebook"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:74
+#: 2f1b840cab214fa0b4d2601764b02947
+msgid ""
+"The Sandbox comes with many example notebooks that you can learn from and"
+" use. Follow the instructions in this section to learn how to open a "
+"notebook."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:76
+#: 5c17d21716aa4140a5a587d59ec2789e
+msgid ""
+"In JupyterLab, double-clicking in the left sidebar file browser opens "
+"folders and files. Double-click the **Beginners_guide** folder in the "
+"left sidebar to open the folder and view its contents. This is shown in "
+"the figure below."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:78
+#: 84f373433bcd474fafafd79d7adfb7f7
+msgid "|68117c20a36d400086c44dc2013c87d2|"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:80
+#: 67490abf252b40058aa461fe6c92dc94
+msgid ""
+"Jupyter notebooks can be identified by the file extension ``.ipynb``. "
+"Choose a notebook (for example, ``01_Jupyter_notebooks.ipynb``) and "
+"double-click to open it in the main work area."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:82
+#: ca78fba4ec434f6bb31f4ad1bcc91329
+msgid ""
+"To navigate back to the home folder, click the folder icon at the start "
+"of the folder path. The folder path is near the top of the left sidebar."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:84
+#: 37093e9c288546948b84fb4708ff6a79
+msgid ""
+"For more information, refer to this section of the JupyterLab "
+"documentation on `Working with Files "
+"<https://jupyterlab.readthedocs.io/en/stable/user/files.html>`__."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:99
+#: 184a6d1cddc448f6a08d762a6b1445b9
+msgid "Close a Jupyter Notebook"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:101
+#: c41ee61bf1cf4bbc8273e67a36376fda
+msgid ""
+"Closing a notebook browser tab will not shut down its ‘computational "
+"engine’ (called the kernel). It is good practice to shut down the kernel "
+"of any notebooks you aren’t using, as it will free up memory in your "
+"Sandbox session. Follow the instructions below to completely shut down "
+"the notebook you opened in the previous section."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:103
+#: 5aedc25f5ae343ac835072f147155366
+msgid ""
+"With the notebook open, click on the menu option **File -> Close and "
+"Shutdown Notebook**."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:105
+#: 0d7aed81a6124eab845bd40611396b4a
+msgid "|51647cf273014b18957a4e7bf0b3653b|"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:107
+#: 021a562c9274453f8da8feff6bf9c43c
+msgid "When asked whether you want to shut down the notebook, click **OK**."
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:122
+#: 64610fef3cd34115add1778c58770d8d
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:124
+#: 66fc4dbd2be94a67a94aa5e5596a996a
+msgid ""
+"You can now open and close existing Jupyter notebook files. The next "
+"section will cover how to run an existing Jupyter notebook."
+msgstr ""
+

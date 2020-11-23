@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../_static/session_2/Load_data_solution.ipynb:9
+#: 7efad1300c694f0b946f03c783c2b222
+msgid "Session 2 Solution - Loading data exercise"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:21
+#: 63dcabba847a411295fb23150e5ea189
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:33
+#: 2524f3f86e1c4e82b4d72d87e8d9d166
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:61
+#: 5f769c981fde40e5be02ca2379d6955b
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:82
+#: cf200ed6b6bc4177bb5bd665360f5922
+msgid "Load Landsat 8 data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:94
+#: ac97d7d4380b4f3a971aeec64fcb9482
+msgid "Set area of interest and view on map"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:118
+#: 6d7bf6a9218f40e8a5ff5c48ea71b86b
+msgid "Load Landsat data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:148
+#: 51c8268dd4134b77936c8ff132d52317
+msgid "Examine Landsat data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:169
+#: 33af10cfeca24be6b7a97b143809187e
+msgid "Plot a true-colour image of Landsat data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:190
+#: f2af2333f57b4afaaff4e8ae435597a6
+msgid "Repeat load exercise for Sentinel-2"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:193
+#: ce664d7a53c245bd93a184cd09ef5929
+msgid "Load Sentinel-2 data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:223
+#: fe052b92a3474fbdb03597a4bf907414
+msgid "Examine Sentinel-2 data"
+msgstr ""
+
+#: ../../_static/session_2/Load_data_solution.ipynb:244
+#: aa22f814be884831ab2258cbb9a59d1b
+msgid "Plot a true-colour image of Sentinel-2 data"
+msgstr ""
+

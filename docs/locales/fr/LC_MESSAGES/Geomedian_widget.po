@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Geomedian_widget.ipynb:9 55ec93c5bef94e76b039745809b6e112
+msgid "Geomedian widget"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:20 2d0e23c0fc9e4888b453024fcd73f33d
+msgid ""
+"Geomedian composites are introduced in `Session 3 "
+"<./session_3/01_intro_composites.ipynb>`__. Geomedians are a method of "
+"combining multiple timesteps of data into one image."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:22 a3d28cf7e63249feb38f8d7cf2f291b9
+msgid "Geomedians were defined as follows:"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:24 ee5b4f62b4be47e6913a8378e91b70a6
+msgid ""
+"A geomedian composite finds the median values of the bands for each pixel"
+" when considered **together**. This means they represent the data "
+"**better** than median composites."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:26 ef42939ba7fa444d83a996530415a684
+msgid "This gives rise to a few common questions."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:28 52608ae79d084d77a304c6d67a4e372e
+msgid "What does it mean to **consider the bands together**?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:29 8a068bd1825d429c8c44acb9768baa40
+msgid "What might that look like?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:30 56677a019a7d41b893de86058cfde958
+msgid "How does it affect the colour of each pixel in my final composite image?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:32 59fa1ae128fa43489e584871657cbcd2
+msgid ""
+"To explore the answers to these questions, we can use an interactive "
+"module known as a **widget**. Instead of looking at one whole image, the "
+"widget focuses on a single pixel."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:34 84b63dc7afba4e8ca111e5c3a96c57e7
+msgid ""
+"The geomedian widget gives three timesteps of data. You can click on the "
+"sliders to change the data for each timestep, which affects the pixel "
+"colour. In turn, this will impact the computation of the median and "
+"geomedian. As you will see, they are not always the same!"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:45 1fb7fc2fa9154b8faed2705c3b551b21
+msgid "|22b05b9b3d7e4f18ab81208f87ad0926|"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:59 f55d259336b64528830657697d9f4125
+msgid ""
+"*An example of what the geomedian widget looks like. To interact with the"
+" widget, download and run the geomedian widget notebook.*"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:70 4510cf2b0016476f948a4bb04af5bafd
+msgid ""
+"Follow the instructions below to download the widget notebook. It can "
+"help with understanding the following concepts:"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:72 88d98986ad6c478eb1ce99eab1093edd
+msgid "In which cases are the median and geomedian very similar or the same?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:73 b19fc3b119a74aaba3c602232be9499b
+msgid "In which cases are the median and geomedian very different?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:74 1192e50caa78443a9e5d03d185b2782d
+msgid ""
+"Why are geomedians more representative of the whole dataset, compared to "
+"medians?"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:86 a35186d9d0094b78a097645170a8a573
+msgid "Download geomedian widget notebook"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:97 2d3d3be8b85749b4ab003710bc03428f
+msgid ""
+"`Download the geomedian widget notebook "
+"<./_static/other_information/Geomedian_interactive_extend1.ipynb>`__"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:99 3525bbb9550a47bebcb9c078c93fe5ce
+msgid ""
+"To view this notebook on the Sandbox, you will need to first download it "
+"to your computer, then upload it to the Sandbox. Follow these "
+"instructions:"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:101 1ca0b590985c48eaa5f9709d8fcc7ca6
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:102 b90aab5f282c430fa67b38cc0d4deda8
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:103 a22ed85685714d2898ae8705d3e400b8
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:105 cdbff325f1044862be57f63f543dedf2
+msgid "|1070a785751c463c809338c150d7d3ab|"
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:107 aa2545fbc9b6416886439d9412298961
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../Geomedian_widget.ipynb:108 2e722106f72545b5a8cf72bc6d240dee
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+

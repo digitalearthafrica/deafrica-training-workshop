@@ -1,0 +1,881 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:29+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_3/01_intro_composites.ipynb:9
+msgid "Introduction to cloud-free composites"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:21
+msgid "Overview"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:23
+msgid ""
+"This session is about creating representative datasets and images from "
+"multiple timesteps. This allows us to remove and replace unwanted data, "
+"such as clouds, and also form images that accurately represent the area "
+"of interest over a period of time."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:25
+msgid ""
+"This is summarised in this week’s video, **Time aggregation of data**. "
+"Watch the video to see how to use Earth observation data at different "
+"points in time."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:37
+msgid "Video: Time aggregation of data"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:48
+msgid ""
+"`Download the video slides as a PDF <../_static/session_3/Week3_Time-"
+"aggregation-of-data.pdf>`__"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:69
+msgid ""
+"In the video, we saw that we can compensate for missing or cloudy data "
+"points by using data from different points in time to fill in the gaps. "
+"This is a two-step process:"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:71
+msgid "Identify and remove cloudy data — this is known as ‘cloud masking’"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:72
+msgid ""
+"Use data from a different time to fill in missing data — this can be done"
+" by calculating geomedians"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:74
+msgid ""
+"In this section, we focus on why cloud masking is an important step in "
+"preparing your dataset, and introduce the easiest way to do this in the "
+"Sandbox. We then briefly explain the significance of geomedians compared "
+"to other statistical values."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:76
+msgid ""
+"The two pages following this introduction will involve walkthrough "
+"exercises, so you can try performing these steps yourself after reading "
+"about them in this section."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:88
+msgid "Recap: loading and plotting data"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:99
+msgid ""
+"In the `last session <../session_2/04_load_data_exercise.ipynb>`__, we "
+"plotted RGB images for Dar es Salaam in Tanzania. The image had clouds in"
+" both the Landsat 8 and Sentinel-2 versions."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:101
+msgid "|6d6fef6a010d4488a455e70b21e18df3|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:103
+msgid ""
+"*Landsat 8 data from 16 February 2018 (left), and Sentinel-2 data from 15"
+" February 2018 (right). Some cloud cover is visible in both images.*"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:117
+msgid ""
+"What if we want to know what is underneath those clouds? If you have data"
+" at only one point in time, this is not possible. However, if we have "
+"data for the same place at a different time, when the clouds are not "
+"present, we can use this data to ‘fill’ in areas of cloud."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:119
+msgid ""
+"To do that, we must first identify which pixels are clouds. The process "
+"of determining and removing cloud data points is known as ‘cloud "
+"masking’."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:131
+msgid "``load_ard()`` vs ``dc.load()``"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:142
+msgid ""
+"The easiest way to apply a cloud mask to your dataset is to load it into "
+"the Sandbox using the ``load_ard()`` function. ``ard`` stands for "
+"‘Analysis-Ready Data’ and the ``load_ard()`` function automatically "
+"applies a cloud mask."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:144
+msgid ""
+"We previously loaded data in the Sandbox using ``dc.load()``. "
+"``dc.load()`` is a universal function for loading data from the datacube "
+"and it is important to know how to use it. However, it does not have a "
+"built-in cloud masking capability."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:146
+msgid ""
+"When we plotted the RGB images of Tanzania with data loaded using "
+"``dc.load()``, the clouds were part of the image. This makes it difficult"
+" to perform cloud masking, as the dataset does not distinguish cloud and "
+"not-cloud."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:148
+msgid ""
+"In this exercise, we will instead use the command ``load_ard()`` to load "
+"our data. It demands similar parameters to ``dc.load()``, but "
+"automatically identifies pixels of cloud, and applies cloud masking to "
+"the loaded data."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:159
+msgid "|90ca0df4822f4b2eacfbcb3093a81ad4|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:173
+msgid ""
+"*Sentinel-2 data from 15 February 2018 loaded with* ``dc.load()`` *(left)"
+" and* ``load_ard()`` *(right). The* ``dc.load`` *image shows cloud cover,"
+" while the white pixels in the* ``load_ard`` *image are not clouds, but "
+"points where data has been removed by the cloud mask.*"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:184
+msgid ""
+"The cloud masking algorithm on Sentinel-2 data is more aggressive than "
+"its Landsat 8 counterpart. This means it sometimes misinteprets white "
+"sand beaches or urban regions as cloud. This can reduce the amount of "
+"data available."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:195
+msgid ""
+"``load_ard()`` is compatible with both the Sentinel-2 dataset and the "
+"Landsat 8 dataset we used in the last session. However, it is not "
+"compatible with some other Digital Earth Africa products, such as Water "
+"Observations from Space, with which you will need to use ``dc.load()``."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:204
+msgid "Calculating a composite"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:215
+msgid ""
+"Now that we know how to mask out clouds by using ``load_ard()``, we can "
+"load multiple timesteps of our cloud-masked data. These need to be "
+"combined in a meaningful way to produce a single image. We do this by "
+"compositing our data."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:217
+msgid ""
+"Compositing creates one value for each band for each pixel based on the "
+"time series data for that pixel."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:219
+msgid ""
+"We will briefly compare median and geomedian composites, and explain why "
+"it is more reliable to use geomedians."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:231
+msgid "Median composites"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:233
+msgid ""
+"For each band in the image, median composites set the value of each pixel"
+" to the median value for that band. For a given pixel, each band’s median"
+" is independent of the others."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:235
+msgid ""
+"The benefit of a median composite is that it is very fast to compute, so "
+"it can be used to quickly create cloud-free images for an area."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:237
+msgid ""
+"However, medians do not account for the fact that every pixel holds "
+"information for multiple bands. It is therefore better to use a statistic"
+" that is configured for multi-dimensional data, such as a geomedian."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:248
+msgid "|f905ce1d559f4707951a830999fb2580|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:262
+msgid ""
+"*A median considers data from each band independently. This can be seen "
+"in Step 2 of the median compositing algorithm shown above.*"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:274
+msgid "Geomedian composites"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:276
+msgid ""
+"Geomedian — or ‘geometric median’ — composites are multi-band "
+"generalisations of median composites. Instead of finding a pixel’s median"
+" value for each band **individually**, like a median composite does, a "
+"geomedian composite finds the median values of the bands for each pixel "
+"when considered **together**."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:278
+msgid "This means they represent the data **better** than median composites."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:289
+msgid "|fea3eab073bc45e4ba5593a9e01e0e82|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:303
+msgid ""
+"*Unlike the median composite, the geometric median (geomedian) considers "
+"all bands of data together. Each band adds a dimension to the geomedian "
+"calculation. For a three-band dataset, such as the RGB dataset shown in "
+"the geomedian compositing algorithm above, each point can be represented "
+"on a three-dimensional scatter plot. The geomedian is the minimised ‘sum "
+"of distances’ between all the points.*"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:315
+msgid "Comparing medians and geomedians"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:326
+msgid ""
+"The difference between medians and geomedians can often be subtle, "
+"especially if you are looking at the overall composite image. For "
+"example, the RGB images for these median and geomedian composites look "
+"almost identical."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:337
+msgid "|56b26e8ae1d44aafb06f8f6acf46b9c9|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:351
+msgid ""
+"However, on a pixel-by-pixel basis, it is possible to visualise the "
+"difference between median and geomedian. The best way to do this is to "
+"use the **geomedian widget** to explore the effects of different datasets"
+" on the median and geomedian."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:353
+msgid "|495853a55fdc42a3bb69d4f7f34103c3|"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:355
+msgid ""
+"The geomedian widget uses interactive sliders to change the value of the "
+"data. This affects the output median and geomedian values. You will soon "
+"see that each compositing method can produce significantly different "
+"results. On a larger scale (like a whole image, or over several years), "
+"this can affect the end composite image."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:357
+msgid ""
+"`Download the widget notebook here "
+"<../_static/other_information/Geomedian_interactive_extend1.ipynb>`__ or "
+"visit the `Geomedian widget <../Geomedian_widget.ipynb>`__ page for for "
+"more information, including instructions on running the widget."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:372
+msgid "The bottom line: use geomedians"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:383
+msgid ""
+"Geomedians take more processing time to calculate than median composites."
+" However, unless you are only doing a quick visualisation, you should use"
+" the geomedian method when creating composites. This is because the "
+"geomedian value is more scientifically rigorous as it accounts for all "
+"the bands in the dataset."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:385
+msgid ""
+"To learn more about geomedians, you can read the following paper: `High-"
+"Dimensional Pixel Composites From Earth Observation Time Series "
+"<https://ieeexplore.ieee.org/abstract/document/8004469>`__."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:397
+#: ../../session_3/02_cloud_masking.ipynb:317
+#: ../../session_3/03_geomedian_exercise.ipynb:219
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:408
+msgid ""
+"You now know we can perform cloud masking using the ``load_ard()`` "
+"function, and that we should combine different timesteps of data using a "
+"geomedian calculation."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:410
+msgid "The exercise for this session is covered in the next two sections."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:412
+msgid ""
+"We will walk through the process of using ``load_ard()`` to load data "
+"with a cloud mask."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:413
+msgid "We will then use the loaded data to make and plot geomedians."
+msgstr ""
+
+#: ../../session_3/01_intro_composites.ipynb:415
+msgid ""
+"This technique will be useful in future sessions for conducting analysis "
+"on cloud-free images."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:9
+msgid "Cloud masking with ``load_ard()``"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:20
+msgid ""
+"In this exercise, we will apply a cloud mask to Sentinel-2 data off the "
+"coast of Ghana. Cloud masks are important as they remove bad data points "
+"from our dataset, so we can form a reliable composite image."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:32
+msgid "Make a new notebook"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:43
+msgid ""
+"Like in the last exercise, we will begin by making a new, blank Jupyter "
+"notebook. If you want more detailed instructions on making a new "
+"notebook, see `this section in the exercise on loading data in the "
+"Sandbox <../session_2/04_load_data_exercise.ipynb#Make-a-new-notebook>`__"
+" from the previous session. Otherwise, follow the steps below."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:45
+msgid ""
+"Navigate to the **Training** folder (or create this folder following the "
+"instructions in `Session 1 "
+"<../session_1/04_running_a_notebook.ipynb>`__)."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:46
+msgid ""
+"Click the **+** button and click **Python 3** under the **Notebook** "
+"section."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:47
+msgid ""
+"Rename your file so you know it is from this exercise. We will use this "
+"notebook for working with geomedians, so let us call it "
+"``Geomedian_composite.ipynb``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:48
+msgid "Open the notebook."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:60
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:72
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:74
+msgid ""
+"In the first cell, type the following code and then run the cell. Recall "
+"that cells can be run by pressing ``Shift + Enter`` on your keyboard."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:76
+msgid "|image1|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:89
+msgid ""
+"We used most of these packages and functions in the previous exercise on "
+"loading data in the Sandbox. ``rgb`` is for plotting true-colour images. "
+"``display_map`` is for visualising the area we are mapping."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:91
+msgid ""
+"In this session we introduce two new functions: ``load_ard`` and "
+"``xr_geomedian``. We will use ``load_ard`` to load data so it is cloud "
+"masked, and ``xr_geomedian`` is used in the next section to compute the "
+"geomedian."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:103
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:105
+msgid ""
+"Enter the following code and run the cell to create our ``dc`` object, "
+"which provides access to the datacube."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:107
+msgid "|image2|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:120
+msgid ""
+"Your notebook is now set up. Next, we will load cloud-masked data using "
+"``load_ard()``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:132
+msgid "Load data with ``load_ard()``"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:143
+msgid ""
+"If you experience errors when running cells, check out the "
+"`troubleshooting code guide <../session_2/04_load_data_exercise.ipynb"
+"#Troubleshooting-code>`_ from the previous session."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:151
+msgid ""
+"Let us take a look at a coastal area in Ghana. Enter the following code "
+"and run it to display a map of the area. As before, ``x`` denotes "
+"longitude and ``y`` denotes latitude."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:162
+msgid "|269cbcb72fbf4926834abc12ee38aa82|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:176
+msgid ""
+"In the new cell below, enter the following code, and then run it to load "
+"Sentinel-2 data. It will generate the output text ``Using pixel quality "
+"parameters for Sentinel 2 ...``. The output text tells us we have loaded "
+"4 timesteps."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:187
+msgid "|55d4ef444c1c41698f87db3f8792e3cb|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:201
+msgid ""
+"Take note of some of the differences between ``dc.load()`` and "
+"``load_ard``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:203
+msgid ""
+"``dc=dc`` is a required parameter for ``load_ard()``. This links the data"
+" search to the datacube connection, which we defined in the notebook "
+"setup as ``dc``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:204
+msgid ""
+"The paramter for loading products is ``products`` (plural) not "
+"``product`` as it is in ``dc.load()``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:205
+msgid ""
+"Product items must be listed inside square brackets ``[]``, which is not "
+"required for ``dc.load()``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:206
+msgid ""
+"``min_gooddata`` stands for ‘minimum good data’ and discards observations"
+" with less than the fractional requisite of good quality pixels."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:217
+msgid ""
+"``s2_l2a`` stands for **S**\\ entinel-**2** **L**\\evel-**2A**. The "
+"fourth character is a lower-case alphabet 'l'. Double-check you have "
+"entered the product name correctly to avoid errors."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:225
+msgid ""
+"We can use the same ``rgb`` plotting code as in the last session to show "
+"an RGB image of one of the timesteps. Let’s start with the first "
+"timestep, which has an ``index`` of ``0``."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:236
+msgid "|476ad0c2d116411a9ef380374c17a2cf|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:250
+msgid ""
+"This should produce a single RGB image as shown below. What happens if "
+"you try changing the ``index`` number?"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:261
+msgid "|29e100882c7a4e00bc8f33fb462d507e|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:275
+msgid ""
+"If we want to see RGB images of all the timesteps at once, we can replace"
+" the ``index`` parameter with the ``col`` parameter. The parameter "
+"``col`` stands for ‘column’. Specifying ``col='time'`` creates a row of "
+"images for the timesteps."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:286
+msgid "|dc3e64dc5abf45a4a6d0f60dfc5150d2|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:300
+msgid "The output should look like this."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:302
+msgid "|70a85ca49d854e369f3120c547e788b1|"
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:328
+msgid ""
+"Good work — you have now loaded data using ``load_ard()``, which has an "
+"automatic cloud mask. We can see that the images at different timesteps "
+"have different cloud cover, so they have been masked in different places."
+" This is why having data at different timesteps can allow us to create a "
+"composite image without any cloud."
+msgstr ""
+
+#: ../../session_3/02_cloud_masking.ipynb:330
+msgid ""
+"In the next section, we will use this loaded data to create a geomedian "
+"composite."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:9
+#: ../../session_3/03_geomedian_exercise.ipynb:127
+msgid "Create a geomedian composite"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:20
+msgid ""
+"This exercise follows on from the previous section. In the previous "
+"section, we loaded Sentinel-2 data using ``load_ard()``. This applied a "
+"cloud mask to the data by identifying and removing cloudy data points. We"
+" can now use this data to create a geomedian composite."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:22
+msgid ""
+"In this section, we will re-run the notebook from the previous section, "
+"and extend it to create a geomedian composite. First, we will open and "
+"run our ``Geomedian_composite.ipynb`` notebook. This will ensure it loads"
+" the Sentinel-2 cloud-masked data. Then, we will use a function called "
+"``xr_geomedian`` to calculate geomedians. This will allow us to plot a "
+"cloud-free geomedian composite image."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:33
+msgid ""
+"We will be using the notebook we created in the `previous section "
+"<./02_cloud_masking.ipynb>`_, **Cloud masking with load_ard()**. If you "
+"have not already set up a notebook called ``Geomedian_composite.ipynb`` "
+"with the required packages and functions, follow the instructions in "
+"previous section. Ensure you have completed all the steps, including "
+"loading the Sentinel-2 dataset for the Ghanaian coast."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:42
+msgid "Open and run notebook"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:53
+msgid ""
+"If you are following directly on from the last section, you can skip this"
+" step. If you have closed your Sandbox browser tab or disconnected from "
+"the Internet between exercises, follow these steps to ensure correct "
+"package imports and connection to the datacube."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:55
+msgid "Navigate to the **Training** folder."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:56
+msgid "Double-click ``Geomedian_composite.ipynb``. It will open in the Launcher."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:57
+msgid "Select **Kernel -> Restart Kernel and Run All Cells…**"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:58
+msgid "When prompted, select **Restart**."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:60
+msgid ""
+"The notebook may take a little while to run. Check all the cells have run"
+" successfully with no error messages."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:72
+msgid "Check the Sentinel-2 dataset"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:83
+msgid ""
+"Let’s confirm we have successfully loaded our Sentinel-2 dataset. Recall "
+"we named it ``sentinel_2_ds``. Scroll to the bottom of the notebook and "
+"run the dataset name in the next empty cell."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:94
+msgid "|image7|"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:107
+msgid "The output should show we have 4 timesteps."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:118
+msgid ""
+"If you encounter a ``NameError`` error message, you might need to reload "
+"your packages and functions. Follow the steps above, under **Open and run"
+" notebook**."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:138
+msgid ""
+"Now we will create a geomedian composite using the ``xr_geomedian`` "
+"function. In the next empty cell below, enter the following code, and "
+"then run it."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:140
+msgid "|image8|"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:153
+msgid ""
+"This generates a dataset called ``geomedian_composite`` which contains "
+"one geomedian value for every pixel."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:165
+msgid "Create an RGB image of the composite"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:176
+msgid ""
+"In the new cell below, enter the following code, and then run it to "
+"generate an RGB image of the composite."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:178
+msgid "|image9|"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:191
+msgid "The RGB image will look like this:"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:193
+msgid "|image10|"
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:195
+msgid ""
+"Excellent! There are no clouds or cloud shadows in the geomedian "
+"composite."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:197
+msgid ""
+"There are some visual anomalies, but most of the image accurately "
+"represents the area. Note that this image is a representation of what the"
+" area looked like over the loaded time range, so from the 1st of "
+"February, 2018, to the 15th of March, 2018."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:210
+msgid ""
+"Save your work by clicking **File -> Save Notebook** or pressing ``Ctrl +"
+" S``."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:230
+msgid ""
+"We have created a geomedian composite of Sentinel-2 data and seen that it"
+" is an accurate representation of an area. It fills in missing or masked "
+"data, such as clouds and cloud shadows."
+msgstr ""
+
+#: ../../session_3/03_geomedian_exercise.ipynb:232
+msgid ""
+"This is the end of Session 3. In this session, you have been introduced "
+"to the concept of using composite datasets and images to fill in data "
+"gaps. We have also learned the best statistical method of combining "
+"datasets is the geomedian. Good work!"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:9
+msgid "Session 3 Quiz and Solution"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:20
+msgid ""
+"In Session 3, you loaded Sentinel-2 data into the Sandbox using "
+"``load_ard()``. The first section of the exercise showed that "
+"``load_ard()`` applies a cloud mask to each timestep in the dataset. The "
+"second part of the exercise used the same dataset to calculate and plot a"
+" cloud-free geomedian, using ``xr_geomedian()`` and ``rgb()``."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:32
+msgid "Quiz"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:43
+msgid ""
+"If you would like to be awarded a certificate of achievement at the end "
+"of the course, we ask that you `complete the quiz "
+"<https://docs.google.com/forms/d/e/1FAIpQLSfrW9iPikaKStkWRvp7o0CjmPeXj_xQatR58xQPDPEq_Et0CA/viewform?usp=sf_link>`__."
+" You will need to supply your email address to progress towards the "
+"certificate. After you complete the quiz, you can check if your answers "
+"were correct by pressing the **View Accuracy** button."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:45
+msgid ""
+"The quiz will ask you to use the notebook you developed for this "
+"session’s exercise on loading data. If you would like to confirm that "
+"your notebook works as expected, you can check it against the solution "
+"notebook provided below."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:56
+msgid ""
+"The solution notebook below does not contain the answer to the quiz. Use "
+"it to check that you implemented the exercise correctly, then use your "
+"exercise notebook to answer the quiz. Accessing the solution notebook "
+"will not affect your progression towards the certificate."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:65
+msgid "Solution notebook"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:76
+msgid ""
+"We strongly encourage you to attempt the exercises on the previous two "
+"pages before downloading the solution below. This will help you learn how"
+" to use the Sandbox independently for your own analyses."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:84
+msgid ""
+"`Download the solution notebook for the Session 3 exercises "
+"<../_static/session_3/Geomedian_composite_solution.ipynb>`__"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:86
+msgid ""
+"To view this notebook on the Sandbox, you will need to first download it "
+"to your computer, then upload it to the Sandbox. Follow these "
+"instructions:"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:88
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:89
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:90
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:92
+msgid "|5cb17a3e80fc4bd1927b34226769b2ef|"
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:94
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../session_3/04_s3_solution.ipynb:95
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+
+#: ../../session_3/index.rst:4
+msgid "Session 3: Composites"
+msgstr ""
+
+#: ../../session_3/index.rst:6
+msgid ""
+"In this session, we will explore the advantages of having satellite data "
+"available over a long period of time. We can fill in missing or bad data "
+"from one day with data from another day. This creates a complete image "
+"known as a **composite**. The most scientifically rigorous way of "
+"combining data is to use a **geomedian**."
+msgstr ""
+
+#: ../../session_3/index.rst:8
+msgid ""
+"First, we will introduce composites and geomedians. Then, the exercise "
+"will walk through removing cloudy data points from our datasets, and show"
+" you how to produce cloud-free geomedian composite images."
+msgstr ""
+

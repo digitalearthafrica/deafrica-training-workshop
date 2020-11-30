@@ -38,6 +38,8 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
+
+ - **20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline.
  - **09/11/2020:** Check out the `Events <./Events.ipynb>`_ page to find out how to join our virtual live sessions.
  - **05/11/2020:** The `GIS web services tutorial <./OWS_tutorial.ipynb>`_ is live.
  - **28/10/2020:** Confused about `geomedians <./session_3/03_geomedian_exercise.ipynb>`_? See the new `geomedian widget <./Geomedian_widget.ipynb>`_.
@@ -54,6 +56,7 @@ Latest Updates
 
    Contact_us
    Frequently_asked_questions
+   Download_course
    Events
    help_documentation
    Maps_help

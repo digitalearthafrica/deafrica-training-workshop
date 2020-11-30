@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:9
+#: edcacc0893bf4211b3e2d762c64753ff
+msgid "Calculating NDVI: Part 2"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:11
+#: becc72e231c7483497bee270cb550878
+msgid ""
+"This exercise follows on from the previous section. In the `previous part"
+" of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you "
+"constructed a notebook to resample a year’s worth of Sentinel-2 data into"
+" quarterly time steps."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:13
+#: b36d56875f8144288b2a9fe42fdc462d
+msgid ""
+"In this section, you will conitnue from where you ended in the previous "
+"exercise. Most of the code will remain unchanged, but we will introduce a"
+" new measurement to the existing measurements which will enable us to "
+"calculate and plot NDVI."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:24
+#: 2dc200911cf34f03bd96b0844e32855d
+msgid ""
+"We will be using the notebook we created in the previous section. If you "
+"have not already set up a copy of the notebook called "
+"``Calculate_ndvi.ipynb`` with the required packages and functions, follow"
+" the instructions in previous section. Ensure you have completed all the "
+"steps, including loading the Sentinel-2 dataset."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:33
+#: d4e2f6b791c245b8ae3be9b78dc2430b
+msgid "Open and run notebook"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:35
+#: 3f7aa0719a3c4c04a7f97cc451e94fb8
+msgid ""
+"If you are following directly on from the last section, you can skip this"
+" step. If you have closed your Sandbox browser tab or disconnected from "
+"the Internet between exercises, follow these steps to ensure correct "
+"package imports and connection to the datacube."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:37
+#: f95b4b5eb88e4da48f4bec86309e87ea
+msgid "Navigate to the **Training** folder."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:38
+#: cf7816572fba44f5a6b097f5e98c83fd
+msgid "Double-click ``Calculate_ndvi.ipynb``. It will open in the Launcher."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:39
+#: 572b69d8cfdb41aa952c8d780b64648d
+msgid "Select **Kernel -> Restart Kernel and Clear All Outputs…**."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:40
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:94
+#: 43eb8b15a636486585e0fa1ddd7921fe df6aae86b2034c49a5dfe38eb8f08e93
+msgid "When prompted, select **Restart**."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:52
+#: 6a5de023098a47efbbd1e23ecf3aa063
+msgid "Making changes to the load cell"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:54
+#: 32cb417db4cc49caa60e46b5354125a6
+msgid "Make the following changes below to modify the load cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:57
+#: 6a3a7eacbd39462fa76819dfbf3733d5
+msgid "Adding ``nir`` measurement"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:59
+#: e88f64b7c7534a4494dbe8bb7443e531
+msgid ""
+"To calculate NDVI, we need to load Sentinel-2’s near-infrared band. In "
+"the Sandbox, it is called ``nir``. To add the band, modify the "
+"``load_ard`` cell according to the step below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:61
+#: 75cf9c6339fe40598ee9164160300337
+msgid "Add ``nir`` to the measurements array."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:67
+#: a963a3aba8fc4b3682a701e71d9dc7b3
+msgid "If you completed the above step, your ``load_ard`` cell should look like:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:91
+#: aba2ab888d2f447685209c93a6e3d1d8
+msgid "Running the notebook"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:93
+#: cb7991aca2f14b8c9fd6d9d3b43e4cd5
+msgid "Select **Kernel -> Restart Kernel and Run All Cells…**."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:96
+#: b25dee5fe28a4d2bb882320456a0d04e
+msgid ""
+"The notebook may take a little while to run. Check all the cells have run"
+" successfully with no error messages."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:98
+#: 4c5c4a6ad9a1452a970513e6c98c3d8e
+msgid "Did you noticed any additional data variables to the ``sentinel_2_ds``?"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:100
+#: 9ed5eaead27a4bfe95ffe74dc553b6eb
+msgid "|4c2e2bc137a0479dbca30213dd3f5023|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:115
+#: 09ab2961e59c498585244451d88e574e
+msgid "Creating a new cell"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:117
+#: 9e1580227b934183805711f6978affd7
+msgid "After successfully running the notebook, this cell will be the last cell:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:119
+#: 63450eb360d14be89096c6c4abe98b72
+msgid "``geomedian_resample``"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:121
+#: 2bc1d83464f94c3799b8e8de518d93ad
+msgid "|ce8876cbdf83457db2af932f245b0a70|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:123
+#: 5326e7ee14454ca0908662fe8e35b452
+msgid ""
+"Notice it now contains the NIR band data, which is the data we just "
+"loaded."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:125
+#: 0cd24124258647fe938576d147bda62f
+msgid "Follow the steps below to create a new cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:127
+#: 1ae5e5e48db24d6faff52872b714a2d8
+msgid "Make sure the last cell is selected."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:128
+#: af4ba00287eb45ef984c7f7ba90c27f6
+msgid ""
+"Press the ``Esc`` key, then follow it by pressing the ``B`` key. A new "
+"cell will be created below the current cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:130
+#: b3337b460d7f449e8afcf3e3ac106cf0
+msgid "Use the method above to create a new cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:145
+#: de8c80f70c67487597e05953abb61cf5
+msgid "Calculate NDVI"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:147
+#: 111c5ee9fd4143d396473b0430a1a01a
+msgid ""
+"One of the most commonly used remote sensing indices is the Normalised "
+"Difference Vegetation Index or ``NDVI``. This index uses the ratio of the"
+" red and near-infrared (NIR) bands to identify live green vegetation. The"
+" formula for NDVI is:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:149
+#: ec270b10756d431fa6af8981cf739fe9
+msgid ""
+"\\begin{aligned} \\text{NDVI} & = \\frac{(\\text{NIR} - "
+"\\text{Red})}{(\\text{NIR} + \\text{Red})} \\\\ \\end{aligned}"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:156
+#: c7cf5668858b42e7b8edd04cf0e1b316
+msgid ""
+"When interpreting this index, high values indicate vegetation, and low "
+"values indicate soil or water."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:168
+#: 8cf34cf42f1749d582ef281fcfcbb7b0
+msgid "Define NDVI formula"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:170
+#: b5bb4c9255e3487e8bf3909e0490e284
+msgid ""
+"In a new cell, calculate the NDVI for the resampled geomedian dataset. To"
+" make it simpler, you can store the red and near-infrared bands in new "
+"variables, then calculate the NDVI using those variables, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:179
+#: 250c3c3a1f3443fa90b258ba1696222d
+msgid "Run the cell using ``Shift + Enter``."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:182
+#: ead9bfef814f4b93b2a666985884a683
+msgid "Plot NDVI for each geomedian"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:184
+#: 266023405cde4d07aa0369b5a8163978
+msgid ""
+"Our calculation is now stored in the ``NDVI`` variable. To visualise it, "
+"we can attach the ``.plot()`` method, which will give us an image of the "
+"NDVI for each geomedian in our dataset. We can then customise the plot by"
+" passing parameters to the ``.plot()`` method, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:190
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:226
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:247
+#: 3a4924ef0bfa4937b079685c8f0413e6 52c8519e57dd43529c523d7f8a882538
+#: 63e19fc5d92d4d6f882afa48de81d6bc
+msgid "Run the cell using ``Shift + Enter``"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:192
+#: 5ff453ea7cc8498e9690dc9f6808e7f7
+msgid ""
+"``col='time'`` tells the plot that we want to display one image for each "
+"time step in our dataset."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:193
+#: cd439dce917a45bc8ae07322f19c3504
+msgid ""
+"``vmin=-0.50`` tells the plot to display all values below ``-0.50`` as "
+"the same colour. This can help keep contrast in the images (remember that"
+" NDVI can take values from -1 to 1)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:194
+#: 193018012aae4a77a903548cdda5a741
+msgid ""
+"``vmax=0.8`` tells the plot to display all values above ``0.8`` as the "
+"same colour. This can help keep contrast in the images (remember that "
+"NDVI can take values from -1 to 1)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:195
+#: 9f625a2980ae4d6081833dde4845bea9
+msgid ""
+"``cmap='RdYlGn'`` tells the plot to display the NDVI values using a "
+"colour scale that ranges from red for low values to green for high "
+"values. This helps us because healthy vegetation shows up as green, and "
+"non-vegetation shows up as red."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:197
+#: 76a710cd6e0b436e81e221e1c51f6f19
+msgid ""
+"If you implement the NDVI plotting code correctly, you should see the "
+"image below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:199
+#: aaef2029d64643ae88ca150d6cf909e1
+msgid "|032348b47901486b962b66c4aa2b00e8|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:201
+#: 8fb72bd27a0f4f06a6e5704853ffb32d
+msgid ""
+"In the image above, vegetation shows up as green (NDVI > 0). Sand shows "
+"up as yellow (NDVI ~ 0) and water shows up as red (NDVI < 0)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:216
+#: a1fe35347d1145ffbdfab48cb84ef855
+msgid "Plot time series of the NDVI area"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:218
+#: 83936390543748b2a29c113f4af8908f
+msgid ""
+"While it is useful to see the NDVI values over the whole area in the "
+"plots above, it can sometimes be useful to calculate summary statistics, "
+"such as the mean NDVI for each geomedian. This can quickly reveal trends "
+"in vegetation health across time."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:220
+#: 486690111d3346d495c5dcc592198136
+msgid ""
+"To calculate the mean NDVI, we can apply the ``.mean()`` method to our "
+"NDVI variable. We can also then apply the ``.plot()`` method to see the "
+"result, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:228
+#: 8a4f64c9dc2d480eb5b2567c10da3c1f
+msgid ""
+"``NDVI.mean(dim=['x', 'y'])`` calculates the mean over all pixels, "
+"indicated by ``dim=['x', 'y']``. To instead calculate the mean over all "
+"times, you would write ``dim=['time']``."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:229
+#: 1735dc6024594908b0380289bff4a723
+msgid ""
+"``NDVI.mean(dim=['x', 'y']).plot(size=6)`` calculates the mean over all "
+"pixels, then plots the result. The ``size=6`` argument specifies the size"
+" of the plot."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:231
+#: 3b0672a07117402c84559f9214a1e3e6
+msgid ""
+"If you implement the calculation and plotting code correctly, you should "
+"see the image below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:233
+#: 80ab288d8fc0481cb2c5a0f285379357
+msgid "|0bc698d0b71b4742996f0de0025b8772|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:235
+#: 3f69c6a86133405a877bc3153af03df2
+msgid ""
+"Rather than a spatial view of NDVI at each time step, we see a single "
+"value (the mean NDVI) for each time."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:237
+#: 3dcc949fc7964ccca0bcd1cc4e87eddd
+msgid ""
+"If you would like to add a title and y-axis label to this plot, you can "
+"add the following code below the command to calculate and plot the mean:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:245
+#: 05cb321d5ced4b1cb3d4c72be813ff05
+msgid "|52f52530765f455db1856d0ff3da1b2d|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:266
+#: cf88696095784b23b5b123964bb4c114
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:268
+#: 079588cb2db24828a8a98b90368d8846
+msgid ""
+"Congratulations! You have successfully calculated and visualised the NDVI"
+" for a series of geomedian composite images."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:270
+#: 32fa99a5d7a5431a9767a34f6f1c2a33
+msgid ""
+"If you’d like to experiment futher, try running the code with different "
+"areas. Did you learn anything interesting to share with us?"
+msgstr ""
+

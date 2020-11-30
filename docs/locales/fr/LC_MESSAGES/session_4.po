@@ -1,0 +1,1089 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:29+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_4/01_band_indices.ipynb:9
+msgid "Band indices"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:20
+msgid ""
+"True-colour images, like the RGB ones we created in Session 2 and Session"
+" 3, are an intuitive way of displaying spatial data as it appears to our "
+"eyes. However, satellites capture many more layers of data: their range "
+"extends outside the visible spectrum. We can also make use of these "
+"measurements to perform various kinds of data analysis."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:22
+msgid ""
+"One established analysis technique for identifying specific terrain "
+"features, such as water or bare soil, is to calculate a **band index**."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:34
+msgid "Video: Band indices"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:45
+msgid ""
+"Watch the short video below to learn about band indices. Then, read the "
+"text below for more detail."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:56
+msgid ""
+"`Download the video slides as a PDF <../_static/session_4/Week4_Band-"
+"indices.pdf>`__"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:78
+msgid "What is a band?"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:89
+msgid "|a564575e728342ab9585f712465aaf3c|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:103
+msgid ""
+"*A section of the electromagnetic spectrum showing some of the Landsat 8 "
+"bands.* [`Source <http://www.geocarto.com.hk/edu/PJ-"
+"BCMBLSAT/main_BCLS.html>`__]"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:114
+msgid ""
+"You may recall from the `introduction to satellite products "
+"<../session_2/01_products_intro.ipynb>`__ that the range of data acquired"
+" by a satellite is defined by its **bands**. Bands are subdivisions of "
+"the electromagnetic spectrum dependent on the sensors on the satellite."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:116
+msgid ""
+"A selection of commonly-used Landsat 8 and Sentinel-2 bands are shown in "
+"the table below. We can see the spectral ranges between Landsat 8 and "
+"Sentinel-2 are similar, but not the same. Also note the band numbers do "
+"not always correspond to the same spectral range."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:127
+msgid "|74cdcd07e4414fb2bcd8e010121412c5|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:160
+msgid ""
+"*Sources:* `Landsat 8 bands <https://www.usgs.gov/media/images/landsat-8"
+"-band-designations>`__, `Sentinel-2 bands "
+"<https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/msi-"
+"instrument>`__"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:172
+msgid "Bands and terrain features"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:183
+msgid ""
+"Different types of ground cover absorb and reflect different amounts of "
+"radiation along the electromagnetic spectrum. This is dependent on the "
+"physical and chemical properties of the surface."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:194
+msgid "For example:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:196
+msgid ""
+"**Water:** Open water bodies generally reflect light in the visible "
+"spectrum, and absorb more short-wave infrared than near-infrared "
+"radiation. This can change if the water is turbid."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:198
+msgid ""
+"**Snow:** Ice and snow reflect most visible radiation, but do not reflect"
+" much short-wave infrared. Reflectance measurements depend on snow "
+"granule size and liquid water content."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:200
+msgid ""
+"**Green vegetation:** Chlorophyll, a pigment in plants, absorbs a lot of "
+"visible light, including red light. When plants are healthy, they "
+"strongly reflect near-infrared light."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:202
+msgid ""
+"**Bare soil:** The mineral composition of soil can be characterised using"
+" the visible and near-infrared spectrum. Soil moisture content can "
+"greatly influence the results."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:204
+msgid ""
+"Using these spectral differences, we can calculate ratios between bands "
+"to isolate and accentuate the specific terrain feature we are interested "
+"in. These metrics are known as band ratios or **band indices**."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:215
+msgid ""
+"In practice, variation within terrain feature classes, as well as the "
+"presence of multiple features in one area, can make different types of "
+"ground cover difficult to distinguish. This is one of the challenges of "
+"spectral data analysis."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:224
+msgid "Example: Normalised Difference Vegetation Index (NDVI)"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:235
+msgid ""
+"One of the most widely-used band indices is the Normalised Difference "
+"Vegetation Index (NDVI). It is used to show the presence of live green "
+"vegetation. Generally, green vegetation has a low red band measurement, "
+"as red light is absorbed by chlorophyll. In addition to this, healthy "
+"leaf cell structures reflect near-infrared light, giving a high near-"
+"infrared (NIR) band measurement."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:237
+msgid ""
+"NDVI is therefore typically calculated using a satellite’s NIR band and "
+"red band. One value is calculated per pixel."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:248
+msgid ""
+":nbsphinx-math:`\\begin{equation} \\text{NDVI} \\ = \\ \\frac{\\text{NIR}"
+" - \\text{Red}}{\\text{NIR} + \\text{Red}} \\end{equation}`"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:259
+msgid ""
+"We see the index is calculated by the difference :math:`(\\text{NIR} - "
+"\\text{Red})` divided by the sum :math:`(\\text{NIR} + \\text{Red})`. "
+"This normalises the index: all values will fall between :math:`-1` and "
+":math:`1`."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:261
+msgid ""
+"Large values of NDVI will occur for pixels where NIR is high and red is "
+"low. Conversely, NDVI can be close to 0 or even negative where NIR is low"
+" and red is high. This means we interpret NDVI as follows:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:272
+msgid ""
+":nbsphinx-math:`\\begin{align} \\text{NDVI} &> 0, \\text{ or close to }1 "
+"= \\text{green vegetation}\\\\ \\text{NDVI} &\\leq 0 = \\text{not green "
+"vegetation; water, soil, etc.} \\end{align}`"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:286
+msgid ""
+"But what is green vegetation? The US Geological Survey provides a more "
+"specific `guide to interpreting NDVI <https://www.usgs.gov/land-"
+"resources/eros/phenology/science/ndvi-foundation-remote-sensing-phenology"
+"?qt-science_center_objects=0#qt-science_center_objects>`__."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:288
+msgid ""
+"Areas of barren rock, sand, or snow usually show very low NDVI values "
+"(for example, 0.1 or less). Sparse vegetation such as shrubs and "
+"grasslands or senescing crops may result in moderate NDVI values "
+"(approximately 0.2 to 0.5). High NDVI values (approximately 0.6 to 0.9) "
+"correspond to dense vegetation such as that found in temperate and "
+"tropical forests or crops at their peak growth stage."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:290
+msgid ""
+"You can see even this definition does not exhaustively cover every kind "
+"of vegetation. It is important to remember that Earth observation data "
+"analysis is sensitive to the dataset location and time. The nature of "
+"climate and environment variations across the globe, and even just within"
+" the African continent, mean that band indices like NDVI need to be "
+"interpreted with knowledge and context of the area."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:301
+msgid ""
+"Normalising band indices so their values fall between -1 and 1 gives a "
+"relative scale that allows for easier data analysis. Values of the index "
+"can be better compared between different points in the area of analysis, "
+"and across time periods."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:309
+msgid ""
+"Below we have two plots of an area with river distributaries in Guinea-"
+"Bissau, a country that experiences monsoonal-like seasons. We see the "
+"amount of vegetation as detected by NDVI fluctuates over time. The top "
+"image shows NDVI in April, at the end of the dry season. NDVI readings "
+"are much lower than when compared to the same area in November (bottom "
+"image), after several months of rain during the wet season."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:311
+msgid ""
+"Notice the RGB images may show parts of the area to be visibly ‘dry’ or "
+"‘lush’, but in places where this is less obvious, it is easier to analyse"
+" NDVI than the multispectral RGB dataset."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:322
+msgid "|9288be2a1db94016b2440ab1da11e975|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:336
+msgid ""
+"*NDVI calculated from Sentinel-2 data in Guinea-Bissau in April 2018 (top"
+" left) and November 2018 (bottom left). The NDVI values reflect typical "
+"seasonal patterns in a quantitative manner.*"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:347
+msgid ""
+"We see in the table above that satellites have slightly different band "
+"ranges for the same band name (e.g. 'Red' for Landsat 8 is slightly "
+"different than 'Red' for Sentinel-2). This means they will produce "
+"different band index values even at approximately the same time and "
+"place. It is best practice to compare like datasets only."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:356
+msgid "Band indices in research"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:367
+msgid ""
+"NDVI is just one example of a useful band index. There are many other "
+"band indices used in Earth observation research to draw out terrain "
+"features. Selecting a band index is often dependent on environmental "
+"conditions and research purpose."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:378
+msgid ""
+"**Vegetation:** As described above, NDVI is a good baseline vegetation "
+"index. It is simple to calculate, and only requires two bands — red and "
+"NIR. However, the Enhanced Vegetation Index (EVI) is often more accurate."
+" EVI is calculated with three bands — red, blue and NIR — and requires "
+"some coefficients for scaling."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:380
+msgid ""
+"In arid regions, where vegetative cover is low, consider using the Soil "
+"Adjusted Vegetation Index (SAVI), which incorporates a soil brightness "
+"correction factor."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:391
+msgid ""
+"**Urbanisation:** Human settlements can be identified through "
+"urbanisation indices, one of which is the Normalised Difference Built-up "
+"Index (NDBI). NDBI uses SWIR 1 and NIR bands:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:393
+msgid ""
+"\\text{NDBI} \\ = \\ \\frac{\\text{SWIR 1} - \\text{NIR}}{\\text{SWIR 1} "
+"+ \\text{NIR}}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:395
+msgid ""
+"However, NDBI can be confused between built-up areas and bare soil, so in"
+" arid and semi-arid regions where this is problematic, it may be better "
+"to use the Dry Bare Soil Index (DBSI)."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:397
+msgid ""
+"\\text{DBSI} \\ = \\ \\frac{\\text{SWIR 1} - \\text{Green}}{\\text{SWIR "
+"1} + \\text{Green}} \\ - \\ \\text{NDVI}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:408
+msgid ""
+"**Water bodies:** Delineation between water and land can be defined using"
+" the Modified Normalised Difference Water Index (MNDWI). It is calculated"
+" using green and SWIR 1 bands:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:410
+msgid ""
+"\\text{MNDWI} \\ = \\ \\frac{\\text{Green} - \\text{SWIR "
+"1}}{\\text{Green} + \\text{SWIR 1}}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:412
+msgid ""
+"This should not be confused with indices for monitoring water content in "
+"vegetation."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:423
+msgid ""
+"It is important to remember band indices are not infallible; their "
+"usefulness relies on appropriate index selection and sensible "
+"interpretation. However, as the field of remote sensing grows, ongoing "
+"research into differentiating terrain types with different band "
+"combinations give rise to more nuanced and accurate data analysis. For "
+"instance, it is common to use more than one index to help distinguish "
+"feature classes with similar spectral characteristics."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:435
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:296
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:266
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:446
+msgid ""
+"Band indices are an integral part of spatial data analysis, and are an "
+"efficient method of distinguishing different types of land cover. In the "
+"following sections, we will calculate NDVI for a cloud-free composite "
+"using the Sandbox."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:9
+msgid "Calculating NDVI: Part 1"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:11
+msgid ""
+"This exercise follows on from the previous section. In the `final "
+"exercise of the previous session "
+"<../session_3/03_geomedian_exercise.ipynb>`__, you constructed a notebook"
+" to create geomedian composite."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:13
+msgid ""
+"In this section, we will create a new notebook based on the notebook from"
+" the previous section. Most of the code will remain unchanged, but we "
+"will change the area of interest and time extent. We will also add steps "
+"to resample the new dataset and create a geomedian. In the next section, "
+"we will calculate and plot NDVI."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:24
+msgid ""
+"We will be using the notebook we created in the previous section, `Create"
+" a geomedian composite <../session_3/03_geomedian_exercise.ipynb>`_. If "
+"you have not already set up a copy of the notebook called "
+"``Geomedian_composite.ipynb`` with the required packages and functions, "
+"follow the instructions in previous section. Ensure you have completed "
+"all the steps, including loading the Sentinel-2 dataset."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:33
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:36
+msgid "Create a copy of the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:38
+msgid "Before you continue with the next step,"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:40
+msgid "Log in to the Sandbox and open the **Training** folder."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:41
+msgid "Make a copy of the ``Geomedian_composite.ipynb`` notebook."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:42
+msgid "Rename the notebook to ``Calculate_ndvi.ipynb``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:44
+msgid ""
+"More details on how to `create a copy of a notebook and rename it "
+"<https://training.digitalearthafrica.org/en/latest/session_1/04_running_a_notebook.html#Create-a"
+"-copy-of-the-notebook>`__."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:47
+msgid "Clearing the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:49
+msgid "We will need to remove any output from previous runs of the notebook."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:51
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:39
+msgid "Select **Kernel -> Restart Kernel and Clear All Outputs…**."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:52
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:40
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:94
+msgid "When prompted, select **Restart**."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:64
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:91
+msgid "Running the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:66
+msgid ""
+"This notebook is still set up to run the Session 3 exercise, so you’ll "
+"need to follow the instructions below to modify it. Work cell by cell and"
+" pay attention to what needs to be changed."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:69
+msgid "Set up"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:71
+msgid ""
+"Run the first cell, which contains the packages and functions for the "
+"analysis. No need to change anything here."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:73
+msgid ""
+"For the ``dc = datacube.Datacube`` command, change the app name to "
+"``\"Calculate_ndvi\"``. It should look like:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:80
+msgid "Load the data"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:82
+msgid "Change the x and y values to those shown below and run the cell."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:89
+msgid ""
+"Change the time in the ``load_ard`` function to ``(\"2019-01\", "
+"\"2019-12\")``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:91
+msgid "Remove the option ``min_gooddata=0.7``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:93
+msgid "If you completed steps 2, 3 and 4, your load cell should look like"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:107
+msgid "Run the cell. The load should return 71 time steps."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:119
+msgid "Plot timesteps"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:121
+msgid ""
+"The fifth cell of the notebook contains an ``rgb`` command to plot the "
+"loaded data. To match our example below, modify this cell so that it "
+"matches the code below:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:129
+msgid ""
+"This will plot images for the 1st, 6th and 8th timestep of the loaded "
+"data (remember that Python starts counting at 0). Your image should match"
+" the one below."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:131
+msgid "|f36cd0268e2447c2863f06d6d780ed3b|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:145
+msgid ""
+"You may also like to run this cell a few times, experimenting with "
+"different values for the ``timesteps`` parameter. The load command should"
+" have returned 71 time steps, meaning the values in your ``timesteps`` "
+"list can be anywhere from ``0`` to ``70``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:154
+msgid "Resampling the dataset"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:156
+msgid ""
+"Resampling is used to create a new set of times at regular intervals. "
+"Using the resample method, the data can be arranged in days, months, "
+"quarterly (three months) or yearly."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:158
+msgid "Below gives examples of how the data are grouped."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:160
+msgid "``'nD'`` - number of days (e.g. ``'7D'`` for seven days)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:161
+msgid "``'nM'`` - number of months (e.g. ``'6M'`` for six months)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:162
+msgid "``'nY'`` - number of years (e.g. ``'2Y'`` for two years)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:173
+msgid "Follow the steps below to resample the dataset time steps to quarterly."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:175
+msgid "Delete the code for plotting all RGB images:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:182
+msgid ""
+"In the cleared cell, write the following code to resample the data and "
+"store it in the ``resample_sentinel_2_ds`` variable:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:188
+msgid ""
+"``resample_sentinel_2_ds`` describes how to group the data into quarterly"
+" segments. We can now use this to calculate the geomedian for each "
+"quarterly segment."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:199
+msgid "``S`` at the end of ``'3MS'`` is to group the data by start of the month."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:208
+msgid "Compute the geomedian"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:210
+msgid ""
+"For this session, instead of calling ``xr_geomedian(sentinel_2_ds)`` on "
+"the entire array as we did in the previous exercise, we pass the "
+"``xr_geomedian`` function to ``map`` and apply it separately to each "
+"resampled group(``resample_sentinel_2_ds``)."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:212
+msgid "Replace the existing ``xr_geomedian`` code with:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:227
+msgid ""
+"We can plot the output geomedians, and see the change in the landscape "
+"over the year. Replace the exsiting ``rgb`` code with:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:233
+msgid "|fd3bdc18e36242f5a9e2007cd5aeb138|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:248
+msgid "Comparing the two datasets"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:250
+msgid ""
+"Comparing the two dataset can you tell the difference from the results "
+"shown below?"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:252
+msgid "``sentinel_2_ds``"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:254
+msgid "|814704086ac3425e9da84c0481c493ec|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:268
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:119
+msgid "``geomedian_resample``"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:270
+msgid "|d27f70765ae54d8aa8d004a92b2f59f1|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:284
+msgid ""
+"Take a look at the dimensions. The raw dataset ``sentinel_2_ds`` has 71 "
+"time steps loaded, but after resampling to quarterly as in "
+"``geomedian_resample``, the time dimension is now 4. This makes sense "
+"because the year has been divided into four quarters."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:298
+msgid ""
+"Congratulations! You have successfully modified a notebook to create a "
+"quarterly geomedian composite by resampling Sentinel-2 data."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:300
+msgid ""
+"If you’d like to experiment futher, try running the code with different "
+"resampling values. Did you learn anything interesting to share with us?"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:302
+msgid ""
+"In the next section, we will continue working with this notebook to "
+"calculate the NDVI values for each of our quarterly geomedians."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:9
+msgid "Calculating NDVI: Part 2"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:11
+msgid ""
+"This exercise follows on from the previous section. In the `previous part"
+" of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you "
+"constructed a notebook to resample a year’s worth of Sentinel-2 data into"
+" quarterly time steps."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:13
+msgid ""
+"In this section, you will conitnue from where you ended in the previous "
+"exercise. Most of the code will remain unchanged, but we will introduce a"
+" new measurement to the existing measurements which will enable us to "
+"calculate and plot NDVI."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:24
+msgid ""
+"We will be using the notebook we created in the previous section. If you "
+"have not already set up a copy of the notebook called "
+"``Calculate_ndvi.ipynb`` with the required packages and functions, follow"
+" the instructions in previous section. Ensure you have completed all the "
+"steps, including loading the Sentinel-2 dataset."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:33
+msgid "Open and run notebook"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:35
+msgid ""
+"If you are following directly on from the last section, you can skip this"
+" step. If you have closed your Sandbox browser tab or disconnected from "
+"the Internet between exercises, follow these steps to ensure correct "
+"package imports and connection to the datacube."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:37
+msgid "Navigate to the **Training** folder."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:38
+msgid "Double-click ``Calculate_ndvi.ipynb``. It will open in the Launcher."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:52
+msgid "Making changes to the load cell"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:54
+msgid "Make the following changes below to modify the load cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:57
+msgid "Adding ``nir`` measurement"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:59
+msgid ""
+"To calculate NDVI, we need to load Sentinel-2’s near-infrared band. In "
+"the Sandbox, it is called ``nir``. To add the band, modify the "
+"``load_ard`` cell according to the step below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:61
+msgid "Add ``nir`` to the measurements array."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:67
+msgid "If you completed the above step, your ``load_ard`` cell should look like:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:93
+msgid "Select **Kernel -> Restart Kernel and Run All Cells…**."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:96
+msgid ""
+"The notebook may take a little while to run. Check all the cells have run"
+" successfully with no error messages."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:98
+msgid "Did you noticed any additional data variables to the ``sentinel_2_ds``?"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:100
+msgid "|4c2e2bc137a0479dbca30213dd3f5023|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:115
+msgid "Creating a new cell"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:117
+msgid "After successfully running the notebook, this cell will be the last cell:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:121
+msgid "|ce8876cbdf83457db2af932f245b0a70|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:123
+msgid ""
+"Notice it now contains the NIR band data, which is the data we just "
+"loaded."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:125
+msgid "Follow the steps below to create a new cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:127
+msgid "Make sure the last cell is selected."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:128
+msgid ""
+"Press the ``Esc`` key, then follow it by pressing the ``B`` key. A new "
+"cell will be created below the current cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:130
+msgid "Use the method above to create a new cell."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:145
+msgid "Calculate NDVI"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:147
+msgid ""
+"One of the most commonly used remote sensing indices is the Normalised "
+"Difference Vegetation Index or ``NDVI``. This index uses the ratio of the"
+" red and near-infrared (NIR) bands to identify live green vegetation. The"
+" formula for NDVI is:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:149
+msgid ""
+"\\begin{aligned} \\text{NDVI} & = \\frac{(\\text{NIR} - "
+"\\text{Red})}{(\\text{NIR} + \\text{Red})} \\\\ \\end{aligned}"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:156
+msgid ""
+"When interpreting this index, high values indicate vegetation, and low "
+"values indicate soil or water."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:168
+msgid "Define NDVI formula"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:170
+msgid ""
+"In a new cell, calculate the NDVI for the resampled geomedian dataset. To"
+" make it simpler, you can store the red and near-infrared bands in new "
+"variables, then calculate the NDVI using those variables, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:179
+msgid "Run the cell using ``Shift + Enter``."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:182
+msgid "Plot NDVI for each geomedian"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:184
+msgid ""
+"Our calculation is now stored in the ``NDVI`` variable. To visualise it, "
+"we can attach the ``.plot()`` method, which will give us an image of the "
+"NDVI for each geomedian in our dataset. We can then customise the plot by"
+" passing parameters to the ``.plot()`` method, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:190
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:226
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:247
+msgid "Run the cell using ``Shift + Enter``"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:192
+msgid ""
+"``col='time'`` tells the plot that we want to display one image for each "
+"time step in our dataset."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:193
+msgid ""
+"``vmin=-0.50`` tells the plot to display all values below ``-0.50`` as "
+"the same colour. This can help keep contrast in the images (remember that"
+" NDVI can take values from -1 to 1)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:194
+msgid ""
+"``vmax=0.8`` tells the plot to display all values above ``0.8`` as the "
+"same colour. This can help keep contrast in the images (remember that "
+"NDVI can take values from -1 to 1)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:195
+msgid ""
+"``cmap='RdYlGn'`` tells the plot to display the NDVI values using a "
+"colour scale that ranges from red for low values to green for high "
+"values. This helps us because healthy vegetation shows up as green, and "
+"non-vegetation shows up as red."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:197
+msgid ""
+"If you implement the NDVI plotting code correctly, you should see the "
+"image below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:199
+msgid "|032348b47901486b962b66c4aa2b00e8|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:201
+msgid ""
+"In the image above, vegetation shows up as green (NDVI > 0). Sand shows "
+"up as yellow (NDVI ~ 0) and water shows up as red (NDVI < 0)."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:216
+msgid "Plot time series of the NDVI area"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:218
+msgid ""
+"While it is useful to see the NDVI values over the whole area in the "
+"plots above, it can sometimes be useful to calculate summary statistics, "
+"such as the mean NDVI for each geomedian. This can quickly reveal trends "
+"in vegetation health across time."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:220
+msgid ""
+"To calculate the mean NDVI, we can apply the ``.mean()`` method to our "
+"NDVI variable. We can also then apply the ``.plot()`` method to see the "
+"result, as shown below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:228
+msgid ""
+"``NDVI.mean(dim=['x', 'y'])`` calculates the mean over all pixels, "
+"indicated by ``dim=['x', 'y']``. To instead calculate the mean over all "
+"times, you would write ``dim=['time']``."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:229
+msgid ""
+"``NDVI.mean(dim=['x', 'y']).plot(size=6)`` calculates the mean over all "
+"pixels, then plots the result. The ``size=6`` argument specifies the size"
+" of the plot."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:231
+msgid ""
+"If you implement the calculation and plotting code correctly, you should "
+"see the image below:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:233
+msgid "|0bc698d0b71b4742996f0de0025b8772|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:235
+msgid ""
+"Rather than a spatial view of NDVI at each time step, we see a single "
+"value (the mean NDVI) for each time."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:237
+msgid ""
+"If you would like to add a title and y-axis label to this plot, you can "
+"add the following code below the command to calculate and plot the mean:"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:245
+msgid "|52f52530765f455db1856d0ff3da1b2d|"
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:268
+msgid ""
+"Congratulations! You have successfully calculated and visualised the NDVI"
+" for a series of geomedian composite images."
+msgstr ""
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:270
+msgid ""
+"If you’d like to experiment futher, try running the code with different "
+"areas. Did you learn anything interesting to share with us?"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:9
+msgid "Session 4 Quiz and Solution"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:20
+msgid ""
+"In Session 4, you created a notebook to load satellite products, resample"
+" the data into quarterly segments, and then calculate and plot the "
+"Normalised Difference Vegetation Index (NDVI). Combining bands into "
+"indices such as NDVI can yield important insights into the data which "
+"might not be apparent using true-color RGB imagery alone."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:32
+msgid "Quiz"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:43
+msgid ""
+"If you would like to be awarded a certificate of achievement at the end "
+"of the course, we ask that you `complete the quiz "
+"<https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__."
+" You will need to supply your email address to progress towards the "
+"certificate. After you complete the quiz, you can check if your answers "
+"were correct by pressing the **View Accuracy** button."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:45
+msgid ""
+"The quiz will ask you to use the notebook you developed for this "
+"session’s exercise on calculating NDVI. If you would like to confirm that"
+" your notebook works as expected, you can check it against the solution "
+"notebook provided below."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:56
+msgid ""
+"The solution notebooks below do not contain the answer to the quiz. Use "
+"them to check that you implemented the exercises correctly, then use your"
+" exercise notebook to answer the quiz. Accessing the solution notebook "
+"will not affect your progression towards the certificate."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:65
+msgid "Solution notebook"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:76
+msgid ""
+"We strongly encourage you to attempt the exercise on the previous page "
+"before downloading the solution below. This will help you learn how to "
+"use the Sandbox independently for your own analyses."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:84
+msgid ""
+"`Download the solution notebook for the Session 4 Part 1 exercise "
+"<../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb>`__"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:86
+msgid ""
+"`Download the solution notebook for the Session 4 Part 2 exercise "
+"<../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb>`__"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:88
+msgid ""
+"To view a solution notebook on the Sandbox, you will need to first "
+"download it to your computer, then upload it to the Sandbox. Follow these"
+" instructions:"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:90
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:91
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:92
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:94
+msgid "|69203742183549d7898daa3a42b40805|"
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:96
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../session_4/04_s4_solution.ipynb:97
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+
+#: ../../session_4/index.rst:4
+msgid "Session 4: Indices"
+msgstr ""
+
+#: ../../session_4/index.rst:6
+msgid ""
+"In this session, we will explore combining multiple bands into various "
+"indices to classify and measure terrain features."
+msgstr ""
+
+#: ../../session_4/index.rst:8
+msgid ""
+"First, we will introduce several band indices and what they measure. Then"
+" we will calculate the geomedian for each season, and show how to measure"
+" changes in vegetation over time."
+msgstr ""
+

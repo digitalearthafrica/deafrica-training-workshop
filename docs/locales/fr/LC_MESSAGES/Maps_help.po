@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Maps_help.ipynb:9 7e44be799d1b4e4daa766b06c2b29c2a
+msgid "Map portal user guide"
+msgstr ""
+
+#: ../../Maps_help.ipynb:20 e8348d96e2f6456ba616174bcd6bfd94
+msgid ""
+"This guide provides detailed instructions on how to use the different "
+"features of the Digital Earth Africa Map portal at "
+"https://maps.digitalearth.africa/."
+msgstr ""
+
+#: ../../Maps_help.ipynb:32 06d57bf2420548a2b46a675fd3e4b9d7
+msgid "Get Started"
+msgstr ""
+
+#: ../../Maps_help.ipynb:34 eed6d6c901c94381b4f9748b5cb3101a
+msgid ""
+"To launch the DE Africa Map and display some basic data follow these "
+"steps."
+msgstr ""
+
+#: ../../Maps_help.ipynb:36 59ff2cde02a3480597087d67e0ed6fda
+msgid ""
+"Launch the DE Africa Map at `maps.digitalearth.africa "
+"<https://maps.digitalearth.africa/>`__."
+msgstr ""
+
+#: ../../Maps_help.ipynb:37 13ce248eb53e4ab0b1565a294a546e7b
+msgid ""
+"In the left panel click the **Add Data** button to open the data "
+"catalogue (see image below)."
+msgstr ""
+
+#: ../../Maps_help.ipynb:38 0e8850ac382744319839c4dfc72c19cf
+msgid "Find a dataset of interest such as water."
+msgstr ""
+
+#: ../../Maps_help.ipynb:39 4ce0f7213e67422fac32d51eecdcd8ab
+msgid "Select the dataset to see a preview of that data and description."
+msgstr ""
+
+#: ../../Maps_help.ipynb:40 a048f896c7644934baa688230e7f1de9
+msgid ""
+"To view your selected dataset on the map, click the **Add to the map** "
+"button."
+msgstr ""
+
+#: ../../Maps_help.ipynb:42 e3d050a3d5bf4e488e4bee5c46c325fd
+msgid "|bdb105b5d5124def8731a8217819d320|"
+msgstr ""
+
+#: ../../Maps_help.ipynb:44 42880bc2ba2d423d8ba2548434390e0f
+msgid "Visualise and analyse your dataset:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:46 940f3fcbf365469ab73ef17bb044baca
+msgid ""
+"The spatial data will be displayed in the map view, and a visual legend "
+"will appear in the Data workbench, on the left side of the page."
+msgstr ""
+
+#: ../../Maps_help.ipynb:48 312892b6dcc94ffbbdc0b70d219c1bf7
+msgid ""
+"It may not be immediately obvious where your selected spatial data has "
+"loaded on the map if it does not cover a large part of Africa. To locate "
+"loaded data on the map, go to the workbench, and select **Zoom to "
+"extent**."
+msgstr ""
+
+#: ../../Maps_help.ipynb:50 128610a053e0474a8af950333cbc93f3
+msgid "The dataset should now be visible in the map view."
+msgstr ""
+
+#: ../../Maps_help.ipynb:52 f9dfec43af714b669322fe8f5e52db6f
+msgid "To add additional datasets to the map, repeat the above steps."
+msgstr ""
+
+#: ../../Maps_help.ipynb:54 b5e31a2bb5da43e3a7c77a2a9ce29788
+msgid ""
+"Zoom manually by moving your mouse pointer over the map and using your "
+"mouse wheel to zoom in or out further."
+msgstr ""
+
+#: ../../Maps_help.ipynb:56 0fad20b0a28c4bd1afb3fc7599d11325
+msgid ""
+"Click and drag the map to further show the region in which you are "
+"interested."
+msgstr ""
+
+#: ../../Maps_help.ipynb:71 e0c5fc52f7fb4095871061111b8d4b70
+msgid "Explore the workbench"
+msgstr ""
+
+#: ../../Maps_help.ipynb:73 f1df1db0317f4211a93de40ecd1e5da2
+msgid "|88489923d51244d1ac8c308e50a287f0|"
+msgstr ""
+
+#: ../../Maps_help.ipynb:75 a4ce63d5dce4463fb2c42282359bf41b
+msgid ""
+"When a dataset is added to the map via the data catalogue, a legend for "
+"that dataset will appear in the workbench. From the workbench you can:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:77 052bc694198f483c93f2becc35a78e02
+msgid ""
+"Set the order data is shown on the map. To do this, click the title of a "
+"dataset and drag it to a new position in your workbench."
+msgstr ""
+
+#: ../../Maps_help.ipynb:78 0cbd8ad3aef642628d8b696198626cef
+msgid ""
+"Toggle the visibility of added datasets by selecting the checkbox "
+"opposite your prefered dataset title"
+msgstr ""
+
+#: ../../Maps_help.ipynb:79 a2928a1c09d7408f88632dc08481bcfd
+msgid "Zoom to the geographical extent of an added data set"
+msgstr ""
+
+#: ../../Maps_help.ipynb:80 4aaa7e0c00654fa4944f1c3bc56e89d2
+msgid "Set the opacity of individual data sets"
+msgstr ""
+
+#: ../../Maps_help.ipynb:81 07f48cbe03a24b9faf97ff1eef1a9155
+msgid ""
+"Remove data sets from the map. Note: they can be re-added via the data "
+"catalogue."
+msgstr ""
+
+#: ../../Maps_help.ipynb:96 28ae95da39f14d4bb5022a51e0d45081
+msgid "Navigate the Map"
+msgstr ""
+
+#: ../../Maps_help.ipynb:98 fed62d9f2a504fbaa7e0528bd233e8b2
+msgid "|d160d701952a41d5a6da1e7edd9400b2|"
+msgstr ""
+
+#: ../../Maps_help.ipynb:100 53798e2e16dc439ca032a00008e3ca32
+msgid "There are multiple ways to navigate DE Africa Map’s map view:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:103 678a7eb9fe4c4b5ea1e2c5a8391960c1
+msgid "Zooming"
+msgstr ""
+
+#: ../../Maps_help.ipynb:105 583456ea67ef4720b765423e9e534e81
+msgid ""
+"Move your mouse pointer over the map and use the scroll wheel to zoom in "
+"or out. The location at the centre of the map display is the centre of "
+"the zooming. Right-click and drag upwards or downwards over the map to "
+"zoom about the centre point. Select the zoom control to zoom in or out "
+"quickly by a set amount."
+msgstr ""
+
+#: ../../Maps_help.ipynb:108 776969c52ee04875984daf3476e0cefe
+msgid "Panning"
+msgstr ""
+
+#: ../../Maps_help.ipynb:110 9b280014a97747eaaba3eaf087a983b9
+msgid "Click anywhere on the map and drag it to the required location."
+msgstr ""
+
+#: ../../Maps_help.ipynb:113 dbb2a829160a4caaab2ea2ba9a54a15f
+msgid "Rotate the map"
+msgstr ""
+
+#: ../../Maps_help.ipynb:115 b26b0cbaf3d7487480150cd7bd617434
+msgid ""
+"Use the compass control to rotate the map so North is no longer at the "
+"top. Select the “gyroscope” in the centre of the compass control and drag"
+" slowly to the left or right to rotate the map clockwise or anti-"
+"clockwise respectively. The further you drag, the faster it rotates. "
+"Release the mouse button when you reach the desired rotation."
+msgstr ""
+
+#: ../../Maps_help.ipynb:117 fb267fbc0c72464bbb1ab78ddb1101b3
+msgid ""
+"Select the North Point or outer ring of the Compass Control and drag it "
+"around to set the desired rotation directly."
+msgstr ""
+
+#: ../../Maps_help.ipynb:119 32a95b5b09964c3296d97c60b15c9b3c
+msgid ""
+"Control + left-click and drag left or right over the map to rotate the "
+"view about the centre."
+msgstr ""
+
+#: ../../Maps_help.ipynb:122 6fef4d8dead944bda3dd952b5b544dbe
+msgid "Perspective view"
+msgstr ""
+
+#: ../../Maps_help.ipynb:124 62b33d423db24aea9ebc29b2face9d2a
+msgid ""
+"Select the “gyroscope” in the centre of the compass control and drag "
+"slowly upwards to tilt the view into a perspective view. Drag downwards "
+"to tilt the view back to vertical. The further you drag, the faster it "
+"tilts. Release the mouse button when you reach the desired view."
+msgstr ""
+
+#: ../../Maps_help.ipynb:126 2dcf59737e44483cb56713b27fad0842
+msgid ""
+"Control + left-click and drag upwards or downwards over the map to enter "
+"or adjust the perspective view."
+msgstr ""
+
+#: ../../Maps_help.ipynb:128 bebd84d3d023461a8d160ab45f318a54
+msgid ""
+"When you are in perspective view, control + left-click and drag left or "
+"right over the map to “orbit” around the centre of the view. You can also"
+" click and drag left or right over the “gyroscope” at the centre of the "
+"Compass Control to orbit about the centre of the view."
+msgstr ""
+
+#: ../../Maps_help.ipynb:130 7354826b6cd5447d80455cbe8ba9253a
+msgid ""
+"Double-click the “gyroscope” in the centre of the Compass Control to "
+"return the view quickly to a vertical view with North to the top at the "
+"current location and scale."
+msgstr ""
+
+#: ../../Maps_help.ipynb:132 0ba4a02449214bf2a8e404d40e388bce
+msgid ""
+"Dragging to pan and using the mouse wheel to zoom still work while "
+"showing a perspective view."
+msgstr ""
+
+#: ../../Maps_help.ipynb:135 ce582634e9d94155a0089186bdc522a8
+msgid "Use the splitter functionality"
+msgstr ""
+
+#: ../../Maps_help.ipynb:137 14daf04bdc4e48c88226cad3a9a1b7cd
+msgid ""
+"The splitter functionality allows you to compare a dataset for different "
+"time periods. To use it:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:139 83d54763f5b74b04b212b969c08f192d
+msgid "Select an area/location"
+msgstr ""
+
+#: ../../Maps_help.ipynb:140 9df805985fec43958a6d3b768efc1a37
+msgid "Select a dataset from the catalogue to add it to the workbench"
+msgstr ""
+
+#: ../../Maps_help.ipynb:141 1181a832fc794f72aeb76977ed307370
+msgid ""
+"Select the **Split** link in the workbench to create a copy of the data "
+"already selected. Note that you can use the splitter with two different "
+"datasets, not just with copies of the same data"
+msgstr ""
+
+#: ../../Maps_help.ipynb:142 142cb73a5ca94a0eab1495cd54959787
+msgid ""
+"Select different times (using the date picker) for the “left” and “right”"
+" sections of the screen"
+msgstr ""
+
+#: ../../Maps_help.ipynb:143 18028b9aa60b467ca8df632b324d96d2
+msgid ""
+"Use the back and forward arrows to explore imagery and select cloud-free "
+"views"
+msgstr ""
+
+#: ../../Maps_help.ipynb:144 c4df9d4b8e5c462c86013fbaff33b207
+msgid "Drag the splitter on the screen to observe the differences"
+msgstr ""
+
+#: ../../Maps_help.ipynb:158 e95b271286bf4429ab86b2134e1bd672
+msgid ""
+"This video shows an example of the splitter used over a map of Australia,"
+" but the functionality is the same."
+msgstr ""
+
+#: ../../Maps_help.ipynb:169 dec28b01d35d40b3a0f4bf67144fb4db
+msgid "|Split functionality video|"
+msgstr ""
+
+#: ../../Maps_help.ipynb:184 2feae1f7b0a649e689dfd6e3ac8047f6
+msgid "Upload Data to the Map"
+msgstr ""
+
+#: ../../Maps_help.ipynb:186 6809c34719a14b6ba855791d7544366e
+msgid "There are two ways to load your data:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:188 9482a987176f496d838646f3e6dfd20a
+msgid ""
+"Drag your data file onto the DE Africa Map map view. The format of the "
+"data file will be auto-detected."
+msgstr ""
+
+#: ../../Maps_help.ipynb:189 c0d029fa940746bd8084f5f5c515999a
+msgid ""
+"Select **Add Data** in the left panel. This will launch the data "
+"catalogue. Select the **My Data** tab at the top of the modal window and "
+"follow the provided instructions."
+msgstr ""
+
+#: ../../Maps_help.ipynb:191 1af82d6ae87b43d298147cbb53cc922b
+msgid ""
+"As for DE Africa Map data sets, you can select regions or points to see "
+"the data available for that location. If the file is a CSV file, the data"
+" from all columns will be shown in the feature information dialogue."
+msgstr ""
+
+#: ../../Maps_help.ipynb:193 037fac839378453091e987e54b0f37e8
+msgid ""
+"You can also use all of the features of the workbench on the data you "
+"have loaded as well."
+msgstr ""
+
+#: ../../Maps_help.ipynb:195 1aa0e8d2bcec40b288dc47f8fe424936
+msgid ""
+"To share a view of your data with others, you must first publish it to "
+"the web somewhere with a URL, and then load it from there."
+msgstr ""
+
+#: ../../Maps_help.ipynb:197 fdae9994591d4a5d8134433143cbdb62
+msgid "DE Africa Map can display two kinds of spreadsheets:"
+msgstr ""
+
+#: ../../Maps_help.ipynb:199 d92df08816a54d0f85e8551d8e32e08a
+msgid ""
+"Spreadsheets with a point location (latitude and longitude) for each row,"
+" expressed as two columns: lat and lon. These will be displayed as points"
+" (circles)."
+msgstr ""
+
+#: ../../Maps_help.ipynb:200 261c0e9bb8c4438b9f04eb8981ed33fb
+msgid ""
+"Spreadsheets where each row refers to a region such as a local government"
+" area (council), state, postcode, or ABS statistical unit such as an SA2 "
+"or CED (Commonwealth Electoral Division). Columns must be named according"
+" to the CSV-geo-au standard. These will be displayed as regions, "
+"highlighting the actual shape of each area."
+msgstr ""
+
+#: ../../Maps_help.ipynb:202 f81e173d137f4b42885f4acc5657bc6b
+msgid "Spreadsheets must be saved as CSV (comma-separated values)."
+msgstr ""
+
+#: ../../Maps_help.ipynb:204 053a95271c3a437da99107138a072b41
+msgid ""
+"Other standard spatial data types such as GeoJSON and KML are also "
+"supported."
+msgstr ""
+
+#: ../../Maps_help.ipynb:206 8106b38f037b4b54ad07114c004e61cb
+msgid "|Upload Location|"
+msgstr ""
+

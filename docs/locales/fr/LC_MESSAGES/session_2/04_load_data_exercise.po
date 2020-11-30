@@ -1,0 +1,826 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_2/04_load_data_exercise.ipynb:9
+#: ../../session_2/04_load_data_exercise.ipynb:599
+#: f3a6bcb0f2c14654b3f48dbad9cfb562 faf65cfd21ba4cd49eea8d779eaa6dc4
+msgid "Loading data in the Sandbox"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:21
+#: f6e727aca74f4aae8315d3c822b28821
+msgid "Overview"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:32
+#: 837b9b8c71b84c62bd04be622d5598e6
+msgid ""
+"In this exercise, we will load data from the datacube. First, we will set"
+" up a new notebook to work in. Then, we will load Landsat data for a "
+"specific time, and use that data to plot a colour image. Finally, we will"
+" show you how to modify the load process to load and plot Sentinel-2 "
+"data."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:44
+#: eb950fb0927443548a4839afbbbb0da4
+msgid "Make a new notebook"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:55
+#: c4b7dbcacd9340f8a86a1142ca325aea
+msgid "Let’s create a new, blank Jupyter notebook for this exercise."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:57
+#: dd6c3aad4d2c468cba3647941603f1ae
+msgid ""
+"Navigate to the **Training** folder. The **Training** folder was created "
+"as part of Session 1, for copying and running the Crop Health notebook. "
+"If you do not have this folder in the Sandbox, you can create it by "
+"following the steps in `Running a Notebook "
+"<../session_1/04_running_a_notebook.ipynb>`__."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:59
+#: 69f858b44ff04682984f200eaaca75c0
+msgid "|image1|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:61
+#: 917abdc161374e6eabdae79516ba6050
+msgid ""
+"If Launcher is not the active tab in the main work area (right pane), "
+"click the **+** button at the top of the left sidebar to open the "
+"launcher in the right pane."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:63
+#: 70377d5f5e214dc2993b156412ad541a
+msgid "|image2|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:65
+#: 7dda20e68c0842279a278ccfa1f74bcc
+msgid ""
+"In the **Notebook** section of Launcher, select the **Python 3** option "
+"to create a new notebook in the current directory."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:67
+#: 9aaae06361a14dd2969a23e2df8d5b24
+msgid "|image3|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:69
+#: d5dd8b1729184b92b4d9447271659115
+msgid ""
+"The new notebook will be called ``Untitled.ipynb``, but you can rename "
+"it. Right-click the notebook in the file menu and select **Rename**."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:71
+#: e5c70ff457e14d8b9bde4eb888c5f31b
+msgid "|image4|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:73
+#: 940bf2b344334bbdb58e96f9af15b187
+msgid "Type in the desired name. For example, we can call it ``Load_data.ipynb``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:75
+#: 752ef2e0e6c44b9b8ef34a86846322d0
+msgid "|image5|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:77
+#: 160a011b6657433c9443aacb470a1e17
+msgid "Press the ``Enter`` key to finish renaming the notebook."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:79
+#: 92782687da264f21a039c9b921170f95
+msgid "|image6|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:98
+#: 164c2dbe2a96435aac7c345b6b9e5df5
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:101
+#: 7843be667bf640e0bf9c088155f3e8ee
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:112
+#: 6ce1acf5d483449aac9dfc05f8025b75
+msgid ""
+"Packages and functions act as the toolbox of Python programming. We will "
+"import the ones which will be useful to us."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:114
+#: cce4d7db55664032a0d76c895539055e
+msgid "In the first cell, type the following code and then run the cell."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:125
+#: 3224e3e9dbd345359363335aa5dec233
+msgid "Run a cell by pressing ``Shift + Enter`` on your keyboard."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:133
+#: 65084947ab3746f9aa174c845066d686
+msgid "|image7|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:135
+#: 92d788f70b4d4f03b0470dd6197ecfa2
+msgid "``%matplotlib inline`` allows us to plot graphs and maps"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:137
+#: ee8a15ca1def4d68ae4527b832b02973
+msgid ""
+"The package ``sys`` is imported to run ``sys.path.append('../Scripts')``,"
+" which allows this notebook to access the Python utility functions in the"
+" ``Scripts`` folder"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:139
+#: 7870f170af924cd5b7cbd3e776bc0478
+msgid ""
+"The package ``datacube`` is imported to allow us to create an object that"
+" can retrieve data from the datacube, which we will do in the next cell "
+"we create"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:141
+#: d0454f9fbce04a8ba2595b9b577bc4bd
+msgid ""
+"From the ``deafrica_plotting`` file in the ``Scripts`` folder, we import "
+"the ``rgb`` function, which will allow us to visualise data as true-"
+"colour (RGB) images"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:143
+#: 19bde9f464f24ee2ba2eca08483f31a9
+msgid ""
+"When the cell has finished running, it will show ``[1]`` next to it, and "
+"generate a new blank cell below it."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:157
+#: 5bddb93e7f1d454bbed7cf3f03233fc8
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:168
+#: ea79662d704c44a29fc50d11bd8871fc
+msgid ""
+"The ``datacube`` package allows us to access the data in the Sandbox. To "
+"use it, we must establish a connection with the datacube. Enter the "
+"following code and run the cell."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:170
+#: 48c8880522eb4f76968fc3a7af774345
+msgid "|image8|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:172
+#: bdc20ab244a749ed911a4ef3ca3805b0
+msgid ""
+"The ``datacube.Datacube`` class provides access to the datacube. We "
+"usually call objects of this class ``dc``, as we have done here. The "
+"``app`` parameter is a unique name for the analysis which is based on the"
+" notebook file name."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:174
+#: b2ff9ee2988d401d97d767761675984f
+msgid ""
+"When the cell has finished running, it will show a ``[2]`` next to it, "
+"and generate a new blank cell below it."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:188
+#: e93d82f2616d499e97fcc9a468d57e38
+msgid "Load Landsat 8 data"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:199
+#: 9ccfd00e5ec2455a9b8547e98c58354f
+msgid ""
+"This exercise will load Landsat data for an area of Dar es Salaam, "
+"Tanzania. We will use a pair of latitude coordinates (-6.90, -6.70) and a"
+" pair of longitude coordinates (39.20, 39.37) to specify the area to "
+"load. Data will be loaded for the rectangle defined by these coordinate "
+"ranges."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:201
+#: 73bec5a4e2d547efb7105c6c91c7a37e
+msgid ""
+"First, we will view this area on a map. This allows us to check we have "
+"the correct coordinates. In the new cell below, enter the following code,"
+" and then run it to see this area on a map."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:203
+#: adf9b3b1bc8a451e98e3bbb91729a54d
+msgid "|image8+|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:216
+#: c883d7c47f914cb88c9c9894448ba49e
+msgid "The output of that cell should look like this."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:218
+#: dedef944f51248e882893da554e4dea9
+msgid "|image8++|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:231
+#: cd7742294f614ce5b1fc34222a8e9ed0
+msgid ""
+"In the new cell below, enter the following code, and then run it to load "
+"Landsat 8 data."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:233
+#: 992e90912b3e4cb39c77530664ebec32
+msgid "|image9|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:246
+#: 70ecc9aa53984a8a939f4d8fbc5ee6ea
+msgid ""
+"We load data with the ``dc.load()`` function. We have chosen to call the "
+"loaded dataset ``landsat_ds``. The text between the brackets of "
+"``dc.load()`` are our parameters."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:248
+#: a2a9cb8a3a2849cc83dfbc45bb948fc8
+msgid ""
+"The ``product`` argument is the datacube product to load data from. We "
+"want to access the Landsat 8 dataset, which is named "
+"``ls8_usgs_sr_scene``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:250
+#: 819fda0b9e6b4ada9b11ea8edffd0701
+msgid ""
+"The ``x`` and ``y`` arguments specify the area to load data for. In this "
+"case, they represent longitude and latitude. This defines a rectangle "
+"spanning their ranges of coordinate values as seen in the ``display_map``"
+" output above."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:252
+#: 73d0111d32414423957f2a547b9042df
+msgid ""
+"The ``time`` argument specifies the time range of data to load. We have "
+"specified all of the year of 2018."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:254
+#: 0ba0c994b9d24cf7a2d3cbe3df2ed2e0
+msgid ""
+"The ``output_crs`` argument specifies the Coordinate Reference System "
+"(CRS) to load data in. The CRS ``EPSG:6933`` specifies an equal area "
+"projection — each pixel has the same area."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:256
+#: af3be83a030e4d67b16d7353827dde65
+msgid ""
+"The ``resolution`` argument is the ``y`` and ``x`` resolutions (in that "
+"order) in pixels per degree. The first value is typically negative. In "
+"this case, a ``resolution`` of ``(-30, 30)`` is a resolution of 30 metres"
+" per pixel, which is the maximum resolution of Landsat data."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:258
+#: 2380e40669e34ba88b8957a293b63fdb
+msgid ""
+"The ``group_by`` argument controls how data that is close in time is "
+"combined to provide better images. Specifying a value of ``'solar_day'`` "
+"is recommended."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:260
+#: d8ac206843ae499a8ee366e9e6e45c33
+msgid ""
+"The ``measurements`` argument specifies what bands will be loaded. We "
+"will plot a true-colour image of this data later. To do that, we need the"
+" red, green, and blue bands."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:272
+#: d6deef7232a6479390d801bc026dca16
+msgid "Troubleshooting code"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:283
+#: 14e842656d914d96acbac7d249bbf114
+msgid ""
+"Sometimes, typing mistakes can occur. This will produce an error message "
+"when you run the cell."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:285
+#: a1fe230c05534b8f8dea82aed4ed2663
+msgid "For example, this error is a ``SyntaxError``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:287
+#: 4ce41ba474bb431e994094245d907f85
+msgid "|image9+|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:300
+#: 54b3fb470e494971b825d4abe514bb76
+msgid ""
+"It tells us there might be a mistake just before the section of the code "
+"``x=(39.20, 39.39),``. Sure enough, this error message was generated when"
+" a comma was missing after the ``product`` parameter, as shown in the "
+"screenshot below."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:302
+#: 8ac79a3f2ca542d0aad9e973ce9e81e3
+msgid ""
+"For illustrative purposes, the point where the comma is missing has been "
+"highlighted by a red box, but this will not appear in JupyterLab — you "
+"will have to find the error or errors yourself."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:304
+#: 4c84679e8f4140239d9496740fbd37a9
+msgid "|image9++|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:317
+#: 6c81164e3bd044c382829999af5a3c72
+msgid ""
+"If errors such as ``IndentationError`` or ``SyntaxError`` appear, they "
+"must be resolved before you can continue. Try checking for some of these "
+"common issues:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:319
+#: 593647757d774dc3a4d1fe985fc8dd59
+msgid "Are all brackets and quotation marks in the right place?"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:320
+#: 8587a2d38f804ccd83ca0b25fe013087
+msgid "Does every open bracket have a corresponding close bracket?"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:321
+#: 0ccb7e7b7a5f4dc78372628ace42b788
+msgid ""
+"Do your bracket types match? ``(`` must be closed by ``)`` and ``[`` with"
+" ``]``, and they have different meanings in Python, so they are not "
+"interchangeable."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:322
+#: 88673b29f98d4a7c88c92f6988209c0a
+msgid ""
+"Does every opening quotation mark have a closing quotation mark? You can "
+"use either ``'`` or ``\"``, but pairs of quotation marks must be the "
+"same."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:323
+#: 8b7d5e1f80344849b83899f078af826e
+msgid ""
+"Are there commas ``,`` between items listed in square brackets ``[]`` or "
+"parentheses ``()``?"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:324
+#: 694e7f937d334703b2b45fd727cfb599
+msgid ""
+"Is the indentation correct? Press ``Tab`` on your keyboard to increase "
+"the level of indentation, and press ``Shift + Tab`` on your keyboard to "
+"decrease the level of indentation."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:325
+#: 664fa03410d745e790b4ca4934228397
+msgid "Is everything spelt correctly?"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:327
+#: 1b147e2f035a44359597c5a4ca26e68c
+msgid ""
+"Once you have made your changes, try executing the cell again, by "
+"pressing ``Shift + Enter`` on your keyboard."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:338
+#: 4168cc4365ae4984ab513273103e08d0
+msgid ""
+"If you get a ``NameError``, it could be because you have not yet imported"
+" the required packages and functions. They must be imported every time "
+"you start a new server session."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:340
+#: 10948a4b2aba41a2bd9d4b70d866cf6a
+msgid "|image9+++|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:342
+#: 236f8624aa8d411c9fc24df4ad4c781e
+msgid ""
+"Follow the instructions in the section above on **Load packages and "
+"functions**."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:356
+#: 75137dc37e6a43d9872bdae9b103d347
+msgid "Examine data"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:367
+#: 79d0cba1fb224348aef2a5c49aeb4957
+msgid ""
+"When the ``dc.load()`` cell successfully executes, it will create a new "
+"cell below it. In this new cell, we can enter the name of our dataset and"
+" run the cell. This will show the dataset we loaded."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:369
+#: 73a09d6e7c0f4183b3d1be17116adc30
+msgid "|image10|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:371
+#: d2a99615893f43e99e9e2ac615f36367
+msgid "The output of the cell should look similar to this:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:373
+#: cdc7f4e7f30e485bafa7cee0e1f84a3e
+msgid "|image11|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:387
+#: aace62ba9edb4113946d5e49008409ac
+msgid ""
+"The output of ``dc.load()`` is an ``xarray.Dataset`` object. This type of"
+" dataset is a common format for satellite data, and is organised by:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:389
+#: 3229e74ff3324535a2395d650fda4259
+msgid ""
+"**Dimensions:** The dimensions of the dataset. For Earth observation "
+"data, this is often ``x`` (longitude), ``y`` (latitude) and ``time``, as "
+"seen here. The units for the ``x`` and ``y`` dimensions are pixels, while"
+" ``time`` is counted in number of flyovers. In this example we see there "
+"were 21 flyovers of our selected location during the year of 2018."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:391
+#: 02abdef01b6f4a39a2047afbc061c664
+msgid ""
+"**Coordinates:** A list of the values of each dimension. ``spatial_ref`` "
+"refers to the CRS we selected in ``dc.load()``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:393
+#: 7b94389fe0754575b078140e3786880f
+msgid ""
+"**Data variables:** The data values for our chosen measurements. We see "
+"``red``, ``green`` and ``blue`` are loaded as we specified in the "
+"``dc.load()`` command. This product provides values for surface "
+"reflectance, which is unitless."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:395
+#: 195d4cc6ab4241c29a8b816c25463c41
+msgid "**Attributes:** Metadata about this dataset. The CRS is listed again."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:407
+#: 778692dc192543b9a160caa9b92a6e9e
+msgid "Plot a true-colour image"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:418
+#: f4f929c76d6a4119a1986f4d05dd3207
+msgid ""
+"True-colour images are also known as red-green-blue (RGB) images. They "
+"are rendered using the image’s ‘natural’ colours and appear how they "
+"might be seen by the human eye. As we loaded red, green and blue bands "
+"from Landsat 8, we can now plot an RGB image using the data from "
+"``landsat_ds``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:429
+#: d65a442ffe224d35a4ce9d06450cdd4c
+msgid ""
+"In the next blank cell, enter the following code. Run the cell to "
+"generate an RGB image."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:431
+#: 32d528fbcadb4570a01077932853d484
+msgid "|image12|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:444
+#: a1f235f3b9f1408ea7ab4533f5894ecf
+msgid "The function used here is called ``rgb()``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:446
+#: fe70c0794952459db614278ef69a400f
+msgid ""
+"The first item inside the ``rgb()`` brackets is the name of the dataset "
+"we are drawing the data from. In this case, we want to pull information "
+"from ``landsat_ds``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:448
+#: 08c44944192b43b1a3bf76b71730c8cb
+msgid ""
+"``bands`` specifies the name of the data variables in the dataset that "
+"correspond to red, green and blue. We saw above that in ``landsat_ds`` "
+"they are conveniently named ``red``, ``green`` and ``blue``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:450
+#: 1e793bac4c1e4bdc9d09cbd26fffb74a
+msgid ""
+"``index`` refers to the timestep to view. The default is 0. The Python "
+"language counts from 0, so ``index=0`` shows the first flyover, and "
+"``index=1`` the second."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:452
+#: 714dd42adea5401582247f61cf0f60b8
+msgid "``size`` is the height of the image."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:454
+#: c0c500ae7b7949e3ae2aac41ca0e775c
+msgid "The RGB image will look like this:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:456
+#: 59b7d2f926034dfa8cad8f2826c11df4
+msgid "|image13|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:469
+#: a147e14b611d4b089bfa22f99f43d2b3
+msgid ""
+"The title of the image notes that the date for this data is "
+"``2018-02-16``, or 16 February 2018."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:481
+#: 628fcb84be884f1c8fee30fa35abf86c
+msgid "Exercise: Load and plot Sentinel-2 data"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:492
+#: 44f83e77e4e747dca3c39a6dce3b7fd8
+msgid ""
+"Let us repeat the data loading process for Sentinel-2 data. It is a very "
+"similar process to loading the Landsat 8 data. We want to load data for "
+"the same time and place, so we only have to change the ``product`` and "
+"``resolution``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:503
+#: e59dffa3c0e84901aba3b86bfbecf182
+msgid ""
+"Let us call our Sentinel-2 dataset ``sentinel_2_ds``. You must name it "
+"something different from the Landsat 8 dataset. In a new cell, type the "
+"name of the Sentinel-2 dataset."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:505
+#: 7808443b9be24d69b46ef0c957481b1d
+msgid "|Sentinel-2 dataset|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:507
+#: a8971e36b9b04e8fa5fad6d6675262f8
+msgid ""
+"Again, we will use ``dc.load()`` to import Sentinel-2 data. After "
+"``sentinel_2_ds``, type ``= dc.load()``. It should look like "
+"``sentinel_2_ds = dc.load()``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:509
+#: da29c1bc9b974d0d9714b2bd4e7e1a6d
+msgid ""
+"How do we fill out the parameters inside the brackets of ``dc.load()``? "
+"We can do this by copying some of the information from the Landsat 8 "
+"``dc.load()`` input cell. The first parameter we listed before was "
+"``product``. However, we don’t want to use the Landsat 8 product, we want"
+" to select the Sentinel-2 product, ``s2_l2a``."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:511
+#: eb53b27c9039458c944343a149c4f0e3
+msgid "|Sentinel-2 dataset product|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:525
+#: 84632abed84a45988ab568ab9617b256
+msgid ""
+"``s2_l2a`` stands for **S**\\ entinel-**2** **L**\\evel-**2A**. The "
+"fourth character is a lower-case alphabet 'l'. Double-check you have "
+"entered the product name correctly to avoid errors."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:533
+#: 0c920d40683d49929c9de7806719c1f1
+msgid ""
+"The ``resolution`` parameter will also be different from the Landsat 8 "
+"load. For Sentinel-2, it should be ``(-10,10)``, since our Sentinel-2 "
+"data has a resolution of 10 metres per pixel."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:535
+#: 208f8a3d4f7c4580bc15473a2c8102ef
+msgid "|Sentinel-2 dataset resolution|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:537
+#: 232d3c647eaf4f718d27049d8e67ecbf
+msgid ""
+"Now, type the rest of the parameters to be the same as they were for the "
+"Landsat 8 load. This includes:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:539
+#: 5c3539b1f6df4ede9272250426da1ebb
+msgid "``x``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:540
+#: 3f17a75aa5264e129c52aac24c47240b
+msgid "``y``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:541
+#: 4b6f1cda37954a8583dc6916969c3c2e
+msgid "``time``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:542
+#: 9d40b01ba36f4161be3f6de4b234f652
+msgid "``output_crs``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:543
+#: 6377deb4567f4afa9d0f434a7c1ed9c6
+msgid "``group_by``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:544
+#: 100d8f0abf1f4ac997590ec59c9ab7ac
+msgid "``measurements``"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:546
+#: 52e4776092984804af3cbc8f082dfb7f
+msgid ""
+"As before, watch out for commas, quotation marks, and brackets to avoid "
+"error messages when running the cell."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:548
+#: c4a0eb95adc24db3a3302a2191c4ae3c
+msgid "You should end up with a set of parameters that look like this:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:550
+#: 42d2d664ce9142cf893d519c7db6a10f
+msgid "|Sentinel-2 dc.load|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:552
+#: 7bdd03cbe4234721a14c078fe9470d88
+msgid "Run the cell to load Sentinel-2 data."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:554
+#: 05513e6665b14f6db99107b52e686831
+msgid ""
+"In the new cell below that, let us plot an RGB image around the same time"
+" as the Landsat 8 RGB image, which was from February 16, 2018."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:556
+#: d518c44b3e044628990c0be3e2969cdb
+msgid ""
+"We must specify the dataset first, followed by the bands, index, and "
+"size. In this case, we want to use ``index=9``. Ensure the cell has the "
+"following code and then run it."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:558
+#: 9e6d7db13b2042beaa7f6499ac47de7f
+msgid "|image15|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:560
+#: 7171e6ac309646f6a5e558ca1ca38a67
+msgid "An RGB image using Sentinel-2 data will be generated."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:562
+#: bad3b371fe654a31a5ecb0276b191d24
+msgid "|image16|"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:578
+#: 7e15b2f2ab164fa7800b2e7dd2c6d8b4
+msgid ""
+"As Landsat 8 data and Sentinel-2 data come from different satellites, "
+"their flyovers are not always at the same time. In this case, the closest"
+" date of Sentinel-2 data to the Landsat data is one day before, on "
+"February 15, 2018. It is another cloudy scene, like the Landsat 8 one."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:590
+#: c230dc0634e04c6da4e5ddc488dc35dc
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:592
+#: e396df9f72534de8bbd351e46770cc04
+msgid ""
+"You have successfully loaded and plotted data for Landsat 8 and "
+"Sentinel-2."
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:594
+#: 8847f7a6195544e2aba289e4afff6027
+msgid ""
+"You have also finished the second session of the Digital Earth Africa "
+"training course. In this session, you have learned about:"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:596
+#: aece6a91cfa74957aeb18525544a6bdf
+msgid "Digital Earth Africa products, including Landsat 8 and Sentinel-2"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:597
+#: abf69f0c7e0e43d6977b2c7c2a8f0fa5
+msgid ""
+"Visualising data with the `Digital Earth Africa Map "
+"<https://maps.digitalearth.africa/>`__"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:598
+#: c92f9a6abba54a6daeead6d6d4d46e67
+msgid ""
+"Exploring data availability with the `Digital Earth Africa Explorer "
+"<https://explorer.digitalearth.africa/>`__"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:600
+#: 78b055e1b65640d784ae7467e14fcc06
+msgid "Generating RGB images"
+msgstr ""
+
+#: ../../session_2/04_load_data_exercise.ipynb:602
+#: 9314448ba5eb4d07be82a6a9d7b42e10
+msgid "Congratulations!"
+msgstr ""
+

@@ -1,0 +1,624 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_5/02_vegetation_exercise.ipynb:9
+#: 77001d4763c64134b13bd0e331580aaa
+msgid "Exercise: Vegetation change detection"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:21
+#: 02954385638c4b718a092600aa29cef4
+msgid "Overview"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:32
+#: e8bf97d085434b3bb33fc82e5b663a66
+msgid ""
+"In this exercise, we will create a notebook to detect vegetation change. "
+"To compare change, we need to have data from two different times: an "
+"older dataset, and a newer dataset."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:34
+#: a3189900ecec4161b1d8ad60026a246c
+msgid "The notebook will include the following steps:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:36
+#: 46761c84da154ee28dfdc0566d25d030
+msgid "Load Landsat 8 data"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:37
+#: c0dfa85dae2242f28034d948f12d5534
+msgid "Calculate a vegetation index for the loaded data"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:38
+#: 0d3ee1e67ade4290abd80bc3214d03bf
+msgid ""
+"Split the vegetation index data into half, based on when the data was "
+"collected — an older half and a newer half"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:39
+#: 1d39ca01dbda430e96e9dd813f79d079
+msgid "Compute the mean composite for each half; and"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:40
+#: f5f2918da0cd4eb5ad99041948b5a3c7
+msgid "Compare the older and newer averages to check for vegetation change."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:51
+#: efbf715257164ab5b33f86550f7c36e0
+msgid ""
+"At the conclusion of this exercise, you will have performed a vegetation "
+"analysis which can be used to report on changes in the selected area."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:63
+#: 87af3f04bb2e40ba9d9e07be069890d4
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:74
+#: 23452a5bdd5d48179007ba54f33e21a9
+msgid ""
+"In your **Training** folder, create a new Python 3 notebook. Name it "
+"``Vegetation_exercise.ipynb``. For more instructions on creating a new "
+"notebook, see the `instructions from Session 2 "
+"<../session_2/04_load_data_exercise.ipynb#Make-a-new-notebook>`__."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:86
+#: 023d92d80b754329a76d4a10a24aba6a
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:97
+#: f6aa6cbbd9ee4b1fba260151ca6c46d3
+msgid ""
+"In the first cell, type the following code and then run the cell to "
+"import necessary Python dependencies."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:130
+#: 0947730800774c0ea1378a6d16b0e21e
+msgid "In this exercise, we import one new function, ``calculate_indices``."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:132
+#: 1c824c417fb845c0bc4dfdcc75bc3305
+msgid ""
+"Instead of calculating band indices such as NDVI by defining a formula, "
+"we can call upon preset index calculations in the Sandbox. "
+"``calculate_indices`` contains definitions for over a dozen different "
+"indices, from NDVI to the Bare Soil Index (BSI) to Tasselled Cap Wetness "
+"(TCW), and can apply them to your dataset."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:134
+#: 71a2d32641e241208fdd50fc7f416b53
+msgid ""
+"Using this function to select the index we want might seem like a lot of "
+"effort. However, there are some benefits to using the "
+"``calculate_indices`` function, as we will see in this exercise."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:136
+#: 6e9daec89a9f4e34a0cd14150486dda3
+msgid ""
+"Reduce chances of error in typing out the formula, as they are already "
+"defined in the ``calculate_indices`` script — this is great for more "
+"complicated formulae"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:137
+#: 24c5b8115b6e4e1ba8483135aa994c5e
+msgid ""
+"Compare different index results without manually defining many different "
+"formulae"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:138
+#: 44f309cbf89b486daf0da778f734735f
+msgid ""
+"Reduce the number of definitions you have to type — for instance, there "
+"is no need for ``red=`` or ``nir=`` as we used in Session 4"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:140
+#: 41f58442169f4bf29fd09717a56541ef
+msgid "We will use ``calculate_indices`` after we load the dataset."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:152
+#: 852f4370ccf7451d936a7ec9d50cbcdf
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:163
+#: 5c658b5f801745c0b2624d23d0f9cf6b
+msgid ""
+"Enter the following code and run the cell to create our ``dc`` object, "
+"which provides access to the datacube."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:188
+#: 9d65a48caa5b4355a15880dd3dc82156
+msgid "Select area of interest"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:199
+#: 41b905ed3b2341b7910b90e56b95fab5
+msgid ""
+"We need to select an area of interest. Some areas to check for vegetation"
+" changes include mining sites, where there might be devegetation, or "
+"crops, where seasonal changes in vegetation greenness occur."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:201
+#: ca8d890e7a4e4b56bd4a269d95a28ca8
+msgid ""
+"Previously, we have provided a longitude range and a latitude range. "
+"However, it is more common to define a central point, and provide a "
+"buffer around it."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:212
+#: ba638e67f3c14416a3733cedaef582c4
+msgid "|007226aaa5de43978ae6487cc89e2d0d|"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:226
+#: 2494b3e3a4654ea3bdb34bc778afc224
+msgid ""
+"*We previously used the* ``x=(lon1, lon2), y=(lat1, lat2)`` *method "
+"(left) to define our area of interest. In this exercise, we will use the "
+"buffer zone method (right). The advantage is that you can define one "
+"buffer to use in all four directions, and it is much easier to explore "
+"different areas by changing the central point and/or the buffer width.*"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:237
+#: 6bc82cacf0e5477280914e1876562d73
+msgid ""
+"We will be selecting an area around a centre point. Enter the following "
+"code and run the cell to select an area and time range of interest. The "
+"parameters are:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:239
+#: da2de9a0abba4d86af7d39b443d2c6ad
+msgid "``latitude``: The latitude at the centre of your area of interest."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:240
+#: c8afaeb5e55d4a198dc7c75ef24a0c1d
+msgid "``longitude``: The longitude at the centre of your area of interest."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:241
+#: 6ef85cadbbab4465b0b962bfcc752af3
+msgid ""
+"``buffer``: The number of degrees to load around the central latitude and"
+" longitude."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:242
+#: 9dfaf2f038f14574bd8b7af72b68e58a
+msgid ""
+"``time``: The date range to analyse. For reasonable results, the range "
+"should span at least two years to prevent detecting seasonal changes."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:243
+#: b9fc600a2e3d4444975b73148bbc6c84
+msgid ""
+"``time_baseline``: The date at which to split the total dataset into two "
+"non-overlapping samples. For this exercise, we choose a date halfway in "
+"our time range. Its value here, ``'2015-12-31'``, is halfway between "
+"``'2013-01-01'`` and ``'2018-12-31'`` - the time range in ``time``. So "
+"our two time periods will be 2013 to 2015, and 2016 to 2018."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:245
+#: 84a61213300c4f418d5636dfe63896ec
+msgid ""
+"In the next cell, enter the following code, and then run it to select an "
+"area."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:282
+#: 2d9d83aadcc547b6a47bd4364b802ac7
+msgid ""
+"In the next cell, enter the following code, and then run it to show the "
+"area on a map. Since we have defined our area using the variables "
+"``lon_range`` and ``lat_range``, we can use those instead of typing out "
+"``(latitude-buffer, latitude+buffer)`` and ``(longitude-buffer, "
+"longitude+buffer)`` again."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:307
+#: 07938c88bae8461a9b55755451d12ae4
+msgid "Load data"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:318
+#: 0c9731665add44cb84e4be9ff07f217d
+msgid ""
+"Since we want to look at a longer time range, Landsat 8 data is suitable."
+" In the new cell below, enter the following code, and then run it to load"
+" Landsat 8 data."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:320
+#: c4ba624897ae4bed817bbd7a2ae11adf
+msgid ""
+"Notice ``lat_range``, ``lon_range`` and ``time`` were all defined in the "
+"previous cell, so we can use them as variables here."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:331
+#: f5798ab174b04ec1b3b8c848cd9b1f02
+msgid ""
+"If you are unsure where we defined ``lat_range``, ``lon_range`` and "
+"``time``, scroll up to the previous cell and look for the lines starting "
+"with ``lat_range = ...``, ``lon_range = ...`` and ``time = ...``."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:363
+#: e628da32894242c2a8598740194fd4de
+msgid ""
+"The output from running the ``load_ard()`` function should include a "
+"statement that says ``Loading 46 time steps``."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:375
+#: 023992de761740cab31db9ba14117412
+msgid "Calculate indices"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:386
+#: a32290514ed84e4983617c1795fbff7e
+msgid "Now we need to calculate a vegetation index."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:388
+#: f6dd51cbae824b48be80275d57c2bad2
+msgid ""
+"Until now, we have used NDVI, which uses the ratio of the red and near-"
+"infrared (NIR) bands to identify live green vegetation. The formula is:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:390
+#: 86274c73c7324e29b7e8986e22cdb05e
+msgid ""
+"\\begin{aligned} \\text{NDVI} = \\frac{\\text{NIR} - "
+"\\text{Red}}{\\text{NIR} + \\text{Red}} \\end{aligned}"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:397
+#: 5086bd7993a14e34934c78ea08dbeff6
+msgid ""
+"This time we will use the Enhanced Vegetation Index (EVI). EVI uses the "
+"red, near-infrared (NIR) and blue bands to identify vegetation, and is "
+"particularly sensitive to high biomass regions, which is why it can be "
+"superior to NDVI. The formula for EVI is more complicated than NDVI as it"
+" uses three different bands and some empirical scaling constants."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:399
+#: 390bf46d7d444a38a624911849e6ecbb
+msgid ""
+"\\begin{aligned} \\text{EVI} = \\frac{2.5 \\times (\\text{NIR} - "
+"\\text{Red})}{\\text{NIR} + 6 \\times \\text{Red} - 7.5 \\times "
+"\\text{Blue} + 1} \\end{aligned}"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:415
+#: 0ad7bb3e7e0b4773a0af8b9a3c98bc84
+msgid ""
+"Instead of typing out that whole formula, we can use the "
+"``calculate_indices`` function to calculate EVI. ``calculate_indices`` "
+"requires three inputs:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:417
+#: 4a567ebe0dc94c638cf5f27e7ae8e7d6
+msgid "The dataset name, e.g. ``landsat_ds``"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:418
+#: a4e2d8080c0d40b88863c00d17f98c4e
+msgid "The name of the index to calculate, e.g. ``index='EVI'``"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:419
+#: 176c069935be4042b3c839d62490372a
+msgid "The Landsat collection, e.g. ``collection='c1'``"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:421
+#: 524a8064340e42dfbac2bcab5a41dcf5
+msgid ""
+"``c1`` stands for ‘Collection 1’, which is the currently-available "
+"Landsat collection of data as named by its publishers, US Geological "
+"Survey."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:423
+#: 2d7d14331dfa46fe9d87eeba61dac24b
+msgid ""
+"In the next cell, enter the following code, and then run it to calculate "
+"the EVI vegetation index for this data."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:447
+#: 3a4713a64b454171b63b6c8c44668da0
+msgid "This adds a variable called ``EVI`` to our ``landsat_ds`` dataset."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:459
+#: 07163138f6264c64a40d366f4b59050b
+msgid "Detect changes"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:470
+#: 5154cfed3ffa49d9aaaa51257c02bca1
+msgid ""
+"We want to determine what changed in vegetation between the older and "
+"newer halves of the data."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:472
+#: cb94d70689a94a17a008069cb2db2903
+msgid ""
+"First, we will split the vegetation index data into the older half and "
+"newer half. Data that was collected in the first half of our time range "
+"(2013 to 2015) will go in the older half, and data collected in the "
+"second half (2016 to 2018) will be in the newer half."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:474
+#: e43ea7ed4f9e43489706ed4b95b8821f
+msgid "The split is done using ``sel()`` and ``slice()``."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:476
+#: aa08666a11054ba3ad2e09ff4703ae72
+msgid ""
+"``sel()`` stands for ‘selection’ and tells us we are taking a selection "
+"of the dataset. We have to define which coordinate we are selecting by. "
+"In this case, we will use the ``time`` coordinate."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:477
+#: 0ae731890a1645f1ac2cceafc7429039
+msgid ""
+"``slice()`` specifies which part of the coordinate we are taking. In this"
+" case, we want to slice ``time`` between 2013 – 2015, and then again 2016"
+" – 2018. Recall we named the halfway point ``time_baseline``."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:479
+#: c5cc61e1344342529bc630ef60adfca9
+msgid "We use ``sel()`` and ``slice()`` to create two new datasets:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:481
+#: 1767dd203726425a82b58fe85d5da8e8
+msgid "``baseline_sample``: EVI from 2013 to 2015"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:482
+#: c4186ad4fd80458e9a8847e270896190
+msgid "``postbaseline_sample``: EVI from 2016 to 2018"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:484
+#: bd285993b8f646b5b108246112120d55
+msgid "To do this, enter the following code in the next cell."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:509
+#: 4ff11e00e613453aa415987108516fe0
+msgid ""
+"Here, using ``time[0]`` will give us the first date that we stored in the"
+" ``time`` variable (``'2013-01-01'``), and ``time[1]`` will give us the "
+"second date we stored in the ``time`` variable (``'2018-12-0'``). By "
+"using the ``time`` variable directly, we ensure that the code will work "
+"if those dates are changed and the notebook is rerun."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:520
+#: fc8dbc3963f64dfab2cebf37cdea4201
+msgid ""
+"Carefully check all your ``.``, ``,``, ``()`` pairs, and ``' '`` pairs in"
+" the above code to avoid generating errors."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:529
+#: 6f3e2b7d5ab34dec96a7382b995af2c5
+msgid "Detect per-pixel changes"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:540
+#: 57be650e96d741549ad765db6bc0c8ad
+msgid ""
+"Now we have our ‘before’ and ‘after’ datasets, we can compare them for "
+"change in EVI. To do this, we will form a composite for each half of the "
+"dataset. Then we will calculate the differences in the average EVI for "
+"each pixel."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:542
+#: a99837249bb941e4a6b93ae3526ae19b
+msgid "The composite method we are using is the **mean** (average)."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:544
+#: bd5c5b08071f40838e0a666443070881
+msgid ""
+"In the next cell, enter the following code, and then run it to create "
+"mean composites for the two time periods."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:569
+#: ab37fa16674541e690130d34da468b2a
+msgid ""
+"Now we need to subtract the first time period EVI mean composite, "
+"``baseline_composite``, from the second time period EVI mean composite, "
+"``postbaseline_composite``. This will determine the change in EVI between"
+" the two time periods."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:571
+#: eecda43a01d9413c8c84877616ca3d07
+msgid ""
+"In the next cell, enter the following code, and then run it to determine "
+"the change in the vegetation index."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:595
+#: eb30dc3509d545f89a695bb5aa163c97
+msgid ""
+"In the next cell, enter the following code, and then run it to show the "
+"difference between the mean composites for the time periods. This will "
+"allow us to see where the vegetation index increased or decreased and by "
+"how much."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:622
+#: 70737dbfad534ceaa95e231370aa27c4
+msgid "Your plot should look like the image below."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:633
+#: 11352a0f5faa444193bfb601dccca0a4
+msgid "|4e057f37405d4e1d95b225b7406612e3|"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:648
+#: 882f5cb145224010bf4a317ef382e6ca
+msgid "Interpreting the plot"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:650
+#: 85d014e68c2a44a78603a0b9dfb2e91f
+msgid ""
+"In the code above, the colour for the plot is set using the "
+"``cmap='RdBu'`` setting in the ``diff_mean_composites.plot.imshow()`` "
+"function call. Here, ``RdBu`` corresponds to a Red-Blue colour-map, with "
+"lower values appearing as red, and higher values appearing as blue."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:652
+#: 03dc085e340f423ba516a4f86f66fdc8
+msgid ""
+"The areas in **blue** (positive change) correspond to **vegetation "
+"increase** as measured by EVI. There is more vegetation in these areas in"
+" the 2016-2018 sample than the 2013-2015 sample."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:654
+#: d2e7ddc104af4f689c4b0afe5c631db4
+msgid ""
+"The areas in **red** (negative change) correspond to **vegetation "
+"decrease** as measured by EVI. There is less vegetation in these areas in"
+" the 2016-2018 sample than the 2013-2015 sample."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:656
+#: 48ff6bba2ee043fc9f822b6b195ff03f
+msgid ""
+"What conclusions can you draw about the changes in the landscape from "
+"this plot? What other information might you need to help you assess it?"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:668
+#: 7e437b9cd1ce4840816e54ae29a60acb
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:679
+#: a7ac6c4076f64fd68b0540f285fa83f4
+msgid ""
+"Congratulations! You have made your own vegetation change detection "
+"notebook. It is comparable to `the existing Sandbox vegetation change "
+"detection notebook <https://github.com/digitalearthafrica/deafrica-"
+"sandbox-"
+"notebooks/blob/master/Real_world_examples/Vegetation_change_detection.ipynb>`__."
+" The existing notebook may look daunting, but it includes many of the "
+"steps that you have just done!"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:681
+#: 4f1fc7ac97d14922a5d20f7ea67c2f3d
+msgid ""
+"You now understand how to structure a complete case study – you can "
+"calculate a relevant band index and indentify meaningful changes in that "
+"index over time."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:693
+#: 4a8e7eeb871b4ad39c90a0494dc4cad7
+msgid "Optional activity"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:695
+#: 5d3866eb1b8e48759bf4978431f90a06
+msgid ""
+"If you’re curious about how the existing case study works, you can open "
+"and run it in the Sandbox:"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:697
+#: 4dd564aa3e1b4b929c422f37c0ba5e7b
+msgid "From the main Sandbox folder, open the **Real_world_examples** folder"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:698
+#: dd3aad1cf58949d28c39c2737dcf6dcf
+msgid "Double-click the **Vegetation_change_detection.ipynb** notebook to open it"
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:700
+#: 82b9372890dc4f9da68cd9212172d824
+msgid ""
+"The notebook has already been run, so you can read through it step by "
+"step. However, you may find it valuable to clear the outputs and run each"
+" cell step by step to see how it works. You can do this by clicking "
+"**Kernel -> Restart Kernel and Clear All Outputs**. When asked whether "
+"you want to restart the kernel, click **Restart**."
+msgstr ""
+
+#: ../../session_5/02_vegetation_exercise.ipynb:702
+#: 3e52bf7a2e47465f97a06a28e3bb542e
+msgid ""
+"There are many similarities between the notebook you built in this "
+"session, and the existing Sandbox notebook. Maybe make a note of what is "
+"similar and what is different. If you have any questions about how the "
+"existing notebook works, please ask the instructors during a live "
+"session."
+msgstr ""
+

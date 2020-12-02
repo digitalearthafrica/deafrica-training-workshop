@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_5/index.rst:4 c4749c22c3ce4eebab7d405c6fecb9dd
+msgid "Session 5: Vegetation Analyses"
+msgstr ""
+
+#: ../../session_5/index.rst:6 a20f6bb992374bc090da52a046cfe82f
+msgid ""
+"In this session, we will combine many of the techniques you've learned "
+"during the training course to build a complete case study. This is where "
+"you have a question in mind that you want to answer, load and analyse the"
+" appropriate data, then draw conclusions to try and answer your question."
+msgstr ""
+
+#: ../../session_5/index.rst:8 9aa46783f305401382300932cdf970a0
+msgid ""
+"This session will focus on case studies related to vegetation. First, "
+"we'll cover the available vegetation case studies on the Sandbox, as well"
+" as how to structure your own case study. Then, you'll work through "
+"building your own case study to detect changes in vegetation over time."
+msgstr ""
+

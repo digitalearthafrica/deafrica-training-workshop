@@ -1,0 +1,542 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_6/02_water_extent.ipynb:9 f3ae89dcfd674f04953e80a8662d954e
+msgid "Exercise: Determining the extent of water bodies"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:12 d6bb6cfb0bc34716af8fad5b88317843
+msgid "Overview"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:14 1c58c9647a774189ade15e85051ec85e
+msgid ""
+"In this exercise, we will create a new notebook to determine the extent "
+"of water bodies using the `Water Observation from Space (WOfS) product "
+"<https://www.ga.gov.au/scientific-topics/community-safety/flood/wofs"
+"/about-wofs>`__. The WOfS product uses an automated water mapping "
+"algorithm to identify water in Landsat 8 images."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:16 905dc809d4424dba87f87f3bde478c95
+msgid "The notebook will include the following steps:"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:18 4f0389e55c7b4eeb8600a76f4ff47ccf
+msgid "Load the WOfS feature layer product and Landsat 8 data"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:19 13d3af4e73954d40b21d9d7ea23df129
+msgid "Identify water pixels from WOfS"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:20 8801ce2a02754ae8afe7b3ba93c15fff
+msgid "Plot a true-colour image using Landsat data"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:21 7bd0e93144874b2fadf99bed955694c4
+msgid "Plot the water body area for the same area using WOfS data"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:22 433c4f52485241f081a5cd5329923b53
+msgid "Customise the plots"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:24 711690a98c0f4424b6f7b119d186bfb7
+msgid ""
+"At the conclusion of this exercise, you will be able to determine the "
+"extent of water bodies using the WOfS product."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:36 8d36cb00ffbd495bb888f74b9a52a3e5
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:38 70d9f91349f34a37b1c84517e01238a9
+msgid ""
+"In your **Training folder**, create a new Python 3 notebook. Name it "
+"``Water_extent_exercise.ipynb``. For more instructions on creating a new "
+"notebook, see the `instructions from Session 2 "
+"<../session_2/04_load_data_exercise.ipynb#Make-a-new-notebook>`__."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:50 b1ac75eefee74e0cb9d081dc9fa1d0e4
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:52 3bd3ade15d9544cdb1e39da2159035fe
+msgid ""
+"In the first cell, type the following code and then run the cell to "
+"import necessary Python dependencies."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:67 17fea1a621434b858f464d4a411ad367
+msgid ""
+"In this exercise, we import one new function, ``wofs_fuser``. "
+"``wofs_fuser`` ensures WOfS data between scenes is combined correctly."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:79 b65036c548cb4b4abbe8d908b86551a3
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:81 ecf2ad6b0fa54f55b2cd82841f84dff4
+msgid ""
+"Enter the following code and run the cell to create our ``dc`` object, "
+"which provides access to the datacube."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:97 cd94d235b2304a659ea9b233c525cacc
+msgid "Select area of interest"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:99 28c8f00ed9d040eeb39d0ed2cde5fded
+msgid ""
+"In the next cell, enter the following code, and then run it to select an "
+"area and time. In this exercise, we use a central point and buffer to "
+"define our area of interest, similar to what we did in the `Session 5 "
+"exercise <../session_5/02_vegetation_exercise.ipynb#Select-area-of-"
+"interest>`__."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:101 16c62fa0b4eb46bdb0dd5001523c9237
+msgid ""
+"The only difference here is that we provide a latitude buffer and a "
+"longitude buffer. In this example, they have the same value. However, "
+"choosing different buffer values allows you to select rectangular areas "
+"of interest, rather than squares."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:128 65d56b52a8c04fb19fae785e6da2887d
+msgid ""
+"Recall code lines beginning with ``#`` are comments. They help explain "
+"the code, and can be removed or added without impacting the actual Python"
+" scripts."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:136 ee3daf273960438285149bf2d8e37883
+msgid ""
+"In the next cell, enter the following code, and then run it to show the "
+"area on a map. Since we have defined our area using the variables "
+"``lon_range`` and ``lat_range``, we can use those instead of typing out "
+"``(lat - lat_buffer, lat + lat_buffer)`` and ``(lon - lon_buffer, lon + "
+"lon_buffer)`` again."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:152 64ef2a1f532b43ab8d6c49dec50416c1
+msgid "Create query object"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:154 2a9bf978f6ea4c4ab6fbecab12cd75b8
+msgid ""
+"Notice ``lat_range``, ``lon_range`` and ``time`` were all defined in the "
+"previous cell, so we can use them as variables here. We will use them to "
+"create a **query**."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:156 598fd7cf6c4f4deeb2cfb0ce2739916f
+msgid ""
+"The ``query`` variable below is a Python dictionary. It can be used to "
+"store parameters. Creating an object variable such as ``query`` makes it "
+"possible to reuse parameters in various functions that accept the same "
+"input parameters."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:158 17efb9eecccf44abb76cf617c1e5e05a
+msgid ""
+"This is useful to us because we can use it to load the Landsat 8 data, "
+"and then use it again to load the WOfS data."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:160 ab01db585a194685a01ce4910e6eafc4
+msgid "In the next cell, enter the following code, and then run it."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:182 e01bffee956b4754aee79eb86eb332cc
+msgid ""
+"Notice the structure of the ``query`` dictionary is slightly different "
+"from ``dc.load`` or ``load_ard``. Each parameter name is in quotes ``''``"
+" and is followed by a colon ``:``."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:191 e6e483f1dfdd457099554ce90a49f853
+msgid "Load data"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:193 7ad0b97325cd414eab03a194be4d4202
+msgid ""
+"In the next cell, we load the Landsat and WOfS datasets, naming them "
+"``ds_landsat`` and ``ds_wofs`` respectively."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:195 9a44e158e2144903ae46fc5d6bdb0efa
+msgid ""
+"In the functions below, we can directly pass the ``query`` object using "
+"``**query`` — this will give all the settings defined in ``query`` to the"
+" function."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:197 07dc6e9794aa43b5a17b7845641b57c3
+msgid ""
+"The main benefit is that we can use the same ``query`` for both Landsat 8"
+" and WOfS, which saves us typing it again and prevents us from making "
+"mistakes."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:200 8cd3c64f8c5e453cb1fc3f5b99974426
+msgid "Load Landsat 8"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:202 a9f21d53f245409981fc7dd310567f73
+msgid "For Landsat 8, we can use the ``load_ard`` function."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:213 5ba3d2a9eca548bd982c119386e68382
+msgid "|53736ae649874856aac9866307b7f760|"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:216 6f45670899dd44e9aef52b4423cf49d6
+msgid "Load WOfS"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:218 742f18cc72664ffda6cdb220dca27b39
+msgid "For WOfS, we need to use the ``dc.load`` function."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:229 865e9604d906435dbb1a4541c42a5c46
+msgid "|0adf2c7dec09437a90f077b78477738f|"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:248 1cd90191da614a02b1afdae7b89e585a
+msgid "Calculating water extent"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:251 fb3bfb435bcd4668885913202e739651
+msgid "Understanding the WOfS feature layers"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:253 bad88b73c35e41a5ada6650df83be71a
+msgid ""
+"WOfS feature layers are stored as a binary number, where each digit of "
+"the number is independantly set or not based on the presence (1) or "
+"absence (0) of a particular feature. Below is a breakdown of which "
+"decimal value represent which features."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:256 83e03c5e9e8a484b8433e69c4e4e62f0
+msgid "Attribute"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:256 932aa34b26584a05a3f5940dc6245f48
+msgid "Decimal value"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:258 08f552faebec4f5b99e7ea97e98e0143
+msgid "No data"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:258 d515d201dc57402daf30ac7819924a02
+msgid "1"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:259 7dd6298429cd42088a5b33b109f19b73
+msgid "Non contiguous"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:259 891102dfb74f48e38298466117e29f0f
+msgid "2"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:260 26f9733ef3b549aaa27bf4b73b6c0d5d
+msgid "Sea"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:260 0cd0f150f4ae42cc8fee1863f998abb3
+msgid "4"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:261 5df59d4aa6f34949bf7bb148c6a2222c
+msgid "Terrain or low solar angle"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:261 1f6723de46674e2ab39277b3248e3be6
+msgid "8"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:262 8030123ba493482f96041a52d1f333cf
+msgid "High slope"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:262 825bfca96d824b759c1f1abc8878b106
+msgid "16"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:263 84a693cd378f4712aab3f3354ab6d941
+msgid "Cloud shadow"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:263 bc5ea37aa35f48a88fa420accfce40dd
+msgid "32"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:264 08a0e09e40f74f268f427e8fa5a1cab1
+msgid "Cloud"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:264 e9364a3a9f614b5a9a1e2b31e2b489da
+msgid "64"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:265 b04209d5bcd64f92b775fa78b0b803b2
+msgid "Water"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:265 f899687f822e43418a1d885647a82017
+msgid "128"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:268 6d4742020679455081192697923f20f9
+msgid ""
+"For example, a value of 128 indicates that water were observed for the "
+"pixel, whereas a value of 32 would indicate cloud shadow."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:279 fdd1cc85bfa94f58b11a32b7989a347a
+msgid ""
+"In the next cell we will extract only the water features from the WOfS "
+"data. This is done by finding values where the ``water`` measurement "
+"equals 128. In Python, we can find which pixels have a value of 128 by "
+"using the ``==`` expression:"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:282 8105d108fb1c4059b7019e281206eaeb
+msgid "Extract the water pixels"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:288 ea26c79963454d3886fbafa573cae1ff
+msgid ""
+"The ``ds_valid_water`` array does not contain the decimal values of the "
+"WOfS feature layers. Instead, it has a value of ``False`` if the pixel "
+"was not water, and ``True`` if it was water. You can check this by "
+"viewing the ``ds_valid_water`` DataArray."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:304 fc4f9cc4a69d4a299b6cae816289eb5a
+msgid "Calculate the area per pixel"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:306 f98763e926854afa8c78a3a7d59867f0
+msgid ""
+"The number of pixels can be used for the area of the waterbody if the "
+"pixel area is known. We can extract the size of a pixel from the "
+"``resolution`` setting in our ``query``, then divide the area of a single"
+" pixel (in square metres) by the number of square meters in a square "
+"kilometre."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:308 3d58ab32a62345b88857dc9fd3eb2cfe
+msgid "In Python, ``number**2`` returns the squared value of ``number``."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:326 3355034a8e9744069924a00ca52be130
+msgid "Calculate area of water pixels"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:328 92942bafb57b4f9abfdbd38d0b45fcb2
+msgid ""
+"Now that we know how much area is covered by one pixel, we can count up "
+"the number of water pixels, and multiply it by this value to get the "
+"total area covered by water."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:330 87a1af1815a648e48ddd031a300ac034
+msgid ""
+"As we saw above, the ``ds_valid_water`` array contains ``True`` values "
+"for water pixels, and ``False`` otherwise. When we use the ``.sum`` "
+"function, it counts ``True`` values as 1, and ``False`` as 0. Therefore, "
+"the sum will be equal to the total number of water pixels for that "
+"timestep."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:332 b4ad27bb098f45e59bfe063f24e71e13
+msgid ""
+"Below, we set the dimensions as ``x`` and ``y`` to make sure we sum up "
+"all the pixels over the spatial dimensions. This means we get one pixel "
+"sum for each timestep. This will let us track how the water area changes "
+"over time."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:349 9bb87311597c424e994edc8b8c56ccf9
+msgid "Plot time series"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:351 df7da9f105c7490393b79ad530ff47cf
+msgid ""
+"Now that we have the area of water in each observation, we can plot a "
+"time series to help us identify dates where the was more or less water "
+"within the area of interest."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:353 55a5c45cb57641caa2aaa5d3cd1e6c48
+msgid ""
+"Below, there is code to set-up, display and customise the plot. The "
+"settings are as follows:"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:355 6f7d8e430dd748fbb022af80aa538fc8
+msgid ""
+"``plt.figure(figsize=(18, 4))``: set up a figure object to contain the "
+"plot, and make it 18 inches long and 4 inches high"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:356 066851cb411946c3a5696e0a0c40f9ea
+msgid ""
+"``ds_valid_water_area.plot(marker='o', color='#9467bd')``: plot the water"
+" area data with circular markers in purple (HEX colour code ``#9467bd``)"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:357 375c06c56fea41e1aa8f10210a910962
+msgid ""
+"``plt.title('Time Series Analysis of water observed area')``: Give the "
+"plot a title"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:358 69258f55a3fc4a509a89da4a52a86c2a
+msgid "``plt.xlabel('Dates')``: Label the x-axis"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:359 9a60869a4f0348788c626f1b405f61b5
+msgid ""
+"``plt.ylabel('Waterbody area (km$^2$)')``: Label the y-axis. The ``$`` "
+"symbols allow the use of LaTeX, a mathematical typesetting language"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:360 54c66ef7f88e49a8a6f84be3dfa3730a
+msgid ""
+"``plt.tight_layout()``: Formats the image so that all axes can be clearly"
+" seen"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:380 d190bbe31eae4354bc61db75c08aee41
+msgid "|329e15327989430c9ead11ed0d4b84be|"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:395 a0dd7f3e7f184c46802418e37b51188b
+msgid "Display of water coverage for a selected timestep"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:397 4eeaab91425d4065bcc8d2ce8038e1bb
+msgid ""
+"From the graph above you can choose any timestep (between 0 and 45) to "
+"display the result on the for both WOfS and Landsat 8."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:399 b5d4f415a8f842cdb75ed838bb2bf81a
+msgid "For example, let us look at the fifth timestep, ``timestep = 4``."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:421 fcbf0e2d35c0416dbf18b655ea368960
+msgid "|4904d4f0eaf9440b95e7768eeac292bf|"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:423 28b1d22a35fa4f5fb686cd8920d89a94
+msgid ""
+"This code uses some additional settings to customise the plot, including "
+"allowing to have two plots together. If you want to know more about "
+"making this kind of plot, please ask the instructors during a live "
+"session."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:425 03f4115979b94153b6972a18cc703d61
+msgid ""
+"Try different ``timestep`` values — can you find an image where the lake "
+"is dried out?"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:440 ee524033a7274b27b79efbc19539539a
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:442 1f1c59b2a6404cb2b2746628dafb902c
+msgid ""
+"Congratulations! You have made your own water extent notebook. It is "
+"comparible to `the existing Sandbox water extent notebook "
+"<https://github.com/digitalearthafrica/deafrica-sandbox-"
+"notebooks/blob/master/Real_world_examples/Water_extent.ipynb>`__."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:444 66688688614d4a598490485f4f901b28
+msgid ""
+"You’ve now built your second case study! You make like to reflect on what"
+" was similar and different between the two. Are there any pieces of code "
+"you could reuse for a new analysis? How might you modify your case "
+"studies to do more complex analysis?"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:446 adc9d3986f8146e095d29c53d031ab34
+msgid ""
+"If you’d like to experiment futher, try running the code with different "
+"areas. Did you learn anything interesting to share with us?"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:458 d6912c99a2f9483c93f9462e5e215ccf
+msgid "Optional activity"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:460 c0a841b345b54eb498cae89f059f77b1
+msgid ""
+"If you’re curious about how the existing case study works, you can open "
+"and run it in the Sandbox:"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:462 b0ab3fcce6c04efa9fc0ae10b44fe574
+msgid "From the main Sandbox folder, open the **Real_world_examples** folder"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:463 c5c92aadd4b84cab839f3ec59e56f0fc
+msgid "Double-click the **Water_extent.ipynb** notebook to open it"
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:465 14510e7f05914e1ab39581224d3927f2
+msgid ""
+"The notebook has already been run, so you can read through it step by "
+"step. However, you may find it valuable to clear the outputs and run each"
+" cell step by step to see how it works. You can do this by clicking "
+"**Kernel -> Restart Kernel and Clear All Outputs**. When asked whether "
+"you want to restart the kernel, click **Restart**."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:476 e997cd3d6c5148b2aec7a8ac3952dfb7
+msgid ""
+"If you want to significantly modify it, we recommend you make a copy, "
+"like you did in `Session 1 "
+"<../session_1/04_running_a_notebook.ipynb#Create-a-copy-of-the-"
+"notebook>`_."
+msgstr ""
+
+#: ../../session_6/02_water_extent.ipynb:484 03a1f314583848e7873ee4d7e628ee46
+msgid ""
+"There are many similarities between the notebook you built in this "
+"session, and the existing Sandbox notebook. Maybe make a note of what is "
+"similar and what is different. If you have any questions about how the "
+"existing notebook works, please ask the instructors during a live "
+"session."
+msgstr ""
+

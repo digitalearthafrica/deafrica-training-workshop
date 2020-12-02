@@ -1,0 +1,546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_1/04_running_a_notebook.ipynb:9
+#: 35bc22ec84aa486cb67d851dd2006bed
+msgid "Running a Notebook"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:11
+#: 44dd837347314e20bad48165d0e1697e
+msgid ""
+"Now that you have learned to open and close notebooks, this section will "
+"teach you how to run an analysis using one of the existing Jupyter "
+"notebooks."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:14
+#: f132eb267904451abb4a24c381374614
+msgid "Overview"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:16
+#: 3f9c2688743441b9b0b6e4e38872322a
+msgid ""
+"Jupyter is an interactive coding environment compatible with the "
+"programming language Python. Digital Earth Africa is based on a Python "
+"library called the `Open Data Cube <https://www.opendatacube.org/>`__, so"
+" the Sandbox contains Python-based notebooks."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:18
+#: fd6a944d41404afc9b74376462c0ab00
+msgid "It is helpful, but not required, to be familiar with Python programming."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:30
+#: 4d0e397401124ba9bac3cf811c06f6d6
+msgid "Video: Working with notebooks"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:41
+#: ddf3618dcf5f43a2b9a758040e94682c
+msgid ""
+"This video gives an overview of the notebook we will be working with. "
+"Watch the video, and then follow the written instructions below to "
+"complete the exercise."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:61
+#: 2d56f57df4d74cbdb44f39f33630a163
+msgid "Exercise: Run the Crop Health notebook"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:63
+#: e664a4d992eb4f9385f65fa040e9bcd5
+msgid ""
+"This activity will demonstrate how to run one of the Digital Earth Africa"
+" Sandbox notebooks. The notebook is a real world example showing how to "
+"measure crop health. Follow the instructions below to run the notebook."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:66
+#: a20253d68ba24c148f11bb5b56b2a50e
+msgid "Create a copy of the notebook"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:68
+#: e7f127bcacc44d449f0f5154adc7edce
+msgid ""
+"The Sandbox comes with a large number of existing notebooks, which you "
+"can use as reference material. To keep these in their original format, we"
+" recommend making a copy of a notebook when you want to run it. For the "
+"rest of this training material, we will ask you to make copies of "
+"notebooks and store them in a new **Training** folder. Follow the "
+"instructions below to set up this folder and add a copy of the notebook "
+"for this session."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:70
+#: 2fe96b51c43445caa81848988a3b7619
+msgid ""
+"Click the **Folder icon** in the folder path to make sure you’re in the "
+"**Home** folder."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:72
+#: b34ca5c8e7e3449695b1124e3debcb62
+msgid "|1350456745fb42c7a87a3ba21a5d85fb|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:74
+#: c8e455d22cd548c381ecb1ce82274597
+msgid ""
+"Click the **New Folder icon** and name the new folder **Training**. Press"
+" **Enter** to finish creating the folder."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:76
+#: db3430e75bda4253b2fdd94f463fd530
+msgid "|77484d05869f431f8f0e657877d3c3fc|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:78
+#: 1aaeb432f9584831897179d6ab6edb7f
+msgid ""
+"The next step is to identify and copy the notebook you want to work on. "
+"For this exercise, this will be the ``Crop_health.ipynb`` notebook, which"
+" is in the **Real_world_examples** folder. Follow the steps below to copy"
+" it."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:80
+#: 00833ae85c5b4138afd1f455d4f68e4e
+msgid ""
+"Double-click the **Real_world_examples** folder to open it. The "
+"``Crop_health.ipynb`` notebook is selected in the image below."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:82
+#: 32de62a451ee4f168b943af74d9ca6e6
+msgid "|4339429b9d804f9fba8e03a5aee6d985|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:84
+#: a15d5605a520420d9c3d1d75cf211cb9
+msgid ""
+"Next, right-click on the notebook and click **Duplicate** to create a "
+"copy. By default, this will be called ``Crop_health-Copy1.ipynb``."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:86
+#: 42c6d505e2d94187b15a90ebfca35e1f
+msgid "|b3b0db83a3d34a8583d08177e8026528|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:88
+#: 207e67b2b17947b4a2df5992d2f3e426
+msgid ""
+"Click and drag ``Crop_health-Copy1.ipynb`` to the **Folder icon** to move"
+" it to the **Home** folder."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:90
+#: ef6a72ef6f084e7a9da906415f8a3ecb
+msgid "|936b2eb19035450baa96211ef253a25c|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:92
+#: cf76832d7e7a4dfa8c64451d763ef4c7
+msgid ""
+"Return to the **Home** folder by clicking the **Folder icon**. You should"
+" see the ``Crop_health-Copy1.ipynb`` notebook. Click and drag this file "
+"to the **Training** folder you created."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:94
+#: 144e6d4c3d174493b8317f58676cf652
+msgid "|1e1cd18328c04ad9ba0913c4ef2477c4|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:96
+#: ed560158a7ce46a0bbddb0d1a58fb591
+msgid ""
+"Double-click the **Training** folder. Right-click the copied notebook and"
+" click **Rename**. Rename the notebook to ``Crop_health.ipynb``."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:98
+#: b575c7fe110d48f7a02b355049fbc879
+msgid "|a7d3b4eebc4a4d978d49cd70f4a3e65a| |d8331b9cc442488788fadc02e4930540|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:100
+#: fb5a78c0362443c189753027f7f4c37a
+msgid "You can now run this notebook, as well as make edits to it."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:103
+#: 4cea6d01fbc242e1b56addadf2bd02b1
+msgid "Starting the notebook"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:105
+#: 6e35aa5ce972445bb65e40aadedbbcca
+msgid ""
+"Notebooks on the Sandbox come pre-run. It is best practice to restart and"
+" clear the notebook before running."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:107
+#: dcda1d0baa7f425cb288cb6cb20656a2
+msgid "Double-click your copied ``Crop_health.ipynb`` notebook to open it."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:109
+#: 154e30f5e85b47d9b2658a0c8c858e48
+msgid ""
+"In the main menu, click **Kernel -> Restart Kernel and Clear All "
+"Outputs**. When asked whether you want to restart the kernel, click "
+"**Restart**."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:111
+#: 81fc12ebb8824c09b91ec37acf8162f4
+msgid "|ad0b43eb771b457bae1b1fddae59e529|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:113
+#: b1d56c54aa2e4294893dc0667d6aae7a
+msgid ""
+"Read the **Background** and **Description** sections to learn more about "
+"the notebook."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:116
+#: f253b57e52244997b5ea4322f324e31a
+msgid "Loading packages and functions"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:118
+#: 9a038f20f4094af1800c9f7245cf728f
+msgid ""
+"This notebook uses Python packages and functions to conduct the analysis."
+" These are contained in the first code cell, which looks like:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:120
+#: a9bba2ffef9c43ae8ef5ecf6714a5005
+msgid "|6d6935c8d51d450f9b7b41ffb6643c16|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:122
+#: 63761508602841b2a639fe6177ff20cd
+msgid "To load the necessary packages and functions:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:124
+#: ff3985429f4443878e2a2c1828a7c541
+msgid ""
+"In the ``Crop_health.ipynb`` notebook, click on the code cell that "
+"matches the one above."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:126
+#: ../../session_1/04_running_a_notebook.ipynb:141
+#: 9cdb7529ec0e4c9f9474e67bae917524 ee238574ac5c4f588705f7ce31181728
+msgid "Press ``Shift + Enter`` on your keyboard to run the cell."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:128
+#: 7913f74676094dfebbc422c2fb5f60bf
+msgid ""
+"When the cell has finished running, the ``[ ]`` icon to the left of the "
+"cell should change to ``[1]``, as shown below. This indicates that the "
+"cell has finished running. The number ``1`` indicates that this was the "
+"first cell run in the notebook."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:130
+#: 2994a5a914374975b6f166567939f2d1
+msgid "|c735df80186044858ef957ecd628ad41|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:133
+#: 04010f8638bb466bb84380fa4b4b6544
+msgid "Pick a study site"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:135
+#: 3e4d1ba3073745219288b7829d8a167d
+msgid ""
+"Next, we have to provide the area of interest using latitude, longitude, "
+"and a buffer, which describes how many square degrees to load around the "
+"set latitude and longitude values. For now, keep the values that have "
+"been set. The notebook will turn this into a bounding box, which will be "
+"used to load the data."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:137
+#: 6e6cd21154bc468dbe7ccf5d302e5693
+msgid "Click on the cell corresponding to the image below in the notebook."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:139
+#: 45d44b42264c41c1b37b1c2dadf11874
+msgid "|4f05155d9dac44439e9bb8d30fbd987c|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:143
+#: 45b679df8a464f39804af57de145ad36
+msgid ""
+"When the cell has finished running, the ``[ ]`` icon to the left of the "
+"cell should change to ``[2]``."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:146
+#: 1a89d416bc2c4d7fbc45b5f3912470a1
+msgid "Loading the data"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:148
+#: 43868b30bf4345cea5e04205bc986ecf
+msgid ""
+"This notebook uses a special function called ``load_crophealth_data`` to "
+"load the required data. Later in this training course, you will learn how"
+" to write your own data loading commands."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:150
+#: ../../session_1/04_running_a_notebook.ipynb:175
+#: 74818fa5b7124b63b9fbdd1c91746095 af780c1df0064ee6886f8c1d86c3b428
+msgid "The cell containing this function is shown in the image below:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:152
+#: 9df4b44a9fd94899845a83b414c50c0f
+msgid "|69b2c94fb299486f9d287ed99e59c270|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:154
+#: f23351bc71c240949a8b6c7de32c54a8
+msgid ""
+"The ``load_crophealth_data`` function goes through a number of steps. It "
+"identifies the available Landsat 8 data over the last two years, then "
+"masks the bad quality pixels such as cloud and cloud shadow. After the "
+"masking step, the function only keeps images where more than half the "
+"pixels are good. Finally, it calculates the Normalized Difference "
+"Vegetation Index (NDVI) and returns the data. The returned data are "
+"stored in the ``dataset`` object."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:156
+#: 94bbe5e3785e4900a2a937987d0f709e
+msgid "To run the cell:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:158
+#: ../../session_1/04_running_a_notebook.ipynb:179
+#: 21b3c68c88e7461796ce3060868b4e48 c5cd3a68e71a44749434baf4f9325df2
+msgid "Click on the cell corresponding to the image above in the notebook."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:160
+#: d089a6777ded49fe92417816ba2e4262
+msgid ""
+"Press ``Shift + Enter`` on your keyboard to run the cell. Outputs should "
+"start to appear below the cell."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:162
+#: 10231218fc2244d482a25be893c35d09
+msgid ""
+"When the cell has finished running, the ``[ ]`` icon to the left of the "
+"cell should change to ``[3]``."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:164
+#: afb3abd947d840a8be0f8c7ab0d04cfd
+msgid ""
+"As the cell is running, you should see outputs describing the function’s "
+"actions. The output is shown in the image below:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:166
+#: d172add0cfbc46a989af525e9592f089
+msgid "|d187166a56454707950e9d146eeda7e5|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:168
+#: 1504d815bcc14a9d8874e22eb1528a57
+msgid ""
+"In this case, the function identified 30 observations over the last 2 "
+"years, then kept and loaded 19 that met the quality requirements."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:171
+#: 34fbb1079a6941328f05a82515165387
+msgid "Run the Crop Health App"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:173
+#: 5be4a72e4dad4af29feba340078cc1ef
+msgid ""
+"After loading the data, you can visualize the health of various fields "
+"using the ``run_crophealth_app`` function. This is a special function for"
+" this notebook, which takes the ``dataset`` you loaded, as well as the "
+"latitude, longitude and buffer parameters that define the area of "
+"interest. It then starts an interactive app that you can use to measure "
+"the average NDVI in different fields."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:177
+#: 5eb641d16cea4ecab92db911e32d3ad3
+msgid "|9a539e5019d64f50aaa49dcbf2bfc631|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:181
+#: eab43ebaa61a4bdcb87bf47902035b4d
+msgid ""
+"Press ``Shift + Enter`` on your keyboard to run the cell. An interactive "
+"app should appear, as shown in the image below:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:183
+#: ce1815870ba94a2dadce860133364880
+msgid "|8198a32b2dc24e9e8b214a3beb62825c|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:185
+#: 25b09a22c11347b894f837e4265a8ea2
+msgid ""
+"The left-hand side of the app contains a map, which will allow you to "
+"draw a polygon around a field of interest. Click the **Polygon icon**, "
+"then click points on the map to outline an area, as shown below:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:187
+#: 8fd885a4db604b30ae4dccace2c51642
+msgid "|4e934a9649b54e3dbcdb8a6b857521fb|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:265
+#: 3f5616f5f57c4dd0a8b82e0bfd1a4283
+msgid ""
+"The map in this app shows an ESRI basemap which is higher resolution than"
+" the Landsat 8 data used to calculate the NDVI index. The purpose of the "
+"map is to guide you in drawing field boundaries."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:273
+#: 6d153cd1c4d645d486f8fd5c65eaf493
+msgid ""
+"Click the first point of the polygon to finish selecting the area. The "
+"app will then calculate the average NDVI for that area and display it on "
+"the right-hand side of the app, as shown below:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:275
+#: f7e032ab21e24f6e9f9107570f3a2cbd
+msgid "|1f28df125d1641d6b26e0973a9175f07|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:277
+#: 8d0f015813994614aa23064dd30eba80
+msgid ""
+"The cycles in the graph are likely related to growth and harvesting "
+"events."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:279
+#: 72d1e7cac7dd4af39d85342c9b967ec2
+msgid ""
+"It is possible to draw multiple polygons and compare the vegetation index"
+" over time of different fields. Click the **Polygon icon** to draw a "
+"second polygon:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:281
+#: 13980142ce644ebca1195342caaa122c
+msgid "|e63c2b46c0654d928e50c1ba995e5eb7|"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:284
+#: 1be6437a7ad340398409bf14a4b95109
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:286
+#: e63ab8ca67d549debd6ae6978d0d2db9
+msgid ""
+"Congratulations! You have finished the first session of this training! "
+"You now know how to open and close notebooks, make copies of notebooks "
+"and run them."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:289
+#: ab942cec99f74d7a8982a49b82f1d0d7
+msgid "Optional activity"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:291
+#: 4d86d01a94d0433aad70ee6fa29e5c6a
+msgid ""
+"If you’d like to re-run this notebook using a different area of interest,"
+" follow these steps:"
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:293
+#: 0ffcd4cc299c4bdcb0c8e03b4eed2a2f
+msgid "Restart the notebook and clear all outputs."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:295
+#: 2c9a08387a9c4a9da895046c661bf8ef
+msgid "Run the cell that imports packages and fuctions."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:297
+#: bc60be968fc04057b6a42d9ad9bf0b98
+msgid ""
+"Change the latitude, longitude and buffer values in the second code cell."
+" You can either use the values suggested above the cell, or provide your "
+"own. Then run the cell."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:315
+#: e5fdf8001b214fa18371cc1dbea52d1f
+msgid ""
+"If you're going to use your own area of interest, make sure data is "
+"available by looking at the Sandbox Metadata Explorer for Landsat 8 at "
+"https://explorer.digitalearth.africa/ls8_usgs_sr_scene. You will also "
+"need to make sure you provide latitude and longitude values (rather than "
+"Easting and Northing values)."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:323
+#: 2969aec5f1d0497587f812643f199d88
+msgid ""
+"Run the rest of the notebook as described in the tutorial, drawing in "
+"areas of interest using the **Polygon icon** on the map."
+msgstr ""
+
+#: ../../session_1/04_running_a_notebook.ipynb:325
+#: 267b45bd9728433991043cc855dc0c7a
+msgid ""
+"Did you learn anything interesting about the fields for your area of "
+"interest?"
+msgstr ""
+

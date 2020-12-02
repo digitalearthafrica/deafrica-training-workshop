@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:9
+#: 9fc2819f7b83423f850789357c119637
+msgid "Session 3 Solution - Cloud mask and geomedian composite exercises"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:21
+#: 2b5602d13dea49ada113e8560de7373c
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:33
+#: 3ace40a3485e4c779f32929d74aabbbe
+msgid "Load packages and functions"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:64
+#: 5fa17cea64514f1faf2910d2fd38d95e
+msgid "Connect to the datacube"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:85
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:121
+#: ab7482d29f344134a56b4c53d53864fb cb49d0a7d86944a2ac5b65741394fb62
+msgid "Load Sentinel-2 data"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:97
+#: 319fe9d65a1d422f926f64d7175d4bbc
+msgid "Set area of interest and view on map"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:151
+#: 40f4bf7768754b07917eb583e6fdfe1c
+msgid "Plot timesteps"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:163
+#: 89fd491bc9fd4833b6a4cc7655918f33
+msgid "Plot a true-colour image for the first timestep"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:184
+#: 15c53e0b262d49c7be9d3f06f974b4b5
+msgid "Plot a true-colour image for all timesteps"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:205
+#: 162bc232ac724206b4bb8b4233c596ba
+msgid ""
+"*The cloud mask exercise ends here. The geomedian composite exercise "
+"continues from this point.*"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:217
+#: 62b3bf8f5cee4f61b9a030720a2e3617
+msgid "Check dataset"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:238
+#: 49541efc729a4338ab720ab369c463ad
+msgid "Calculate geomedian"
+msgstr ""
+
+#: ../../_static/session_3/Geomedian_composite_solution.ipynb:259
+#: 2ccb179e518c4107abded2333d8d102e
+msgid "Plot true-colour geomedian image"
+msgstr ""
+

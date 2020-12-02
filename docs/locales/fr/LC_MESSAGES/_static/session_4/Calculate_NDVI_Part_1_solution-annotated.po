@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:9
+#: 73386267aafe44ea8332f7ea2869c356
+msgid "Session 4 Solution - Calculate NDVI Part 1 Exercise"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:21
+#: 07feb3fa39a546518060fb3e4697be7c
+msgid "Running the notebook"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:33
+#: 76d014f19d8942f695b7a8035bc08151
+msgid "Set up"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:75
+#: 0de718b5043e4640b952344bf3f41577
+msgid "Load the data"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:86
+#: 4ca99c7d6d9e4d7fb166c97535a00028
+msgid ""
+"In the following cell, we set ``x`` and ``y`` equal to pairs indicating "
+"the longitude and latitude extents of our region of interest, and then "
+"display a map showing the region."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:143
+#: 7e936c90daf64f789a61d1e1be6b9ebb
+msgid ""
+"Here we load data via the ``load_ard`` function. We specify the instance "
+"of the datacube (``dc``), the product that we wish to load (``s2_l2a`` "
+"for Sentinel-2), the extents of our query (in ``x``, ``y``, and "
+"``time``), the list of bands to fetch (``['red' ,'green', 'blue']``), the"
+" spatial resolution of our data (10 meters), and we group nearby results "
+"by solar day."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:145
+#: 1461ed6ceb8747da929a4db9a989298f
+msgid ""
+"Note we named the variables ``x`` and ``y`` in the cell above, so we do "
+"not need to type the longitude/latitude pairs again. We can just call "
+"upon ``x`` and ``y`` as shown below."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:202
+#: 36f2f7af4b1041dca313636b95c34cca
+msgid "Plot timesteps"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:213
+#: 19dc7b6f1537430ea7f616e47614728a
+msgid ""
+"Here we create a list of time slices to plot, and store it as the "
+"variable ``timesteps``. The values in the list are indices into the list "
+"of satellite acquisitions, starting at zero. The values here, ``[1, 6, "
+"8]``, therefore refer to the second, seventh, and ninth acquisitions. "
+"There should be 71 acquisitions for this particular dataset/extent "
+"combination, so any values from 0 to 70 can be used."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:215
+#: 1e04ab5ec27f41df8edb86ec1e1e3a6a
+msgid ""
+"We then call the ``rgb`` function to produce a series of plots from the "
+"data that we loaded, using the bands that we specify (``['red', 'green', "
+"'blue']``), for the time indices stored in ``timesteps``."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:247
+#: 23ef5f0e54114e339d6c9e4fb6a12300
+msgid "Resampling the dataset"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:258
+#: 4c57a0eb1f2a4ec0b60c0b190a637fea
+msgid ""
+"Here we create a new variable (``resample_sentinel_2_ds``) which "
+"describes a grouping of the data we previously loaded "
+"(``sentinel_2_ds``), divided into 3-month (quarterly) intervals."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:280
+#: 811173d8d3864f099b8ed9a2848d3a4b
+msgid "Compute the geomedian"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:291
+#: 4c81740f88a54762bfee1bf0eaaa5cbb
+msgid ""
+"Below, we take the data which we just split into quarterly intervals, and"
+" we apply the ``xr_geomedian`` function to each interval. We store the "
+"result into the ``geomedian_resample`` variable."
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:331
+#: 21521ae1a2d84395881ce697646ca2fb
+msgid "Comparing the two datasets"
+msgstr ""
+
+#: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:342
+#: cb4abd586c03437a8a915dd4f130641e
+msgid ""
+"In the next two cells, we simply print our datasets to screen. The first "
+"cell contains the data that we originally loaded from the Open Data Cube,"
+" and the second cell contains the data after resampling it into quarterly"
+" geomedian composites. Note that the first dataset contains many more "
+"time slices than the second."
+msgstr ""
+

@@ -1,7 +1,7 @@
 .. _python_basics:
 
 Session 1.5: Python basics
-=======================
+===========================
 
 **Completion of this section is optional. All six DE Africa Training Course sessions can be successfully completed without this module.**
 

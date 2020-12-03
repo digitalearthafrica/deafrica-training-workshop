@@ -34,6 +34,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    session_5/index
    session_6/index
    Course_wrap-up
+   python_basics/index
 
 Latest Updates
 -------------------
@@ -51,7 +52,7 @@ Latest Updates
    :maxdepth: 1
    :caption: Other information
 
-   python_basics/index
+
    Contact_us
    Frequently_asked_questions
    Download_course

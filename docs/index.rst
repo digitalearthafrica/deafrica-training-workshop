@@ -28,7 +28,6 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
    :caption: Lessons
 
    session_1/index
-   python_basics/index
    session_2/index
    session_3/index
    session_4/index
@@ -39,7 +38,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
-
+ - **08/12/2020:** An extra session on `Python basics for geospatial analysis <./python_basics/index.rst>`_ has been added. The session is optional, standalone, and provides a more detailed introduction to the Python programming language.
  - **20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline.
  - **09/11/2020:** Check out the `Events <./Events.ipynb>`_ page to find out how to join our virtual live sessions.
  - **05/11/2020:** The `GIS web services tutorial <./OWS_tutorial.ipynb>`_ is live.
@@ -47,14 +46,12 @@ Latest Updates
  - **14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has been added. This makes the quiz available to anyone who did not originally receive the link from the mailing list.
  - **06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey.
  - **02/10/2020:** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
- - **01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
- - **29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live.
- - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
 
 .. toctree::
    :maxdepth: 1
    :caption: Other information
 
+   python_basics/index
    Contact_us
    Frequently_asked_questions
    Download_course

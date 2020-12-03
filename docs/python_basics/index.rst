@@ -1,7 +1,7 @@
 .. _python_basics:
 
-Session 1.5: Python basics
-===========================
+Extra session: Python basics
+==============================
 
 **Completion of this section is optional. All six DE Africa Training Course sessions can be successfully completed without this module.**
 
@@ -9,7 +9,7 @@ This section gives an introduction to Python, a popular programming language. Py
 
 This section is intended to provide training course participants with more context around the common commands we use in the Sandbox. In particular, it targets functions specific to geospatial data analysis. The training course can be completed without reviewing this section, but users may find it helpful to better understand some of the code in the later sections.
 
-The Python basics module consists of five separate lessons. They vary in length and may take 2 to 4 hours to complete in total. You can come back to the lessons at any time. They are not intended as a comprehensive Python training course. We do not endorse any particular generic Python training course and urge interested users to find a course which aligns with their needs.
+The Python basics module consists of five separate lessons. You can come back to the lessons at any time. They are not intended as a comprehensive Python training course. We do not endorse any particular generic Python training course and urge interested users to find a course which aligns with their needs.
 
 Users who are short on time or already confident using Python are welcome to skip this section, although we suggest looking over the content to make sure it is familiar to you.
 

@@ -62,4 +62,5 @@ Latest Updates
    Maps_help
    Geomedian_widget
    OWS_tutorial
+   External_dataset
    License

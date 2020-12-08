@@ -33,3 +33,4 @@ Click on **Python basics 1: Jupyter** below or select **Next** to get started.
    03_matplotlib
    04_cleaning_data
    05_xarray
+   06_python_solutions

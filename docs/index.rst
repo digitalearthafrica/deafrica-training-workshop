@@ -59,7 +59,8 @@ Latest Updates
    Download_course
    Events
    help_documentation
-   Maps_help
+   Quiz_index
    Geomedian_widget
+   Maps_help
    OWS_tutorial
    License

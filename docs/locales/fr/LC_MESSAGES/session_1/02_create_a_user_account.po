@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_1/02_create_a_user_account.ipynb:9
+#: f75c38a082ef4917a69fc54028fd51d4
+msgid "Create a Digital Earth Africa account"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:21
+#: f72e8003c6c04e09aaedaa0350728ff4
+msgid "Overview"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:32
+#: 76d4034c99d7498dbea60242958efd51
+msgid ""
+"The Digital Earth Africa Sandbox is a learning and analysis environment "
+"for accessing Digital Earth Africa data. During this course, you will "
+"learn how to use this environment to write and run analyses using Earth "
+"observation data."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:34
+#: c9d3233f2eb94714bf4baf657cf05712
+msgid ""
+"The Sandbox is free to use. Watch the video for a quick introduction. "
+"Then follow the step-by-step instructions below to create an account."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:36
+#: 7410993732174485bf579ca0a55c47e2
+msgid ""
+"If you have an existing account, you can sign in at "
+"https://sandbox.digitalearth.africa/."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:48
+#: 9aceb760d11146b884277a55ff59f6f4
+msgid "Video: Signing up to the Sandbox"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:50
+#: a11d46266c094427a99c8a4f42c36815
+msgid ""
+"This video contains a short introduction to the Sandbox. After watching "
+"the video, follow the written steps below for detailed instructions on "
+"how to sign up."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:70
+#: 0d410371db414c26a279bf5ba4b666a7
+msgid "Create an account"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:72
+#: d302dd5d6e0d40e8852304e78e48f487
+msgid "Visit https://sandbox.digitalearth.africa/ and click **Login or Sign up**."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:73
+#: ../../session_1/02_create_a_user_account.ipynb:78
+#: d8d34bfd940d4b09aab7ce9d5fd1c66b e6f180f303294338986f654720facad9
+msgid "Click **Sign up**."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:74
+#: 84fd69b8a0f7459fad6170c359bbe926
+msgid ""
+"Fill in the **Username**, **Name**, **Email** and **Password** fields. "
+"Passwords must be at least 8 characters, and contain at minimum a lower "
+"case letter, an upper case letter and a number. Record your username "
+"securely as it will be required to reset your password should you forget "
+"it."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:76
+#: abdce6e31b8f4556b7e1d51a882680cd
+msgid "|f36f6b8e37184af1ad7815becf668bf5|"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:79
+#: 0fc5eaa0853f4a5ead7130589ff658ef
+msgid ""
+"A verification code will have been sent to your nominated email address. "
+"Enter the verification code and click **Confirm Account**. This will "
+"automatically log you in."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:81
+#: dff1e371b507403694f97a446650c5f2
+msgid "|ba4612d8708c44909d16a657025f1c6b|"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:83
+#: 28d91b3ed3fe4865966962e2c7123d29
+msgid ""
+"You will be prompted to select a sever from Server Options. For regular "
+"users, only the default environment is available. Select **Default "
+"environment** and click **Start**."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:85
+#: 547c3783f07a42b89848138d04e8474e
+msgid "|ecf4313f206d4742b07b4bfa02649328|"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:87
+#: 72b33fcb894f4e738ab949edf6253bf1
+msgid ""
+"The server will start up; this can take a few minutes. You will "
+"automatically be redirected to the Sandbox environment."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:89
+#: 752f56e41df44c9c8021e03dd08a06ad
+msgid ""
+"The Sandbox runs completely in-browser and all necessary software is "
+"provided. No additional installation or configuration is required."
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:112
+#: efb1899ca50d4bc596dda66a196fa496
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_1/02_create_a_user_account.ipynb:114
+#: 4293cf3291674d4bb3589ff00134aa74
+msgid ""
+"You now have a user account on the Digital Africa Sandbox. The next "
+"section will cover how to open the existing Jupyter notebook files that "
+"are available in the Sandbox."
+msgstr ""
+

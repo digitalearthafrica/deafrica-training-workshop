@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:9
+#: 126372ae7362487cb07a525c91384ed9
+msgid "What is Digital Earth Africa?"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:32
+#: 81670318690e49008ac8f288e8a74d93
+msgid "Introduction"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:34
+#: 7d5f02bfd6944b2d8893a4537661e813
+msgid ""
+"Africa is a continent with a rich and diverse environment that faces many"
+" challenges such as ready access to drinking water, rapid urban "
+"development, active deforestation and food insecurity. Our understanding "
+"of these challenges connects directly to how well we understand its "
+"natural resources, and the human and climate impact on them."
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:36
+#: cc0d37c0bb334117a97d4d15b1fd0173
+msgid ""
+"The Digital Earth Africa (DE Africa) program aims to increase this "
+"understanding through three main tenets:"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:38
+#: 73aca5479cc440f3991279d4bc68233e
+msgid ""
+"**Explore**: Allow access to satellite data in ways that address Africa’s"
+" needs"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:39
+#: 633090a7158545ea9ecc7ab9e0f9efdc
+msgid ""
+"**Learn**: Provide avenues for learning about Earth observation "
+"technology and its significance for policymaking and improving the lives "
+"of Africans"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:40
+#: 6b57f42f5af945d88e9186b19a105812
+msgid ""
+"**Engage**: Stimulate participation and collaboration in events that will"
+" help implement, scale and sustain the program"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:51
+#: b02b1aa4857844b2a8b36e8c57045d2a
+msgid "As such, Digital Earth Africa is a platform designed to:"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:53
+#: c9cba0030cdb42a5a03b77ba0387c154
+msgid "Catalogue large amounts of Earth observation data"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:54
+#: 69cc975affb14f88b1fd03f41029f913
+msgid "Allow users the ability to easily perform exploratory data analysis"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:55
+#: 95dfd7b9116a42e6ad1af2df8352ec63
+msgid "Allow scalable continent-wide processing of stored data"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:56
+#: 3e3bd80b5be7448987c9a573f398b8ad
+msgid "Monitor contained data for quality control and updates"
+msgstr ""
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:67
+#: 3b01662dacf3482aba74a7ad60398b1f
+msgid ""
+"For more details on the Digital Earth Africa program, visit the `Digital "
+"Earth Africa homepage <https://www.digitalearthafrica.org/>`__."
+msgstr ""
+

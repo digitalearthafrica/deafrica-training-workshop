@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_6/03_s6_solution.ipynb:9 6d2ddf45e7b947199b699de74026c649
+msgid "Session 6 Quiz and Solution"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:20 47bfc37ec2d84a29b7bfce495e29aade
+msgid ""
+"In Session 6, you used the case study framework to construct an analysis "
+"on water extent. This involved using the Water Observations from Space "
+"(WOfS) dataset. The WOfS dataset identifies water pixels, which you used "
+"to calculate the area of water. The water extent was plotted next to an "
+"RGB map of the same area."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:32 1c635e3e0bec4051a1de2eca057b07c1
+msgid "Quiz"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:43 4359ec6757394baa88d777ca2c71501c
+msgid ""
+"If you would like to be awarded a certificate of achievement at the end "
+"of the course, we ask that you `complete the quiz "
+"<https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-"
+"nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. You will "
+"need to supply your email address to progress towards the certificate. "
+"After you complete the quiz, you can check if your answers were correct "
+"by pressing the **View Accuracy** button."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:45 c27df96b6d994eefb4b9478715490b1c
+msgid ""
+"The quiz will ask you to use the notebook you developed for this "
+"session’s exercise on plotting water extent using WOfS data. If you would"
+" like to confirm that your notebook works as expected, you can check it "
+"against the solution notebook provided below."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:56 d0dc8ecc43394b609b3b696df1083899
+msgid ""
+"The solution notebook below does not contain the answer to the quiz. Use "
+"it to check that you implemented the exercise correctly, then use your "
+"exercise notebook to help with the quiz. Accessing the solution notebook "
+"will not affect your progression towards the certificate."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:65 edd153cfec63475895debfb996ebdd19
+msgid "Solution notebook"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:76 4f2e7e6b50cb4e58919fc7b3c462009e
+msgid ""
+"We strongly encourage you to attempt the exercise on the previous page "
+"before downloading the solution below. This will help you learn how to "
+"use the Sandbox independently for your own analyses."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:84 58915d2d6f934e718524a3d6f8b1a9ea
+msgid ""
+"`Download the solution notebook for the Session 6 exercise "
+"<../_static/session_6/Water_extent_exercise-solution.ipynb>`__"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:86 dac344a4dc704f838be9e67bb6084f6b
+msgid ""
+"To view a solution notebook on the Sandbox, you will need to first "
+"download it to your computer, then upload it to the Sandbox. Follow these"
+" instructions:"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:88 2b82c6ee4d234c158954747812122240
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:89 9e06f7ea6f9846b2b1cdd55d26fdccac
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:90 6388364604264c49996d4859eea66319
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:92 cd83dae1da9c4adcaaa10ed7c7b31ef9
+msgid "|5772d1b739874fbc824cd16f2b82508f|"
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:94 f04f46d283a14ad8a2dae5de86ce77bd
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../session_6/03_s6_solution.ipynb:95 f11417b7f3604fd3bfbccba5ce499b40
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+

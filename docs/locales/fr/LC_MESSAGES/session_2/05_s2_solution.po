@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_2/05_s2_solution.ipynb:9 963e67d3b9f548c98f0e6b799b7abeeb
+msgid "Session 2 Quiz and Solution"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:20 51b147079f6545f182dcf6ae5f134a1a
+msgid ""
+"In Session 2, you constructed a notebook to load satellite products and "
+"visualise the loaded data as true-colour images. This is often an "
+"important step when working with satellite data as it provides a first "
+"glimpse of the data, which can help direct your analysis."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:32 f04fd5370e054d729e85b06260d7899a
+msgid "Quiz"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:43 2c11902624e64397bb3e42665cd39104
+msgid ""
+"If you would like to be awarded a certificate of achievement at the end "
+"of the course, we ask that you `complete the quiz "
+"<https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-"
+"5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. You will "
+"need to supply your email address to progress towards the certificate. "
+"After you complete the quiz, you can check if your answers were correct "
+"by pressing the **View Accuracy** button."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:45 2683de16f17e4900a062f5f1ff2380ac
+msgid ""
+"The quiz will ask you to use the notebook you developed for this "
+"session’s exercise on loading data. If you would like to confirm that "
+"your notebook works as expected, you can check it against the solution "
+"notebook provided below."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:56 8851b1f5a8aa49d3bc7f273a6ebde8dc
+msgid ""
+"The solution notebook below does not contain the answer to the quiz. Use "
+"it to check that you implemented the exercise correctly, then use your "
+"exercise notebook to answer the quiz. Accessing the solution notebook "
+"will not affect your progression towards the certificate."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:65 6c3272a0997b41e9ab11b528d0c902bd
+msgid "Solution notebook"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:76 5de9ed1bae27491bb341f36e68630445
+msgid ""
+"We strongly encourage you to attempt the exercise on the previous page "
+"before downloading the solution below. This will help you learn how to "
+"use the Sandbox independently for your own analyses."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:84 29a26b0694924f25aaa2c53b3e88abb1
+msgid ""
+"`Download the solution notebook for the Session 2 exercise "
+"<../_static/session_2/Load_data_solution.ipynb>`__"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:86 bae3d2b9446446d8b239932123089487
+msgid ""
+"To view this notebook on the Sandbox, you will need to first download it "
+"to your computer, then upload it to the Sandbox. Follow these "
+"instructions:"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:88 2aae11cb00594d3d89608d1aa39c86c3
+msgid "Download the notebook by clicking the link above."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:89 fd01f94335a84887bf8247f2e1e8dedb
+msgid "On the Sandbox, open the **Training** folder."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:90 39dc5a4745fe470181ed8a0d0f0208b9
+msgid "Click the **Upload Files** button as shown below."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:92 805bb9f2ffa54f699643b7d1725a1514
+msgid "|16a3dc8b1456490087495c98463a5abb|"
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:94 47668cdf5f2743f39a1b4efd8ebdea55
+msgid "Select the downloaded notebook using the file browser. Click **OK**."
+msgstr ""
+
+#: ../../session_2/05_s2_solution.ipynb:95 f370089acf6a48bc990ddf62954869d6
+msgid ""
+"The solution notebook will appear in the **Training** folder. Double-"
+"click to open it."
+msgstr ""
+

@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:9
+#: 52a168afca4e4dd382399129d2ba7bd2
+msgid "Calculating NDVI: Part 1"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:11
+#: 596032a252314bfaac04abb020a91165
+msgid ""
+"This exercise follows on from the previous section. In the `final "
+"exercise of the previous session "
+"<../session_3/03_geomedian_exercise.ipynb>`__, you constructed a notebook"
+" to create geomedian composite."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:13
+#: 35e342c5a9f14d0b84e222044d3b4117
+msgid ""
+"In this section, we will create a new notebook based on the notebook from"
+" the previous section. Most of the code will remain unchanged, but we "
+"will change the area of interest and time extent. We will also add steps "
+"to resample the new dataset and create a geomedian. In the next section, "
+"we will calculate and plot NDVI."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:24
+#: 8d97f10f3e204e79a09ca6c774413861
+msgid ""
+"We will be using the notebook we created in the previous section, `Create"
+" a geomedian composite <../session_3/03_geomedian_exercise.ipynb>`_. If "
+"you have not already set up a copy of the notebook called "
+"``Geomedian_composite.ipynb`` with the required packages and functions, "
+"follow the instructions in previous section. Ensure you have completed "
+"all the steps, including loading the Sentinel-2 dataset."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:33
+#: 180006acab4a446e934363355d176509
+msgid "Set up notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:36
+#: 94e6cd4bbfeb41118c3f760181b810ba
+msgid "Create a copy of the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:38
+#: c257e633ad1a4005b7ddcb4934a11508
+msgid "Before you continue with the next step,"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:40
+#: 8c60d8fa0e6047489b28c13893657a37
+msgid "Log in to the Sandbox and open the **Training** folder."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:41
+#: 2db61113265b46a1943b591366f9775c
+msgid "Make a copy of the ``Geomedian_composite.ipynb`` notebook."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:42
+#: e9199457964e45f5a5e23f51c0a6f7ce
+msgid "Rename the notebook to ``Calculate_ndvi.ipynb``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:44
+#: 84929536d58449449880a5ea9125b426
+msgid ""
+"More details on how to `create a copy of a notebook and rename it "
+"<https://training.digitalearthafrica.org/en/latest/session_1/04_running_a_notebook.html#Create-a"
+"-copy-of-the-notebook>`__."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:47
+#: ebd914dd75fa4a3eadb511588c58dde5
+msgid "Clearing the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:49
+#: 7008d8e9e9a343ddb4d5b6a7d8a0785e
+msgid "We will need to remove any output from previous runs of the notebook."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:51
+#: f763ee9f8d08461096a3df90e013f155
+msgid "Select **Kernel -> Restart Kernel and Clear All Outputs…**."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:52
+#: 28b377d1b54f40b1a0ca307e1a809dd2
+msgid "When prompted, select **Restart**."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:64
+#: a423943373994ec0b4f01edefc94a95e
+msgid "Running the notebook"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:66
+#: 8f1a0b10476d4ff2b7165e6b497bf355
+msgid ""
+"This notebook is still set up to run the Session 3 exercise, so you’ll "
+"need to follow the instructions below to modify it. Work cell by cell and"
+" pay attention to what needs to be changed."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:69
+#: 7e492268753b4c339cc394ac645d6bf7
+msgid "Set up"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:71
+#: a15c3b0da83c40499590c78884fc5a7e
+msgid ""
+"Run the first cell, which contains the packages and functions for the "
+"analysis. No need to change anything here."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:73
+#: 25e3c23f770149eab0ed4a375037801e
+msgid ""
+"For the ``dc = datacube.Datacube`` command, change the app name to "
+"``\"Calculate_ndvi\"``. It should look like:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:80
+#: cf9720f6b97b45c9b1bdffb8caebe737
+msgid "Load the data"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:82
+#: f5e5f4f0137c4a8697243f6304f0d960
+msgid "Change the x and y values to those shown below and run the cell."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:89
+#: 6ed49f80f1cb4f51a382c8ac2f67e607
+msgid ""
+"Change the time in the ``load_ard`` function to ``(\"2019-01\", "
+"\"2019-12\")``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:91
+#: 7f19bfe96d74443281be88feb94f9811
+msgid "Remove the option ``min_gooddata=0.7``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:93
+#: 34b2d6c449ef4fb289f7d8a1479f9899
+msgid "If you completed steps 2, 3 and 4, your load cell should look like"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:107
+#: b911778c913741c8ba1578377a634dff
+msgid "Run the cell. The load should return 71 time steps."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:119
+#: 2716afc33b8d45c699d3aeb637349d0f
+msgid "Plot timesteps"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:121
+#: 0073909df7ce4719894bc9952d43b25f
+msgid ""
+"The fifth cell of the notebook contains an ``rgb`` command to plot the "
+"loaded data. To match our example below, modify this cell so that it "
+"matches the code below:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:129
+#: 5264f72f311b457a950b41b89a468499
+msgid ""
+"This will plot images for the 1st, 6th and 8th timestep of the loaded "
+"data (remember that Python starts counting at 0). Your image should match"
+" the one below."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:131
+#: 6e20c4420a9b463eb11225e39c10558d
+msgid "|f36cd0268e2447c2863f06d6d780ed3b|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:145
+#: c1f4c28dedfd40aaaf0345b0d46bd327
+msgid ""
+"You may also like to run this cell a few times, experimenting with "
+"different values for the ``timesteps`` parameter. The load command should"
+" have returned 71 time steps, meaning the values in your ``timesteps`` "
+"list can be anywhere from ``0`` to ``70``."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:154
+#: 07dc7a6613de433e8ee22bcd6cea9fe1
+msgid "Resampling the dataset"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:156
+#: 072d596551b84b6fa831519597c65b49
+msgid ""
+"Resampling is used to create a new set of times at regular intervals. "
+"Using the resample method, the data can be arranged in days, months, "
+"quarterly (three months) or yearly."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:158
+#: 5720350fd6d442b6b700f405d5e7fd02
+msgid "Below gives examples of how the data are grouped."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:160
+#: 154d4d62979d4516826e1c11f0987bc9
+msgid "``'nD'`` - number of days (e.g. ``'7D'`` for seven days)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:161
+#: 18c3a6fde9684cee9c81cf5aee8a58ef
+msgid "``'nM'`` - number of months (e.g. ``'6M'`` for six months)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:162
+#: 800cae90c28e4c6b90a50d006f043780
+msgid "``'nY'`` - number of years (e.g. ``'2Y'`` for two years)"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:173
+#: a8d4a518715d40e28818a309c03edf63
+msgid "Follow the steps below to resample the dataset time steps to quarterly."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:175
+#: fa60c33e3d924eaeba18c42192e623d8
+msgid "Delete the code for plotting all RGB images:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:182
+#: ac0549690c6a4d6087132fe5bb102fe8
+msgid ""
+"In the cleared cell, write the following code to resample the data and "
+"store it in the ``resample_sentinel_2_ds`` variable:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:188
+#: 1f0feb36795d4060ad310305f988400e
+msgid ""
+"``resample_sentinel_2_ds`` describes how to group the data into quarterly"
+" segments. We can now use this to calculate the geomedian for each "
+"quarterly segment."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:199
+#: 612389df98e74034bde0407a162229ed
+msgid "``S`` at the end of ``'3MS'`` is to group the data by start of the month."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:208
+#: 5645520415314fb2abea1775c23d1ab7
+msgid "Compute the geomedian"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:210
+#: 6aa22528cb1649539e316ba852ed7c7d
+msgid ""
+"For this session, instead of calling ``xr_geomedian(sentinel_2_ds)`` on "
+"the entire array as we did in the previous exercise, we pass the "
+"``xr_geomedian`` function to ``map`` and apply it separately to each "
+"resampled group(``resample_sentinel_2_ds``)."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:212
+#: 7dc99e9a00b34f4d8dea2d9402e9964f
+msgid "Replace the existing ``xr_geomedian`` code with:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:227
+#: 961546f0e2de42f4822d7f18aca8a22d
+msgid ""
+"We can plot the output geomedians, and see the change in the landscape "
+"over the year. Replace the exsiting ``rgb`` code with:"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:233
+#: deafaf85d3b649b5b3037a71e1534af8
+msgid "|fd3bdc18e36242f5a9e2007cd5aeb138|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:248
+#: 16ac21fc016e44728f8981f02f3176ce
+msgid "Comparing the two datasets"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:250
+#: 4ab07579888f4e4e906b0762f4f05eab
+msgid ""
+"Comparing the two dataset can you tell the difference from the results "
+"shown below?"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:252
+#: 9b926e81273a41e7831a785bd9921904
+msgid "``sentinel_2_ds``"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:254
+#: 91f5385a808d4cb6af9de38d0cd576d2
+msgid "|814704086ac3425e9da84c0481c493ec|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:268
+#: 25dbc6e7dc48496fa59cc33cad1b0c27
+msgid "``geomedian_resample``"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:270
+#: 6ecfa48ff65249f7b48ba7a96351d19b
+msgid "|d27f70765ae54d8aa8d004a92b2f59f1|"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:284
+#: 80cbb452bba6466d831628bd832674ec
+msgid ""
+"Take a look at the dimensions. The raw dataset ``sentinel_2_ds`` has 71 "
+"time steps loaded, but after resampling to quarterly as in "
+"``geomedian_resample``, the time dimension is now 4. This makes sense "
+"because the year has been divided into four quarters."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:296
+#: 85c3d6b471124837b1424ae97edf146d
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:298
+#: 93187cd4d2bd4a8bbc1ce6dcbfe78b2c
+msgid ""
+"Congratulations! You have successfully modified a notebook to create a "
+"quarterly geomedian composite by resampling Sentinel-2 data."
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:300
+#: e788ad6ff7ff4a9287579aab5bb41703
+msgid ""
+"If you’d like to experiment futher, try running the code with different "
+"resampling values. Did you learn anything interesting to share with us?"
+msgstr ""
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:302
+#: 0765860939f241d6b6fb2c204d0f3547
+msgid ""
+"In the next section, we will continue working with this notebook to "
+"calculate the NDVI values for each of our quarterly geomedians."
+msgstr ""
+

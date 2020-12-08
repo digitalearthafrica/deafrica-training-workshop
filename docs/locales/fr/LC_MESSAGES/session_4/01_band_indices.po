@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Earth Africa
+# This file is distributed under the same license as the Digital Earth
+# Africa Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Earth Africa Training \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 20:32+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../session_4/01_band_indices.ipynb:9 cb6fdf1526e74866a111ac7bac122a5e
+msgid "Band indices"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:20 5534322de67b468f9e50fdd7c39f8fac
+msgid ""
+"True-colour images, like the RGB ones we created in Session 2 and Session"
+" 3, are an intuitive way of displaying spatial data as it appears to our "
+"eyes. However, satellites capture many more layers of data: their range "
+"extends outside the visible spectrum. We can also make use of these "
+"measurements to perform various kinds of data analysis."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:22 7d06b87de32448b2bfd0a37610809254
+msgid ""
+"One established analysis technique for identifying specific terrain "
+"features, such as water or bare soil, is to calculate a **band index**."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:34 70f74ba602b14782923da81e64e99f13
+msgid "Video: Band indices"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:45 a8311865bed34e77a05dc7d40d9ba879
+msgid ""
+"Watch the short video below to learn about band indices. Then, read the "
+"text below for more detail."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:56 4483a68b7a354af0a3676de16f61536a
+msgid ""
+"`Download the video slides as a PDF <../_static/session_4/Week4_Band-"
+"indices.pdf>`__"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:78 b0377626a6d548329d5558c51d6c74b1
+msgid "What is a band?"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:89 80fca087532f43abb3bad1f2f775b02b
+msgid "|a564575e728342ab9585f712465aaf3c|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:103 a5cc81d9d61448fb8b83bde7495571f6
+msgid ""
+"*A section of the electromagnetic spectrum showing some of the Landsat 8 "
+"bands.* [`Source <http://www.geocarto.com.hk/edu/PJ-"
+"BCMBLSAT/main_BCLS.html>`__]"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:114 623f3b34dba946d7aadd775a0a4eafac
+msgid ""
+"You may recall from the `introduction to satellite products "
+"<../session_2/01_products_intro.ipynb>`__ that the range of data acquired"
+" by a satellite is defined by its **bands**. Bands are subdivisions of "
+"the electromagnetic spectrum dependent on the sensors on the satellite."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:116 655f1ca795384800ac6595883fd3f8ea
+msgid ""
+"A selection of commonly-used Landsat 8 and Sentinel-2 bands are shown in "
+"the table below. We can see the spectral ranges between Landsat 8 and "
+"Sentinel-2 are similar, but not the same. Also note the band numbers do "
+"not always correspond to the same spectral range."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:127 e3918bc0b8d6497eb727c5eb8c13a018
+msgid "|74cdcd07e4414fb2bcd8e010121412c5|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:160 67b122edabbf4e5582f56e8a800c7d2b
+msgid ""
+"*Sources:* `Landsat 8 bands <https://www.usgs.gov/media/images/landsat-8"
+"-band-designations>`__, `Sentinel-2 bands "
+"<https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/msi-"
+"instrument>`__"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:172 ccc2dfb01ea446e1b1903f4a5de7292e
+msgid "Bands and terrain features"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:183 dd2b647bab834582a846505e6cc5edb3
+msgid ""
+"Different types of ground cover absorb and reflect different amounts of "
+"radiation along the electromagnetic spectrum. This is dependent on the "
+"physical and chemical properties of the surface."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:194 6020511dfa4240d5ae17e8d2980838b6
+msgid "For example:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:196 2ce76f038d374c20922dba8e2bed6b1a
+msgid ""
+"**Water:** Open water bodies generally reflect light in the visible "
+"spectrum, and absorb more short-wave infrared than near-infrared "
+"radiation. This can change if the water is turbid."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:198 b127162f683d499cbc67e0bec164ad09
+msgid ""
+"**Snow:** Ice and snow reflect most visible radiation, but do not reflect"
+" much short-wave infrared. Reflectance measurements depend on snow "
+"granule size and liquid water content."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:200 2cfdb6c7ac254967b875f64d90714944
+msgid ""
+"**Green vegetation:** Chlorophyll, a pigment in plants, absorbs a lot of "
+"visible light, including red light. When plants are healthy, they "
+"strongly reflect near-infrared light."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:202 a92cd6cfa8a540d689cdb9a3eb6a6899
+msgid ""
+"**Bare soil:** The mineral composition of soil can be characterised using"
+" the visible and near-infrared spectrum. Soil moisture content can "
+"greatly influence the results."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:204 320a2085701940b1a45aae14351c95ff
+msgid ""
+"Using these spectral differences, we can calculate ratios between bands "
+"to isolate and accentuate the specific terrain feature we are interested "
+"in. These metrics are known as band ratios or **band indices**."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:215 2ef2ec49add34c2eb99b1231318bdc66
+msgid ""
+"In practice, variation within terrain feature classes, as well as the "
+"presence of multiple features in one area, can make different types of "
+"ground cover difficult to distinguish. This is one of the challenges of "
+"spectral data analysis."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:224 900b7b6f0aa442db8229d1df0e99dd12
+msgid "Example: Normalised Difference Vegetation Index (NDVI)"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:235 332eb48b14ce4f849966132251babfe1
+msgid ""
+"One of the most widely-used band indices is the Normalised Difference "
+"Vegetation Index (NDVI). It is used to show the presence of live green "
+"vegetation. Generally, green vegetation has a low red band measurement, "
+"as red light is absorbed by chlorophyll. In addition to this, healthy "
+"leaf cell structures reflect near-infrared light, giving a high near-"
+"infrared (NIR) band measurement."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:237 1351b5a671184ffebbaa0572d64af1f7
+msgid ""
+"NDVI is therefore typically calculated using a satellite’s NIR band and "
+"red band. One value is calculated per pixel."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:248 6dde135463f049598dc26e8a31a21cfe
+msgid ""
+":nbsphinx-math:`\\begin{equation} \\text{NDVI} \\ = \\ \\frac{\\text{NIR}"
+" - \\text{Red}}{\\text{NIR} + \\text{Red}} \\end{equation}`"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:259 d8d4534199e14ecf9b8dad435d53b028
+msgid ""
+"We see the index is calculated by the difference :math:`(\\text{NIR} - "
+"\\text{Red})` divided by the sum :math:`(\\text{NIR} + \\text{Red})`. "
+"This normalises the index: all values will fall between :math:`-1` and "
+":math:`1`."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:261 3317687480454ad8835c959481d6b4b9
+msgid ""
+"Large values of NDVI will occur for pixels where NIR is high and red is "
+"low. Conversely, NDVI can be close to 0 or even negative where NIR is low"
+" and red is high. This means we interpret NDVI as follows:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:272 88c95506470d4654b3a5df0488691054
+msgid ""
+":nbsphinx-math:`\\begin{align} \\text{NDVI} &> 0, \\text{ or close to }1 "
+"= \\text{green vegetation}\\\\ \\text{NDVI} &\\leq 0 = \\text{not green "
+"vegetation; water, soil, etc.} \\end{align}`"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:286 45e1adba42d947afad5024d63e2682c0
+msgid ""
+"But what is green vegetation? The US Geological Survey provides a more "
+"specific `guide to interpreting NDVI <https://www.usgs.gov/land-"
+"resources/eros/phenology/science/ndvi-foundation-remote-sensing-phenology"
+"?qt-science_center_objects=0#qt-science_center_objects>`__."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:288 45a8320f2f7a46519e80992e6d2f8885
+msgid ""
+"Areas of barren rock, sand, or snow usually show very low NDVI values "
+"(for example, 0.1 or less). Sparse vegetation such as shrubs and "
+"grasslands or senescing crops may result in moderate NDVI values "
+"(approximately 0.2 to 0.5). High NDVI values (approximately 0.6 to 0.9) "
+"correspond to dense vegetation such as that found in temperate and "
+"tropical forests or crops at their peak growth stage."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:290 2ca965ee585e493686eb1a13f6d65715
+msgid ""
+"You can see even this definition does not exhaustively cover every kind "
+"of vegetation. It is important to remember that Earth observation data "
+"analysis is sensitive to the dataset location and time. The nature of "
+"climate and environment variations across the globe, and even just within"
+" the African continent, mean that band indices like NDVI need to be "
+"interpreted with knowledge and context of the area."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:301 7c283501c90441a1a8f92f1c3ae6c94e
+msgid ""
+"Normalising band indices so their values fall between -1 and 1 gives a "
+"relative scale that allows for easier data analysis. Values of the index "
+"can be better compared between different points in the area of analysis, "
+"and across time periods."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:309 d01b3da40b634b3eb463c213e6168449
+msgid ""
+"Below we have two plots of an area with river distributaries in Guinea-"
+"Bissau, a country that experiences monsoonal-like seasons. We see the "
+"amount of vegetation as detected by NDVI fluctuates over time. The top "
+"image shows NDVI in April, at the end of the dry season. NDVI readings "
+"are much lower than when compared to the same area in November (bottom "
+"image), after several months of rain during the wet season."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:311 587bae2ccc4e4208a5dec1ccea2054a5
+msgid ""
+"Notice the RGB images may show parts of the area to be visibly ‘dry’ or "
+"‘lush’, but in places where this is less obvious, it is easier to analyse"
+" NDVI than the multispectral RGB dataset."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:322 8b100ff0a11f449d8bcb06e40404f437
+msgid "|9288be2a1db94016b2440ab1da11e975|"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:336 85ffd83ff71b4aafa92a907a8314092c
+msgid ""
+"*NDVI calculated from Sentinel-2 data in Guinea-Bissau in April 2018 (top"
+" left) and November 2018 (bottom left). The NDVI values reflect typical "
+"seasonal patterns in a quantitative manner.*"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:347 104444dc3f434da7994aedc7a6ab016f
+msgid ""
+"We see in the table above that satellites have slightly different band "
+"ranges for the same band name (e.g. 'Red' for Landsat 8 is slightly "
+"different than 'Red' for Sentinel-2). This means they will produce "
+"different band index values even at approximately the same time and "
+"place. It is best practice to compare like datasets only."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:356 f11a89b39d9c4c328399cea2ff2d7e82
+msgid "Band indices in research"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:367 9417a6438e5b47feaedd8ff1e2881437
+msgid ""
+"NDVI is just one example of a useful band index. There are many other "
+"band indices used in Earth observation research to draw out terrain "
+"features. Selecting a band index is often dependent on environmental "
+"conditions and research purpose."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:378 f28a0504459e43e6aa5ed45db1d32a12
+msgid ""
+"**Vegetation:** As described above, NDVI is a good baseline vegetation "
+"index. It is simple to calculate, and only requires two bands — red and "
+"NIR. However, the Enhanced Vegetation Index (EVI) is often more accurate."
+" EVI is calculated with three bands — red, blue and NIR — and requires "
+"some coefficients for scaling."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:380 b0f60cc14f3c408fad8a573c0fce26b3
+msgid ""
+"In arid regions, where vegetative cover is low, consider using the Soil "
+"Adjusted Vegetation Index (SAVI), which incorporates a soil brightness "
+"correction factor."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:391 92ff1bebd0354b9486ae0b74863e4653
+msgid ""
+"**Urbanisation:** Human settlements can be identified through "
+"urbanisation indices, one of which is the Normalised Difference Built-up "
+"Index (NDBI). NDBI uses SWIR 1 and NIR bands:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:393 693aef349ca34a399e0ac3db40244885
+msgid ""
+"\\text{NDBI} \\ = \\ \\frac{\\text{SWIR 1} - \\text{NIR}}{\\text{SWIR 1} "
+"+ \\text{NIR}}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:395 8fe53192bee949d099db4b31ce783faa
+msgid ""
+"However, NDBI can be confused between built-up areas and bare soil, so in"
+" arid and semi-arid regions where this is problematic, it may be better "
+"to use the Dry Bare Soil Index (DBSI)."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:397 8bc2d98d77654c139839cf9688fa8380
+msgid ""
+"\\text{DBSI} \\ = \\ \\frac{\\text{SWIR 1} - \\text{Green}}{\\text{SWIR "
+"1} + \\text{Green}} \\ - \\ \\text{NDVI}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:408 572f3fe4f53d45d7b62b3250b8f07110
+msgid ""
+"**Water bodies:** Delineation between water and land can be defined using"
+" the Modified Normalised Difference Water Index (MNDWI). It is calculated"
+" using green and SWIR 1 bands:"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:410 fb53758a2c72428197d3119b552f8eff
+msgid ""
+"\\text{MNDWI} \\ = \\ \\frac{\\text{Green} - \\text{SWIR "
+"1}}{\\text{Green} + \\text{SWIR 1}}"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:412 21901c9afa744c7faab024e602afe275
+msgid ""
+"This should not be confused with indices for monitoring water content in "
+"vegetation."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:423 e88e2690555f45bca97b722b9169805f
+msgid ""
+"It is important to remember band indices are not infallible; their "
+"usefulness relies on appropriate index selection and sensible "
+"interpretation. However, as the field of remote sensing grows, ongoing "
+"research into differentiating terrain types with different band "
+"combinations give rise to more nuanced and accurate data analysis. For "
+"instance, it is common to use more than one index to help distinguish "
+"feature classes with similar spectral characteristics."
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:435 7703c77ba3dd4478b954563f235698b2
+msgid "Conclusion"
+msgstr ""
+
+#: ../../session_4/01_band_indices.ipynb:446 f920910017b54ce982178fc833074ffe
+msgid ""
+"Band indices are an integral part of spatial data analysis, and are an "
+"efficient method of distinguishing different types of land cover. In the "
+"following sections, we will calculate NDVI for a cloud-free composite "
+"using the Sandbox."
+msgstr ""
+

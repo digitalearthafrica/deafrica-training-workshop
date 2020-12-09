@@ -39,6 +39,7 @@ Latest Updates
 -------------------
 
 
+ - **09/12/2020:** All six assessment quizzes can be accessed from the `Quiz index <./Quiz_index.ipynb>`_. page. Score full marks on each quiz to receive a Certificate of Completion. Questions about the Certificate of Completion? See the `FAQ <./Frequently_asked_questions.ipynb>`_.
  - **20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline.
  - **09/11/2020:** Check out the `Events <./Events.ipynb>`_ page to find out how to join our virtual live sessions.
  - **05/11/2020:** The `GIS web services tutorial <./OWS_tutorial.ipynb>`_ is live.
@@ -47,8 +48,7 @@ Latest Updates
  - **06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey.
  - **02/10/2020:** `Course conclusion & wrap-up <./Course_wrap-up.ipynb>`_ has been added.
  - **01/10/2020:** `Session 6: Water Analyses <./session_6/index.rst>`_ has been added.
- - **29/09/2020:** The `Session 5 quiz <./session_5/03_s5_solution.ipynb>`_ is live.
- - **24/09/2020:** `Session 5: Vegetation Analyses <./session_5/index.rst>`_ has been added.
+
 
 .. toctree::
    :maxdepth: 1

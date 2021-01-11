@@ -497,7 +497,7 @@ msgstr "| Page d'invitation ODC slack |"
 
 #: ../../Frequently_asked_questions.ipynb:225 0ab53b0579174c72ac05750e6d37fdc7
 msgid "Open Slack. Select the **+** button next to **Channels** and click **Browse channels**."
-msgstr "Ouvrez Slack. Sélectionnez le bouton ** + ** à côté de ** Chaînes ** et cliquez sur ** Parcourir les chaînes **."
+msgstr "Ouvrez Slack. Sélectionnez le bouton **+** à côté de **Chaînes** et cliquez sur **Parcourir les chaînes**."
 
 #: ../../Frequently_asked_questions.ipynb:227 90278740e4fe4f6b809cd161cf224acf
 msgid "|Add channels button|"
@@ -1621,7 +1621,7 @@ msgstr "Qu'est-ce que Digital Earth Africa?"
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:32
 msgid "Introduction"
-msgstr "introduction"
+msgstr "Introduction"
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:34
 msgid "Africa is a continent with a rich and diverse environment that faces many challenges such as ready access to drinking water, rapid urban development, active deforestation and food insecurity. Our understanding of these challenges connects directly to how well we understand its natural resources, and the human and climate impact on them."
@@ -1633,15 +1633,15 @@ msgstr "Le programme Digital Earth Africa (DE Africa) vise à accroître cette c
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:38
 msgid "**Explore**: Allow access to satellite data in ways that address Africa’s needs"
-msgstr "** Explorer **: autorisez l'accès aux données satellitaires de manière à répondre aux besoins de l'Afrique"
+msgstr "**Explorer**: autorisez l'accès aux données satellitaires de manière à répondre aux besoins de l'Afrique"
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:39
 msgid "**Learn**: Provide avenues for learning about Earth observation technology and its significance for policymaking and improving the lives of Africans"
-msgstr "** Apprendre **: Fournir des pistes d'apprentissage sur la technologie d'observation de la Terre et son importance pour l'élaboration des politiques et l'amélioration de la vie des Africains"
+msgstr "**Apprendre**: Fournir des pistes d'apprentissage sur la technologie d'observation de la Terre et son importance pour l'élaboration des politiques et l'amélioration de la vie des Africains"
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:40
 msgid "**Engage**: Stimulate participation and collaboration in events that will help implement, scale and sustain the program"
-msgstr "** Engager **: Stimuler la participation et la collaboration à des événements qui aideront à mettre en œuvre, à étendre et à soutenir le programme"
+msgstr "**Engager**: Stimuler la participation et la collaboration à des événements qui aideront à mettre en œuvre, à étendre et à soutenir le programme"
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:51
 msgid "As such, Digital Earth Africa is a platform designed to:"
@@ -1665,7 +1665,7 @@ msgstr "Surveiller les données contenues pour le contrôle qualité et les mise
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:67
 msgid "For more details on the Digital Earth Africa program, visit the `Digital Earth Africa homepage <https://www.digitalearthafrica.org/>`__."
-msgstr "Pour plus de détails sur le programme Digital Earth Africa, visitez la page d'accueil de Digital Earth Africa <https://www.digitalearthafrica.org/> `__."
+msgstr "Pour plus de détails sur le programme Digital Earth Africa, visitez la page d'accueil de `Digital Earth Africa <https://www.digitalearthafrica.org/>`__."
 
 #: ../../session_1/02_create_a_user_account.ipynb:9
 msgid "Create a Digital Earth Africa account"
@@ -1711,16 +1711,16 @@ msgstr "Créer un compte"
 
 #: ../../session_1/02_create_a_user_account.ipynb:72
 msgid "Visit https://sandbox.digitalearth.africa/ and click **Login or Sign up**."
-msgstr "Visitez https://sandbox.digitalearth.africa/ et cliquez sur ** Connexion ou Inscription **."
+msgstr "Visitez https://sandbox.digitalearth.africa/ et cliquez sur **Login or Sign up**."
 
 #: ../../session_1/02_create_a_user_account.ipynb:73
 #: ../../session_1/02_create_a_user_account.ipynb:78
 msgid "Click **Sign up**."
-msgstr "Cliquez sur ** S'inscrire **."
+msgstr "Cliquez sur **Sign up**."
 
 #: ../../session_1/02_create_a_user_account.ipynb:74
 msgid "Fill in the **Username**, **Name**, **Email** and **Password** fields. Passwords must be at least 8 characters, and contain at minimum a lower case letter, an upper case letter and a number. Record your username securely as it will be required to reset your password should you forget it."
-msgstr "Remplissez les champs ** Nom d'utilisateur **, ** Nom **, ** Email ** et ** Mot de passe **. Les mots de passe doivent comporter au moins 8 caractères et contenir au minimum une lettre minuscule, une lettre majuscule et un chiffre. Enregistrez votre nom d'utilisateur en toute sécurité car il sera nécessaire de réinitialiser votre mot de passe si vous l'oubliez."
+msgstr "Remplissez les champs **Username** (Nom d'utilisateur), **Name** (Nom), **Email** et **Password** (Mot de passe). Les mots de passe doivent comporter au moins 8 caractères et contenir au minimum une lettre minuscule, une lettre majuscule et un chiffre. Enregistrez votre nom d'utilisateur en toute sécurité car il sera nécessaire de réinitialiser votre mot de passe si vous l'oubliez."
 
 #: ../../session_1/02_create_a_user_account.ipynb:76
 msgid "|f36f6b8e37184af1ad7815becf668bf5|"
@@ -1728,7 +1728,7 @@ msgstr "| f36f6b8e37184af1ad7815becf668bf5 |"
 
 #: ../../session_1/02_create_a_user_account.ipynb:79
 msgid "A verification code will have been sent to your nominated email address. Enter the verification code and click **Confirm Account**. This will automatically log you in."
-msgstr "Un code de vérification aura été envoyé à votre adresse e-mail désignée. Saisissez le code de vérification et cliquez sur ** Confirmer le compte **. Cela vous connectera automatiquement."
+msgstr "Un code de vérification aura été envoyé à votre adresse e-mail désignée. Saisissez le code de vérification et cliquez sur **Confirm Account**. Cela vous connectera automatiquement."
 
 #: ../../session_1/02_create_a_user_account.ipynb:81
 msgid "|ba4612d8708c44909d16a657025f1c6b|"
@@ -1736,7 +1736,7 @@ msgstr "| ba4612d8708c44909d16a657025f1c6b |"
 
 #: ../../session_1/02_create_a_user_account.ipynb:83
 msgid "You will be prompted to select a sever from Server Options. For regular users, only the default environment is available. Select **Default environment** and click **Start**."
-msgstr "Vous serez invité à sélectionner un serveur dans les options du serveur. Pour les utilisateurs réguliers, seul l'environnement par défaut est disponible. Sélectionnez ** Environnement par défaut ** et cliquez sur ** Démarrer **."
+msgstr "Vous serez invité à sélectionner un serveur dans les options du serveur. Pour les utilisateurs réguliers, seul l'environnement par défaut est disponible. Sélectionnez **Default environment** et cliquez sur **Start**."
 
 #: ../../session_1/02_create_a_user_account.ipynb:85
 msgid "|ecf4313f206d4742b07b4bfa02649328|"
@@ -1784,7 +1784,7 @@ msgstr "Maintenant que vous avez créé un compte utilisateur et que vous vous �
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:13
 msgid "If you do not yet have a Digital Earth Africa account, follow the steps in `Create a Digital Earth Africa account <02_create_a_user_account.ipynb>`__."
-msgstr "Si vous ne possédez pas encore de compte Digital Earth Africa, suivez les étapes de `Créer un compte Digital Earth Africa <02_create_a_user_account.ipynb>` __."
+msgstr "Si vous ne possédez pas encore de compte Digital Earth Africa, suivez les étapes de `Créer un compte Digital Earth Africa <02_create_a_user_account.ipynb>`__."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:35
 msgid "The Digital Earth Africa Sandbox uses a JupyterLab interface. JupyterLab is a web-based interactive coding environment. It has a user-friendly interface to make file navigation and workflows more intuitive. Within the Sandbox, we create Jupyter Notebooks to contain and execute code."
@@ -1804,15 +1804,15 @@ msgstr "| 655950b7f88e436787c4fbaed0550470 |"
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:53
 msgid "**Main work area:** Enables you to arrange documents and other windows (such as terminals or code consoles) into panels of tabs that can be resized or subdivided. Open files will be displated in this area. Most of your work will be done here."
-msgstr "** Zone de travail principale: ** Vous permet d'organiser des documents et d'autres fenêtres (telles que des terminaux ou des consoles de code) dans des panneaux d'onglets qui peuvent être redimensionnés ou subdivisés. Les fichiers ouverts seront déplacés dans cette zone. La plupart de votre travail se fera ici."
+msgstr "**Zone de travail principale:** Vous permet d'organiser des documents et d'autres fenêtres (telles que des terminaux ou des consoles de code) dans des panneaux d'onglets qui peuvent être redimensionnés ou subdivisés. Les fichiers ouverts seront déplacés dans cette zone. La plupart de votre travail se fera ici."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:55
 msgid "**Left sidebar:** Contains a file browser, the list of running kernels and terminals, the command palette, the notebook cell tools inspector, and the tabs list. By default, the file browser is selected; this will be the most useful toolbar for new users."
-msgstr "** Barre latérale gauche: ** Contient un navigateur de fichiers, la liste des noyaux et des terminaux en cours d'exécution, la palette de commandes, l'inspecteur des outils de la cellule du notebook et la liste des onglets. Par défaut, le navigateur de fichiers est sélectionné; ce sera la barre d'outils la plus utile pour les nouveaux utilisateurs."
+msgstr "**Barre latérale gauche:** Contient un navigateur de fichiers, la liste des noyaux et des terminaux en cours d'exécution, la palette de commandes, l'inspecteur des outils de la cellule du notebook et la liste des onglets. Par défaut, le navigateur de fichiers est sélectionné; ce sera la barre d'outils la plus utile pour les nouveaux utilisateurs."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:57
 msgid "**Horizontal menu bar:** Exposes actions available in JupyterLab, including actions related to saving, editing, viewing and running notebooks. When you are done, you can select **File -> Log Out** to quit your Sandbox session and free up server space."
-msgstr "** Barre de menus horizontale: ** Expose les actions disponibles dans JupyterLab, y compris les actions liées à l'enregistrement, la modification, l'affichage et l'exécution des blocs-notes. Lorsque vous avez terminé, vous pouvez sélectionner ** Fichier -> Déconnexion ** pour quitter votre session Sandbox et libérer de l'espace sur le serveur."
+msgstr "**Barre de menus horizontale:** Expose les actions disponibles dans JupyterLab, y compris les actions liées à l'enregistrement, la modification, l'affichage et l'exécution des blocs-notes. Lorsque vous avez terminé, vous pouvez sélectionner **File -> Log Out** pour quitter votre session Sandbox et libérer de l'espace sur le serveur."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:72
 msgid "Open a Jupyter Notebook"
@@ -1852,7 +1852,7 @@ msgstr "La fermeture d’un onglet de navigateur de notebook n’arrêtera pas s
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:103
 msgid "With the notebook open, click on the menu option **File -> Close and Shutdown Notebook**."
-msgstr "Avec le notebook ouvert, cliquez sur l'option de menu ** Fichier -> Fermer et arrêter le notebook **."
+msgstr "Avec le notebook ouvert, cliquez sur l'option de menu **File -> Close and Shutdown Notebook**."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:105
 msgid "|51647cf273014b18957a4e7bf0b3653b|"
@@ -1860,7 +1860,7 @@ msgstr "| 51647cf273014b18957a4e7bf0b3653b |"
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:107
 msgid "When asked whether you want to shut down the notebook, click **OK**."
-msgstr "Lorsqu'on vous demande si vous souhaitez arrêter le notebook, cliquez sur ** OK **."
+msgstr "Lorsqu'on vous demande si vous souhaitez arrêter le notebook, cliquez sur **OK**."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:124
 msgid "You can now open and close existing Jupyter notebook files. The next section will cover how to run an existing Jupyter notebook."
@@ -1905,7 +1905,7 @@ msgstr "Créer une copie du cahier"
 
 #: ../../session_1/04_running_a_notebook.ipynb:68
 msgid "The Sandbox comes with a large number of existing notebooks, which you can use as reference material. To keep these in their original format, we recommend making a copy of a notebook when you want to run it. For the rest of this training material, we will ask you to make copies of notebooks and store them in a new **Training** folder. Follow the instructions below to set up this folder and add a copy of the notebook for this session."
-msgstr "Le bac à sable est livré avec un grand nombre de blocs-notes existants, que vous pouvez utiliser comme matériel de référence. Pour les conserver dans leur format d'origine, nous vous recommandons de faire une copie d'un bloc-notes lorsque vous souhaitez l'exécuter. Pour le reste de ce matériel de formation, nous vous demanderons de faire des copies de cahiers et de les stocker dans un nouveau dossier ** Formation **. Suivez les instructions ci-dessous pour configurer ce dossier et ajouter une copie du bloc-notes pour cette session."
+msgstr "Le bac à sable est livré avec un grand nombre de blocs-notes existants, que vous pouvez utiliser comme matériel de référence. Pour les conserver dans leur format d'origine, nous vous recommandons de faire une copie d'un bloc-notes lorsque vous souhaitez l'exécuter. Pour le reste de ce matériel de formation, nous vous demanderons de faire des copies de cahiers et de les stocker dans un nouveau dossier **Training**. Suivez les instructions ci-dessous pour configurer ce dossier et ajouter une copie du bloc-notes pour cette session."
 
 #: ../../session_1/04_running_a_notebook.ipynb:70
 msgid "Click the **Folder icon** in the folder path to make sure you’re in the **Home** folder."
@@ -1917,7 +1917,7 @@ msgstr "| 1350456745fb42c7a87a3ba21a5d85fb |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:74
 msgid "Click the **New Folder icon** and name the new folder **Training**. Press **Enter** to finish creating the folder."
-msgstr "Cliquez sur l'icône ** Nouveau dossier ** et nommez le nouveau dossier ** Formation **. Appuyez sur ** Entrée ** pour terminer la création du dossier."
+msgstr "Cliquez sur l'icône **Nouveau dossier** et nommez le nouveau dossier **Training**. Appuyez sur **Entrée** pour terminer la création du dossier."
 
 #: ../../session_1/04_running_a_notebook.ipynb:76
 msgid "|77484d05869f431f8f0e657877d3c3fc|"
@@ -1937,7 +1937,7 @@ msgstr "| 4339429b9d804f9fba8e03a5aee6d985 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:84
 msgid "Next, right-click on the notebook and click **Duplicate** to create a copy. By default, this will be called ``Crop_health-Copy1.ipynb``."
-msgstr "Ensuite, faites un clic droit sur le bloc-notes et cliquez sur **Dupliquer ** pour créer une copie. Par défaut, cela s'appellera `` Crop_health-Copy1.ipynb``."
+msgstr "Ensuite, faites un clic droit sur le bloc-notes et cliquez sur ** Duplicate ** pour créer une copie. Par défaut, cela s'appellera `` Crop_health-Copy1.ipynb``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:86
 msgid "|b3b0db83a3d34a8583d08177e8026528|"
@@ -1945,7 +1945,7 @@ msgstr "| b3b0db83a3d34a8583d08177e8026528 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:88
 msgid "Click and drag ``Crop_health-Copy1.ipynb`` to the **Folder icon** to move it to the **Home** folder."
-msgstr "Cliquez et faites glisser `` Crop_health-Copy1.ipynb`` vers l'icône ** Dossier ** pour le déplacer vers le dossier ** Accueil **."
+msgstr "Cliquez et faites glisser ``Crop_health-Copy1.ipynb`` vers l'icône **Dossier** pour le déplacer vers le dossier **Accueil**."
 
 #: ../../session_1/04_running_a_notebook.ipynb:90
 msgid "|936b2eb19035450baa96211ef253a25c|"
@@ -1953,7 +1953,7 @@ msgstr "| 936b2eb19035450baa96211ef253a25c |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:92
 msgid "Return to the **Home** folder by clicking the **Folder icon**. You should see the ``Crop_health-Copy1.ipynb`` notebook. Click and drag this file to the **Training** folder you created."
-msgstr "Revenez au dossier ** Accueil ** en cliquant sur l'icône ** Dossier **. Vous devriez voir le cahier `` Crop_health-Copy1.ipynb``. Cliquez et faites glisser ce fichier vers le dossier ** Training ** que vous avez créé."
+msgstr "Revenez au dossier **Accueil** en cliquant sur l'icône **Dossier**. Vous devriez voir le cahier ``Crop_health-Copy1.ipynb``. Cliquez et faites glisser ce fichier vers le dossier **Training** que vous avez créé."
 
 #: ../../session_1/04_running_a_notebook.ipynb:94
 msgid "|1e1cd18328c04ad9ba0913c4ef2477c4|"
@@ -1961,7 +1961,7 @@ msgstr "| 1e1cd18328c04ad9ba0913c4ef2477c4 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:96
 msgid "Double-click the **Training** folder. Right-click the copied notebook and click **Rename**. Rename the notebook to ``Crop_health.ipynb``."
-msgstr "Double-cliquez sur le dossier ** Training **. Cliquez avec le bouton droit sur le bloc-notes copié et cliquez sur ** Renommer **. Renommez le notebook en ``Crop_health.ipynb``."
+msgstr "Double-cliquez sur le dossier **Training**. Cliquez avec le bouton droit sur le bloc-notes copié et cliquez sur ** Rename **. Renommez le notebook en ``Crop_health.ipynb``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:98
 msgid "|a7d3b4eebc4a4d978d49cd70f4a3e65a| |d8331b9cc442488788fadc02e4930540|"
@@ -1985,7 +1985,7 @@ msgstr "Double-cliquez sur votre cahier ``Crop_health.ipynb`` copié pour l'ouvr
 
 #: ../../session_1/04_running_a_notebook.ipynb:109
 msgid "In the main menu, click **Kernel -> Restart Kernel and Clear All Outputs**. When asked whether you want to restart the kernel, click **Restart**."
-msgstr "Dans le menu principal, cliquez sur ** Kernel -> Restart Kernel and Clear All Outputs **. Lorsqu'on vous demande si vous souhaitez redémarrer le noyau, cliquez sur ** Redémarrer **."
+msgstr "Dans le menu principal, cliquez sur **Kernel -> Restart Kernel and Clear All Outputs**. Lorsqu'on vous demande si vous souhaitez redémarrer le noyau, cliquez sur **Restart**."
 
 #: ../../session_1/04_running_a_notebook.ipynb:111
 msgid "|ad0b43eb771b457bae1b1fddae59e529|"
@@ -1993,7 +1993,7 @@ msgstr "| ad0b43eb771b457bae1b1fddae59e529 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:113
 msgid "Read the **Background** and **Description** sections to learn more about the notebook."
-msgstr "Lisez les sections ** Contexte ** et ** Description ** pour en savoir plus sur le notebook."
+msgstr "Lisez les sections **Context** et **Description** pour en savoir plus sur le notebook."
 
 #: ../../session_1/04_running_a_notebook.ipynb:116
 msgid "Loading packages and functions"
@@ -2120,7 +2120,7 @@ msgstr "| 8198a32b2dc24e9e8b214a3beb62825c |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:185
 msgid "The left-hand side of the app contains a map, which will allow you to draw a polygon around a field of interest. Click the **Polygon icon**, then click points on the map to outline an area, as shown below:"
-msgstr "Le côté gauche de l'application contient une carte, qui vous permettra de dessiner un polygone autour d'un champ d'intérêt. Cliquez sur l'icône ** Polygone **, puis cliquez sur des points sur la carte pour délimiter une zone, comme indiqué ci-dessous:"
+msgstr "Le côté gauche de l'application contient une carte, qui vous permettra de dessiner un polygone autour d'un champ d'intérêt. Cliquez sur l'icône **Polygone**, puis cliquez sur des points sur la carte pour délimiter une zone, comme indiqué ci-dessous:"
 
 #: ../../session_1/04_running_a_notebook.ipynb:187
 msgid "|4e934a9649b54e3dbcdb8a6b857521fb|"
@@ -2144,7 +2144,7 @@ msgstr "Les cycles du graphique sont probablement liés à des événements de c
 
 #: ../../session_1/04_running_a_notebook.ipynb:279
 msgid "It is possible to draw multiple polygons and compare the vegetation index over time of different fields. Click the **Polygon icon** to draw a second polygon:"
-msgstr "Il est possible de dessiner plusieurs polygones et de comparer l'indice de végétation dans le temps de différents champs. Cliquez sur l'icône ** Polygone ** pour dessiner un deuxième polygone:"
+msgstr "Il est possible de dessiner plusieurs polygones et de comparer l'indice de végétation dans le temps de différents champs. Cliquez sur l'icône **Polygone** pour dessiner un deuxième polygone:"
 
 #: ../../session_1/04_running_a_notebook.ipynb:281
 msgid "|e63c2b46c0654d928e50c1ba995e5eb7|"
@@ -2207,7 +2207,7 @@ msgstr "Quiz"
 
 #: ../../session_1/05_s1_quiz.ipynb:43
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de `remplir le quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>` __. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton ** Afficher la précision **."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de `remplir le quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Afficher la précision**."
 
 #: ../../session_1/05_s1_quiz.ipynb:45
 msgid "The quiz will ask you to use the Crop Health notebook you developed for this session’s exercise. To review the exercise, visit the section **Running a Notebook** or click the **Previous** button."
@@ -2231,7 +2231,7 @@ msgstr "Il n'est pas nécessaire d'avoir une expérience préalable des données
 
 #: ../../session_1/index.rst:12
 msgid "To get started, click on **What is Digital Earth Africa?** or select the **Next** button below."
-msgstr "Pour commencer, cliquez sur ** Qu'est-ce que Digital Earth Africa? ** ou sélectionnez le bouton ** Suivant ** ci-dessous."
+msgstr "Pour commencer, cliquez sur **Qu'est-ce que Digital Earth Africa?** ou sélectionnez le bouton **Suivant** ci-dessous."
 
 #: ../../session_2/01_products_intro.ipynb:9
 msgid "Digital Earth Africa products"
@@ -2255,7 +2255,7 @@ msgstr "Produits dérivés: ensembles de données créés en appliquant des algo
 
 #: ../../session_2/01_products_intro.ipynb:27
 msgid "For now, we will focus on satellite products. This section describes the two main datasets we will see in this training course — **Landsat 8** and **Sentinel-2**."
-msgstr "Pour l'instant, nous allons nous concentrer sur les produits satellites. Cette section décrit les deux principaux ensembles de données que nous verrons dans ce cours de formation - ** Landsat 8 ** et ** Sentinel-2 **."
+msgstr "Pour l'instant, nous allons nous concentrer sur les produits satellites. Cette section décrit les deux principaux ensembles de données que nous verrons dans ce cours de formation - **Landsat 8** et **Sentinel-2**."
 
 #: ../../session_2/01_products_intro.ipynb:39
 msgid "Video: Satellite products"
@@ -2267,7 +2267,7 @@ msgstr "Regardez cette courte vidéo pour un aperçu des produits satellitaires 
 
 #: ../../session_2/01_products_intro.ipynb:61
 msgid "`Download the video slides as a PDF <../_static/session_2/Week2_Satellite-products.pdf>`__"
-msgstr "`Téléchargez les diapositives vidéo au format PDF <../_ static / session_2 / Week2_Satellite-products.pdf>` __"
+msgstr "`Téléchargez les diapositives vidéo au format PDF <../_static/session_2/Week2_Satellite-products.pdf>`__"
 
 #: ../../session_2/01_products_intro.ipynb:83
 msgid "Satellite products"
@@ -2291,15 +2291,15 @@ msgstr "Ces produits sont fondamentaux pour l'analyse de l'observation de la Ter
 
 #: ../../session_2/01_products_intro.ipynb:123
 msgid "**Spatial resolution (how detailed):** Spatial resolution refers to the pixel size of the satellite product. It is the smallest thing the satellite can ‘see’. A 30 m :math:`\\times` 30 m spatial resolution means the satellite product cannot pick up any details smaller than 30 m :math:`\\times` 30 m."
-msgstr "** Résolution spatiale (niveau de détail): ** La résolution spatiale fait référence à la taille de pixel du produit satellite. C’est la plus petite chose que le satellite puisse «voir». Une résolution spatiale de 30 m: `\\ times` 30 m signifie que le produit satellite ne peut pas capter des détails inférieurs à 30 m: math:` \\ times` 30 m."
+msgstr "**Résolution spatiale (niveau de détail):** La résolution spatiale fait référence à la taille de pixel du produit satellite. C’est la plus petite chose que le satellite puisse «voir». Une résolution spatiale de 30 m: `\\times` 30 m signifie que le produit satellite ne peut pas capter des détails inférieurs à 30 m: math:` \\times` 30 m."
 
 #: ../../session_2/01_products_intro.ipynb:134
 msgid "**Temporal resolution (how often):** Satellites pass over different parts of the Earth at different times of the day and month. The frequency of measurements depends on how many satellites are contributing to the product."
-msgstr "** Résolution temporelle (à quelle fréquence): ** Les satellites passent sur différentes parties de la Terre à différents moments de la journée et du mois. La fréquence des mesures dépend du nombre de satellites qui contribuent au produit."
+msgstr "**Résolution temporelle (à quelle fréquence):** Les satellites passent sur différentes parties de la Terre à différents moments de la journée et du mois. La fréquence des mesures dépend du nombre de satellites qui contribuent au produit."
 
 #: ../../session_2/01_products_intro.ipynb:145
 msgid "**Spectral resolution (how versatile):** Spectral resolution refers to the sensors on the satellite. The sensors are calibrated to collect measurements in certain wavelengths of the electromagnetic spectrum, known as ‘bands’. Different bands are used for identifying different features on Earth, so the more bands a product has, the more versatile it is."
-msgstr "** Résolution spectrale (quelle polyvalence): ** La résolution spectrale fait référence aux capteurs du satellite. Les capteurs sont calibrés pour collecter des mesures dans certaines longueurs d’onde du spectre électromagnétique, appelées «bandes». Différentes bandes sont utilisées pour identifier différentes caractéristiques sur Terre, de sorte que plus un produit a de bandes, plus il est polyvalent."
+msgstr "**Résolution spectrale (quelle polyvalence):** La résolution spectrale fait référence aux capteurs du satellite. Les capteurs sont calibrés pour collecter des mesures dans certaines longueurs d’onde du spectre électromagnétique, appelées «bandes». Différentes bandes sont utilisées pour identifier différentes caractéristiques sur Terre, de sorte que plus un produit a de bandes, plus il est polyvalent."
 
 #: ../../session_2/01_products_intro.ipynb:156
 msgid "Digital Earth Africa hosts several satellite products available to Sandbox users. The two products used most in this training course are the Landsat 8 product and the Sentinel-2 product."
@@ -2327,24 +2327,24 @@ msgstr "Le produit Digital Earth Africa Landsat 8 utilise les données de la col
 
 #: ../../session_2/01_products_intro.ipynb:187
 msgid "**Sandbox alias:** ``ls8_usgs_sr_scene``"
-msgstr "** Alias du bac à sable: ** `` ls8_usgs_sr_scene``"
+msgstr "**Alias du bac à sable:** `` ls8_usgs_sr_scene``"
 
 #: ../../session_2/01_products_intro.ipynb:188
 #: ../../session_2/01_products_intro.ipynb:234
 msgid "**Data type:** Surface reflectance"
-msgstr "** Type de données: ** Réflexion de surface"
+msgstr "**Type de données:** Réflexion de surface"
 
 #: ../../session_2/01_products_intro.ipynb:189
 msgid "**Data timespan:** March 2013 – December 2019"
-msgstr "** Période de données: ** Mars 2013 - décembre 2019"
+msgstr "**Période de données:** Mars 2013 - décembre 2019"
 
 #: ../../session_2/01_products_intro.ipynb:190
 msgid "**Available regions:** Tanzania, Senegal, Sierra Leone, Ghana and Kenya"
-msgstr "** Régions disponibles: ** Tanzanie, Sénégal, Sierra Leone, Ghana et Kenya"
+msgstr "**Régions disponibles:** Tanzanie, Sénégal, Sierra Leone, Ghana et Kenya"
 
 #: ../../session_2/01_products_intro.ipynb:191
 msgid "**Spatial resolution:** 30 :math:`\\times` 30 m (size of one pixel)"
-msgstr "** Résolution spatiale: ** 30: math: `\\ times` 30 m (taille d'un pixel)"
+msgstr "**Résolution spatiale:** 30: math: `\\times` 30 m (taille d'un pixel)"
 
 #: ../../session_2/01_products_intro.ipynb:192
 msgid "**Temporal resolution:** 16 days (one flyover every 16 days, or approximately twice a month)"
@@ -2352,11 +2352,11 @@ msgstr "** Résolution temporelle: ** 16 jours (un survol tous les 16 jours, soi
 
 #: ../../session_2/01_products_intro.ipynb:193
 msgid "**Spectral resolution:** 7 spectral bands — Coastal/Aerosol, Blue, Green, Red, Near-Infrared, Short Wavelength Infrared 1, Short Wavelength Infrared 2"
-msgstr "** Résolution spectrale: ** 7 bandes spectrales - côtières / aérosols, bleu, vert, rouge, proche infrarouge, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2"
+msgstr "**Résolution spectrale:** 7 bandes spectrales - côtières / aérosols, bleu, vert, rouge, proche infrarouge, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2"
 
 #: ../../session_2/01_products_intro.ipynb:204
 msgid "For more details, see ``Landsat_collections.ipynb`` in the **Datasets** folder of the Sandbox, or visit the `Landsat Collections website <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__. These sources also contain information about previous Landsat missions; together, Landsat 5/7/8 data covers the time period 1984 – 2019."
-msgstr "Pour plus de détails, voir `` Landsat_collections.ipynb`` dans le dossier ** Datasets ** du bac à sable, ou visitez le site Web de Landsat Collections <https://www.usgs.gov/land-resources/nli/landsat/ Landsat-collections? qt-science_support_page_related_con = 2 # qt-science_support_page_related_con> `__. Ces sources contiennent également des informations sur les missions Landsat précédentes; ensemble, les données Landsat 5/7/8 couvrent la période 1984-2019."
+msgstr "Pour plus de détails, voir ``Landsat_collections.ipynb`` dans le dossier **Datasets** du bac à sable, ou visitez le site Web de Landsat Collections <https://www.usgs.gov/land-resources/nli/landsat/Landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__. Ces sources contiennent également des informations sur les missions Landsat précédentes; ensemble, les données Landsat 5/7/8 couvrent la période 1984-2019."
 
 #: ../../session_2/01_products_intro.ipynb:216
 msgid "Satellite product: Sentinel-2"
@@ -2376,19 +2376,19 @@ msgstr "Le produit Digital Earth Africa Sentinel-2 utilise les données Sentinel
 
 #: ../../session_2/01_products_intro.ipynb:233
 msgid "**Sandbox alias:** ``s2_l2a``"
-msgstr "** Alias du bac à sable: ** `` s2_l2a``"
+msgstr "**Alias du bac à sable:** `` s2_l2a``"
 
 #: ../../session_2/01_products_intro.ipynb:235
 msgid "**Data timespan:** July 2017 – present"
-msgstr "** Période de données: ** juillet 2017 - présent"
+msgstr "**Période de données:** juillet 2017 - présent"
 
 #: ../../session_2/01_products_intro.ipynb:236
 msgid "**Available regions:** Entire African continent"
-msgstr "** Régions disponibles: ** Tout le continent africain"
+msgstr "**Régions disponibles:** Tout le continent africain"
 
 #: ../../session_2/01_products_intro.ipynb:237
 msgid "**Spatial resolution:** 10 :math:`\\times` 10 m, 20 :math:`\\times` 20 m, 60 :math:`\\times` 60 m (depending on band)"
-msgstr "** Résolution spatiale: ** 10: math: `\\ times` 10 m, 20: math:` \\ times` 20 m, 60: math: `\\ times` 60 m (selon la bande)"
+msgstr "**Résolution spatiale:** 10: math: `\\times` 10 m, 20: math:` \\times` 20 m, 60: math: `\\times` 60 m (selon la bande)"
 
 #: ../../session_2/01_products_intro.ipynb:238
 msgid "**Temporal resolution:** 5 days"
@@ -2396,7 +2396,7 @@ msgstr "** Résolution temporelle: ** 5 jours"
 
 #: ../../session_2/01_products_intro.ipynb:239
 msgid "**Spectral resolution:** 12 spectral bands — Coastal/Aerosol, Blue, Green, Red, Red Edge 1, Red Edge 2, Red Edge 3, Near-Infrared 1, Near-Infrared 2, Water Vapour, Short Wavelength Infrared 1, Short Wavelength Infrared 2"
-msgstr "** Résolution spectrale: ** 12 bandes spectrales - côtière / aérosol, bleu, vert, rouge, bord rouge 1, bord rouge 2, bord rouge 3, proche infrarouge 1, proche infrarouge 2, vapeur d'eau, infrarouge à courte longueur d'onde 1 , Infrarouge à courte longueur d'onde 2"
+msgstr "**Résolution spectrale:** 12 bandes spectrales - côtière / aérosol, bleu, vert, rouge, bord rouge 1, bord rouge 2, bord rouge 3, proche infrarouge 1, proche infrarouge 2, vapeur d'eau, infrarouge à courte longueur d'onde 1 , Infrarouge à courte longueur d'onde 2"
 
 #: ../../session_2/01_products_intro.ipynb:241
 msgid "Note that standalone Sentinel-2A data exists for the period of 2015 – 2017, before Sentinel-2B was launched, but as such has a reduced temporal resolution."
@@ -2404,7 +2404,7 @@ msgstr "Notez que les données autonomes Sentinel-2A existent pour la période 2
 
 #: ../../session_2/01_products_intro.ipynb:252
 msgid "For more details, see ``Sentinel_2.ipynb`` in the **Datasets** folder of the Sandbox."
-msgstr "Pour plus de détails, consultez `` Sentinel_2.ipynb '' dans le dossier ** Datasets ** du Sandbox."
+msgstr "Pour plus de détails, consultez ``Sentinel_2.ipynb`` dans le dossier **Datasets** du Sandbox."
 
 #: ../../session_2/01_products_intro.ipynb:264
 msgid "Which satellite product is ‘best’?"
@@ -2416,11 +2416,11 @@ msgstr "Cette question dépend de l'analyse que vous faites. Il permet de consid
 
 #: ../../session_2/01_products_intro.ipynb:277
 msgid "**Analysis timespan:** Recent short-term changes (for example, over a couple of months) are best captured by the Sentinel-2 product, which has good temporal resolution. However, if it were changes over several years, then the Landsat 8 product might be more suitable."
-msgstr "** Période d'analyse: ** Les changements récents à court terme (par exemple, sur quelques mois) sont mieux capturés par le produit Sentinel-2, qui a une bonne résolution temporelle. Cependant, s'il s'agissait de changements sur plusieurs années, le produit Landsat 8 pourrait être plus approprié."
+msgstr "**Période d'analyse:** Les changements récents à court terme (par exemple, sur quelques mois) sont mieux capturés par le produit Sentinel-2, qui a une bonne résolution temporelle. Cependant, s'il s'agissait de changements sur plusieurs années, le produit Landsat 8 pourrait être plus approprié."
 
 #: ../../session_2/01_products_intro.ipynb:279
 msgid "**Analysis region:** Landsat 8 data can only be used on countries for which the data is currently available. For other areas, or continent-wide analyses, Sentinel-2 data should be selected."
-msgstr "** Région d'analyse: ** Les données Landsat 8 ne peuvent être utilisées que sur les pays pour lesquels les données sont actuellement disponibles. Pour d'autres domaines ou des analyses à l'échelle du continent, les données Sentinel-2 doivent être sélectionnées."
+msgstr "**Région d'analyse:** Les données Landsat 8 ne peuvent être utilisées que sur les pays pour lesquels les données sont actuellement disponibles. Pour d'autres domaines ou des analyses à l'échelle du continent, les données Sentinel-2 doivent être sélectionnées."
 
 #: ../../session_2/01_products_intro.ipynb:293
 msgid "Now you know more about the main satellite products covered in this training course. We will use both Landsat 8 and Sentinel-2 in the upcoming data manipulation exercises."
@@ -2432,11 +2432,11 @@ msgstr "Carte numérique de l'Afrique de la Terre"
 
 #: ../../session_2/02_deafrica_map.ipynb:20
 msgid "Satellite products, as a dataset, are just a lot of numbers — not the most intuitive format when you are deciding how to analyse the data. It is much more helpful to see what the data looks like. The `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__ portal helps users visualise Digital Earth Africa products by offering an interactive map."
-msgstr "Les produits satellites, en tant qu'ensemble de données, ne sont que de nombreux nombres - pas le format le plus intuitif lorsque vous décidez comment analyser les données. Il est beaucoup plus utile de voir à quoi ressemblent les données. Le portail `Digital Earth Africa Map <https://maps.digitalearth.africa/>` __ aide les utilisateurs à visualiser les produits Digital Earth Africa en proposant une carte interactive."
+msgstr "Les produits satellites, en tant qu'ensemble de données, ne sont que de nombreux nombres - pas le format le plus intuitif lorsque vous décidez comment analyser les données. Il est beaucoup plus utile de voir à quoi ressemblent les données. Le portail `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__ aide les utilisateurs à visualiser les produits Digital Earth Africa en proposant une carte interactive."
 
 #: ../../session_2/02_deafrica_map.ipynb:34
 msgid "In this section, we will show you how to navigate the `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__. This includes finding the longitude and latitude coordinates of a location. We will then walk through a short exercise on displaying Landsat 8 data on the Map."
-msgstr "Dans cette section, nous allons vous montrer comment naviguer sur la `Digital Earth Africa Map <https://maps.digitalearth.africa/>` __. Cela inclut la recherche des coordonnées de longitude et de latitude d'un emplacement. Nous allons ensuite parcourir un court exercice sur l'affichage des données Landsat 8 sur la carte."
+msgstr "Dans cette section, nous allons vous montrer comment naviguer sur la `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__. Cela inclut la recherche des coordonnées de longitude et de latitude d'un emplacement. Nous allons ensuite parcourir un court exercice sur l'affichage des données Landsat 8 sur la carte."
 
 #: ../../session_2/02_deafrica_map.ipynb:46
 msgid "Video: Introduction to the DE Africa Map"
@@ -2468,11 +2468,11 @@ msgstr "La carte numérique de l'Afrique de la Terre peut être divisée en deux
 
 #: ../../session_2/02_deafrica_map.ipynb:117
 msgid "**Data workbench (left side):** Allows users to select data they want to view on the Map. By default, no data is selected."
-msgstr "** Data workbench (côté gauche): ** Permet aux utilisateurs de sélectionner les données qu'ils souhaitent afficher sur la carte. Par défaut, aucune donnée n'est sélectionnée."
+msgstr "**Data workbench (côté gauche):** Permet aux utilisateurs de sélectionner les données qu'ils souhaitent afficher sur la carte. Par défaut, aucune donnée n'est sélectionnée."
 
 #: ../../session_2/02_deafrica_map.ipynb:118
 msgid "**Map interface (right side):** Displays the data selected in the workbench, and allows users to customise how the data is viewed. By default, it shows an Esri World Imagery Basemap."
-msgstr "** Interface de la carte (côté droit): ** Affiche les données sélectionnées dans l'atelier et permet aux utilisateurs de personnaliser la façon dont les données sont affichées. Par défaut, il affiche un fond de carte Esri World Imagery."
+msgstr "**Interface de la carte (côté droit):** Affiche les données sélectionnées dans l'atelier et permet aux utilisateurs de personnaliser la façon dont les données sont affichées. Par défaut, il affiche un fond de carte Esri World Imagery."
 
 #: ../../session_2/02_deafrica_map.ipynb:130
 msgid "Longitude and latitude coordinates"
@@ -2493,11 +2493,11 @@ msgstr "Le point sélectionné est indiqué par un marqueur de position bleu."
 #: ../../session_2/02_deafrica_map.ipynb:146
 #: ../../session_2/02_deafrica_map.ipynb:261
 msgid "Zoom in to the shaded area by scrolling up on your mouse or pressing the floating **+** button on the side of the map interface. Left-click and drag to pan the map."
-msgstr "Effectuez un zoom avant sur la zone ombrée en faisant défiler votre souris vers le haut ou en appuyant sur le bouton flottant ** + ** sur le côté de l'interface de la carte. Cliquez avec le bouton gauche et faites glisser pour faire un panoramique de la carte."
+msgstr "Effectuez un zoom avant sur la zone ombrée en faisant défiler votre souris vers le haut ou en appuyant sur le bouton flottant **+** sur le côté de l'interface de la carte. Cliquez avec le bouton gauche et faites glisser pour faire un panoramique de la carte."
 
 #: ../../session_2/02_deafrica_map.ipynb:147
 msgid "The latitude and longitude coordinates are shown in the **Feature Information** window. You can highlight and copy them with your mouse."
-msgstr "Les coordonnées de latitude et de longitude sont affichées dans la fenêtre ** Informations sur les fonctionnalités **. Vous pouvez les mettre en évidence et les copier avec votre souris."
+msgstr "Les coordonnées de latitude et de longitude sont affichées dans la fenêtre **Feature Information**. Vous pouvez les mettre en évidence et les copier avec votre souris."
 
 #: ../../session_2/02_deafrica_map.ipynb:149
 msgid "This function is useful when you want to perform analysis on a certain area, and need to input the longitude and latitude to load the data. We do not need coordinates for the exercise below."
@@ -2521,7 +2521,7 @@ msgstr "La vidéo ci-dessus fait référence à l'ensemble de données pour les 
 
 #: ../../session_2/02_deafrica_map.ipynb:202
 msgid "First, we need to select the Landsat 8 dataset. To add data to the data workbench, click **Add Data** to open the Data Catalogue."
-msgstr "Tout d'abord, nous devons sélectionner le jeu de données Landsat 8. Pour ajouter des données à l'atelier de données, cliquez sur ** Ajouter des données ** pour ouvrir le catalogue de données."
+msgstr "Tout d'abord, nous devons sélectionner le jeu de données Landsat 8. Pour ajouter des données à l'atelier de données, cliquez sur **Add Data** pour ouvrir le catalogue de données."
 
 #: ../../session_2/02_deafrica_map.ipynb:213
 msgid "|f0951e9859be439589ff608a50522a4a|"
@@ -2529,11 +2529,11 @@ msgstr "| f0951e9859be439589ff608a50522a4a |"
 
 #: ../../session_2/02_deafrica_map.ipynb:227
 msgid "The datasets are organised by category. Landsat 8 is a satellite product, so select **Satellite images**. Click **Surface reflectance** and **Daily surface reflectance** to open the folder of Landsat surface reflectance products. Click **Surface reflectance (Landsat 8)**."
-msgstr "Les ensembles de données sont organisés par catégorie. Landsat 8 est un produit satellite, alors sélectionnez ** Images satellites **. Cliquez sur ** Réflexion de surface ** et ** Réflexion de surface quotidienne ** pour ouvrir le dossier des produits de réflectance de surface Landsat. Cliquez sur ** Réflexion de surface (Landsat 8) **."
+msgstr "Les ensembles de données sont organisés par catégorie. Landsat 8 est un produit satellite, alors sélectionnez **Satellite images**. Cliquez sur **Surface reflectance** et **Daily surface reflectance** (Réflexion de surface quotidienne) pour ouvrir le dossier des produits de réflectance de surface Landsat. Cliquez sur **Surface reflectance (Landsat 8)**."
 
 #: ../../session_2/02_deafrica_map.ipynb:229
 msgid "The right panel will show information on the selected dataset. Click **Add to the map**. This will add the dataset to the workbench and close the Data Catalogue."
-msgstr "Le panneau de droite affichera des informations sur l'ensemble de données sélectionné. Cliquez sur ** Ajouter à la carte **. Cela ajoutera l'ensemble de données à l'atelier et fermera le catalogue de données."
+msgstr "Le panneau de droite affichera des informations sur l'ensemble de données sélectionné. Cliquez sur **Add to the map**. Cela ajoutera l'ensemble de données à l'atelier et fermera le catalogue de données."
 
 #: ../../session_2/02_deafrica_map.ipynb:231
 msgid "|08d1454d67d34520ae4e77d70c7a3400|"
@@ -2561,7 +2561,7 @@ msgstr "| f5f52e75109a40a1a2cd7a7018809b16 |"
 
 #: ../../session_2/02_deafrica_map.ipynb:285
 msgid "To see other days of data, click the date shown in the workbench dataset **Time** bar. This will open a menu that shows all available timesteps for the Landsat 8 product. Select a different time and see how the map shaded area changes."
-msgstr "Pour afficher les autres jours de données, cliquez sur la date affichée dans la barre ** Heure ** de l'ensemble de données de l'atelier. Cela ouvrira un menu qui affiche tous les pas de temps disponibles pour le produit Landsat 8. Sélectionnez une autre heure et voyez comment la zone ombrée de la carte change."
+msgstr "Pour afficher les autres jours de données, cliquez sur la date affichée dans la barre **Time** de l'ensemble de données de l'atelier. Cela ouvrira un menu qui affiche tous les pas de temps disponibles pour le produit Landsat 8. Sélectionnez une autre heure et voyez comment la zone ombrée de la carte change."
 
 #: ../../session_2/02_deafrica_map.ipynb:287
 msgid "|86eecf5bd7e94310add5b64ec2086169|"
@@ -2589,7 +2589,7 @@ msgstr "Vous pouvez avoir plusieurs ensembles de données dans l'atelier"
 
 #: ../../session_2/02_deafrica_map.ipynb:322
 msgid "**Other useful functions:**"
-msgstr "** Autres fonctions utiles: **"
+msgstr "**Autres fonctions utiles:**"
 
 #: ../../session_2/02_deafrica_map.ipynb:324
 msgid "Click on the white square to deselect a dataset. This will keep it in the workbench but remove it from the map interface display"
@@ -2597,19 +2597,19 @@ msgstr "Cliquez sur le carré blanc pour désélectionner un jeu de données. Ce
 
 #: ../../session_2/02_deafrica_map.ipynb:325
 msgid "Click on **Remove** to remove the selected dataset"
-msgstr "Cliquez sur ** Supprimer ** pour supprimer l'ensemble de données sélectionné"
+msgstr "Cliquez sur **Remove** pour supprimer l'ensemble de données sélectionné"
 
 #: ../../session_2/02_deafrica_map.ipynb:326
 msgid "Click on **Remove All** to clear all datasets from the workbench"
-msgstr "Cliquez sur ** Tout supprimer ** pour effacer tous les ensembles de données de l'atelier"
+msgstr "Cliquez sur **Remove All** pour effacer tous les ensembles de données de l'atelier"
 
 #: ../../session_2/02_deafrica_map.ipynb:337
 msgid "Details on other functions of the Digital Earth Africa Map can be found in the `Map portal user guide <./../Maps_help.ipynb>`__, but are not necessary to progress in the training course."
-msgstr "Des détails sur les autres fonctions de la carte Digital Earth Africa peuvent être trouvés dans le `Guide de l'utilisateur du portail Map <./../ Maps_help.ipynb>` __, mais ne sont pas nécessaires pour progresser dans la formation."
+msgstr "Des détails sur les autres fonctions de la carte Digital Earth Africa peuvent être trouvés dans le `Guide de l'utilisateur du portail Map <./../Maps_help.ipynb>`__, mais ne sont pas nécessaires pour progresser dans la formation."
 
 #: ../../session_2/02_deafrica_map.ipynb:351
 msgid "Using the `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__, we can see the satellite data in a visual way. This makes it easier to understand the scope of the data we are analysing. It is also a useful tool for pinpointing longitude and latitude coordinates of areas of interest."
-msgstr "En utilisant la `Digital Earth Africa Map <https://maps.digitalearth.africa/>` __, nous pouvons voir les données satellitaires de manière visuelle. Cela facilite la compréhension de la portée des données que nous analysons. C'est également un outil utile pour localiser les coordonnées de longitude et de latitude des zones d'intérêt."
+msgstr "En utilisant la `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__, nous pouvons voir les données satellitaires de manière visuelle. Cela facilite la compréhension de la portée des données que nous analysons. C'est également un outil utile pour localiser les coordonnées de longitude et de latitude des zones d'intérêt."
 
 #: ../../session_2/03_data_availability.ipynb:9
 msgid "Data availability"
@@ -2677,7 +2677,7 @@ msgstr "** Sélection de produits: ** Ceci montre le produit actuellement sélec
 
 #: ../../session_2/03_data_availability.ipynb:121
 msgid "**Time period:** This shows the time period for which the selected product is being displayed. Click the selected time period to open the time selection dropdown menu."
-msgstr "** Période: ** Ceci indique la période pendant laquelle le produit sélectionné est affiché. Cliquez sur la période sélectionnée pour ouvrir le menu déroulant de sélection de l'heure."
+msgstr "**Période:** Ceci indique la période pendant laquelle le produit sélectionné est affiché. Cliquez sur la période sélectionnée pour ouvrir le menu déroulant de sélection de l'heure."
 
 #: ../../session_2/03_data_availability.ipynb:122
 msgid "**Map display:** This shows where data is available, for the selected time and product. Blue shaded tiles indicate the presence of data."
@@ -2709,7 +2709,7 @@ msgstr "| 0d0b1ffae60b4ea5aa5d23b85b7865ba |"
 
 #: ../../session_2/03_data_availability.ipynb:154
 msgid "The **map display** will now show all the Landsat 8 datasets for the year of 2018 as blue shaded boxes. Use the **+** button on the map to zoom in, and click and drag to pan the map."
-msgstr "L'affichage de la carte ** affichera désormais tous les jeux de données Landsat 8 pour l'année 2018 sous forme de cases bleues. Utilisez le bouton ** + ** sur la carte pour effectuer un zoom avant, et cliquez et faites glisser pour faire un panoramique sur la carte."
+msgstr "**L'affichage de la carte** affichera désormais tous les jeux de données Landsat 8 pour l'année 2018 sous forme de cases bleues. Utilisez le bouton **+** sur la carte pour effectuer un zoom avant, et cliquez et faites glisser pour faire un panoramique sur la carte."
 
 #: ../../session_2/03_data_availability.ipynb:156
 msgid "|5323a00ce7f2492f9d354d48aded5b22|"
@@ -2725,7 +2725,7 @@ msgstr "Zoom sur la Tanzanie"
 
 #: ../../session_2/03_data_availability.ipynb:192
 msgid "Use the map’s **+** button to zoom in on Africa. Click and drag to see Tanzania."
-msgstr "Utilisez le bouton ** + ** de la carte pour zoomer sur l’Afrique. Cliquez et faites glisser pour voir la Tanzanie."
+msgstr "Utilisez le bouton **+** de la carte pour zoomer sur l’Afrique. Cliquez et faites glisser pour voir la Tanzanie."
 
 #: ../../session_2/03_data_availability.ipynb:194
 msgid "|a022c991d4864db4b3a50b5513112ade|"
@@ -2768,7 +2768,7 @@ msgstr "| image1 |"
 
 #: ../../session_2/04_load_data_exercise.ipynb:61
 msgid "If Launcher is not the active tab in the main work area (right pane), click the **+** button at the top of the left sidebar to open the launcher in the right pane."
-msgstr "Si Le lanceur n'est pas l'onglet actif dans la zone de travail principale (volet droit), cliquez sur le bouton ** + ** en haut de la barre latérale gauche pour ouvrir le lanceur dans le volet droit."
+msgstr "Si Le lanceur n'est pas l'onglet actif dans la zone de travail principale (volet droit), cliquez sur le bouton **+** en haut de la barre latérale gauche pour ouvrir le lanceur dans le volet droit."
 
 #: ../../session_2/04_load_data_exercise.ipynb:63
 #: ../../session_3/02_cloud_masking.ipynb:107
@@ -3280,7 +3280,7 @@ msgstr "Cette session porte sur les ensembles de données disponibles via Digita
 
 #: ../../session_2/index.rst:8
 msgid "Click on **Digital Earth Africa products** to get started. If you would like to review Session 1 content first, click **Session 1: Introduction** in the side menu."
-msgstr "Cliquez sur ** Produits Digital Earth Africa ** pour commencer. Si vous souhaitez d'abord consulter le contenu de la session 1, cliquez sur ** Session 1: Introduction ** dans le menu latéral."
+msgstr "Cliquez sur **Produits Digital Earth Africa** pour commencer. Si vous souhaitez d'abord consulter le contenu de la session 1, cliquez sur **Session 1: Introduction** dans le menu latéral."
 
 #: ../../session_3/01_intro_composites.ipynb:9
 msgid "Introduction to cloud-free composites"
@@ -3300,7 +3300,7 @@ msgstr "Vidéo: agrégation temporelle des données"
 
 #: ../../session_3/01_intro_composites.ipynb:48
 msgid "`Download the video slides as a PDF <../_static/session_3/Week3_Time-aggregation-of-data.pdf>`__"
-msgstr "`Téléchargez les diapositives vidéo au format PDF <../_ static / session_3 / Week3_Time-aggregation-of-data.pdf>` __"
+msgstr "`Téléchargez les diapositives vidéo au format PDF <../_static/session_3/Week3_Time-aggregation-of-data.pdf>`__"
 
 #: ../../session_3/01_intro_composites.ipynb:69
 msgid "In the video, we saw that we can compensate for missing or cloudy data points by using data from different points in time to fill in the gaps. This is a two-step process:"
@@ -3520,7 +3520,7 @@ msgstr "Accédez au dossier ** Training ** (ou créez ce dossier en suivant les 
 
 #: ../../session_3/02_cloud_masking.ipynb:46
 msgid "Click the **+** button and click **Python 3** under the **Notebook** section."
-msgstr "Cliquez sur le bouton ** + **, puis sur ** Python 3 ** sous la section ** Notebook **."
+msgstr "Cliquez sur le bouton **+**, puis sur **Python 3** sous la section **Notebook**."
 
 #: ../../session_3/02_cloud_masking.ipynb:47
 msgid "Rename your file so you know it is from this exercise. We will use this notebook for working with geomedians, so let us call it ``Geomedian_composite.ipynb``."
@@ -3765,7 +3765,7 @@ msgstr "Session 3: Composites"
 
 #: ../../session_3/index.rst:6
 msgid "In this session, we will explore the advantages of having satellite data available over a long period of time. We can fill in missing or bad data from one day with data from another day. This creates a complete image known as a **composite**. The most scientifically rigorous way of combining data is to use a **geomedian**."
-msgstr "Dans cette session, nous explorerons les avantages de disposer de données satellitaires sur une longue période. Nous pouvons remplir les données manquantes ou incorrectes d'un jour avec des données d'un autre jour. Cela crée une image complète appelée ** composite **. La manière la plus scientifiquement rigoureuse de combiner des données consiste à utiliser un ** géomédian **."
+msgstr "Dans cette session, nous explorerons les avantages de disposer de données satellitaires sur une longue période. Nous pouvons remplir les données manquantes ou incorrectes d'un jour avec des données d'un autre jour. Cela crée une image complète appelée **composite**. La manière la plus scientifiquement rigoureuse de combiner des données consiste à utiliser un **géomédian**."
 
 #: ../../session_3/index.rst:8
 msgid "First, we will introduce composites and geomedians. Then, the exercise will walk through removing cloudy data points from our datasets, and show you how to produce cloud-free geomedian composite images."
@@ -3793,7 +3793,7 @@ msgstr "Regardez la courte vidéo ci-dessous pour en savoir plus sur les indices
 
 #: ../../session_4/01_band_indices.ipynb:56
 msgid "`Download the video slides as a PDF <../_static/session_4/Week4_Band-indices.pdf>`__"
-msgstr "`Téléchargez les diapositives vidéo au format PDF <../_ static / session_4 / Week4_Band-indices.pdf>` __"
+msgstr "`Téléchargez les diapositives vidéo au format PDF <../_static/session_4/Week4_Band-indices.pdf>`__"
 
 #: ../../session_4/01_band_indices.ipynb:78
 msgid "What is a band?"

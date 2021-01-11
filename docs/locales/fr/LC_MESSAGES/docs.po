@@ -948,7 +948,7 @@ msgstr "** Remarque **: Le modèle de couleur RVB utilise des valeurs comprises 
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:175
 msgid "**Note**: The widget code is hidden by the ``...`` symbol above. Clicking on it will expand the code cell. Click on the vertical blue line next to the left of the cell to collapse it again."
-msgstr "** Remarque **: Le code du widget est masqué par le symbole `` ... '' ci-dessus. Cliquez dessus pour développer la cellule de code. Cliquez sur la ligne bleue verticale à côté de la gauche de la cellule pour la réduire à nouveau."
+msgstr "** Remarque **: Le code du widget est masqué par le symbole ``...`` ci-dessus. Cliquez dessus pour développer la cellule de code. Cliquez sur la ligne bleue verticale à côté de la gauche de la cellule pour la réduire à nouveau."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:187
 msgid "Pre-run example"
@@ -976,19 +976,19 @@ msgstr "La médiane peut être déterminée pour chaque bande en trouvant la val
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:238
 msgid "The median of the red band is ``median(0, 0, 255) = 0``."
-msgstr "La médiane de la bande rouge est `` médiane (0, 0, 255) = 0 ''."
+msgstr "La médiane de la bande rouge est ``median(0, 0, 255) = 0``."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:240
 msgid "The median of the green band is ``median(0, 255, 255) = 255``."
-msgstr "La médiane de la bande verte est `` médiane (0, 255, 255) = 255 ''."
+msgstr "La médiane de la bande verte est ``median(0, 255, 255) = 255``."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:242
 msgid "The median of the blue band is ``median(0, 0, 255) = 0``."
-msgstr "La médiane de la bande bleue est `` médiane (0, 0, 255) = 0 ''."
+msgstr "La médiane de la bande bleue est ``median(0, 0, 255) = 0``."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:244
 msgid "Thus the median RGB value for all timesteps is ``(0, 255, 0)``, with the corresponding colour shown in the **Median RGB - All timesteps** pixel. Note that the median RGB value is the same as the green pixel (``Timestep 2``)."
-msgstr "Ainsi, la valeur RVB médiane pour tous les pas de temps est `` (0, 255, 0) '', avec la couleur correspondante affichée dans le pixel ** RVB médian - Tous les pas de temps **. Notez que la valeur RVB médiane est la même que le pixel vert (`` Timestep 2 '')."
+msgstr "Ainsi, la valeur RVB médiane pour tous les pas de temps est ``(0, 255, 0)``, avec la couleur correspondante affichée dans le pixel **Median RGB - All timesteps**. Notez que la valeur RVB médiane est la même que le pixel vert (`` Timestep 2``)."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:247
 msgid "The problem with the median"
@@ -996,11 +996,11 @@ msgstr "Le problème de la médiane"
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:249
 msgid "This example shows that the median does **not** account for the fact that one of the ``red`` values and one of the ``blue`` values are very large (255). Likewise, one of the ``green`` values is very small (0). We find that the median comes out to the same value as ``Timestep 2``, which is not particularly representative of the variation we see in the three timesteps."
-msgstr "Cet exemple montre que la médiane ne tient ** pas ** compte du fait que l'une des valeurs `` rouge '' et l'une des valeurs `` bleu '' sont très grandes (255). De même, l'une des valeurs `` vertes '' est très petite (0). Nous constatons que la médiane a la même valeur que `` Timestep 2 '', ce qui n'est pas particulièrement représentatif de la variation que nous voyons dans les trois pas de temps."
+msgstr "Cet exemple montre que la médiane ne tient ** pas ** compte du fait que l'une des valeurs `` rouge`` et l'une des valeurs `` bleu`` sont très grandes (255). De même, l'une des valeurs `` vertes`` est très petite (0). Nous constatons que la médiane a la même valeur que `` Timestep 2``, ce qui n'est pas particulièrement représentatif de la variation que nous voyons dans les trois pas de temps."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:251
 msgid "The variation is better incorporated into the ``Geomedian RGB - All timesteps`` result, as the geomedian formula treats each timestep as a multi-dimensional vector. We see this results in differing values between the median and geomedian."
-msgstr "La variation est mieux intégrée dans le résultat `` RVB géomédien - Tous les pas temporels '', car la formule géomédiane traite chaque pas temporel comme un vecteur multidimensionnel. Nous voyons que cela se traduit par des valeurs différentes entre la médiane et le géomédian."
+msgstr "La variation est mieux intégrée dans le résultat  ``Geomedian RGB - All timesteps``, car la formule géomédiane traite chaque pas temporel comme un vecteur multidimensionnel. Nous voyons que cela se traduit par des valeurs différentes entre la médiane et le géomédian."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:254
 msgid "Further exploration"
@@ -1008,7 +1008,7 @@ msgstr "Exploration plus approfondie"
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:256
 msgid "If there is only one spectral dimension (e.g. only the red band), the median and geomedian can still be different. You can try this for yourself by setting all ``Green`` and ``Blue`` sliders to ``0``. Can you create a case where the red median and red geomedian are different?"
-msgstr "S'il n'y a qu'une seule dimension spectrale (par exemple seulement la bande rouge), la médiane et le géomédian peuvent encore être différents. Vous pouvez essayer cela par vous-même en réglant tous les curseurs `` Vert '' et `` Bleu '' sur `` 0 ''. Pouvez-vous créer un cas où la médiane rouge et le géomédian rouge sont différents?"
+msgstr "S'il n'y a qu'une seule dimension spectrale (par exemple seulement la bande rouge), la médiane et le géomédian peuvent encore être différents. Vous pouvez essayer cela par vous-même en réglant tous les curseurs `` Vert `` et `` Bleu `` sur `` 0 ``. Pouvez-vous créer un cas où la médiane rouge et le géomédian rouge sont différents?"
 
 #: ../../_static/session_2/Load_data_solution.ipynb:9
 msgid "Session 2 Solution - Loading data exercise"
@@ -1148,25 +1148,25 @@ msgstr "Chargez les données"
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:86
 msgid "In the following cell, we set ``x`` and ``y`` equal to pairs indicating the longitude and latitude extents of our region of interest, and then display a map showing the region."
-msgstr "Dans la cellule suivante, nous définissons `` x '' et `` y '' égaux aux paires indiquant les étendues de longitude et de latitude de notre région d'intérêt, puis affichons une carte montrant la région."
+msgstr "Dans la cellule suivante, nous définissons `` x `` et `` y `` égaux aux paires indiquant les étendues de longitude et de latitude de notre région d'intérêt, puis affichons une carte montrant la région."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:143
 msgid "Here we load data via the ``load_ard`` function. We specify the instance of the datacube (``dc``), the product that we wish to load (``s2_l2a`` for Sentinel-2), the extents of our query (in ``x``, ``y``, and ``time``), the list of bands to fetch (``['red' ,'green', 'blue']``), the spatial resolution of our data (10 meters), and we group nearby results by solar day."
-msgstr "Ici, nous chargeons les données via la fonction `` load_ard ''. On spécifie l'instance du datacube (`` dc ''), le produit que l'on souhaite charger (`` s2_l2a`` pour Sentinel-2), les étendues de notre requête (en `` x '', `` y ``, et `` time``), la liste des bandes à récupérer (`` ['red', 'green', 'blue'] ``), la résolution spatiale de nos données (10 mètres), et nous regrouper les résultats à proximité par jour solaire."
+msgstr "Ici, nous chargeons les données via la fonction `` load_ard ``. On spécifie l'instance du datacube (`` dc ``), le produit que l'on souhaite charger (`` s2_l2a`` pour Sentinel-2), les étendues de notre requête (en `` x ``, `` y ``, et `` time``), la liste des bandes à récupérer (`` ['red', 'green', 'blue'] ``), la résolution spatiale de nos données (10 mètres), et nous regrouper les résultats à proximité par jour solaire."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:145
 msgid "Note we named the variables ``x`` and ``y`` in the cell above, so we do not need to type the longitude/latitude pairs again. We can just call upon ``x`` and ``y`` as shown below."
-msgstr "Notez que nous avons nommé les variables `` x '' et `` y '' dans la cellule ci-dessus, nous n'avons donc pas besoin de taper à nouveau les paires longitude / latitude. Nous pouvons simplement appeler `` x '' et `` y '' comme indiqué ci-dessous."
+msgstr "Notez que nous avons nommé les variables `` x `` et `` y `` dans la cellule ci-dessus, nous n'avons donc pas besoin de taper à nouveau les paires longitude / latitude. Nous pouvons simplement appeler `` x `` et `` y `` comme indiqué ci-dessous."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:213
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:202
 msgid "Here we create a list of time slices to plot, and store it as the variable ``timesteps``. The values in the list are indices into the list of satellite acquisitions, starting at zero. The values here, ``[1, 6, 8]``, therefore refer to the second, seventh, and ninth acquisitions. There should be 71 acquisitions for this particular dataset/extent combination, so any values from 0 to 70 can be used."
-msgstr "Ici, nous créons une liste de tranches de temps à tracer, et la stockons comme variable `` timesteps ''. Les valeurs de la liste sont des indices dans la liste des acquisitions de satellites, commençant à zéro. Les valeurs ici, «[1, 6, 8]», se réfèrent donc aux deuxième, septième et neuvième acquisitions. Il devrait y avoir 71 acquisitions pour cette combinaison d'ensemble de données / étendue particulière, de sorte que toutes les valeurs de 0 à 70 puissent être utilisées."
+msgstr "Ici, nous créons une liste de tranches de temps à tracer, et la stockons comme variable `` timesteps ``. Les valeurs de la liste sont des indices dans la liste des acquisitions de satellites, commençant à zéro. Les valeurs ici, ``[1, 6, 8]``, se réfèrent donc aux deuxième, septième et neuvième acquisitions. Il devrait y avoir 71 acquisitions pour cette combinaison d'ensemble de données / étendue particulière, de sorte que toutes les valeurs de 0 à 70 puissent être utilisées."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:215
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:204
 msgid "We then call the ``rgb`` function to produce a series of plots from the data that we loaded, using the bands that we specify (``['red', 'green', 'blue']``), for the time indices stored in ``timesteps``."
-msgstr "Nous appelons ensuite la fonction `` rgb`` pour produire une série de tracés à partir des données que nous avons chargées, en utilisant les bandes que nous spécifions (`` ['red', 'green', 'blue'] ``), pour les indices de temps stockés dans les `` pas de temps ''."
+msgstr "Nous appelons ensuite la fonction `` rgb`` pour produire une série de tracés à partir des données que nous avons chargées, en utilisant les bandes que nous spécifions (`` ['red', 'green', 'blue'] ``), pour les indices de temps stockés dans les ``timesteps``."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:247
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:236
@@ -1177,7 +1177,7 @@ msgstr "Rééchantillonner l'ensemble de données"
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:258
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:247
 msgid "Here we create a new variable (``resample_sentinel_2_ds``) which describes a grouping of the data we previously loaded (``sentinel_2_ds``), divided into 3-month (quarterly) intervals."
-msgstr "Ici, nous créons une nouvelle variable (`` resample_sentinel_2_ds '') qui décrit un regroupement des données que nous avons précédemment chargées (`` sentinel_2_ds ''), divisées en intervalles de 3 mois (trimestriels)."
+msgstr "Ici, nous créons une nouvelle variable (`` resample_sentinel_2_ds``) qui décrit un regroupement des données que nous avons précédemment chargées (`` sentinel_2_ds``), divisées en intervalles de 3 mois (trimestriels)."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:280
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:269
@@ -1188,7 +1188,7 @@ msgstr "Calculer le géomédian"
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:291
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:280
 msgid "Below, we take the data which we just split into quarterly intervals, and we apply the ``xr_geomedian`` function to each interval. We store the result into the ``geomedian_resample`` variable."
-msgstr "Ci-dessous, nous prenons les données que nous venons de diviser en intervalles trimestriels, et nous appliquons la fonction `` xr_geomedian`` à chaque intervalle. Nous stockons le résultat dans la variable `` geomedian_resample ''."
+msgstr "Ci-dessous, nous prenons les données que nous venons de diviser en intervalles trimestriels, et nous appliquons la fonction `` xr_geomedian`` à chaque intervalle. Nous stockons le résultat dans la variable `` geomedian_resample``."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_1_solution-annotated.ipynb:331
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:320
@@ -1226,7 +1226,7 @@ msgstr "Ajout de la mesure nir"
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:134
 msgid "Here we load data via the ``load_ard`` function. We specify the instance of the datacube (``dc``), the product that we wish to load (``s2_l2a`` for Sentinel-2), the extents of our query (in x, y, and time), the list of bands to fetch (``['red' ,'green', 'blue', 'nir']``), the spatial resolution of our data (20 meters), and we group nearby results by solar day."
-msgstr "Ici, nous chargeons les données via la fonction `` load_ard ''. Nous spécifions l'instance du datacube (`` dc ''), le produit que nous souhaitons charger (`` s2_l2a`` pour Sentinel-2), les étendues de notre requête (en x, y et en temps), le liste des bandes à récupérer (`` ['red', 'green', 'blue', 'nir'] ``), la résolution spatiale de nos données (20 mètres), et nous regroupons les résultats à proximité par jour solaire."
+msgstr "Ici, nous chargeons les données via la fonction `` load_ard``. Nous spécifions l'instance du datacube (`` dc``), le produit que nous souhaitons charger (`` s2_l2a`` pour Sentinel-2), les étendues de notre requête (en x, y et en temps), le liste des bandes à récupérer (`` ['red', 'green', 'blue', 'nir'] ``), la résolution spatiale de nos données (20 mètres), et nous regroupons les résultats à proximité par jour solaire."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:1612
 msgid "Manually calculate an index"
@@ -1247,7 +1247,7 @@ msgstr "NDVI = \\ frac {(NIR - Rouge)} {(NIR + Rouge)}"
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:1630
 msgid "To keep our code tidy, we create variables ``nir`` and ``red`` and set them to equal ``geomedian_resample.nir`` and ``geomedian_resample.red`` respectively."
-msgstr "Pour garder notre code bien rangé, nous créons les variables `` nir '' et `` red '' et les définissons sur respectivement `` geomedian_resample.nir '' et `` geomedian_resample.red``."
+msgstr "Pour garder notre code bien rangé, nous créons les variables ``nir`` et ``red`` et les définissons sur respectivement `` geomedian_resample.nir`` et ``geomedian_resample.red``."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:1655
 #: ../../session_4/03_calculate_ndvi_part_2.ipynb:182
@@ -1256,7 +1256,7 @@ msgstr "Tracez le NDVI pour chaque géomédian"
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:1666
 msgid "Here we call the ``plot`` function on our NDVI data, which gives us an image for each quarterly interval."
-msgstr "Ici, nous appelons la fonction `` plot '' sur nos données NDVI, qui nous donne une image pour chaque intervalle trimestriel."
+msgstr "Ici, nous appelons la fonction ``plot`` sur nos données NDVI, qui nous donne une image pour chaque intervalle trimestriel."
 
 #: ../../_static/session_4/Calculate_NDVI_Part_2_solution-annotated.ipynb:1717
 #: ../../session_4/03_calculate_ndvi_part_2.ipynb:216
@@ -1414,7 +1414,7 @@ msgstr "En utilisant le tableau présenté dans l'exercice, nous avons détermin
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:1441
 msgid "When we view the contents of the ``ds_valid_water`` variable, we can see that it contains a grid of True/False values. Wherever ``ds_wofs.water`` was equal to 128, the array will be True. Note that the preview below only shows a small subset of the full DataArray, and there may not be any True pixels visible in the preview output."
-msgstr "Lorsque nous visualisons le contenu de la variable `` ds_valid_water``, nous pouvons voir qu'elle contient une grille de valeurs True / False. Partout où `` ds_wofs.water`` était égal à 128, le tableau sera True. Notez que l'aperçu ci-dessous ne montre qu'un petit sous-ensemble du DataArray complet et qu'il se peut qu'il n'y ait pas de vrais pixels visibles dans la sortie d'aperçu."
+msgstr "Lorsque nous visualisons le contenu de la variable ``ds_valid_water``, nous pouvons voir qu'elle contient une grille de valeurs True / False. Partout où ``ds_wofs.water`` était égal à 128, le tableau sera True. Notez que l'aperçu ci-dessous ne montre qu'un petit sous-ensemble du DataArray complet et qu'il se peut qu'il n'y ait pas de vrais pixels visibles dans la sortie d'aperçu."
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2047
 #: ../../session_6/02_water_extent.ipynb:304
@@ -1423,7 +1423,7 @@ msgstr "Calculez la surface par pixel"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2058
 msgid "We can calculate the area of a pixel by converting its resolution (which we specified in meters per pixel in our ``query`` variable’s ``'resolution'`` key) into square kilometers per pixel:"
-msgstr "Nous pouvons calculer l'aire d'un pixel en convertissant sa résolution (que nous avons spécifiée en mètres par pixel dans la clé `` résolution '' de notre variable `` requête '') en kilomètres carrés par pixel:"
+msgstr "Nous pouvons calculer l'aire d'un pixel en convertissant sa résolution (que nous avons spécifiée en mètres par pixel dans la clé ``résolution`` de notre variable ``query``) en kilomètres carrés par pixel:"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2082
 #: ../../session_6/02_water_extent.ipynb:326
@@ -1440,7 +1440,7 @@ msgstr "Tracer la série chronologique"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2127
 msgid "The following lines of code create a new ``figure`` which will contain a plot of our water area data, complete with custom titles, axis labels, etc."
-msgstr "Les lignes de code suivantes créent une nouvelle `` figure '' qui contiendra un tracé de nos données de surface d'eau, avec des titres personnalisés, des étiquettes d'axe, etc."
+msgstr "Les lignes de code suivantes créent une nouvelle ``figure`` qui contiendra un tracé de nos données de surface d'eau, avec des titres personnalisés, des étiquettes d'axe, etc."
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2162
 #: ../../session_6/02_water_extent.ipynb:395
@@ -1449,7 +1449,7 @@ msgstr "Affichage de la couverture d'eau pour un pas de temps sélectionné"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2173
 msgid "Finally, we choose one of the times in our time series to generate more customised plots of both the Landsat and WOfS datasets. Here we have chosen timestep ``4`` (the fifth time in the series, since we start counting at zero) but you are encouraged to experiment with other time indices to find times where the lake has dried out (the line plot above may provide some hints!)."
-msgstr "Enfin, nous choisissons l'un des moments de notre série chronologique pour générer des graphiques plus personnalisés des ensembles de données Landsat et WOfS. Ici, nous avons choisi le pas de temps `` 4 '' (la cinquième fois de la série, puisque nous commençons à compter à zéro) mais vous êtes encouragé à expérimenter avec d'autres indices de temps pour trouver les moments où le lac s'est desséché (le graphique en ligne donnez quelques indices!)."
+msgstr "Enfin, nous choisissons l'un des moments de notre série chronologique pour générer des graphiques plus personnalisés des ensembles de données Landsat et WOfS. Ici, nous avons choisi le pas de temps ``4`` (la cinquième fois de la série, puisque nous commençons à compter à zéro) mais vous êtes encouragé à expérimenter avec d'autres indices de temps pour trouver les moments où le lac s'est desséché (le graphique en ligne donnez quelques indices!)."
 
 #: ../../help_documentation.ipynb:9 5864e1e2d51742619f79134ba9b1a5a4
 msgid "Sandbox help documentation"
@@ -1469,11 +1469,11 @@ msgstr "Cette section fournit un résumé de ces dossiers et de leur contenu. Il
 
 #: ../../help_documentation.ipynb:17 027356fe3a014c4ba988fcab90a41eb2
 msgid "For tips on how to access files and folders in the Sandbox, check out the section on `navigating the Sandbox <./session_1/03_navigate_the_sandbox.ipynb>`__."
-msgstr "Pour obtenir des conseils sur la façon d'accéder aux fichiers et aux dossiers dans le bac à sable, consultez la section sur `navigation dans le bac à sable <./ session_1 / 03_navigate_the_sandbox.ipynb>` __."
+msgstr "Pour obtenir des conseils sur la façon d'accéder aux fichiers et aux dossiers dans le bac à sable, consultez la section sur `navigation dans le bac à sable <./session_1/03_navigate_the_sandbox.ipynb>`__."
 
 #: ../../help_documentation.ipynb:19 e1648cf042e5440bad8993c10eac487a
 msgid "For a review on how to execute code in a notebook, see this section on `running a notebook <./session_1/04_running_a_notebook.ipynb>`__."
-msgstr "Pour savoir comment exécuter du code dans un bloc-notes, consultez cette section sur `l'exécution d'un bloc-notes <./ session_1 / 04_running_a_notebook.ipynb>` __."
+msgstr "Pour savoir comment exécuter du code dans un bloc-notes, consultez cette section sur `l'exécution d'un bloc-notes <./session_1/04_running_a_notebook.ipynb>`__."
 
 #: ../../help_documentation.ipynb:31 9846a1ea61dd4e789f3a93da4df70b83
 msgid "Beginner’s Guide - start here"
@@ -1493,11 +1493,11 @@ msgstr "Si vous n'êtes toujours pas clair sur la portée et l'objectif de Digit
 
 #: ../../help_documentation.ipynb:39 9d417fb259e14380a6abd14fcade5171
 msgid "The notebooks are numbered in progress order; start at ``01_Jupyter_notebooks.ipynb``. There are no prerequisites to be able to complete this notebook."
-msgstr "Les cahiers sont numérotés par ordre de progression; commencez par `` 01_Jupyter_notebooks.ipynb ''. Il n'y a aucune condition préalable pour pouvoir compléter ce cahier."
+msgstr "Les cahiers sont numérotés par ordre de progression; commencez par ``01_Jupyter_notebooks.ipynb``. Il n'y a aucune condition préalable pour pouvoir compléter ce cahier."
 
 #: ../../help_documentation.ipynb:41 6e4d56ce4b9849b9bf3af242a1c3e152
 msgid "**Suggested activity:** Read and follow examples in the Beginner’s Guide notebooks, starting with ``01_Jupyter_notebooks.ipynb``. This can be done interactively (recommended), as detailed in `running a notebook <./session_1/04_running_a_notebook.ipynb>`__. Open the file and from the horizontal menu bar select **Kernel -> Restart Kernel and Clear All Outputs**, then follow instructions in the notebook."
-msgstr "** Activité suggérée: ** Lisez et suivez des exemples dans les blocs-notes du Guide du débutant, en commençant par `` 01_Jupyter_notebooks.ipynb ''. Cela peut être fait de manière interactive (recommandé), comme détaillé dans `exécuter un notebook <./ session_1 / 04_running_a_notebook.ipynb>` __. Ouvrez le fichier et dans la barre de menu horizontale, sélectionnez ** Kernel -> Redémarrer le noyau et effacer toutes les sorties **, puis suivez les instructions du bloc-notes."
+msgstr "** Activité suggérée: ** Lisez et suivez des exemples dans les blocs-notes du Guide du débutant, en commençant par ``01_Jupyter_notebooks.ipynb``. Cela peut être fait de manière interactive (recommandé), comme détaillé dans `exécuter un notebook <./session_1/04_running_a_notebook.ipynb>`__. Ouvrez le fichier et dans la barre de menu horizontale, sélectionnez **Kernel -> Kernel -> Restart Kernel and Clear All Outputs**, puis suivez les instructions du bloc-notes."
 
 #: ../../help_documentation.ipynb:43 9c576214a67a4c749d1ec7d21f47126f
 msgid "Take your time — it is not necessary to review all of the notebooks in one sitting. If you are new to Python coding, there will be a fair amount of content. Some of it will be covered in subsequent sessions of this workshop series."
@@ -1513,7 +1513,7 @@ msgstr "| a975b7a49d3b46cb831cee504defcbaa |"
 
 #: ../../help_documentation.ipynb:62 9290fc2b9a564666a3b48041424242d6
 msgid "The **Frequently_used_code** folder contains a series of notebooks that demonstrate code snippets doing useful and common functions. For example, want to calculate the Normalised Difference Vegetation Index (NDVI)? You could set up your own formula — but it would be faster and easier to use the NDVI function as shown in ``Calculating_band_indices.ipynb``. How about drawing a contour line between water and land? Check out ``Contour_extraction.ipynb``. There are many useful tips and tricks in the **Frequently_used_code** folder."
-msgstr "Le dossier ** Frequent_used_code ** contient une série de blocs-notes illustrant des extraits de code exécutant des fonctions utiles et courantes. Par exemple, vous voulez calculer l'indice de végétation par différence normalisée (NDVI)? Vous pouvez configurer votre propre formule - mais il serait plus rapide et plus facile d'utiliser la fonction NDVI comme indiqué dans `` Calculating_band_indices.ipynb ''. Que diriez-vous de dessiner une ligne de contour entre l'eau et la terre? Consultez `` Contour_extraction.ipynb ''. Il existe de nombreux trucs et astuces utiles dans le dossier ** Frequent_used_code **."
+msgstr "Le dossier **Frequently_used_code** contient une série de blocs-notes illustrant des extraits de code exécutant des fonctions utiles et courantes. Par exemple, vous voulez calculer l'indice de végétation par différence normalisée (NDVI)? Vous pouvez configurer votre propre formule - mais il serait plus rapide et plus facile d'utiliser la fonction NDVI comme indiqué dans ``Calculating_band_indices.ipynb``. Que diriez-vous de dessiner une ligne de contour entre l'eau et la terre? Consultez ``Contour_extraction.ipynb``. Il existe de nombreux trucs et astuces utiles dans le dossier **Frequently_used_code**."
 
 #: ../../help_documentation.ipynb:65 6e3bf0e71a1c4268968ddc8e87d664bf
 msgid "It is helpful to know what is in this folder, so you can draw upon the code if you need to do something similar when writing your own notebooks."
@@ -1521,7 +1521,7 @@ msgstr "Il est utile de savoir ce qu'il y a dans ce dossier, afin que vous puiss
 
 #: ../../help_documentation.ipynb:67 4c6eba7a43aa423baac721a032390910
 msgid "**Suggested activity:** Read all the titles of the notebooks in the folder. Open ``Masking_data.ipynb`` and run through its contents by selecting **Kernel -> Restart Kernel and Clear All Outputs** and then executing cells as you go."
-msgstr "** Activité suggérée: ** Lisez tous les titres des cahiers dans le dossier. Ouvrez `` Masking_data.ipynb '' et parcourez son contenu en sélectionnant ** Kernel -> Redémarrer le noyau et effacer toutes les sorties **, puis en exécutant les cellules au fur et à mesure."
+msgstr "** Activité suggérée: ** Lisez tous les titres des cahiers dans le dossier. Ouvrez ``Masking_data.ipynb`` et parcourez son contenu en sélectionnant **Kernel -> Restart Kernel and Clear All Outputs*, puis en exécutant les cellules au fur et à mesure."
 
 #: ../../help_documentation.ipynb:82 50f8b4ee829c4c7cbf9601d7fe98c6d8
 msgid "Real world examples"
@@ -1561,7 +1561,7 @@ msgstr "Certains des ensembles de données sont directement basés sur des mesur
 
 #: ../../help_documentation.ipynb:113 105f178a5afc4b158c571fefa8fad6c4
 msgid "``Landsat_collections.ipynb``"
-msgstr "`` Landsat_collections.ipynb``"
+msgstr "``Landsat_collections.ipynb``"
 
 #: ../../help_documentation.ipynb:114 76fc4eee7bde4ee9a5bdae7983e162b8
 msgid "``Sentinel_1.ipynb``"
@@ -1569,7 +1569,7 @@ msgstr "`` Sentinel_1.ipynb``"
 
 #: ../../help_documentation.ipynb:115 8d46f2f677044ef486df916553f9bbc7
 msgid "``Sentinel_2.ipynb``"
-msgstr "`` Sentinel_2.ipynb ''"
+msgstr "``Sentinel_2.ipynb ''"
 
 #: ../../help_documentation.ipynb:117 972a08fa8e8c42eca05610036e5d39b8
 msgid "Other datasets refer to derived products which have been created to show a particular environmental feature. These include:"
@@ -1577,15 +1577,15 @@ msgstr "D'autres ensembles de données font référence à des produits dérivé
 
 #: ../../help_documentation.ipynb:119 cefe28038e9a49c6aa735de4c7ffd0d1
 msgid "``Soil_Moisture.ipynb``"
-msgstr "`` Soil_Moisture.ipynb``"
+msgstr "``Soil_Moisture.ipynb``"
 
 #: ../../help_documentation.ipynb:120 5e39ade9b9c04069a9eed48ae5563299
 msgid "``Fractional_cover.ipynb``"
-msgstr "`` Fractional_cover.ipynb``"
+msgstr "``Fractional_cover.ipynb``"
 
 #: ../../help_documentation.ipynb:121 59611c294b9c41c2916084bbf1566dbb
 msgid "``Water_Observations_from_Space.ipynb``"
-msgstr "`` Water_Observations_from_Space.ipynb``"
+msgstr "``Water_Observations_from_Space.ipynb``"
 
 #: ../../help_documentation.ipynb:123 d58da598d8dc4109a3d7a0908365b6ae
 msgid "More dataset notebooks are added to this folder as the Digital Earth Africa collection expands. Use the notebooks in this folder to familiarise yourself with the available data and products."
@@ -1593,7 +1593,7 @@ msgstr "D'autres blocs-notes de jeux de données sont ajoutés à ce dossier à 
 
 #: ../../help_documentation.ipynb:125 eda00d8068bc4ec28e579d360627643d
 msgid "**Suggested activity:** Run through the notebook on Sentinel 2 data, ``Sentinel_2.ipynb``."
-msgstr "** Activité suggérée: ** Parcourez le bloc-notes sur les données Sentinel 2, `` Sentinel_2.ipynb ''."
+msgstr "** Activité suggérée: ** Parcourez le bloc-notes sur les données Sentinel 2, ``Sentinel_2.ipynb``."
 
 #: ../../help_documentation.ipynb:140 1cb06d4ba8f94cb5819d1e9cdecafa48
 msgid "Other folders"
@@ -1613,7 +1613,7 @@ msgstr "Aidez-moi! J'ai supprimé un fichier…"
 
 #: ../../help_documentation.ipynb:158 bffe95ebf3194cf38d438b06dd4ceaef
 msgid "See the `Frequently asked questions <./Frequently_asked_questions.ipynb>`__ section on restoring pre-loaded notebooks."
-msgstr "Consultez la section `Questions fréquemment posées <./ Frequent_asked_questions.ipynb>` __ sur la restauration de blocs-notes préchargés."
+msgstr "Consultez la section `Questions fréquemment posées <./Frequent_asked_questions.ipynb>` __ sur la restauration de blocs-notes préchargés."
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:9
 msgid "What is Digital Earth Africa?"
@@ -1832,7 +1832,7 @@ msgstr "| 68117c20a36d400086c44dc2013c87d2 |"
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:80
 msgid "Jupyter notebooks can be identified by the file extension ``.ipynb``. Choose a notebook (for example, ``01_Jupyter_notebooks.ipynb``) and double-click to open it in the main work area."
-msgstr "Les notebooks Jupyter peuvent être identifiés par l'extension de fichier `` .ipynb ''. Choisissez un bloc-notes (par exemple, `` 01_Jupyter_notebooks.ipynb '') et double-cliquez pour l'ouvrir dans la zone de travail principale."
+msgstr "Les notebooks Jupyter peuvent être identifiés par l'extension de fichier `` .ipynb``. Choisissez un bloc-notes (par exemple, `` 01_Jupyter_notebooks.ipynb``) et double-cliquez pour l'ouvrir dans la zone de travail principale."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:82
 msgid "To navigate back to the home folder, click the folder icon at the start of the folder path. The folder path is near the top of the left sidebar."
@@ -1840,7 +1840,7 @@ msgstr "Pour revenir au dossier de départ, cliquez sur l'icône de dossier au d
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:84
 msgid "For more information, refer to this section of the JupyterLab documentation on `Working with Files <https://jupyterlab.readthedocs.io/en/stable/user/files.html>`__."
-msgstr "Pour plus d'informations, reportez-vous à cette section de la documentation JupyterLab sur `` Utilisation de fichiers <https://jupyterlab.readthedocs.io/en/stable/user/files.html> `__."
+msgstr "Pour plus d'informations, reportez-vous à cette section de la documentation JupyterLab sur `Utilisation de fichiers <https://jupyterlab.readthedocs.io/en/stable/user/files.html>`__."
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:99
 msgid "Close a Jupyter Notebook"
@@ -1876,7 +1876,7 @@ msgstr "Maintenant que vous avez appris à ouvrir et à fermer les blocs-notes, 
 
 #: ../../session_1/04_running_a_notebook.ipynb:16
 msgid "Jupyter is an interactive coding environment compatible with the programming language Python. Digital Earth Africa is based on a Python library called the `Open Data Cube <https://www.opendatacube.org/>`__, so the Sandbox contains Python-based notebooks."
-msgstr "Jupyter est un environnement de codage interactif compatible avec le langage de programmation Python. Digital Earth Africa est basé sur une bibliothèque Python appelée `Open Data Cube <https://www.opendatacube.org/>` __, donc le Sandbox contient des blocs-notes basés sur Python."
+msgstr "Jupyter est un environnement de codage interactif compatible avec le langage de programmation Python. Digital Earth Africa est basé sur une bibliothèque Python appelée `Open Data Cube <https://www.opendatacube.org/>`__, donc le Sandbox contient des blocs-notes basés sur Python."
 
 #: ../../session_1/04_running_a_notebook.ipynb:18
 msgid "It is helpful, but not required, to be familiar with Python programming."
@@ -1925,11 +1925,11 @@ msgstr "| 77484d05869f431f8f0e657877d3c3fc |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:78
 msgid "The next step is to identify and copy the notebook you want to work on. For this exercise, this will be the ``Crop_health.ipynb`` notebook, which is in the **Real_world_examples** folder. Follow the steps below to copy it."
-msgstr "L'étape suivante consiste à identifier et copier le bloc-notes sur lequel vous souhaitez travailler. Pour cet exercice, ce sera le bloc-notes `` Crop_health.ipynb '', qui se trouve dans le dossier ** Real_world_examples **. Suivez les étapes ci-dessous pour le copier."
+msgstr "L'étape suivante consiste à identifier et copier le bloc-notes sur lequel vous souhaitez travailler. Pour cet exercice, ce sera le bloc-notes ``Crop_health.ipynb``, qui se trouve dans le dossier **Real_world_examples**. Suivez les étapes ci-dessous pour le copier."
 
 #: ../../session_1/04_running_a_notebook.ipynb:80
 msgid "Double-click the **Real_world_examples** folder to open it. The ``Crop_health.ipynb`` notebook is selected in the image below."
-msgstr "Double-cliquez sur le dossier ** Real_world_examples ** pour l'ouvrir. Le notebook `` Crop_health.ipynb '' est sélectionné dans l'image ci-dessous."
+msgstr "Double-cliquez sur le dossier ** Real_world_examples ** pour l'ouvrir. Le notebook ``Crop_health.ipynb`` est sélectionné dans l'image ci-dessous."
 
 #: ../../session_1/04_running_a_notebook.ipynb:82
 msgid "|4339429b9d804f9fba8e03a5aee6d985|"
@@ -1937,7 +1937,7 @@ msgstr "| 4339429b9d804f9fba8e03a5aee6d985 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:84
 msgid "Next, right-click on the notebook and click **Duplicate** to create a copy. By default, this will be called ``Crop_health-Copy1.ipynb``."
-msgstr "Ensuite, faites un clic droit sur le bloc-notes et cliquez sur ** Dupliquer ** pour créer une copie. Par défaut, cela s'appellera `` Crop_health-Copy1.ipynb ''."
+msgstr "Ensuite, faites un clic droit sur le bloc-notes et cliquez sur **Dupliquer ** pour créer une copie. Par défaut, cela s'appellera `` Crop_health-Copy1.ipynb``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:86
 msgid "|b3b0db83a3d34a8583d08177e8026528|"
@@ -1945,7 +1945,7 @@ msgstr "| b3b0db83a3d34a8583d08177e8026528 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:88
 msgid "Click and drag ``Crop_health-Copy1.ipynb`` to the **Folder icon** to move it to the **Home** folder."
-msgstr "Cliquez et faites glisser `` Crop_health-Copy1.ipynb '' vers l'icône ** Dossier ** pour le déplacer vers le dossier ** Accueil **."
+msgstr "Cliquez et faites glisser `` Crop_health-Copy1.ipynb`` vers l'icône ** Dossier ** pour le déplacer vers le dossier ** Accueil **."
 
 #: ../../session_1/04_running_a_notebook.ipynb:90
 msgid "|936b2eb19035450baa96211ef253a25c|"
@@ -1953,7 +1953,7 @@ msgstr "| 936b2eb19035450baa96211ef253a25c |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:92
 msgid "Return to the **Home** folder by clicking the **Folder icon**. You should see the ``Crop_health-Copy1.ipynb`` notebook. Click and drag this file to the **Training** folder you created."
-msgstr "Revenez au dossier ** Accueil ** en cliquant sur l'icône ** Dossier **. Vous devriez voir le cahier `` Crop_health-Copy1.ipynb ''. Cliquez et faites glisser ce fichier vers le dossier ** Training ** que vous avez créé."
+msgstr "Revenez au dossier ** Accueil ** en cliquant sur l'icône ** Dossier **. Vous devriez voir le cahier `` Crop_health-Copy1.ipynb``. Cliquez et faites glisser ce fichier vers le dossier ** Training ** que vous avez créé."
 
 #: ../../session_1/04_running_a_notebook.ipynb:94
 msgid "|1e1cd18328c04ad9ba0913c4ef2477c4|"
@@ -1961,7 +1961,7 @@ msgstr "| 1e1cd18328c04ad9ba0913c4ef2477c4 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:96
 msgid "Double-click the **Training** folder. Right-click the copied notebook and click **Rename**. Rename the notebook to ``Crop_health.ipynb``."
-msgstr "Double-cliquez sur le dossier ** Training **. Cliquez avec le bouton droit sur le bloc-notes copié et cliquez sur ** Renommer **. Renommez le notebook en `` Crop_health.ipynb ''."
+msgstr "Double-cliquez sur le dossier ** Training **. Cliquez avec le bouton droit sur le bloc-notes copié et cliquez sur ** Renommer **. Renommez le notebook en ``Crop_health.ipynb``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:98
 msgid "|a7d3b4eebc4a4d978d49cd70f4a3e65a| |d8331b9cc442488788fadc02e4930540|"
@@ -1981,7 +1981,7 @@ msgstr "Les ordinateurs portables sur le bac à sable sont pré-exécutés. Il e
 
 #: ../../session_1/04_running_a_notebook.ipynb:107
 msgid "Double-click your copied ``Crop_health.ipynb`` notebook to open it."
-msgstr "Double-cliquez sur votre cahier `` Crop_health.ipynb '' copié pour l'ouvrir."
+msgstr "Double-cliquez sur votre cahier ``Crop_health.ipynb`` copié pour l'ouvrir."
 
 #: ../../session_1/04_running_a_notebook.ipynb:109
 msgid "In the main menu, click **Kernel -> Restart Kernel and Clear All Outputs**. When asked whether you want to restart the kernel, click **Restart**."
@@ -2013,16 +2013,16 @@ msgstr "Pour charger les packages et fonctions nécessaires:"
 
 #: ../../session_1/04_running_a_notebook.ipynb:124
 msgid "In the ``Crop_health.ipynb`` notebook, click on the code cell that matches the one above."
-msgstr "Dans le notebook `` Crop_health.ipynb '', cliquez sur la cellule de code qui correspond à celle ci-dessus."
+msgstr "Dans le notebook ``Crop_health.ipynb``, cliquez sur la cellule de code qui correspond à celle ci-dessus."
 
 #: ../../session_1/04_running_a_notebook.ipynb:126
 #: ../../session_1/04_running_a_notebook.ipynb:141
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell."
-msgstr "Appuyez sur `` Maj + Entrée '' sur votre clavier pour exécuter la cellule."
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule."
 
 #: ../../session_1/04_running_a_notebook.ipynb:128
 msgid "When the cell has finished running, the ``[ ]`` icon to the left of the cell should change to ``[1]``, as shown below. This indicates that the cell has finished running. The number ``1`` indicates that this was the first cell run in the notebook."
-msgstr "Lorsque la cellule a fini de fonctionner, l'icône `` [] '' à gauche de la cellule doit devenir `` [1] '', comme indiqué ci-dessous. Cela indique que la cellule a fini de fonctionner. Le nombre `` 1 '' indique qu'il s'agissait de la première cellule exécutée dans le cahier."
+msgstr "Lorsque la cellule a fini de fonctionner, l'icône ``[ ]`` à gauche de la cellule doit devenir ``[1]``, comme indiqué ci-dessous. Cela indique que la cellule a fini de fonctionner. Le nombre ``1`` indique qu'il s'agissait de la première cellule exécutée dans le cahier."
 
 #: ../../session_1/04_running_a_notebook.ipynb:130
 msgid "|c735df80186044858ef957ecd628ad41|"
@@ -2046,7 +2046,7 @@ msgstr "| 4f05155d9dac44439e9bb8d30fbd987c |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:143
 msgid "When the cell has finished running, the ``[ ]`` icon to the left of the cell should change to ``[2]``."
-msgstr "Lorsque la cellule a fini de fonctionner, l'icône `` [] '' à gauche de la cellule doit devenir `` [2] ''."
+msgstr "Lorsque la cellule a fini de fonctionner, l'icône ``[ ]`` à gauche de la cellule doit devenir ``[2]``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:146
 msgid "Loading the data"
@@ -2054,7 +2054,7 @@ msgstr "Chargement des données"
 
 #: ../../session_1/04_running_a_notebook.ipynb:148
 msgid "This notebook uses a special function called ``load_crophealth_data`` to load the required data. Later in this training course, you will learn how to write your own data loading commands."
-msgstr "Ce notebook utilise une fonction spéciale appelée `` load_crophealth_data '' pour charger les données requises. Plus tard dans ce cours de formation, vous apprendrez à écrire vos propres commandes de chargement de données."
+msgstr "Ce notebook utilise une fonction spéciale appelée ``load_crophealth_data`` pour charger les données requises. Plus tard dans ce cours de formation, vous apprendrez à écrire vos propres commandes de chargement de données."
 
 #: ../../session_1/04_running_a_notebook.ipynb:150
 #: ../../session_1/04_running_a_notebook.ipynb:175
@@ -2067,7 +2067,7 @@ msgstr "| 69b2c94fb299486f9d287ed99e59c270 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:154
 msgid "The ``load_crophealth_data`` function goes through a number of steps. It identifies the available Landsat 8 data over the last two years, then masks the bad quality pixels such as cloud and cloud shadow. After the masking step, the function only keeps images where more than half the pixels are good. Finally, it calculates the Normalized Difference Vegetation Index (NDVI) and returns the data. The returned data are stored in the ``dataset`` object."
-msgstr "La fonction `` load_crophealth_data '' passe par un certain nombre d'étapes. Il identifie les données Landsat 8 disponibles au cours des deux dernières années, puis masque les pixels de mauvaise qualité tels que les nuages et l'ombre des nuages. Après l'étape de masquage, la fonction ne conserve que les images où plus de la moitié des pixels sont bons. Enfin, il calcule l'indice de végétation par différence normalisée (NDVI) et renvoie les données. Les données renvoyées sont stockées dans l'objet `` dataset ''."
+msgstr "La fonction ``load_crophealth_data`` passe par un certain nombre d'étapes. Il identifie les données Landsat 8 disponibles au cours des deux dernières années, puis masque les pixels de mauvaise qualité tels que les nuages et l'ombre des nuages. Après l'étape de masquage, la fonction ne conserve que les images où plus de la moitié des pixels sont bons. Enfin, il calcule l'indice de végétation par différence normalisée (NDVI) et renvoie les données. Les données renvoyées sont stockées dans l'objet ``dataset``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:156
 msgid "To run the cell:"
@@ -2080,11 +2080,11 @@ msgstr "Cliquez sur la cellule correspondant à l'image ci-dessus dans le cahier
 
 #: ../../session_1/04_running_a_notebook.ipynb:160
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell. Outputs should start to appear below the cell."
-msgstr "Appuyez sur `` Maj + Entrée '' sur votre clavier pour exécuter la cellule. Les sorties devraient commencer à apparaître sous la cellule."
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule. Les sorties devraient commencer à apparaître sous la cellule."
 
 #: ../../session_1/04_running_a_notebook.ipynb:162
 msgid "When the cell has finished running, the ``[ ]`` icon to the left of the cell should change to ``[3]``."
-msgstr "Lorsque la cellule a fini de fonctionner, l'icône `` [] '' à gauche de la cellule doit se changer en `` [3] ''."
+msgstr "Lorsque la cellule a fini de fonctionner, l'icône ``[ ]`` à gauche de la cellule doit se changer en ``[3]``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:164
 msgid "As the cell is running, you should see outputs describing the function’s actions. The output is shown in the image below:"
@@ -2104,7 +2104,7 @@ msgstr "Exécutez l'application Crop Health"
 
 #: ../../session_1/04_running_a_notebook.ipynb:173
 msgid "After loading the data, you can visualize the health of various fields using the ``run_crophealth_app`` function. This is a special function for this notebook, which takes the ``dataset`` you loaded, as well as the latitude, longitude and buffer parameters that define the area of interest. It then starts an interactive app that you can use to measure the average NDVI in different fields."
-msgstr "Après avoir chargé les données, vous pouvez visualiser l'état de santé de différents champs à l'aide de la fonction `` run_crophealth_app ''. Il s'agit d'une fonction spéciale pour ce notebook, qui prend le `` jeu de données '' que vous avez chargé, ainsi que les paramètres de latitude, longitude et tampon qui définissent la zone d'intérêt. Il démarre ensuite une application interactive que vous pouvez utiliser pour mesurer le NDVI moyen dans différents domaines."
+msgstr "Après avoir chargé les données, vous pouvez visualiser l'état de santé de différents champs à l'aide de la fonction ``run_crophealth_app``. Il s'agit d'une fonction spéciale pour ce notebook, qui prend le ``jeu de données`` que vous avez chargé, ainsi que les paramètres de latitude, longitude et tampon qui définissent la zone d'intérêt. Il démarre ensuite une application interactive que vous pouvez utiliser pour mesurer le NDVI moyen dans différents domaines."
 
 #: ../../session_1/04_running_a_notebook.ipynb:177
 msgid "|9a539e5019d64f50aaa49dcbf2bfc631|"
@@ -2112,7 +2112,7 @@ msgstr "| 9a539e5019d64f50aaa49dcbf2bfc631 |"
 
 #: ../../session_1/04_running_a_notebook.ipynb:181
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell. An interactive app should appear, as shown in the image below:"
-msgstr "Appuyez sur `` Maj + Entrée '' sur votre clavier pour exécuter la cellule. Une application interactive devrait apparaître, comme le montre l'image ci-dessous:"
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule. Une application interactive devrait apparaître, comme le montre l'image ci-dessous:"
 
 #: ../../session_1/04_running_a_notebook.ipynb:183
 msgid "|8198a32b2dc24e9e8b214a3beb62825c|"
@@ -2759,7 +2759,7 @@ msgstr "Créons un nouveau bloc-notes Jupyter vierge pour cet exercice."
 
 #: ../../session_2/04_load_data_exercise.ipynb:57
 msgid "Navigate to the **Training** folder. The **Training** folder was created as part of Session 1, for copying and running the Crop Health notebook. If you do not have this folder in the Sandbox, you can create it by following the steps in `Running a Notebook <../session_1/04_running_a_notebook.ipynb>`__."
-msgstr "Accédez au dossier ** Training **. Le dossier ** Training ** a été créé dans le cadre de la session 1, pour copier et exécuter le bloc-notes Crop Health. Si vous ne disposez pas de ce dossier dans le bac à sable, vous pouvez le créer en suivant les étapes de `Exécution d'un bloc-notes <../ session_1 / 04_running_a_notebook.ipynb>` __."
+msgstr "Accédez au dossier ** Training **. Le dossier ** Training ** a été créé dans le cadre de la session 1, pour copier et exécuter le bloc-notes Crop Health. Si vous ne disposez pas de ce dossier dans le bac à sable, vous pouvez le créer en suivant les étapes de `Exécution d'un bloc-notes <../ session_1 / 04_running_a_notebook.ipynb>`__."
 
 #: ../../session_2/04_load_data_exercise.ipynb:59
 #: ../../session_3/02_cloud_masking.ipynb:76

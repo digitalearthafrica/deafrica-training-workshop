@@ -89,4 +89,5 @@ html_context = {
 
 # Translation options
 gettext_uuid = True
-gettext_compact = False
+gettext_compact = "docs"  # makes a single "docs.po" file
+locale_dirs = ['locales/']

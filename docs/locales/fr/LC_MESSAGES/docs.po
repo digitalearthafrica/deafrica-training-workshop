@@ -69,7 +69,7 @@ msgstr "**20/11/2020:** Le matériel de formation peut être téléchargé en un
 
 #: ../../index.rst:42 a7bdd33c0bda4ddf91478e6b1ff2588b
 msgid "**14/10/2020:** The `Session 1 quiz <./session_1/05_s1_quiz.ipynb>`_ has been added. This makes the quiz available to anyone who did not originally receive the link from the mailing list."
-msgstr "**14/10/2020:** Le quiz de la session 1 <./session_1/05_s1_quiz.ipynb>`_ a été ajouté. Le quiz est ainsi accessible à tous ceux qui n'ont pas reçu le lien de la liste de diffusion à l'origine."
+msgstr "**14/10/2020:** `Le quiz de la session 1 <./session_1/05_s1_quiz.ipynb>`_ a été ajouté. Le quiz est ainsi accessible à tous ceux qui n'ont pas reçu le lien de la liste de diffusion à l'origine."
 
 #: ../../index.rst:43 d42b063d582843288a7b89b81df31542
 msgid "**06/10/2020:** The `Session 6 quiz <./session_6/03_s6_solution.ipynb>`_ is live. Check your email for the link to the final feedback survey."
@@ -129,7 +129,7 @@ msgstr "Obtenir de l'aide"
 
 #: ../../Contact_us.ipynb:41 03515d4bd6ca4487b4ea498cee4ee74e
 msgid "The **Digital Earth Africa FAQ** can be found at `Frequently asked questions <Frequently_asked_questions.ipynb>`__."
-msgstr "La **FAQ de Digital Earth Africa** se trouve dans `Foire aux questions <Frequent_asked_questions.ipynb>`__."
+msgstr "La **FAQ de Digital Earth Africa** se trouve dans `Foire aux questions <Frequently_asked_questions.ipynb>`__."
 
 #: ../../Contact_us.ipynb:43 8b07cc821ba748ff8411226a117efeb1
 msgid "An overview of the **Digital Earth Africa help documentation** can be found at `Help documentation <help_documentation.ipynb>`__."
@@ -333,7 +333,7 @@ msgstr "Le PDF ne contient que du texte et des images. Les vidéos et les didact
 
 #: ../../Download_course.ipynb:50 9b6adf9257704a06bfae13558f9cd140
 msgid "You can also generate the latest PDF version of the training material by following the `FAQ on downloading course content <./Frequently_asked_questions.ipynb>`__."
-msgstr "Vous pouvez également générer la dernière version PDF du matériel de formation en suivant la `FAQ sur le téléchargement du contenu du cours <./ Frequent_asked_questions.ipynb>`__."
+msgstr "Vous pouvez également générer la dernière version PDF du matériel de formation en suivant la `FAQ sur le téléchargement du contenu du cours <./ Frequently_asked_questions.ipynb>`__."
 
 #: ../../Frequently_asked_questions.ipynb:33 1fa5a396e92140b5aaeed6b328d1d7a3
 msgid "|0a5f81efee884b7a85c19c4fe20c80b7|"
@@ -1521,7 +1521,7 @@ msgstr "Il est utile de savoir ce qu'il y a dans ce dossier, afin que vous puiss
 
 #: ../../help_documentation.ipynb:67 4c6eba7a43aa423baac721a032390910
 msgid "**Suggested activity:** Read all the titles of the notebooks in the folder. Open ``Masking_data.ipynb`` and run through its contents by selecting **Kernel -> Restart Kernel and Clear All Outputs** and then executing cells as you go."
-msgstr "**Activité suggérée:** Lisez tous les titres des cahiers dans le dossier. Ouvrez ``Masking_data.ipynb`` et parcourez son contenu en sélectionnant **Kernel -> Restart Kernel and Clear All Outputs*, puis en exécutant les cellules au fur et à mesure."
+msgstr "**Activité suggérée:** Lisez tous les titres des cahiers dans le dossier. Ouvrez ``Masking_data.ipynb`` et parcourez son contenu en sélectionnant **Kernel -> Restart Kernel and Clear All Outputs**, puis en exécutant les cellules au fur et à mesure."
 
 #: ../../help_documentation.ipynb:82 50f8b4ee829c4c7cbf9601d7fe98c6d8
 msgid "Real world examples"
@@ -1613,7 +1613,7 @@ msgstr "Aidez-moi! J'ai supprimé un fichier…"
 
 #: ../../help_documentation.ipynb:158 bffe95ebf3194cf38d438b06dd4ceaef
 msgid "See the `Frequently asked questions <./Frequently_asked_questions.ipynb>`__ section on restoring pre-loaded notebooks."
-msgstr "Consultez la section `Questions fréquemment posées <./Frequent_asked_questions.ipynb>`__ sur la restauration de blocs-notes préchargés."
+msgstr "Consultez la section `Questions fréquemment posées <./Frequently_asked_questions.ipynb>`__ sur la restauration de blocs-notes préchargés."
 
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:9
 msgid "What is Digital Earth Africa?"

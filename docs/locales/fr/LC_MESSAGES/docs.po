@@ -935,8 +935,8 @@ msgid "Interactive app"
 msgstr "Application interactive"
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:47
-msgid "To run this notebook, go to the main menu bar and select ``Run -> Restart Kernel and Run All Cells...``. Click ``Restart``. The notebook may take a few minutes to finish computing. You will know it is complete when you see the app appear (it will look like the example in the next session, but you will be able to move the sliders)."
-msgstr "Pour exécuter ce notebook, allez dans la barre de menu principale et sélectionnez ``Run -> Restart Kernel and Run All Cells...``. Cliquez sur ``Restart``. L'ordinateur portable peut prendre quelques minutes pour terminer le calcul. Vous saurez qu'elle est terminée lorsque vous verrez apparaître l'application (elle ressemblera à l'exemple de la prochaine session, mais vous pourrez déplacer les curseurs)."
+msgid "To run this notebook, go to the main menu bar and select ``Run`` -> ``Restart Kernel and Run All Cells...``. Click ``Restart``. The notebook may take a few minutes to finish computing. You will know it is complete when you see the app appear (it will look like the example in the next session, but you will be able to move the sliders)."
+msgstr "Pour exécuter ce notebook, allez dans la barre de menu principale et sélectionnez ``Run`` -> ``Restart Kernel and Run All Cells...``. Cliquez sur ``Restart``. L'ordinateur portable peut prendre quelques minutes pour terminer le calcul. Vous saurez qu'elle est terminée lorsque vous verrez apparaître l'application (elle ressemblera à l'exemple de la prochaine session, mais vous pourrez déplacer les curseurs)."
 
 #: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:49
 msgid "Use the sliders to change the colour of the pixels at each timestep. Observe how this impacts the median and geomedian results."
@@ -3877,7 +3877,7 @@ msgstr ": nbsphinx-math: `\\ begin {equation} \\ text {NDVI} \\ = \\ \\ frac {\\
 
 #: ../../session_4/01_band_indices.ipynb:259
 msgid "We see the index is calculated by the difference :math:`(\\text{NIR} - \\text{Red})` divided by the sum :math:`(\\text{NIR} + \\text{Red})`. This normalises the index: all values will fall between :math:`-1` and :math:`1`."
-msgstr "Nous voyons que l'indice est calculé par la différence: math: `(\\ text {NIR} - \\ text {Red})` divisé par la somme: math: `(\\ text {NIR} + \\ text {Red})`. Cela normalise l'index: toutes les valeurs seront comprises entre: math: `-1` et: math:` 1`."
+msgstr "Nous voyons que l'indice est calculé par la différence: math:`(\\text{NIR} - \\text{Red})` divisé par la somme: math:`(\\text{NIR} + \\text{Red})`. Cela normalise l'index: toutes les valeurs seront comprises entre: math:`-1` et: math:`1`."
 
 #: ../../session_4/01_band_indices.ipynb:261
 msgid "Large values of NDVI will occur for pixels where NIR is high and red is low. Conversely, NDVI can be close to 0 or even negative where NIR is low and red is high. This means we interpret NDVI as follows:"
@@ -5410,4 +5410,8 @@ msgstr "Dans cette session, nous continuerons à combiner plusieurs des techniqu
 #: ../../session_6/index.rst:8
 msgid "This session will focus on case studies related to water. First, we'll cover the available water and coastal case studies on the Sandbox, as well as covering the **Water Observations from Space (WOfS)** dataset. Then, you'll work through building your own case study to monitor water extent over time."
 msgstr "Cette session se concentrera sur des études de cas liées à l'eau. Tout d'abord, nous couvrirons les études de cas disponibles sur l'eau et le littoral sur le bac à sable, ainsi que l'ensemble de données **Water Observations from Space (WOfS)**. Ensuite, vous travaillerez à la construction de votre propre étude de cas pour surveiller l'étendue de l'eau au fil du temps."
+
+#: ../../_static/other_information/Geomedian_interactive_extend1.ipynb:47
+msgid "To run this notebook, go to the main menu bar and select ``Run -> Restart Kernel and Run All Cells...``. Click ``Restart``. The notebook may take a few minutes to finish computing. You will know it is complete when you see the app appear (it will look like the example in the next session, but you will be able to move the sliders)."
+msgstr "Pour exécuter ce notebook, allez dans la barre de menu principale et sélectionnez ``Run -> Restart Kernel and Run All Cells...``. Cliquez sur ``Restart``. L'ordinateur portable peut prendre quelques minutes pour terminer le calcul. Vous saurez qu'elle est terminée lorsque vous verrez apparaître l'application (elle ressemblera à l'exemple de la prochaine session, mais vous pourrez déplacer les curseurs)."
 

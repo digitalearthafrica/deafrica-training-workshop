@@ -480,12 +480,13 @@ def load_ard(dc,
     
     # If user supplied dask_chunks, return data as a dask array without
     # actually loading it in
-    if dask_chunks is not None:
-        print(f'Returning {len(ds.time)} time steps as a dask array')
-        return ds
-    else:
+    if dask_chunks:
         print(f'Loading {len(ds.time)} time steps')
         return ds.compute()
+        
+    print(f'Returning {len(ds.time)} time steps as a dask array')
+    return ds
+  
     
     
 def array_to_geotiff(fname, data, geo_transform, projection,

@@ -26,7 +26,7 @@ p {
 }
 h1,h2,h3,h4,h5 {
     font-family: "Arial", sans-serif;
-    color: #eeaf30;
+    color: #336699;
 }
 
 .wy-nav-side {
@@ -34,19 +34,19 @@ h1,h2,h3,h4,h5 {
 }
 
 .wy-menu {
-    color: #eeaf30;
+    color: #336699;
 }
 
 div.wy-side-nav-search {
     margin-bottom: 10px;
-    background: linear-gradient(to left, rgb(122, 184, 0) 33%, transparent 33%, transparent 34%, rgb(238, 175, 48) 34%) bottom left no-repeat, white;
+    background: linear-gradient(to left, rgb(0, 102, 102) 33%, transparent 33%, transparent 34%, rgb(255, 204, 51) 34%) bottom left no-repeat, white;
 	  background-size: 100% 5px, 100% 100%;
 }
 
 
 div.document a:visited {
 /* Same colour as unvisited */
-    color: #2980B9;
+    color: #336699;
 }
 
 .wy-nav-content {

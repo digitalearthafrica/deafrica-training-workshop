@@ -716,7 +716,7 @@ msgstr "Télécharger le bloc-notes du widget Geomedian"
 #: ../../Geomedian_widget.ipynb:97
 #: 07ae14692cc64879bf71125c4e8b82a2
 msgid "`Download the geomedian widget notebook <./_static/other_information/Geomedian_interactive_extend1.ipynb>`__"
-msgstr "`Télécharger le carnet de notes du widget geomedian <./_static/other_information/Geomedian_interactive_extend1.ipynb>`___."
+msgstr "`Télécharger le carnet de notes du widget geomedian <./_static/other_information/Geomedian_interactive_extend1.ipynb>`__"
 
 #: ../../Geomedian_widget.ipynb:99
 #: ../../session_2/05_s2_solution.ipynb:86
@@ -771,7 +771,7 @@ msgstr "Téléchargez le cahier en cliquant sur le lien ci-dessus."
 #: 37d5ceed07ea4da284e95f5229b3f66f
 #: deb59ea9267a47c4ac2c2f9e93c17e62
 msgid "On the Sandbox, open the **Training** folder."
-msgstr "Dans l'Environnement de test, ouvrez le dossier **Formation**."
+msgstr "Dans l'Environnement de test, ouvrez le dossier **Training**."
 
 #: ../../Geomedian_widget.ipynb:103
 #: ../../python_basics/01_jupyter.ipynb:104
@@ -846,7 +846,7 @@ msgstr "Sélectionnez le notebook téléchargé à l'aide du navigateur de fichi
 #: 0029682076f64c85a3d46e0d07b7deb0
 #: 0e587e90ab774de1b1ec27e38c2c6a47
 msgid "The solution notebook will appear in the **Training** folder. Double-click to open it."
-msgstr "Le cahier de solutions apparaîtra dans le dossier **Formation**. Double-cliquez dessus pour l'ouvrir."
+msgstr "Le cahier de solutions apparaîtra dans le dossier **Training**. Double-cliquez dessus pour l'ouvrir."
 
 #: ../../License.ipynb:9
 #: 299f09269437488ab756cac2fcf10714
@@ -1767,7 +1767,7 @@ msgstr "Guide du débutant - commencez ici"
 
 #: ../../help_documentation.ipynb:33 a1faa5b737e34f0699be2cbbc02b01f4
 msgid "|3c778e1898b449a8b2ebde7edab558a6|"
-msgstr "| 3c778e1898b449a8b2ebde7edab558a6 |"
+msgstr "|3c778e1898b449a8b2ebde7edab558a6|"
 
 #: ../../help_documentation.ipynb:35
 #: 10eb46ecf5c94bc295550be23703ec43
@@ -1994,7 +1994,7 @@ msgstr "Surveiller les données contenues pour le contrôle qualité et les mise
 #: ../../session_1/01_what_is_digital_earth_africa.ipynb:67
 #: 24cee9021413464984b293f781a724af
 msgid "For more details on the Digital Earth Africa program, visit the `Digital Earth Africa homepage <https://www.digitalearthafrica.org/>`__."
-msgstr "Pour plus de détails sur le programme Digital Earth Africa, visitez la page d'accueil de Digital Earth Africa <https://www.digitalearthafrica.org/>`__."
+msgstr "Pour plus de détails sur le programme Digital Earth Africa, visitez la page d'accueil de `Digital Earth Africa <https://www.digitalearthafrica.org/>`__."
 
 #: ../../session_1/02_create_a_user_account.ipynb:9
 #: 8a4f46a0c94149689511d7bf44783088
@@ -2322,7 +2322,7 @@ msgstr "Créer une copie du cahier"
 #: ../../session_1/04_running_a_notebook.ipynb:68
 #: 0487eb030608455f9ce1c9593831e6b4
 msgid "The Sandbox comes with a large number of existing notebooks, which you can use as reference material. To keep these in their original format, we recommend making a copy of a notebook when you want to run it. For the rest of this training material, we will ask you to make copies of notebooks and store them in a new **Training** folder. Follow the instructions below to set up this folder and add a copy of the notebook for this session."
-msgstr "L'Environnement de test est livré avec un grand nombre de carnets existants, que vous pouvez utiliser comme matériel de référence. Pour les conserver dans leur format d'origine, nous vous recommandons de faire une copie d'un carnet lorsque vous souhaitez l'utiliser. Pour le reste de ce matériel de formation, nous vous demanderons de faire des copies des carnets et de les stocker dans un nouveau dossier **Formation**. Suivez les instructions ci-dessous pour configurer ce dossier et ajouter une copie du carnet de notes pour cette session."
+msgstr "L'Environnement de test est livré avec un grand nombre de carnets existants, que vous pouvez utiliser comme matériel de référence. Pour les conserver dans leur format d'origine, nous vous recommandons de faire une copie d'un carnet lorsque vous souhaitez l'utiliser. Pour le reste de ce matériel de formation, nous vous demanderons de faire des copies des carnets et de les stocker dans un nouveau dossier **Training**. Suivez les instructions ci-dessous pour configurer ce dossier et ajouter une copie du carnet de notes pour cette session."
 
 #: ../../session_1/04_running_a_notebook.ipynb:70
 #: e5ac15e50e0c44349176fc5f21b25666
@@ -2336,7 +2336,7 @@ msgstr "| 1350456745fb42c7a87a3ba21a5d85fb |"
 #: ../../session_1/04_running_a_notebook.ipynb:74
 #: 50dc72b881754be49ab2a39a83959863
 msgid "Click the **New Folder icon** and name the new folder **Training**. Press **Enter** to finish creating the folder."
-msgstr "Cliquez sur l'icône **Nouveau dossier** et nommez le nouveau dossier **Formation**. Appuyez sur **Entrée** pour terminer la création du dossier."
+msgstr "Cliquez sur l'icône **Nouveau dossier** et nommez le nouveau dossier **Training**. Appuyez sur **Entrée** pour terminer la création du dossier."
 
 #: ../../session_1/04_running_a_notebook.ipynb:76
 msgid "|77484d05869f431f8f0e657877d3c3fc|"
@@ -2377,7 +2377,7 @@ msgstr "| 936b2eb19035450baa96211ef253a25c |"
 #: ../../session_1/04_running_a_notebook.ipynb:92
 #: 3d9ef7eb7d2743ef8d30892f73b9d0f2
 msgid "Return to the **Home** folder by clicking the **Folder icon**. You should see the ``Crop_health-Copy1.ipynb`` notebook. Click and drag this file to the **Training** folder you created."
-msgstr "Retournez dans le dossier **Home** en cliquant sur l'icône **Dossier**. Vous devriez voir le cahier ``Crop_health-Copy1.ipynb``. Cliquez et faites glisser ce fichier vers le dossier ** Training** que vous avez créé."
+msgstr "Retournez dans le dossier **Home** en cliquant sur l'icône **Training**. Vous devriez voir le cahier ``Crop_health-Copy1.ipynb``. Cliquez et faites glisser ce fichier vers le dossier **Training** que vous avez créé."
 
 #: ../../session_1/04_running_a_notebook.ipynb:94
 msgid "|1e1cd18328c04ad9ba0913c4ef2477c4|"
@@ -2386,7 +2386,7 @@ msgstr "| 1e1cd18328c04ad9ba0913c4ef2477c4 |"
 #: ../../session_1/04_running_a_notebook.ipynb:96
 #: 5941cf56163944cbb06ef79cba5c76d2
 msgid "Double-click the **Training** folder. Right-click the copied notebook and click **Rename**. Rename the notebook to ``Crop_health.ipynb``."
-msgstr "Double-cliquez sur le dossier ** Training**. Cliquez avec le bouton droit de la souris sur le bloc-notes copié et cliquez sur **Rename**. Renommez le carnet en ``Crop_health.ipynb``."
+msgstr "Double-cliquez sur le dossier **Training**. Cliquez avec le bouton droit de la souris sur le bloc-notes copié et cliquez sur **Rename**. Renommez le carnet en ``Crop_health.ipynb``."
 
 #: ../../session_1/04_running_a_notebook.ipynb:98
 msgid "|a7d3b4eebc4a4d978d49cd70f4a3e65a| |d8331b9cc442488788fadc02e4930540|"
@@ -2455,7 +2455,7 @@ msgstr "Dans le cahier ``Crop_health.ipynb``, cliquez sur la cellule de code qui
 #: bfada85d794c4e07a154c6b28086de76
 #: 7e74ae1450e94a0b970a15f73197eb0c
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell."
-msgstr "Appuyez sur ``Shift + Enter`` sur votre clavier pour exécuter la cellule."
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule."
 
 #: ../../session_1/04_running_a_notebook.ipynb:128
 #: 45cbadc57211492c9f8c7b19161de261
@@ -2531,7 +2531,7 @@ msgstr "Cliquez sur la cellule correspondant à l'image ci-dessus dans le cahier
 #: ../../session_1/04_running_a_notebook.ipynb:160
 #: b09d047587cd4e67bf5da28c41afddbf
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell. Outputs should start to appear below the cell."
-msgstr "Appuyez sur ``Shift + Enter`` sur votre clavier pour exécuter la cellule. Les résultats devraient commencer à apparaître sous la cellule."
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule. Les résultats devraient commencer à apparaître sous la cellule."
 
 #: ../../session_1/04_running_a_notebook.ipynb:162
 #: da46df9757e84d49803b29e6b72d6f65
@@ -2569,7 +2569,7 @@ msgstr "| 9a539e5019d64f50aaa49dcbf2bfc631 |"
 #: ../../session_1/04_running_a_notebook.ipynb:181
 #: 5ae83bbea39b40ceacc969cd96edcf66
 msgid "Press ``Shift + Enter`` on your keyboard to run the cell. An interactive app should appear, as shown in the image below:"
-msgstr "Appuyez sur ``Shift + Enter`` sur votre clavier pour exécuter la cellule. Une application interactive devrait apparaître, comme le montre l'image ci-dessous :"
+msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellule. Une application interactive devrait apparaître, comme le montre l'image ci-dessous :"
 
 #: ../../session_1/04_running_a_notebook.ipynb:183
 msgid "|8198a32b2dc24e9e8b214a3beb62825c|"
@@ -2689,7 +2689,7 @@ msgstr "Quiz"
 #: ../../session_1/05_s1_quiz.ipynb:43
 #: 7cda7ab2c2044469a736c554b2aba40f
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_1/05_s1_quiz.ipynb:45
 #: 61689e03eeb745bcad1dec49bcf23497
@@ -2764,7 +2764,7 @@ msgstr "Regardez cette courte vidéo pour un aperçu des produits satellitaires 
 #: ../../session_2/01_products_intro.ipynb:61
 #: 8cdd3f3afe564053aadb0f4602d874cd
 msgid "`Download the video slides as a PDF <../_static/session_2/Week2_Satellite-products.pdf>`__"
-msgstr "`Téléchargez les diapositives de la vidéo au format PDF <../_static/session_2/Week2_Satellite-products.pdf>__."
+msgstr "`Téléchargez les diapositives de la vidéo au format PDF <../_static/session_2/Week2_Satellite-products.pdf>`__"
 
 #: ../../session_2/01_products_intro.ipynb:83
 #: fdf1487c155948e2bb30517552831df1
@@ -2851,7 +2851,7 @@ msgstr "**Type de données:** Réflexion de surface"
 #: ../../session_2/01_products_intro.ipynb:189
 #: 4cc273e31969460684d7f9add3653358
 msgid "**Data timespan:** March 2013 – December 2019"
-msgstr "**Période de données : **Mars 2013 - Décembre 2019"
+msgstr "**Période de données:** Mars 2013 - Décembre 2019"
 
 #: ../../session_2/01_products_intro.ipynb:190
 #: a93b90a9484841859f0b171c86595d2b
@@ -2871,12 +2871,12 @@ msgstr "**Résolution temporelle:** 16 jours (un survol tous les 16 jours, soit 
 #: ../../session_2/01_products_intro.ipynb:193
 #: 248afcda89fb4e3ba49731a17d0a8af0
 msgid "**Spectral resolution:** 7 spectral bands — Coastal/Aerosol, Blue, Green, Red, Near-Infrared, Short Wavelength Infrared 1, Short Wavelength Infrared 2"
-msgstr "**Résolution spectrale : ** 7 bandes spectrales - côtière/aérosol, bleu, vert, rouge, proche infrarouge, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2."
+msgstr "**Résolution spectrale:** 7 bandes spectrales - côtière/aérosol, bleu, vert, rouge, proche infrarouge, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2."
 
 #: ../../session_2/01_products_intro.ipynb:204
 #: 4a200f92de2e44e18c29c401949db97a
 msgid "For more details, see ``Landsat_collections.ipynb`` in the **Datasets** folder of the Sandbox, or visit the `Landsat Collections website <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__. These sources also contain information about previous Landsat missions; together, Landsat 5/7/8 data covers the time period 1984 – 2019."
-msgstr "Pour plus de détails, consultez le fichier ``Landsat_collections.ipynb`` dans le dossier **Datasets** du bac à sable, ou visitez le site Web ``Landsat Collections <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__. Ces sources contiennent également des informations sur les missions Landsat précédentes ; ensemble, les données Landsat 5/7/8 couvrent la période 1984 - 2019."
+msgstr "Pour plus de détails, consultez le fichier ``Landsat_collections.ipynb`` dans le dossier **Datasets** du bac à sable, ou visitez le site Web `Landsat Collections <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__. Ces sources contiennent également des informations sur les missions Landsat précédentes ; ensemble, les données Landsat 5/7/8 couvrent la période 1984 - 2019."
 
 #: ../../session_2/01_products_intro.ipynb:216
 #: 09be368ece8f425eb445aec91525db95
@@ -2906,7 +2906,7 @@ msgstr "**Alias Sandbox:** ``s2_l2a``"
 #: ../../session_2/01_products_intro.ipynb:235
 #: 6763772f01134638a6064efa07d03244
 msgid "**Data timespan:** July 2017 – present"
-msgstr "**Durée des données : **Juillet 2017 - aujourd'hui"
+msgstr "**Durée des données:** Juillet 2017 - aujourd'hui"
 
 #: ../../session_2/01_products_intro.ipynb:236
 #: 1fcdf86d03ed4439b99f7c729c4d57bd
@@ -2926,7 +2926,7 @@ msgstr "**Résolution temporelle:** 5 jours"
 #: ../../session_2/01_products_intro.ipynb:239
 #: de1575577f5d4b1f8f04dabdce5a0864
 msgid "**Spectral resolution:** 12 spectral bands — Coastal/Aerosol, Blue, Green, Red, Red Edge 1, Red Edge 2, Red Edge 3, Near-Infrared 1, Near-Infrared 2, Water Vapour, Short Wavelength Infrared 1, Short Wavelength Infrared 2"
-msgstr "**Résolution spectrale : 12 bandes spectrales - littoral/aérosol, bleu, vert, rouge, bord rouge 1, bord rouge 2, bord rouge 3, proche infrarouge 1, proche infrarouge 2, vapeur d'eau, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2."
+msgstr "**Résolution spectrale:** 12 bandes spectrales - littoral/aérosol, bleu, vert, rouge, bord rouge 1, bord rouge 2, bord rouge 3, proche infrarouge 1, proche infrarouge 2, vapeur d'eau, infrarouge à courte longueur d'onde 1, infrarouge à courte longueur d'onde 2."
 
 #: ../../session_2/01_products_intro.ipynb:241
 #: 0e31c261beb24edfbffe06ffc72028b0
@@ -2951,7 +2951,7 @@ msgstr "Cette question dépend de l'analyse que vous faites. Il permet de consid
 #: ../../session_2/01_products_intro.ipynb:277
 #: a727dec768224a57a32007eeac06a759
 msgid "**Analysis timespan:** Recent short-term changes (for example, over a couple of months) are best captured by the Sentinel-2 product, which has good temporal resolution. However, if it were changes over several years, then the Landsat 8 product might be more suitable."
-msgstr "**Période d'analyse : Les changements récents à court terme (par exemple, sur quelques mois) sont mieux saisis par le produit Sentinel-2, qui a une bonne résolution temporelle. Cependant, s'il s'agit de changements sur plusieurs années, le produit Landsat 8 pourrait être plus approprié."
+msgstr "**Période d'analyse:** Les changements récents à court terme (par exemple, sur quelques mois) sont mieux saisis par le produit Sentinel-2, qui a une bonne résolution temporelle. Cependant, s'il s'agit de changements sur plusieurs années, le produit Landsat 8 pourrait être plus approprié."
 
 #: ../../session_2/01_products_intro.ipynb:279
 #: 6c2274ace79f4d64a3f709c167d97ea9
@@ -3968,7 +3968,7 @@ msgstr "Au cours de la session 2, vous avez construit un bloc-notes pour charger
 #: ../../session_2/05_s2_solution.ipynb:43
 #: 786e1e3fd6194cfe81050d6b7f8b9a1c
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_2/05_s2_solution.ipynb:45
 #: ../../session_3/04_s3_solution.ipynb:45
@@ -4055,7 +4055,7 @@ msgstr "Vidéo: agrégation temporelle des données"
 #: ../../session_3/01_intro_composites.ipynb:48
 #: 4dce4f7dba96420c8e725aaf6aa2f7c8
 msgid "`Download the video slides as a PDF <../_static/session_3/Week3_Time-aggregation-of-data.pdf>`__"
-msgstr "`Télécharger les diapositives de la vidéo au format PDF <../_static/session_3/Week3_Time-aggregation-of-data.pdf>`__."
+msgstr "`Télécharger les diapositives de la vidéo au format PDF <../_static/session_3/Week3_Time-aggregation-of-data.pdf>`__"
 
 #: ../../session_3/01_intro_composites.ipynb:69
 #: f3ad6e858b1e4a09bb2e3bb956a54430
@@ -4319,7 +4319,7 @@ msgstr "Comme dans le dernier exercice, nous allons commencer par faire un nouve
 #: ../../session_3/02_cloud_masking.ipynb:45
 #: f941ec65bdd54c2999f7462bb32ed906
 msgid "Navigate to the **Training** folder (or create this folder following the instructions in `Session 1 <../session_1/04_running_a_notebook.ipynb>`__)."
-msgstr "Naviguez vers le dossier **Formation** (ou créez ce dossier en suivant les instructions de `Session 1 <../session_1/04_running_a_notebook.ipynb>`__)."
+msgstr "Naviguez vers le dossier **Training** (ou créez ce dossier en suivant les instructions de `Session 1 <../session_1/04_running_a_notebook.ipynb>`__)."
 
 #: ../../session_3/02_cloud_masking.ipynb:46
 #: 06bd4bc29a0f4e85b17cdba9e1054c76
@@ -4500,7 +4500,7 @@ msgstr "Si vous suivez directement à partir de la dernière section, vous pouve
 #: f43228e6b4db4aadb22103732fff6488
 #: 712c2ffa8733438fb361e184cca51d73
 msgid "Navigate to the **Training** folder."
-msgstr "Accédez au dossier **Formation**."
+msgstr "Accédez au dossier **Training**."
 
 #: ../../session_3/03_geomedian_exercise.ipynb:56
 #: 7569e5ca60264f0d82ccbaf95cff7edc
@@ -4608,7 +4608,7 @@ msgstr "Dans la session 3, vous avez chargé les données Sentinel-2 dans le bac
 #: ../../session_3/04_s3_solution.ipynb:43
 #: f1ff996548104577bec28cdd94608756
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSfrW9iPikaKStkWRvp7o0CjmPeXj_xQatR58xQPDPEq_Et0CA/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfrW9iPikaKStkWRvp7o0CjmPeXj_xQatR58xQPDPEq_Et0CA/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfrW9iPikaKStkWRvp7o0CjmPeXj_xQatR58xQPDPEq_Et0CA/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_3/04_s3_solution.ipynb:76
 #: 1b1075d0450a499aa982a6808a0d9524
@@ -4918,7 +4918,7 @@ msgstr "Avant de passer à l'étape suivante,"
 #: ../../session_4/02_calculate_ndvi_part_1.ipynb:40
 #: 65642c000c494eba8fb2d6f8d86d08f9
 msgid "Log in to the Sandbox and open the **Training** folder."
-msgstr "Connectez-vous à l'Environnement de test et ouvrez le dossier **Formation**."
+msgstr "Connectez-vous à l'Environnement de test et ouvrez le dossier **Training**."
 
 #: ../../session_4/02_calculate_ndvi_part_1.ipynb:41
 #: cf517505cc734d21a36d8f5ae2a1ae1f
@@ -5371,7 +5371,7 @@ msgstr "Dans la session 4, vous avez créé un bloc-notes pour charger les produ
 #: ../../session_4/04_s4_solution.ipynb:43
 #: b7226ae8d6b942948986ff7112dfd576
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_4/04_s4_solution.ipynb:45
 #: 63fc7a597ff24277abe003c4a2149e68
@@ -6010,7 +6010,7 @@ msgstr "À la session 5, vous avez examiné le cadre d'une étude de cas. En vou
 #: ../../session_5/03_s5_solution.ipynb:43
 #: 41ea7481d9314845bc39ac9478b25c0f
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSfAck3EJgxeYDfTyseB0VwVmcyDMNq_PiFCnm3-JIoSRae3xw/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfAck3EJgxeYDfTyseB0VwVmcyDMNq_PiFCnm3-JIoSRae3xw/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse électronique pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfAck3EJgxeYDfTyseB0VwVmcyDMNq_PiFCnm3-JIoSRae3xw/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse électronique pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_5/03_s5_solution.ipynb:45
 #: b82cbbc7482e4c539d86d84ab88c5dad
@@ -6581,7 +6581,7 @@ msgstr "Plt.tight_layout()`` : Formate l'image de façon à ce que tous les axes
 
 #: ../../session_6/02_water_extent.ipynb:380
 msgid "|329e15327989430c9ead11ed0d4b84be|"
-msgstr "| 329e15327989430c9ead11ed0d4b84be |"
+msgstr "|329e15327989430c9ead11ed0d4b84be|"
 
 #: ../../session_6/02_water_extent.ipynb:397
 #: dbf101ebfa784ff991e53349d2ad4821
@@ -6640,7 +6640,7 @@ msgstr "Dans la session 6, vous avez utilisé le cadre d'étude de cas pour cons
 #: ../../session_6/03_s6_solution.ipynb:43
 #: f83a856acd924bd4b54c79238f0c2589
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
-msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
+msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
 #: ../../session_6/03_s6_solution.ipynb:47
 #: fc93b345c21e4b66a2598324bf2791d8
@@ -6998,7 +6998,7 @@ msgstr "Comment fournir un retour d'information ?"
 #: ../../Frequently_asked_questions.ipynb:327
 #: fc7ca35a9c13480294231db6b54fe231
 msgid "Complete the Digital Earth Africa `particpant survey <https://forms.gle/QSuoFWXuevyKTgVZ7>`__. All responses are anonymous and you do not need to have finished the entire course to take the survey. You are also welcome to `contact our course convenors <./Contact_us.ipynb>`__."
-msgstr "Remplissez l'enquête Digital Earth Africa `particpant' <https://forms.gle/QSuoFWXuevyKTgVZ7>`__. Toutes les réponses sont anonymes et il n'est pas nécessaire d'avoir terminé l'ensemble du cours pour répondre à l'enquête. Vous êtes également invités à `contacter nos organisateurs de cours <./Contact_us.ipynb>`__."
+msgstr "Remplissez l'enquête Digital Earth Africa `particpant <https://forms.gle/QSuoFWXuevyKTgVZ7>`__. Toutes les réponses sont anonymes et il n'est pas nécessaire d'avoir terminé l'ensemble du cours pour répondre à l'enquête. Vous êtes également invités à `contacter nos organisateurs de cours <./Contact_us.ipynb>`__."
 
 #: ../../Geomedian_widget.ipynb:45
 #: 72dec0c06afe41f280f122490c8cae37
@@ -7446,12 +7446,12 @@ msgstr "Pour visualiser ce carnet dans l'Environnement de test, vous devez d'abo
 #: ../../python_basics/01_jupyter.ipynb:92
 #: ae57d5be7968420e83cb3e9733b40821
 msgid "Ensure you have created a **Training** folder in the Sandbox as instructed in `Session 1: Running a Notebook <../session_1/04_running_a_notebook.ipynb>`_."
-msgstr "Assurez-vous que vous avez créé un dossier **Formation** dans l'Environnement de test comme indiqué dans `Session 1 : Running a Notebook <../session_1/04_running_a_notebook.ipynb>`_."
+msgstr "Assurez-vous que vous avez créé un dossier **Training** dans l'Environnement de test comme indiqué dans `Session 1 : Running a Notebook <../session_1/04_running_a_notebook.ipynb>`_."
 
 #: ../../python_basics/01_jupyter.ipynb:100
 #: c93f7ee4b4b7435795525657c9c3d839
 msgid "Once you have created a **Training** folder, follow these instructions:"
-msgstr "Une fois que vous avez créé un dossier **Formation**, suivez ces instructions :"
+msgstr "Une fois que vous avez créé un dossier **Training**, suivez ces instructions :"
 
 #: ../../python_basics/01_jupyter.ipynb:106
 #: c2f1a43cec4740c18a5604aebaa424e9
@@ -7962,14 +7962,14 @@ msgstr "|7739e42f48f7471b88ec6efacb404320|"
 #: ../../python_basics/03_matplotlib.ipynb:67
 #: 097932e6d5834ee79a54b093814eb179
 msgid "Repeat to upload the image file to the **Training** folder. It may take a while for the upload to complete."
-msgstr "Répétez l'opération pour télécharger le fichier image dans le dossier **Formation**. Le téléchargement peut prendre un certain temps."
+msgstr "Répétez l'opération pour télécharger le fichier image dans le dossier **Training**. Le téléchargement peut prendre un certain temps."
 
 #: ../../python_basics/03_matplotlib.ipynb:68
 #: ../../python_basics/05_xarray.ipynb:72
 #: 7a80100da97a456da073b03542fe6e92
 #: 75af63e11422458d803be797e31272b0
 msgid "Both files will appear in the **Training** folder. Double-click the tutorial notebook to open it and begin the tutorial."
-msgstr "Les deux fichiers apparaîtront dans le dossier **Formation**. Double-cliquez sur le cahier de formation pour l'ouvrir et commencer le tutoriel."
+msgstr "Les deux fichiers apparaîtront dans le dossier **Training**. Double-cliquez sur le cahier de formation pour l'ouvrir et commencer le tutoriel."
 
 #: ../../python_basics/03_matplotlib.ipynb:93
 #: 7ea6f332a0eb47fda6b95d6b678fc3ec
@@ -8344,7 +8344,7 @@ msgstr "|b17a429f8dae4163b32ff163a5487fa8|"
 #: ../../python_basics/05_xarray.ipynb:71
 #: dacd7cb8e84f463ab6e6b74deb252bb1
 msgid "Repeat to upload the NetCDF (.nc) file to the **Training** folder. It may take a while for the upload to complete."
-msgstr "Répétez l'opération pour télécharger le fichier NetCDF (.nc) dans le dossier **Formation**. Le téléchargement peut prendre un certain temps avant de s'achever."
+msgstr "Répétez l'opération pour télécharger le fichier NetCDF (.nc) dans le dossier **Training**. Le téléchargement peut prendre un certain temps avant de s'achever."
 
 #: ../../python_basics/05_xarray.ipynb:97
 #: 332c9ec5afd74272b7afed1a2dd87819

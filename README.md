@@ -1,7 +1,10 @@
 # deafrica-training-workshop
-Training material on how to use DE Africa data
+Training material on how to use DE Africa data at https://training.digitalearthafrica.org/
 
-https://training.digitalearthafrica.org/en/latest/
+English: [![Documentation Status](https://readthedocs.org/projects/digital-earth-africa-workshop/badge/?version=latest)](https://training.digitalearthafrica.org/en/latest/?badge=latest) | [RTD](https://readthedocs.org/projects/digital-earth-africa-workshop/)
+
+French: [![Documentation Status](https://readthedocs.org/projects/atelier-digital-earth-africa/badge/?version=latest)](https://training.digitalearthafrica.org/fr/latest/?badge=latest) | [RTD](https://readthedocs.org/projects/atelier-digital-earth-africa/) | [POEditor](https://poeditor.com/projects/po_edit?id_language=50&id=392089)
+
 
 ## To edit docs on the sandbox
 (replace `<branch_name>` with the name of your new branch that relates to your change)
@@ -61,7 +64,6 @@ open _build/html/index.html
   * Project at: https://readthedocs.org/projects/digital-earth-africa-workshop/
 * 	GitHub Actions:
   * Pull Request: make sure it builds, failing on warnings
-  * To be disabled soon: ~Commits to `master` branch: Builds docs, pushed to `gh-pages` branch for publishing to https://digitalearthafrica.github.io/deafrica-training-workshop/~
 
 ### PDF generation without latex
 * To install: `pip install rinohtype`

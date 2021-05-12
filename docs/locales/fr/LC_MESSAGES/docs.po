@@ -6691,7 +6691,7 @@ msgstr "|c2ad68ba285d451185c37de87eceda10|"
 #: ../../Course_wrap-up.ipynb:110
 #: 3a58a44c313b4af59683e7039a494252
 msgid "Venturing outside of training material content means there is not always a solutions notebook available. Not to worry — if you run into any trouble or have any questions, you can continue to attend `live sessions <./Events.ipynb>`__ or contact the course convenors. There are always people ready to help!"
-msgstr "S'aventurer en dehors du contenu du matériel de formation signifie qu'il n'y a pas toujours un cahier de solutions disponible. Ne vous inquiétez pas - si vous rencontrez des difficultés ou si vous avez des questions, vous pouvez continuer à assister aux sessions en direct <./Events.ipynb>`__ ou contacter les organisateurs du cours. Il y a toujours des personnes prêtes à vous aider !"
+msgstr "S'aventurer en dehors du contenu du matériel de formation signifie qu'il n'y a pas toujours un cahier de solutions disponible. Ne vous inquiétez pas - si vous rencontrez des difficultés ou si vous avez des questions, vous pouvez continuer à assister aux `sessions en direct <./Events.ipynb>`__ ou contacter les organisateurs du cours. Il y a toujours des personnes prêtes à vous aider !"
 
 #: ../../Course_wrap-up.ipynb:122
 #: d34dac5e7c264dd980adc9c4b4a588a9
@@ -7331,12 +7331,12 @@ msgstr "`Session 4 : Calculer le NDVI <https://training.digitalearthafrica.org/e
 #: ../../Quiz_index.ipynb:89
 #: f93bb10b5edb4ed0886c77434cbd3a87
 msgid "`Session 5: Show vegetation change over time <https://training.digitalearthafrica.org/en/latest/session_5/03_s5_solution.html>`__"
-msgstr "Session 5 : Montrer l'évolution de la végétation dans le temps <https://training.digitalearthafrica.org/en/latest/session_5/03_s5_solution.html>`__"
+msgstr "`Session 5 : Montrer l'évolution de la végétation dans le temps <https://training.digitalearthafrica.org/en/latest/session_5/03_s5_solution.html>`__"
 
 #: ../../Quiz_index.ipynb:100
 #: e11fe71eb2364a3b883afce8eebd6e3e
 msgid "`Session 6: Show water extent change over time <https://training.digitalearthafrica.org/en/latest/session_6/03_s6_solution.html>`__"
-msgstr "Session 6 : Montrer l'évolution de l'étendue des eaux dans le temps <https://training.digitalearthafrica.org/en/latest/session_6/03_s6_solution.html>`__"
+msgstr "`Session 6 : Montrer l'évolution de l'étendue des eaux dans le temps <https://training.digitalearthafrica.org/en/latest/session_6/03_s6_solution.html>`__"
 
 #: ../../help_documentation.ipynb:33
 #: ca58791a4a004cdc8542c11a627cdb78

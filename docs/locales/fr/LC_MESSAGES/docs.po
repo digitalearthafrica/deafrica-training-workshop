@@ -3369,7 +3369,7 @@ msgstr "Créons un nouveau bloc-notes Jupyter vierge pour cet exercice."
 #: ../../session_2/04_load_data_exercise.ipynb:57
 #: e928777392b8445885ec5682e9a685e0
 msgid "Navigate to the **Training** folder. The **Training** folder was created as part of Session 1, for copying and running the Crop Health notebook. If you do not have this folder in the Sandbox, you can create it by following the steps in `Running a Notebook <../session_1/04_running_a_notebook.ipynb>`__."
-msgstr "Naviguez vers le dossier **Training**. Le dossier **Training** a été créé dans le cadre de la Session 1, pour copier et exécuter le carnet de notes Crop Health. Si vous n'avez pas ce dossier dans l'Environnement de test, vous pouvez le créer en suivant les étapes de la section `Exécution d'un carnet de notes <../session_1/04_exécution_d'un_notebook.ipynb>`__."
+msgstr "Naviguez vers le dossier **Training**. Le dossier **Training** a été créé dans le cadre de la Session 1, pour copier et exécuter le carnet de notes Crop Health. Si vous n'avez pas ce dossier dans l'Environnement de test, vous pouvez le créer en suivant les étapes de la section `Exécution d'un carnet de notes <../session_1/04_running_a_notebook.ipynb>`__."
 
 #: ../../session_2/04_load_data_exercise.ipynb:59
 #: ../../session_3/02_cloud_masking.ipynb:76
@@ -7371,7 +7371,7 @@ msgstr "**15/12/2020:** Si vous avez suivi une ou toutes les sections de la form
 #: ../../index.rst:44
 #: 9f8177dc6dd1490ea97cb8f53c36fe8f
 msgid "**14/12/2020:** An extra session on `Python basics for geospatial analysis <./python_basics/index.rst>`_ has been added. The session is optional, standalone, and provides a more detailed introduction to the Python programming language."
-msgstr "**14/12/2020:** Une session supplémentaire sur les `bases de Python pour l'analyse géospatiale <./python_basics/index.rst>_ a été ajoutée. La session est facultative, autonome, et fournit une introduction plus détaillée au langage de programmation Python."
+msgstr "**14/12/2020:** Une session supplémentaire sur les `bases de Python pour l'analyse géospatiale <./python_basics/index.rst>`_ a été ajoutée. La session est facultative, autonome, et fournit une introduction plus détaillée au langage de programmation Python."
 
 #: ../../index.rst:45
 #: 552569337f90404a94bccabab68ce7b2
@@ -9821,4 +9821,433 @@ msgstr "|35ef90539dbb43b0bb93683371703223|"
 #: 5c514b67cbf543a9aa1cae1c703ea11b
 msgid "|fd66421be26b497280724eb75d26d568|"
 msgstr "|fd66421be26b497280724eb75d26d568|"
+
+#: ../../Course_wrap-up.ipynb:152 c758db2393114601b70b5baaacb0d756
+msgid "2. Consolidate your Python knowledge using the Beginner's Guide tutorials"
+msgstr "2. Consolidez vos connaissances Python à l'aide des didacticiels du Guide du débutant"
+
+#: ../../Course_wrap-up.ipynb:204
+#: 672e1dc0607749319907bee0285c260c
+msgid "These case studies often have a few more data processing steps than the exercises in the training course. After reviewing the Beginner's Guide contents, these steps should be more accessible and easy to understand."
+msgstr "Ces études de cas comportent souvent quelques étapes de traitement des données de plus que les exercices du cours de formation. Après avoir examiné le contenu du guide du débutant, ces étapes devraient être plus accessibles et faciles à comprendre."
+
+#: ../../Course_wrap-up.ipynb:256
+#: 45a00f3e888c4b75ba4b8b88e750fa2a
+msgid "If you have any questions or feedback on the Digital Earth Africa training course, don't hesitate to `contact the course convenors or access the community knowledge bank on Slack <./Contact_us.ipynb>`__."
+msgstr "Si vous avez des questions ou des commentaires sur le cours de formation Digital Earth Africa, n'hésitez pas à `contacter les organisateurs du cours ou à accéder à la banque de connaissances communautaire sur Slack <./Contact_us.ipynb>`__."
+
+#: ../../Frequently_asked_questions.ipynb:95
+#: 8e32e35d5b604e63bc885d2d538aa446
+msgid "Yes. It is recommended to spend 2 hours a week on new content. This will allow you to build on the previous week's content and finish the training course in around 6 weeks. However, this training course is self-paced, so there is no cut-off date for access. You are encouraged and welcome to spend more time on the course as necessary."
+msgstr "Oui. Il est recommandé de passer 2 heures par semaine sur du nouveau contenu. Cela vous permettra de vous appuyer sur le contenu de la semaine précédente et de terminer la formation en environ 6 semaines. Cependant, ce cours de formation est auto-rythmé, il n'y a donc pas de date limite d'accès. Vous êtes encouragé et invité à passer plus de temps sur le cours si nécessaire."
+
+#: ../../Maps_help.ipynb:100
+#: aa8d82bb1ef44fdcafe5c7c99771b443
+msgid "There are multiple ways to navigate DE Africa Map's map view:"
+msgstr "Il existe plusieurs façons de naviguer dans la vue cartographique de DE Africa Map:"
+
+#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:119
+msgid "Below, we save the lat/lon extents of our area of interest into variables that we will use to load the data. We use the 'buffer method' to define the area in terms of a center point plus or minus a buffer of 0.2 degrees. In the previous exercie we used a single buffer variable for both latitude and longitude; this time we will define both a ``lat_buffer`` and a ``lon_buffer`` so that we can easily define a rectangular region of interest."
+msgstr "Ci-dessous, nous enregistrons les étendues lat/lon de notre zone d'intérêt dans des variables que nous utiliserons pour charger les données. Nous utilisons la 'méthode du tampon' pour définir la zone en termes de point central plus ou moins un tampon de 0,2 degrés. Dans l'exercice précédent, nous avons utilisé une seule variable tampon pour la latitude et la longitude ; cette fois-ci, nous allons définir à la fois un ``lat_buffer`` et un ``lon_buffer`` afin de pouvoir facilement définir une région rectangulaire d'intérêt."
+
+#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:260
+msgid "Note that the following call to ``load_ard`` omits several of the parameters we're used to seeing (such as the extents and resolution). Instead we use the ``query`` variable that we defined above. Passing ``**query`` tells Python to send each of the values stored in the dictionary to ``load_ard`` as if we had supplied that value for the parameter identified by the corresponding key. For example, since the ``query`` dictionary defines ``'x'`` to be ``lon_range``, it is as if we had included the usual ``x = lon_range,`` line in our call to ``load_ard``."
+msgstr "Notez que l'appel suivant à ``load_ard`` omet plusieurs des paramètres que nous avons l'habitude de voir (comme les extents et la résolution). A la place, nous utilisons la variable ``query`` que nous avons définie plus haut. Passer la variable ``**query`` indique à Python d'envoyer chacune des valeurs stockées dans le dictionnaire à ``load_ard`` comme si nous avions fourni cette valeur pour le paramètre identifié par la clé correspondante. Par exemple, puisque le dictionnaire ``query`` définit ``x`` comme étant ``lon_range``, c'est comme si nous avions inclus la ligne habituelle ``x = lon_range`` dans notre appel à ``load_ard``."
+
+#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2058
+msgid "We can calculate the area of a pixel by converting its resolution (which we specified in meters per pixel in our ``query`` variable's ``'resolution'`` key) into square kilometers per pixel:"
+msgstr "Nous pouvons calculer la surface d'un pixel en convertissant sa résolution (que nous avons spécifiée en mètres par pixel dans la clé ``Resolution'`` de notre variable ``query'') en kilomètres carrés par pixel :"
+
+#: ../../help_documentation.ipynb:11
+#: 88e47278776a46a29df6b4c93d8efb81
+msgid "The Digital Earth Africa Sandbox, by default, will load several folders containing helpful notebooks and source code. They are essential to the Sandbox's operation, so do not delete or move any of the files."
+msgstr "Le bac à sable Digital Earth Africa, par défaut, chargera plusieurs dossiers contenant des blocs-notes utiles et du code source. Ils sont essentiels au fonctionnement du Sandbox, donc ne supprimez ni ne déplacez aucun des fichiers."
+
+#: ../../help_documentation.ipynb:13
+#: aca5775870844e51a0b03a48264d7b13
+msgid "The Beginner's Guide notebooks cover similar material to the explanations and exercises in this workshop series. However, they also provides more in-depth detail on how to perform data extraction and analysis. The Beginner's Guide notebooks, along with the 'frequently used code' notebooks, are a great reference tool."
+msgstr "Les cahiers du Guide du débutant couvrent des éléments similaires aux explications et aux exercices de cette série d'ateliers. Cependant, ils fournissent également des détails plus détaillés sur la façon d'exécuter l'extraction et l'analyse des données. Les blocs-notes du Guide du débutant, ainsi que les blocs-notes «code fréquemment utilisé», sont un excellent outil de référence."
+
+#: ../../help_documentation.ipynb:31
+#: 8b40e55580734a6785f4cc9e98fac80a
+msgid "Beginner's Guide - start here"
+msgstr "Guide du débutant - commencez ici"
+
+#: ../../help_documentation.ipynb:41
+#: 04ee78b1253b41e58450cd2b7fcbf59c
+msgid "**Suggested activity:** Read and follow examples in the Beginner's Guide notebooks, starting with ``01_Jupyter_notebooks.ipynb``. This can be done interactively (recommended), as detailed in `running a notebook <./session_1/04_running_a_notebook.ipynb>`__. Open the file and from the horizontal menu bar select **Kernel -> Restart Kernel and Clear All Outputs**, then follow instructions in the notebook."
+msgstr "**Activité suggérée:** Lisez et suivez les exemples dans les notebooks du Guide du débutant, en commençant par ``01_Jupyter_notebooks.ipynb``. Cela peut être fait de manière interactive (recommandé), comme détaillé dans `l'exécution d'un notebook <./session_1/04_running_a_notebook.ipynb>`__. Ouvrez le fichier et dans la barre de menu horizontale, sélectionnez **Kernel -> Restart Kernel and Clear All Outputs**, puis suivez les instructions du notebook."
+
+#: ../../help_documentation.ipynb:86
+#: a77cc51c773b4343a20190ec3baf5e85
+msgid "The analytical power of the Sandbox is shown in the folder **Real_world_examples**. This folder contains multiple notebooks which cater to 'real world' use cases, from monitoring crop health to detecting water."
+msgstr "La puissance analytique de l'Environnement de test est illustrée dans le dossier **Real_world_examples**. Ce dossier contient plusieurs carnets de notes qui répondent à des cas d'utilisation du \"monde réel\", de la surveillance de la santé des cultures à la détection de l'eau."
+
+#: ../../session_1/01_what_is_digital_earth_africa.ipynb:38
+#: 78c893e46fa643668df3fdfbdd366d01
+msgid "**Explore**: Allow access to satellite data in ways that address Africa's needs"
+msgstr "**Explore** : Permettre l'accès aux données satellitaires de manière à répondre aux besoins de l'Afrique."
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:101
+#: ba9ceb0bc057435eba417537176a4ee9
+msgid "Closing a notebook browser tab will not shut down its 'computational engine' (called the kernel). It is good practice to shut down the kernel of any notebooks you aren't using, as it will free up memory in your Sandbox session. Follow the instructions below to completely shut down the notebook you opened in the previous section."
+msgstr "La fermeture d’un onglet de navigateur de notebook n’arrêtera pas son «moteur de calcul» (appelé noyau). Il est conseillé d’arrêter le noyau de tous les blocs-notes que vous n’utilisez pas, car cela libèrera de la mémoire dans votre session Sandbox. Suivez les instructions ci-dessous pour arrêter complètement le portable que vous avez ouvert dans la section précédente."
+
+#: ../../session_1/04_running_a_notebook.ipynb:70
+#: 83034e452e0c4de49415b48090fd6f56
+msgid "Click the **Folder icon** in the folder path to make sure you're in the **Home** folder."
+msgstr "Cliquez sur l'icône **Dossier** dans le chemin du dossier pour vous assurer que vous êtes dans le dossier **Home**."
+
+#: ../../session_1/04_running_a_notebook.ipynb:164
+#: 91ebe0b6ce54448ba9e37dc94973bccd
+msgid "As the cell is running, you should see outputs describing the function's actions. The output is shown in the image below:"
+msgstr "Lorsque la cellule est en cours d’exécution, vous devriez voir des sorties décrivant les actions de la fonction. La sortie est affichée dans l'image ci-dessous:"
+
+#: ../../session_1/04_running_a_notebook.ipynb:291
+#: 521603b43e494538a10efbd63a704cb3
+msgid "If you'd like to re-run this notebook using a different area of interest, follow these steps:"
+msgstr "Si vous souhaitez réexécuter ce bloc-notes en utilisant un autre domaine d'intérêt, procédez comme suit:"
+
+#: ../../session_1/05_s1_quiz.ipynb:45
+#: ebad01ea8a024bccb14ac2026d2e6e9c
+msgid "The quiz will ask you to use the Crop Health notebook you developed for this session's exercise. To review the exercise, visit the section **Running a Notebook** or click the **Previous** button."
+msgstr "Le questionnaire vous demandera d'utiliser le carnet de notes sur la santé des cultures que vous avez élaboré pour l'exercice de cette session. Pour revoir l'exercice, visitez la section **Exécution d'un carnet de notes** ou cliquez sur le bouton **Précédent**."
+
+#: ../../session_2/01_products_intro.ipynb:119
+#: c8bbcd20ab784698aa981c944526bc69
+msgid "Satelllite products are datasets output from satellites orbiting Earth. These datasets have undergone some pre-processing by the satellite operators, but are otherwise 'raw' data, measuring quantities such as reflectance, radiation and surface temperature."
+msgstr "Les produits Satelllite sont des ensembles de données provenant de satellites en orbite autour de la Terre. Ces ensembles de données ont subi un certain prétraitement par les opérateurs de satellites, mais sont par ailleurs des données «brutes», mesurant des quantités telles que la réflectance, le rayonnement et la température de surface."
+
+#: ../../session_2/01_products_intro.ipynb:123
+#: 223c70114f5f433284e3bea31bb93e5b
+msgid "**Spatial resolution (how detailed):** Spatial resolution refers to the pixel size of the satellite product. It is the smallest thing the satellite can 'see'. A 30 m :math:`\\times` 30 m spatial resolution means the satellite product cannot pick up any details smaller than 30 m :math:`\\times` 30 m."
+msgstr "**Résolution spatiale (degré de détail):** La résolution spatiale fait référence à la taille du pixel du produit satellite. Il s'agit de la plus petite chose que le satellite peut \"voir\". Une résolution spatiale de 30 m :math:`\\times` 30 m signifie que le produit satellite ne peut capter aucun détail plus petit que 30 m :math:`\\times` 30 m."
+
+#: ../../session_2/01_products_intro.ipynb:145
+#: 4e998497bcd1496d99ba5d216c064841
+msgid "**Spectral resolution (how versatile):** Spectral resolution refers to the sensors on the satellite. The sensors are calibrated to collect measurements in certain wavelengths of the electromagnetic spectrum, known as 'bands'. Different bands are used for identifying different features on Earth, so the more bands a product has, the more versatile it is."
+msgstr "**Résolution spectrale (quelle polyvalence):** La résolution spectrale fait référence aux capteurs du satellite. Les capteurs sont calibrés pour recueillir des mesures dans certaines longueurs d'onde du spectre électromagnétique, appelées \"bandes\". Les différentes bandes sont utilisées pour identifier différentes caractéristiques de la Terre. Ainsi, plus un produit possède de bandes, plus il est polyvalent."
+
+#: ../../session_2/01_products_intro.ipynb:181
+#: 76329d755bf5486a843dc737b08d1bc1
+msgid "The Landsat data is organised by collections. Until recently, only Collection 1 was available, but USGS upgraded their pre-processing methodology. This gave rise to a new version of the Landsat data, titled 'Collection 2'. Collection 2 is planned for public release soon."
+msgstr "Les données Landsat sont organisées par collections. Jusqu'à récemment, seule la collection 1 était disponible, mais l'USGS a amélioré sa méthodologie de prétraitement. Cela a donné lieu à une nouvelle version des données Landsat, intitulée «Collection 2». La collection 2 est prévue pour une sortie publique prochainement."
+
+#: ../../session_2/01_products_intro.ipynb:227
+#: f130ad0c11b1414e92f3a73bb8e1d751
+msgid "The Sentinel-2 mission is part of the European Union 'Copernicus' Earth observation programme. Sentinel-2 consists of twin satellites, Sentinel-2A (launched 23 June 2015) and Sentinel-2B (launched 7 March 2017). Their combined data is used in the Digital Earth Africa Sentinel-2 product."
+msgstr "La mission Sentinel-2 fait partie du programme d’observation de la Terre Copernicus de l’Union européenne. Sentinel-2 se compose de deux satellites, Sentinel-2A (lancé le 23 juin 2015) et Sentinel-2B (lancé le 7 mars 2017). Leurs données combinées sont utilisées dans le produit Digital Earth Africa Sentinel-2."
+
+#: ../../session_2/01_products_intro.ipynb:264
+#: 94aeb1b7c81949aaa08ebeaac3f60229
+msgid "Which satellite product is 'best'?"
+msgstr "Quel produit satellite est «meilleur»?"
+
+#: ../../session_2/02_deafrica_map.ipynb:57
+#: 78a00014f8cc420c8c0df0b5cd1e768a
+msgid "This video will show you the basics of the Digital Earth Africa Map portal. In the video, a derived product (called 'Water Observations from Space') is loaded."
+msgstr "Cette vidéo vous montrera les bases du portail Digital Earth Africa Map. Dans la vidéo, un produit dérivé (appelé «Observations de l’eau depuis l’espace») est chargé."
+
+#: ../../session_2/03_data_availability.ipynb:158
+#: 9ce6129c18424f7a92218a7edf2e6c2c
+msgid "We can see that there is only data available for some African countries. Let's take a closer look at Tanzania."
+msgstr "On voit qu'il n'y a que des données disponibles pour certains pays africains. Regardons de plus près la Tanzanie."
+
+#: ../../session_2/03_data_availability.ipynb:192
+#: 8f83a800e97a4a4ea4bcc733e1f9b41e
+msgid "Use the map's **+** button to zoom in on Africa. Click and drag to see Tanzania."
+msgstr "Utilisez le bouton **+** de la carte pour zoomer sur l'Afrique. Cliquez et faites glisser pour voir la Tanzanie."
+
+#: ../../session_2/04_load_data_exercise.ipynb:55
+#: 09f4edd99d074795a9160d48fe35daf6
+msgid "Let's create a new, blank Jupyter notebook for this exercise."
+msgstr "Créons un nouveau bloc-notes Jupyter vierge pour cet exercice."
+
+#: ../../session_2/04_load_data_exercise.ipynb:426
+#: 404cb3cdcc9e47cebb5eb7a348249f6f
+msgid "True-colour images are also known as red-green-blue (RGB) images. They are rendered using the image's 'natural' colours and appear how they might be seen by the human eye. As we loaded red, green and blue bands from Landsat 8, we can now plot an RGB image using the data from ``landsat_ds``."
+msgstr "Les images en couleurs réelles sont également connues sous le nom d'images rouge-vert-bleu (RVB). Elles sont rendues en utilisant les couleurs \"naturelles\" de l'image et apparaissent comme elles pourraient être vues par l'œil humain. Comme nous avons chargé les bandes rouge, verte et bleue de Landsat 8, nous pouvons maintenant tracer une image RVB en utilisant les données de ``landsat_ds``."
+
+#: ../../session_2/04_load_data_exercise.ipynb:517
+#: 1ebe1bd2afcc4962b66ed7aa61f6369a
+msgid "How do we fill out the parameters inside the brackets of ``dc.load()``? We can do this by copying some of the information from the Landsat 8 ``dc.load()`` input cell. The first parameter we listed before was ``product``. However, we don't want to use the Landsat 8 product, we want to select the Sentinel-2 product, ``s2_l2a``."
+msgstr "Comment remplir les paramètres à l'intérieur des parenthèses de ``dc.load()`` ? Nous pouvons le faire en copiant certaines des informations de la cellule d'entrée ``dc.load()`` de Landsat 8. Le premier paramètre que nous avons listé auparavant était ``product``. Cependant, nous ne voulons pas utiliser le produit Landsat 8, nous voulons sélectionner le produit Sentinel-2, ``s2_l2a``."
+
+#: ../../session_2/05_s2_solution.ipynb:45
+#: ../../session_3/04_s3_solution.ipynb:45
+#: 231df88bb5074a1f868fb78202d75ab2
+#: 7e552b26519745ff978fa87aa596b81a
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on loading data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le chargement des données. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
+
+#: ../../session_3/01_intro_composites.ipynb:25
+#: 18fb6c5bbe6a4edf9649f87b08b03e47
+msgid "This is summarised in this week's video, **Time aggregation of data**. Watch the video to see how to use Earth observation data at different points in time."
+msgstr "Ceci est résumé dans la vidéo de cette semaine, **Agrégation temporelle des données**. Regardez la vidéo pour voir comment utiliser les données d'observation de la Terre à différents moments dans le temps."
+
+#: ../../session_3/01_intro_composites.ipynb:71
+#: fb30fc0c4d2b444b95d066ced4089e33
+msgid "Identify and remove cloudy data — this is known as 'cloud masking'"
+msgstr "Identifiez et supprimez les données troubles - c'est ce qu'on appelle le «masquage du cloud»"
+
+#: ../../session_3/01_intro_composites.ipynb:117
+#: b304b4d40ef4495496617137c87958d6
+msgid "What if we want to know what is underneath those clouds? If you have data at only one point in time, this is not possible. However, if we have data for the same place at a different time, when the clouds are not present, we can use this data to 'fill' in areas of cloud."
+msgstr "Et si nous voulons savoir ce qu'il y a sous ces nuages? Si vous ne disposez de données qu'à un moment donné, cela n'est pas possible. Cependant, si nous avons des données pour le même endroit à un moment différent, lorsque les nuages ne sont pas présents, nous pouvons utiliser ces données pour «remplir» des zones de nuage."
+
+#: ../../session_3/01_intro_composites.ipynb:119
+#: cbcce1ac24fa4241b7bad703d520fef4
+msgid "To do that, we must first identify which pixels are clouds. The process of determining and removing cloud data points is known as 'cloud masking'."
+msgstr "Pour ce faire, nous devons d'abord identifier quels pixels sont des nuages. Le processus de détermination et de suppression des points de données cloud est appelé «masquage cloud»."
+
+#: ../../session_3/01_intro_composites.ipynb:142
+#: 3dd55fb4315b4177937cfc174dddafb1
+msgid "The easiest way to apply a cloud mask to your dataset is to load it into the Sandbox using the ``load_ard()`` function. ``ard`` stands for 'Analysis-Ready Data' and the ``load_ard()`` function automatically applies a cloud mask."
+msgstr "La façon la plus simple d'appliquer un masque de nuage à votre ensemble de données est de le charger dans l'Environnement de test en utilisant la fonction ``load_ard()``. ``ard`` signifie 'Analysis-Ready Data' et la fonction ``load_ard()`` applique automatiquement un masque de nuage."
+
+#: ../../session_3/01_intro_composites.ipynb:233
+#: cac07a1504174d9b913f8d3817535df9
+msgid "For each band in the image, median composites set the value of each pixel to the median value for that band. For a given pixel, each band's median is independent of the others."
+msgstr "Pour chaque bande de l'image, les composites médians définissent la valeur de chaque pixel sur la valeur médiane de cette bande. Pour un pixel donné, la médiane de chaque bande est indépendante des autres."
+
+#: ../../session_3/01_intro_composites.ipynb:276
+#: 7a3e41f815e14805b9bfd8a5e580c7b1
+msgid "Geomedian — or 'geometric median' — composites are multi-band generalisations of median composites. Instead of finding a pixel's median value for each band **individually**, like a median composite does, a geomedian composite finds the median values of the bands for each pixel when considered **together**."
+msgstr "Les composites géomédiens - ou \"médiane géométrique\" - sont des généralisations multibandes des composites médians. Au lieu de trouver la valeur médiane d'un pixel pour chaque bande **individuellement**, comme le fait un composite médian, un composite géomédian trouve les valeurs médianes des bandes pour chaque pixel lorsqu'elles sont considérées **ensemble**."
+
+#: ../../session_3/01_intro_composites.ipynb:303
+#: ced8ac76c46e43fc83afd9c567cf3e3a
+msgid "*Unlike the median composite, the geometric median (geomedian) considers all bands of data together. Each band adds a dimension to the geomedian calculation. For a three-band dataset, such as the RGB dataset shown in the geomedian compositing algorithm above, each point can be represented on a three-dimensional scatter plot. The geomedian is the minimised 'sum of distances' between all the points.*"
+msgstr "* Contrairement au composite médian, la médiane géométrique (géomédiane) considère toutes les bandes de données ensemble. Chaque bande ajoute une dimension au calcul géomédian. Pour un jeu de données à trois bandes, tel que le jeu de données RVB présenté dans l'algorithme de composition géomédian ci-dessus, chaque point peut être représenté sur un nuage de points en trois dimensions. Le géomédian est la «somme des distances» minimisée entre tous les points. *"
+
+#: ../../session_3/02_cloud_masking.ipynb:206
+#: 31da934d9b7d4f6e87735341704eb4f6
+msgid "``min_gooddata`` stands for 'minimum good data' and discards observations with less than the fractional requisite of good quality pixels."
+msgstr "``min_gooddata`` signifie 'minimum good data' et écarte les observations dont le nombre de pixels de bonne qualité est inférieur à la fraction requise."
+
+#: ../../session_3/02_cloud_masking.ipynb:225
+#: e1e553e570a8475189b69de5778e550a
+msgid "We can use the same ``rgb`` plotting code as in the last session to show an RGB image of one of the timesteps. Let's start with the first timestep, which has an ``index`` of ``0``."
+msgstr "Nous pouvons utiliser le même code de traçage ``rgb`` que dans la dernière session pour afficher une image RVB d'un des pas de temps. Commençons par le premier pas de temps, qui a un ``index`` de ``0``."
+
+#: ../../session_3/02_cloud_masking.ipynb:275
+#: 4588cd6c072b41779730975b128cd602
+msgid "If we want to see RGB images of all the timesteps at once, we can replace the ``index`` parameter with the ``col`` parameter. The parameter ``col`` stands for 'column'. Specifying ``col='time'`` creates a row of images for the timesteps."
+msgstr "Si nous voulons voir les images RVB de tous les pas de temps en une seule fois, nous pouvons remplacer le paramètre ``index`` par le paramètre ``col``. Le paramètre ``col`` signifie 'colonne'. En spécifiant ``col='time'``, on crée une ligne d'images pour les pas de temps."
+
+#: ../../session_3/03_geomedian_exercise.ipynb:83
+#: 53b2ab8d28604d3bab3b9237e06d2b7a
+msgid "Let's confirm we have successfully loaded our Sentinel-2 dataset. Recall we named it ``sentinel_2_ds``. Scroll to the bottom of the notebook and run the dataset name in the next empty cell."
+msgstr "Confirmons que nous avons chargé avec succès notre jeu de données Sentinel-2. Rappelez-vous que nous l'avons nommé ``sentinel_2_ds``. Faites défiler jusqu'au bas du carnet de notes et exécutez le nom du jeu de données dans la prochaine cellule vide."
+
+#: ../../session_4/01_band_indices.ipynb:237
+#: b396ed51060b49b195d5d2ecd4bf55d5
+msgid "NDVI is therefore typically calculated using a satellite's NIR band and red band. One value is calculated per pixel."
+msgstr "Le NDVI est donc généralement calculé en utilisant la bande NIR et la bande rouge d’un satellite. Une valeur est calculée par pixel."
+
+#: ../../session_4/01_band_indices.ipynb:311
+#: 37983ff0864e4a65a5df2d2c0c102ac7
+msgid "Notice the RGB images may show parts of the area to be visibly 'dry' or 'lush', but in places where this is less obvious, it is easier to analyse NDVI than the multispectral RGB dataset."
+msgstr "Notez que les images RVB peuvent montrer que certaines parties de la zone sont visiblement «sèches» ou «luxuriantes», mais dans les endroits où cela est moins évident, il est plus facile d’analyser le NDVI que le jeu de données RVB multispectral."
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:66
+msgid "This notebook is still set up to run the Session 3 exercise, so you'll need to follow the instructions below to modify it. Work cell by cell and pay attention to what needs to be changed."
+msgstr "Ce bloc-notes est toujours configuré pour exécuter l'exercice Session 3. Vous devrez donc suivre les instructions ci-dessous pour le modifier. Travaillez cellule par cellule et faites attention à ce qui doit être changé."
+
+#: ../../session_4/02_calculate_ndvi_part_1.ipynb:300
+#: 699702de29754c8a85421daea33b9809
+msgid "If you'd like to experiment futher, try running the code with different resampling values. Did you learn anything interesting to share with us?"
+msgstr "Si vous souhaitez tester davantage, essayez d'exécuter le code avec différentes valeurs de rééchantillonnage. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:11
+#: b263fb3c7e5f4b409353cc9196916479
+msgid "This exercise follows on from the previous section. In the `previous part of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you constructed a notebook to resample a year's worth of Sentinel-2 data into quarterly time steps."
+msgstr "Cet exercice fait suite à la partie précédente. Dans la `première partie de cet exercice <../session_4/03_calcul_ndvi_part_2.ipynb>`__, vous avez construit un cahier pour rééchantillonner une année de données Sentinel-2 en pas de temps trimestriels."
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:59
+#: 26e038f6678345d9959d5efb029151de
+msgid "To calculate NDVI, we need to load Sentinel-2's near-infrared band. In the Sandbox, it is called ``nir``. To add the band, modify the ``load_ard`` cell according to the step below:"
+msgstr "Pour calculer NDVI, nous devons charger la bande proche infrarouge de Sentinel-2. Dans le bac à sable, elle est appelée ``nir``. Pour ajouter la bande, modifiez la cellule ``load_ard`` en suivant l'étape ci-dessous :"
+
+#: ../../session_4/03_calculate_ndvi_part_2.ipynb:277
+#: ../../session_6/02_water_extent.ipynb:446
+#: d822e59eba2042cd8234d0a849b04d5d
+#: 4951b694f4ea4dc18151283df96b2a50
+msgid "If you'd like to experiment futher, try running the code with different areas. Did you learn anything interesting to share with us?"
+msgstr "Si vous souhaitez expérimenter davantage, essayez d'exécuter le code avec différentes zones. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
+
+#: ../../session_4/04_s4_solution.ipynb:45
+#: 8b369684732f4fbc87a005ba9d0977fb
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on calculating NDVI. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le calcul du NDVI. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
+
+#: ../../session_5/01_vegetation_analysis.ipynb:100
+#: 35c4b9d0e91e456792251b5d6d5fc6d8
+msgid "*Food security is a major focus of the UN's Sustainable Development Goals (SDGs). The SDGs are a key tenet of the Digital Earth Africa program.* [`Image source <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
+msgstr "*La sécurité alimentaire est un axe majeur des Objectifs de développement durable (ODD) de l'ONU. Les ODD sont un principe clé du programme Digital Earth Africa.* [`Source de l'image <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
+
+#: ../../session_5/01_vegetation_analysis.ipynb:254
+#: fa0c053d803442a88333673c523a6a64
+msgid "With some understanding of the context behind spatial data analysis, we are now ready to create our own case study notebook. This week's exercise is about incorporating the additional two steps (analysis purpose, and additional results discussion) to make a well-rounded case study."
+msgstr "Avec une certaine compréhension du contexte derrière l'analyse des données spatiales, nous sommes maintenant prêts à créer notre propre carnet d'étude de cas. L’exercice de cette semaine consiste à incorporer les deux étapes supplémentaires (objectif de l’analyse et discussion supplémentaire sur les résultats) pour réaliser une étude de cas complète."
+
+#: ../../session_5/02_vegetation_exercise.ipynb:421
+#: f83914f22e004f3ca768b4f40d59492f
+msgid "``c1`` stands for 'Collection 1', which is the currently-available Landsat collection of data as named by its publishers, US Geological Survey."
+msgstr "``c1`` signifie 'Collection 1', qui est la collection de données Landsat actuellement disponible, telle que nommée par ses éditeurs, l'US Geological Survey."
+
+#: ../../session_5/02_vegetation_exercise.ipynb:476
+#: 25377cbfbbdf449f94a6e5ac37dfd78e
+msgid "``sel()`` stands for 'selection' and tells us we are taking a selection of the dataset. We have to define which coordinate we are selecting by. In this case, we will use the ``time`` coordinate."
+msgstr "``sel()`` signifie \"sélection\" et nous indique que nous prenons une sélection de l'ensemble des données. Nous devons définir par quelle coordonnée nous allons sélectionner. Dans ce cas, nous allons utiliser la coordonnée ``time``."
+
+#: ../../session_5/02_vegetation_exercise.ipynb:540
+#: 4f5f0a9c04d04c4dadbb0398ed6445e0
+msgid "Now we have our 'before' and 'after' datasets, we can compare them for change in EVI. To do this, we will form a composite for each half of the dataset. Then we will calculate the differences in the average EVI for each pixel."
+msgstr "Maintenant que nous avons nos ensembles de données «avant» et «après», nous pouvons les comparer pour le changement dans EVI. Pour ce faire, nous allons former un composite pour chaque moitié de l'ensemble de données. Ensuite, nous calculerons les différences de l'EVI moyen pour chaque pixel."
+
+#: ../../session_5/02_vegetation_exercise.ipynb:699
+#: ../../session_6/02_water_extent.ipynb:460
+#: d8f67685c52447d0ba8a73fdc228d1bb
+#: 555c162053c7458a95a757ad67abec57
+msgid "If you're curious about how the existing case study works, you can open and run it in the Sandbox:"
+msgstr "Si vous êtes curieux de savoir comment fonctionne l'étude de cas existante, vous pouvez l'ouvrir et l'exécuter dans le bac à sable:"
+
+#: ../../session_6/02_water_extent.ipynb:444
+#: bf5e5fafea754d3d909ea85e02f6ceb3
+msgid "You've now built your second case study! You make like to reflect on what was similar and different between the two. Are there any pieces of code you could reuse for a new analysis? How might you modify your case studies to do more complex analysis?"
+msgstr "Vous avez maintenant construit votre deuxième étude de cas! Vous avez envie de réfléchir à ce qui était similaire et différent entre les deux. Y a-t-il des morceaux de code que vous pourriez réutiliser pour une nouvelle analyse? Comment pourriez-vous modifier vos études de cas pour faire des analyses plus complexes?"
+
+#: ../../session_6/03_s6_solution.ipynb:47
+#: 8d799537e2ed463cb895b87add55d337
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on plotting water extent using WOfS data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgstr "Le quiz vous demandera d'utiliser le cahier que vous avez développé pour l'exercice de cette session sur le traçage de l'étendue de l'eau à l'aide des données WOfS. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
+
+#: ../../Course_wrap-up.ipynb:166
+#: 83ae33f1db0d43e5847f6d8c462b0e97
+msgid "3. Consolidate your Python knowledge using the Python basics and Beginner's Guide tutorials"
+msgstr "3. Consolidez vos connaissances de Python à l'aide des tutoriels Python basics et Beginner's Guide."
+
+#: ../../Frequently_asked_questions.ipynb:29
+#: bb934dc0b5ef4b54bd208658eee53a15
+msgid "I didn't receive a Sandbox verification code email."
+msgstr "Je n'ai pas reçu d'e-mail contenant le code de vérification de la Sandbox."
+
+#: ../../Quiz_index.ipynb:22
+#: 8204f4da8bd64c0896d082ee215cf15c
+msgid "On each quiz page, read the summary of the week's contents and note any suggestions or requirements for the quiz. Click the link labelled **complete the quiz** to access the questions."
+msgstr "Sur chaque page de quiz, lisez le résumé du contenu de la semaine et notez toute suggestion ou exigence pour le quiz. Cliquez sur le lien intitulé **complete the quiz** pour accéder aux questions."
+
+#: ../../python_basics/01_jupyter.ipynb:199
+#: 47e79ffbf0c84acc94e3e51e90de397e
+msgid "You'll see that once the code has executed, any output generated by your code will show up just below the cell."
+msgstr "Vous verrez qu'une fois le code exécuté, toute sortie générée par votre code s'affichera juste en dessous de la cellule."
+
+#: ../../python_basics/01_jupyter.ipynb:256
+#: 6590dafb39ca485f9b5a805b7039182d
+msgid "Sometimes, the code that you run in a cell takes a while to compute because it is loading a large dataset or performing complex computations. You'll notice the number that appears next to the cell. Before the cell is run you'll see the symbol ``[ ]`` meaning that cell has not been executed yet. While a cell is running it shows the ``[*]`` symbol and once it has completed running you'll see a number representing the number of cells being run, for example ``[4]``. This allows you to keep track of the cells that have been run and their relative order."
+msgstr "Parfois, le code que vous exécutez dans une cellule prend du temps à calculer parce qu'il charge un grand ensemble de données ou effectue des calculs complexes. Vous remarquerez le numéro qui apparaît à côté de la cellule. Avant l'exécution de la cellule, vous verrez le symbole ``[ ]`` qui signifie que la cellule n'a pas encore été exécutée. Pendant qu'une cellule est en cours d'exécution, le symbole ``[*]`` apparaît et une fois l'exécution terminée, vous verrez un nombre représentant le nombre de cellules en cours d'exécution, par exemple ``[4]``. Cela vous permet de garder une trace des cellules qui ont été exécutées et de leur ordre relatif."
+
+#: ../../python_basics/01_jupyter.ipynb:332
+#: ace0eb3c662f40c08fe31736e4d8fe06
+msgid "If you run again the first ``a`` cell you'll see that it returns ``2``, the updated value. This is called 'global state', and means that once a variable is declared it is accessible anywhere in the notebook, even in cells above where it has been declared. This is different to traditional programs which execute sequentially line by line from the top to the bottom. This can be confusing in the beginning, but keep an eye on the number in the brackets ``[ ]`` to see cell execution order."
+msgstr "Si vous exécutez à nouveau la première cellule ``a``, vous verrez qu'elle renvoie ``2``, la valeur mise à jour. C'est ce qu'on appelle \"l'état global\", et cela signifie qu'une fois qu'une variable est déclarée, elle est accessible partout dans le cahier, même dans les cellules situées au-dessus de celle où elle a été déclarée. Ceci est différent des programmes traditionnels qui s'exécutent séquentiellement, ligne par ligne, du haut vers le bas. Cela peut être déroutant au début, mais gardez un œil sur le nombre entre les parenthèses ``[ ]`` pour voir l'ordre d'exécution des cellules."
+
+#: ../../python_basics/02_numpy.ipynb:227
+#: caa6743a4a9940f4b1312d37f2de89cf
+msgid "One of numpy's core concepts is the ``array``. They can hold multi-dimensional data. To declare a numpy array explicity we do:"
+msgstr "L'un des concepts fondamentaux de numpy est le tableau ``array``. Ils peuvent contenir des données multidimensionnelles. Pour déclarer un tableau numpy de manière explicite, on fait :"
+
+#: ../../python_basics/02_numpy.ipynb:344
+#: 3bfa34d180394e4db50359a8d425e22b
+msgid "Arrays can be sliced and diced. We can get subsets of the arrays using the indexing notation which is ``[ start : end : stride ]``. Let's see what this means:"
+msgstr "Les tableaux peuvent être découpés en tranches et en dés. Nous pouvons obtenir des sous-ensembles de tableaux en utilisant la notation d'indexation qui est ``[ start : end : stride ]``. Voyons ce que cela signifie :"
+
+#: ../../python_basics/02_numpy.ipynb:395
+#: 0dc97d5f00c849279526579549279605
+msgid "Experiment playing with the indexes to understand the meaning of ``start``, ``end`` and ``stride``. What happens if you don't specify a start? What value does numpy use instead?"
+msgstr "Essayez de jouer avec les index pour comprendre la signification de ``start``, ``end`` et ``stride``. Que se passe-t-il si vous ne spécifiez pas de début ? Quelle valeur numpy utilise-t-il à la place ?"
+
+#: ../../python_basics/02_numpy.ipynb:959
+#: ../../python_basics/06_python_solutions.ipynb:371
+#: 0368a7f862664f7aa92842af409625ab
+#: 2fa47a99f5d14c1dade143428353e868
+msgid "2.5 You'll need to combine array comparisons and logical operators to solve this one. Find out the values in the following array that are greater than ``3`` AND less than ``7``. The output should be a boolean array."
+msgstr "2.5 Vous devrez combiner les comparaisons de tableaux et les opérateurs logiques pour résoudre cette question. Trouvez les valeurs du tableau suivant qui sont supérieures à ``3`` et inférieures à ``7``. Le résultat doit être un tableau booléen."
+
+#: ../../python_basics/03_matplotlib.ipynb:93
+#: 24f43e626f3543daad58d8c5e083776a
+msgid "Introduction to matplotlib's pyplot"
+msgstr "Introduction à pyplot de matplotlib"
+
+#: ../../python_basics/03_matplotlib.ipynb:313
+#: 3b6283cae96b405eae6f82537e41b3ff
+msgid "Now let's see what that looks like on an actual image."
+msgstr "Voyons maintenant à quoi cela ressemble sur une image réelle."
+
+#: ../../python_basics/03_matplotlib.ipynb:406
+#: ea1bba044c9e424bb3a06ae986660d5b
+msgid "Let's display this image using the pyplot ``imshow`` function."
+msgstr "Affichons cette image en utilisant la fonction pyplot ``imshow``."
+
+#: ../../python_basics/03_matplotlib.ipynb:469
+#: ../../python_basics/06_python_solutions.ipynb:506
+#: 59e55368ac9643f7a7e308aedcf360a3
+#: cfea4e10cf3f4b949c0dc8c4c375fc35
+msgid "3.1 Let's use the indexing functionality of numpy to select a portion of this image. Select the top-right corner of this image with shape ``(200,200)``."
+msgstr "3.1 Utilisons la fonctionnalité d'indexation de numpy pour sélectionner une partie de cette image. Sélectionnez le coin supérieur droit de cette image avec la forme ``(200,200)``."
+
+#: ../../python_basics/03_matplotlib.ipynb:514
+#: ../../python_basics/06_python_solutions.ipynb:567
+#: 9bc2c7223720436b9af67d210277daae
+#: 090f311aa25b40eea624e2fd50f2d2bd
+msgid "3.2 Let's have a look at one of the pixels in this image. We choose the top-left corner with position ``(0,0)`` and show the values of its RGB channels."
+msgstr "3.2 Regardons l'un des pixels de cette image. Nous choisissons le coin supérieur gauche avec la position ``(0,0)`` et montrons les valeurs de ses canaux RVB."
+
+#: ../../python_basics/03_matplotlib.ipynb:547
+#: ../../python_basics/06_python_solutions.ipynb:621
+#: af1bb2cbf0aa4c299b1264f22c30810b
+#: 1dd4bd83bfb643ed8d6de7cdb11db3f3
+msgid "Now let's modify the image."
+msgstr "Maintenant, nous allons modifier l'image."
+
+#: ../../python_basics/05_xarray.ipynb:651
+#: d01c03c40f3b4c7f86fd2aac2f15c3ba
+msgid "Let's inspect the data. This image (our dataset) has a height ``y`` of 501 pixels and a width ``x`` of 500 pixels. It has 3 ``variables``, which correspond to the red, green, and blue bands needed to plot a colour image. Each of these bands has a value at each of the pixels, so we have a total of 751500 values (the result of 501 x 500 x 3). Each of the ``x`` and ``y`` values are associated with a longitude and latitude and their values are stored under the ``Coordinates`` section."
+msgstr "Inspectons les données. Cette image (notre jeu de données) a une hauteur ``y`` de 501 pixels et une largeur ``x`` de 500 pixels. Elle possède 3 ``variables``, qui correspondent aux bandes rouge, verte et bleue nécessaires au tracé d'une image couleur. Chacune de ces bandes a une valeur pour chacun des pixels, ce qui nous donne un total de 751500 valeurs (le résultat de 501 x 500 x 3). Chacune des valeurs ``x`` et ``y`` est associée à une longitude et une latitude et leurs valeurs sont stockées dans la section ``Coordinates``."
+
+#: ../../python_basics/05_xarray.ipynb:662
+#: 08281441da9e4ead806bfe9d2cac9947
+msgid "The ``xarray.DataSet`` uses numpy arrays in the backend. What we see above is functionally similar to a bunch of numpy arrays holding the image band measurements and the longitude/latitude coordinates, combined with a dictionary of key-value pairs that defines the ``Attributes`` such as CRS and resolution (``res``). That sounds more complicated, doesn't it? Accessing the data through ``xarray`` avoids the complications of managing uncorrelated numpy arrays by themselves."
+msgstr "Le ``xarray.DataSet`` utilise des tableaux numpy dans le backend. Ce que nous voyons ci-dessus est fonctionnellement similaire à un tas de tableaux numpy contenant les mesures de la bande de l'image et les coordonnées de longitude/latitude, combiné avec un dictionnaire de paires clé-valeur qui définit les ``Attributs`` tels que le CRS et la résolution (``res``). Cela semble plus compliqué, n'est-ce pas ? L'accès aux données par ``xarray`` évite les complications liées à la gestion de tableaux numpy non corrélés par eux-mêmes."
+
+#: ../../python_basics/05_xarray.ipynb:1218
+#: 94efd7d0dd484087b521ece40736e6eb
+msgid "**Note:** ``cmap`` stands for 'colour map'. What happens if you remove this argument? ``plt.imshow`` will then plot all the ``red`` data values in the default colour scheme, which is a purple-to-yellow sequential colour map known as ``viridis``. This is because matplotlib does not know the variable name ``red`` is associated with the colour red — it is just a name. You can find out more about matplotlib colourmaps through this `matplotlib tutorial <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
+msgstr "**Remarque : ``cmap`` signifie ``carte de couleurs``. Que se passe-t-il si vous supprimez cet argument ? ``plt.imshow`` tracera alors toutes les valeurs de données ``red`` dans le schéma de couleurs par défaut, qui est une carte de couleurs séquentielle violet-jaune connue sous le nom de ``viridis``. Ceci est dû au fait que matplotlib ne sait pas que le nom de variable ``red`` est associé à la couleur rouge - c'est juste un nom. Vous pouvez en savoir plus sur les cartes de couleurs de matplotlib grâce à ce tutoriel `matplotlib <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
+
+#: ../../python_basics/05_xarray.ipynb:4232
+#: faf882726cb84822999fc1d4a8684088
+msgid "The advantage of using xarray's ``.plot()`` is that it automatically shows the ``x`` and ``y`` axes using coordinate values, not their positional index."
+msgstr "L'avantage d'utiliser la fonction ``.plot()`` de xarray est qu'elle affiche automatiquement les axes ``x`` et ``y`` en utilisant les valeurs des coordonnées, et non leur indice de position."
+
+#: ../../python_basics/06_python_solutions.ipynb:151
+#: f17407554d5644aea61aaa0ff132c0ca
+msgid "**Answer:** It should now print ``8760`` as 'global state' means the value of ``a`` has been changed."
+msgstr "**Réponse:** Il devrait maintenant imprimer ``8760`` car 'global state' signifie que la valeur de ``a`` a été modifiée."
+
+#: ../../session_1/03_navigate_the_sandbox.ipynb:101
+#: 0b535849acb14bd4adcfe41f61872355
+msgid "Closing a notebook browser tab will not shut down its “computational engine” (called the kernel). It is good practice to shut down the kernel of any notebooks you aren't using, as it will free up memory in your Sandbox session. Follow the instructions below to completely shut down the notebook you opened in the previous section."
+msgstr "Fermer l'onglet du navigateur d'un ordinateur portable n'arrêtera pas son \"moteur de calcul\" (appelé le noyau). Il est bon de fermer le noyau de tout ordinateur portable que vous n'utilisez pas, car cela libérera de la mémoire dans votre session Sandbox. Suivez les instructions ci-dessous pour fermer complètement le bloc-notes que vous avez ouvert dans la section précédente."
+
+#: ../../session_5/02_vegetation_exercise.ipynb:679
+#: 696d94c1d6fc4d63a76291146147d27a
+msgid "Congratulations! You have made your own vegetation change detection notebook. It is comparable to `the existing Sandbox vegetation change detection notebook <https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Vegetation_change_detection.html>`__. The existing notebook may look daunting, but it includes many of the steps that you have just done! In addition to setting a 'before' and 'after' scene, the existing notebook:"
+msgstr "Félicitations ! Vous avez réalisé votre propre carnet de détection des changements de végétation. Il est comparable au \"carnet de détection des changements de végétation de l'Environnement Sable\" existant <https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Vegetation_change_detection.html>`__. Le notebook existant peut sembler intimidant, mais il comprend beaucoup des étapes que vous venez de faire ! En plus de définir une scène 'avant' et 'après', le notebook :"
+
+#: ../../session_5/02_vegetation_exercise.ipynb:682
+#: 8af483b4af8f42b5bbe890ede530d0c9
+msgid "Quantifies change using statistical tests (Welch's *t*-test for areas of unequal variance)"
+msgstr "Quantifie le changement à l'aide de tests statistiques (test *t* de Welch pour les zones de variance inégale)."
 

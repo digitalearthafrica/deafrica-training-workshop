@@ -7,7 +7,7 @@ Digital Earth Africa Training
 =============================
 
 .. note:: 
-    The Digital Earth Africa Training website will experience a scheduled downtime from 31 May 2021 to 2 June 2021 to upgrade data hosting services. During this time, the Sandbox may be inaccessible and you may experience some errors. Sandbox users will have received an email regarding these changes.
+    The Digital Earth Africa Training website will experience a scheduled downtime from 31 May 2021 to 2 June 2021 to upgrade data hosting services. During this time, the Sandbox will be cleared of personal user data. The Sandbox may be inaccessible and you may experience some code errors with notebooks and quizzes. Sandbox users will have received an email regarding these changes. This Training website will be updated to reflect changes to data loading processes following the upgrade. 
 
 Welcome to the Digital Earth Africa training course!
 

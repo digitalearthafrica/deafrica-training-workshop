@@ -5,6 +5,7 @@
 <script>
     jQuery(document).ready(function() {
         jQuery("a[href^='http']").attr('target','_blank');
+        jQuery(".wy-breadcrumbs-aside").prepend('<a href="/en/latest/">English</a> | <a href="/fr/latest/">Français</a> | ');
     });
 </script>
 {% endblock %}

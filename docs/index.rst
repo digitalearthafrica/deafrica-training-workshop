@@ -7,7 +7,7 @@ Digital Earth Africa Training
 =============================
 
 .. note:: 
-    As of June 2021, DE Africa Landsat data has been upgraded to Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. For more information on Landsat Collection 2, visit the DE Africa Landsat documentation https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html_. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the DE Africa Tools module documentation https://docs.digitalearthafrica.org/en/latest/sandbox/api.html_.
+    As of June 2021, DE Africa Landsat data has been upgraded to Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. For more information on Landsat Collection 2, visit the `DE Africa Landsat documentation <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`_. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the `DE Africa Tools module documentation https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_.
 
 Welcome to the Digital Earth Africa training course!
 

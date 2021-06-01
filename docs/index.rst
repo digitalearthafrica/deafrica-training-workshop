@@ -7,7 +7,7 @@ Digital Earth Africa Training
 =============================
 
 .. note:: 
-    The Digital Earth Africa Training website will experience a scheduled downtime from 31 May 2021 to 2 June 2021 to upgrade data hosting services. During this time, the Sandbox will be cleared of personal user data. The Sandbox may be inaccessible and you may experience some code errors with notebooks and quizzes. Sandbox users will have received an email regarding these changes. This Training website will be updated to reflect changes to data loading processes following the upgrade. 
+    As of June 2021, DE Africa Landsat data has been upgraded to Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. For more information on Landsat Collection 2, visit the DE Africa Landsat documentation https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html_. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the DE Africa Tools module documentation https://docs.digitalearthafrica.org/en/latest/sandbox/api.html_.
 
 Welcome to the Digital Earth Africa training course!
 
@@ -42,13 +42,11 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 -------------------
 
+ - **01/06/2021:** Digital Earth Africa Landsat datasets have been upgraded to USGS Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import.
  - **21/01/2021:** `Virtual live sessions <./Events.ipynb>`_ run by our course convenors have resumed for 2021. We encourage all current and past course participants to join in.
  - **15/12/2020:** If you have completed any or all sections of the Digital Earth Africa training course, complete our `participant survey <https://forms.gle/QSuoFWXuevyKTgVZ7>`_.
  - **14/12/2020:** An extra session on `Python basics for geospatial analysis <./python_basics/index.rst>`_ has been added. The session is optional, standalone, and provides a more detailed introduction to the Python programming language.
  - **09/12/2020:** All six assessment quizzes can be accessed from the `Quiz index <./Quiz_index.ipynb>`_. page. Score full marks on each quiz to receive a Certificate of Completion. Questions about the Certificate of Completion? See the `FAQ <./Frequently_asked_questions.ipynb>`_.
- - **20/11/2020:** The training material can be downloaded as a single PDF from the page `Download course content <./Download_course.ipynb>`_. Note videos and Sandbox access are not available offline.
- - **05/11/2020:** The `GIS web services tutorial <./OWS_tutorial.ipynb>`_ is live.
- - **28/10/2020:** Confused about `geomedians <./session_3/03_geomedian_exercise.ipynb>`_? See the new `geomedian widget <./Geomedian_widget.ipynb>`_.
 
 
 .. toctree::

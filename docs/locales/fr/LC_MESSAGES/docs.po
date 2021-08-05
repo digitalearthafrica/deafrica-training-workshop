@@ -315,7 +315,7 @@ msgid "You can also try selecting a different index from the ``calculate_indices
 msgstr "Vous pouvez également essayer de sélectionner un indice différent à partir de la fonction ``calculate_indices``. La liste complète des indices disponibles peut être consultée en accédant au dossier **Scripts** dans le bac à sable, et en ouvrant ``deafrica_bandindices.py``."
 
 #: ../../Course_wrap-up.ipynb:152 c758db2393114601b70b5baaacb0d756
-msgid "2. Consolidate your Python knowledge using the Beginner’s Guide tutorials"
+msgid "2. Consolidate your Python knowledge using the Beginner's Guide tutorials"
 msgstr "2. Consolidez vos connaissances Python à l'aide des didacticiels du Guide du débutant"
 
 #: ../../Course_wrap-up.ipynb:163 e3f3f2c994e7433fb7e3427ba3cee558
@@ -338,7 +338,7 @@ msgstr "Les études de cas que nous avons créées dans les sessions 5 et 6 éta
 
 #: ../Course_wrap-up.ipynb:213
 #: fed4c151de8c4a1389b6b71bd547837d
-msgid "These case studies often have a few more data processing steps than the exercises in the training course. After reviewing the Beginner’s Guide contents, these steps should be more accessible and easy to understand."
+msgid "These case studies often have a few more data processing steps than the exercises in the training course. After reviewing the Beginner's Guide contents, these steps should be more accessible and easy to understand."
 msgstr "Ces études de cas comportent souvent quelques étapes de traitement des données de plus que les exercices du cours de formation. Après avoir examiné le contenu du guide du débutant, ces étapes devraient être plus accessibles et faciles à comprendre."
 
 #: ../Course_wrap-up.ipynb:224
@@ -372,7 +372,7 @@ msgstr "Merci de vous joindre à nous pour explorer Digital Earth Africa. Nous e
 
 #: ../Course_wrap-up.ipynb:283
 #: a519f5021b704f409c59a507284333b8
-msgid "If you have any questions or feedback on the Digital Earth Africa training course, don’t hesitate to `contact the course convenors or access the community knowledge bank on Slack <./Contact_us.ipynb>`__."
+msgid "If you have any questions or feedback on the Digital Earth Africa training course, don't hesitate to `contact the course convenors or access the community knowledge bank on Slack <./Contact_us.ipynb>`__."
 msgstr "Si vous avez des questions ou des commentaires sur le cours de formation Digital Earth Africa, n'hésitez pas à `contacter les organisateurs du cours ou à accéder à la banque de connaissances communautaire sur Slack <./Contact_us.ipynb>`__."
 
 #: ../Course_wrap-up.ipynb:285
@@ -446,7 +446,7 @@ msgstr "J'ai pris du retard sur le contenu des cours. Puis-je quand même termin
 
 #: ../Frequently_asked_questions.ipynb:95
 #: 503a9c9dec554df0b4e56240e353fe5d
-msgid "Yes. It is recommended to spend 2 hours a week on new content. This will allow you to build on the previous week’s content and finish the training course in around 6 weeks. However, this training course is self-paced, so there is no cut-off date for access. You are encouraged and welcome to spend more time on the course as necessary."
+msgid "Yes. It is recommended to spend 2 hours a week on new content. This will allow you to build on the previous week's content and finish the training course in around 6 weeks. However, this training course is self-paced, so there is no cut-off date for access. You are encouraged and welcome to spend more time on the course as necessary."
 msgstr "Oui. Il est recommandé de passer 2 heures par semaine sur du nouveau contenu. Cela vous permettra de vous appuyer sur le contenu de la semaine précédente et de terminer la formation en environ 6 semaines. Cependant, ce cours de formation est auto-rythmé, il n'y a donc pas de date limite d'accès. Vous êtes encouragé et invité à passer plus de temps sur le cours si nécessaire."
 
 #: ../Frequently_asked_questions.ipynb:97
@@ -997,7 +997,7 @@ msgstr "| d160d701952a41d5a6da1e7edd9400b2 |"
 
 #: ../Maps_help.ipynb:100
 #: e0f3feb161e84e9cafcb4562aa44880a
-msgid "There are multiple ways to navigate DE Africa Map’s map view:"
+msgid "There are multiple ways to navigate DE Africa Map's map view:"
 msgstr "Il existe plusieurs façons de naviguer dans la vue cartographique de DE Africa Map:"
 
 #: ../Maps_help.ipynb:103
@@ -1647,7 +1647,7 @@ msgid "Select area of interest"
 msgstr "Sélectionnez la zone d'intérêt"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:119
-msgid "Below, we save the lat/lon extents of our area of interest into variables that we will use to load the data. We use the ‘buffer method’ to define the area in terms of a center point plus or minus a buffer of 0.2 degrees. In the previous exercie we used a single buffer variable for both latitude and longitude; this time we will define both a ``lat_buffer`` and a ``lon_buffer`` so that we can easily define a rectangular region of interest."
+msgid "Below, we save the lat/lon extents of our area of interest into variables that we will use to load the data. We use the 'buffer method' to define the area in terms of a center point plus or minus a buffer of 0.2 degrees. In the previous exercie we used a single buffer variable for both latitude and longitude; this time we will define both a ``lat_buffer`` and a ``lon_buffer`` so that we can easily define a rectangular region of interest."
 msgstr "Ci-dessous, nous enregistrons les étendues lat/lon de notre zone d'intérêt dans des variables que nous utiliserons pour charger les données. Nous utilisons la 'méthode du tampon' pour définir la zone en termes de point central plus ou moins un tampon de 0,2 degrés. Dans l'exercice précédent, nous avons utilisé une seule variable tampon pour la latitude et la longitude ; cette fois-ci, nous allons définir à la fois un ``lat_buffer`` et un ``lon_buffer`` afin de pouvoir facilement définir une région rectangulaire d'intérêt."
 
 #: ../session_6/02_water_extent.ipynb:158
@@ -1665,7 +1665,7 @@ msgid "Load Landsat 8"
 msgstr "Charger Landsat 8"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:260
-msgid "Note that the following call to ``load_ard`` omits several of the parameters we’re used to seeing (such as the extents and resolution). Instead we use the ``query`` variable that we defined above. Passing ``**query`` tells Python to send each of the values stored in the dictionary to ``load_ard`` as if we had supplied that value for the parameter identified by the corresponding key. For example, since the ``query`` dictionary defines ``'x'`` to be ``lon_range``, it is as if we had included the usual ``x = lon_range,`` line in our call to ``load_ard``."
+msgid "Note that the following call to ``load_ard`` omits several of the parameters we're used to seeing (such as the extents and resolution). Instead we use the ``query`` variable that we defined above. Passing ``**query`` tells Python to send each of the values stored in the dictionary to ``load_ard`` as if we had supplied that value for the parameter identified by the corresponding key. For example, since the ``query`` dictionary defines ``'x'`` to be ``lon_range``, it is as if we had included the usual ``x = lon_range,`` line in our call to ``load_ard``."
 msgstr "Notez que l'appel suivant à ``load_ard`` omet plusieurs des paramètres que nous avons l'habitude de voir (comme les extents et la résolution). A la place, nous utilisons la variable ``query`` que nous avons définie plus haut. Passer la variable ``**query`` indique à Python d'envoyer chacune des valeurs stockées dans le dictionnaire à ``load_ard`` comme si nous avions fourni cette valeur pour le paramètre identifié par la clé correspondante. Par exemple, puisque le dictionnaire ``query`` définit ``x`` comme étant ``lon_range``, c'est comme si nous avions inclus la ligne habituelle ``x = lon_range`` dans notre appel à ``load_ard``."
 
 #: ../session_6/02_water_extent.ipynb:222
@@ -1701,7 +1701,7 @@ msgid "Calculate the area per pixel"
 msgstr "Calculez la surface par pixel"
 
 #: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2058
-msgid "We can calculate the area of a pixel by converting its resolution (which we specified in meters per pixel in our ``query`` variable’s ``'resolution'`` key) into square kilometers per pixel:"
+msgid "We can calculate the area of a pixel by converting its resolution (which we specified in meters per pixel in our ``query`` variable's ``'resolution'`` key) into square kilometers per pixel:"
 msgstr "Nous pouvons calculer la surface d'un pixel en convertissant sa résolution (que nous avons spécifiée en mètres par pixel dans la clé ``Resolution'`` de notre variable ``query'') en kilomètres carrés par pixel :"
 
 #: ../session_6/02_water_extent.ipynb:339
@@ -1737,13 +1737,13 @@ msgstr "Documentation d'aide de Sandbox"
 
 #: ../help_documentation.ipynb:11
 #: c32b8274a6254e0eaf7d9c48d61cd2b2
-msgid "The Digital Earth Africa Sandbox, by default, will load several folders containing helpful notebooks and source code. They are essential to the Sandbox’s operation, so do not delete or move any of the files."
+msgid "The Digital Earth Africa Sandbox, by default, will load several folders containing helpful notebooks and source code. They are essential to the Sandbox's operation, so do not delete or move any of the files."
 msgstr "Le bac à sable Digital Earth Africa, par défaut, chargera plusieurs dossiers contenant des blocs-notes utiles et du code source. Ils sont essentiels au fonctionnement du Sandbox, donc ne supprimez ni ne déplacez aucun des fichiers."
 
 #: ../help_documentation.ipynb:13
 #: 3dc6c48d427e4038a9b71af57f9917f9
-msgid "The Beginner’s Guide notebooks cover similar material to the explanations and exercises in this workshop series. However, they also provides more in-depth detail on how to perform data extraction and analysis. The Beginner’s Guide notebooks, along with the ‘frequently used code’ notebooks, are a great reference tool."
-msgstr "Les cahiers du Guide du débutant couvrent des éléments similaires aux explications et aux exercices de cette série d’ateliers. Cependant, ils fournissent également des détails plus détaillés sur la façon d'exécuter l'extraction et l'analyse des données. Les blocs-notes du Guide du débutant, ainsi que les blocs-notes «code fréquemment utilisé», sont un excellent outil de référence."
+msgid "The Beginner's Guide notebooks cover similar material to the explanations and exercises in this workshop series. However, they also provides more in-depth detail on how to perform data extraction and analysis. The Beginner's Guide notebooks, along with the 'frequently used code' notebooks, are a great reference tool."
+msgstr "Les cahiers du Guide du débutant couvrent des éléments similaires aux explications et aux exercices de cette série d'ateliers. Cependant, ils fournissent également des détails plus détaillés sur la façon d'exécuter l'extraction et l'analyse des données. Les blocs-notes du Guide du débutant, ainsi que les blocs-notes «code fréquemment utilisé», sont un excellent outil de référence."
 
 #: ../help_documentation.ipynb:15
 #: f5f4efb173124882ae01b3893a07cd4b
@@ -1762,7 +1762,7 @@ msgstr "Pour un examen de la façon d'exécuter du code dans un notebook, voir c
 
 #: ../help_documentation.ipynb:31
 #: f1896993993e40aba61f498ac3a734d0
-msgid "Beginner’s Guide - start here"
+msgid "Beginner's Guide - start here"
 msgstr "Guide du débutant - commencez ici"
 
 #: ../../help_documentation.ipynb:33 a1faa5b737e34f0699be2cbbc02b01f4
@@ -1786,7 +1786,7 @@ msgstr "Les carnets sont numérotés dans l'ordre d'avancement ; commencez à ``
 
 #: ../help_documentation.ipynb:41
 #: b60b17ed769a47d6a0fc764258a1c68b
-msgid "**Suggested activity:** Read and follow examples in the Beginner’s Guide notebooks, starting with ``01_Jupyter_notebooks.ipynb``. This can be done interactively (recommended), as detailed in `running a notebook <./session_1/04_running_a_notebook.ipynb>`__. Open the file and from the horizontal menu bar select **Kernel -> Restart Kernel and Clear All Outputs**, then follow instructions in the notebook."
+msgid "**Suggested activity:** Read and follow examples in the Beginner's Guide notebooks, starting with ``01_Jupyter_notebooks.ipynb``. This can be done interactively (recommended), as detailed in `running a notebook <./session_1/04_running_a_notebook.ipynb>`__. Open the file and from the horizontal menu bar select **Kernel -> Restart Kernel and Clear All Outputs**, then follow instructions in the notebook."
 msgstr "**Activité suggérée:** Lisez et suivez les exemples dans les notebooks du Guide du débutant, en commençant par ``01_Jupyter_notebooks.ipynb``. Cela peut être fait de manière interactive (recommandé), comme détaillé dans `l'exécution d'un notebook <./session_1/04_running_a_notebook.ipynb>`__. Ouvrez le fichier et dans la barre de menu horizontale, sélectionnez **Kernel -> Restart Kernel and Clear All Outputs**, puis suivez les instructions du notebook."
 
 #: ../help_documentation.ipynb:43
@@ -1829,7 +1829,7 @@ msgstr "| 948213747587460a8750768e69d7d401 |"
 
 #: ../help_documentation.ipynb:86
 #: 6cb448941f5b47d9b63fc81b5152f7a9
-msgid "The analytical power of the Sandbox is shown in the folder **Real_world_examples**. This folder contains multiple notebooks which cater to ‘real world’ use cases, from monitoring crop health to detecting water."
+msgid "The analytical power of the Sandbox is shown in the folder **Real_world_examples**. This folder contains multiple notebooks which cater to 'real world' use cases, from monitoring crop health to detecting water."
 msgstr "La puissance analytique de l'Environnement de test est illustrée dans le dossier **Real_world_examples**. Ce dossier contient plusieurs carnets de notes qui répondent à des cas d'utilisation du \"monde réel\", de la surveillance de la santé des cultures à la détection de l'eau."
 
 #: ../help_documentation.ipynb:88
@@ -1953,7 +1953,7 @@ msgstr "Le programme Digital Earth Africa (DE Africa) vise à accroître cette c
 
 #: ../session_1/01_what_is_digital_earth_africa.ipynb:38
 #: 5b991b277b134c5e8e33698c3b2a56bd
-msgid "**Explore**: Allow access to satellite data in ways that address Africa’s needs"
+msgid "**Explore**: Allow access to satellite data in ways that address Africa's needs"
 msgstr "**Explore** : Permettre l'accès aux données satellitaires de manière à répondre aux besoins de l'Afrique."
 
 #: ../session_1/01_what_is_digital_earth_africa.ipynb:39
@@ -2251,7 +2251,7 @@ msgstr "Fermer un bloc-notes Jupyter"
 
 #: ../../session_1/03_navigate_the_sandbox.ipynb:101
 #: ba9ceb0bc057435eba417537176a4ee9
-msgid "Closing a notebook browser tab will not shut down its ‘computational engine’ (called the kernel). It is good practice to shut down the kernel of any notebooks you aren’t using, as it will free up memory in your Sandbox session. Follow the instructions below to completely shut down the notebook you opened in the previous section."
+msgid "Closing a notebook browser tab will not shut down its 'computational engine' (called the kernel). It is good practice to shut down the kernel of any notebooks you aren't using, as it will free up memory in your Sandbox session. Follow the instructions below to completely shut down the notebook you opened in the previous section."
 msgstr "La fermeture d’un onglet de navigateur de notebook n’arrêtera pas son «moteur de calcul» (appelé noyau). Il est conseillé d’arrêter le noyau de tous les blocs-notes que vous n’utilisez pas, car cela libèrera de la mémoire dans votre session Sandbox. Suivez les instructions ci-dessous pour arrêter complètement le portable que vous avez ouvert dans la section précédente."
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:103
@@ -2326,7 +2326,7 @@ msgstr "L'Environnement de test est livré avec un grand nombre de carnets exist
 
 #: ../session_1/04_running_a_notebook.ipynb:79
 #: 79c8d7144f5648a9a9a679a1f9c449f0
-msgid "Click the **Folder icon** in the folder path to make sure you’re in the **Home** folder."
+msgid "Click the **Folder icon** in the folder path to make sure you're in the **Home** folder."
 msgstr "Cliquez sur l'icône **Dossier** dans le chemin du dossier pour vous assurer que vous êtes dans le dossier **Home**."
 
 #: ../../session_1/04_running_a_notebook.ipynb:72
@@ -2540,7 +2540,7 @@ msgstr "Lorsque la cellule a fini de fonctionner, l'icône ``[ ]`` à gauche de 
 
 #: ../session_1/04_running_a_notebook.ipynb:321
 #: b31ec341b0b945b89f6b3fedc2d130be
-msgid "As the cell is running, you should see outputs describing the function’s actions. The output is shown in the image below:"
+msgid "As the cell is running, you should see outputs describing the function's actions. The output is shown in the image below:"
 msgstr "Lorsque la cellule est en cours d’exécution, vous devriez voir des sorties décrivant les actions de la fonction. La sortie est affichée dans l'image ci-dessous:"
 
 #: ../../session_1/04_running_a_notebook.ipynb:166
@@ -2630,7 +2630,7 @@ msgstr "Activité optionnelle"
 
 #: ../../session_1/04_running_a_notebook.ipynb:291
 #: 521603b43e494538a10efbd63a704cb3
-msgid "If you’d like to re-run this notebook using a different area of interest, follow these steps:"
+msgid "If you'd like to re-run this notebook using a different area of interest, follow these steps:"
 msgstr "Si vous souhaitez réexécuter ce bloc-notes en utilisant un autre domaine d'intérêt, procédez comme suit:"
 
 #: ../session_1/04_running_a_notebook.ipynb:439
@@ -2693,7 +2693,7 @@ msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours,
 
 #: ../session_1/05_s1_quiz.ipynb:45
 #: e280fa70e57446268795a50274ac8594
-msgid "The quiz will ask you to use the Crop Health notebook you developed for this session’s exercise. To review the exercise, visit the section **Running a Notebook** or click the **Previous** button."
+msgid "The quiz will ask you to use the Crop Health notebook you developed for this session's exercise. To review the exercise, visit the section **Running a Notebook** or click the **Previous** button."
 msgstr "Le questionnaire vous demandera d'utiliser le carnet de notes sur la santé des cultures que vous avez élaboré pour l'exercice de cette session. Pour revoir l'exercice, visitez la section **Exécution d'un carnet de notes** ou cliquez sur le bouton **Précédent**."
 
 #: ../session_1/index.rst:4
@@ -2783,7 +2783,7 @@ msgstr "*Un rendu artistique d'un des satellites Sentinel-2.* [`Source <https://
 
 #: ../session_2/01_products_intro.ipynb:119
 #: f239ebff062944ca9b233732c7ed47be
-msgid "Satelllite products are datasets output from satellites orbiting Earth. These datasets have undergone some pre-processing by the satellite operators, but are otherwise ‘raw’ data, measuring quantities such as reflectance, radiation and surface temperature."
+msgid "Satelllite products are datasets output from satellites orbiting Earth. These datasets have undergone some pre-processing by the satellite operators, but are otherwise 'raw' data, measuring quantities such as reflectance, radiation and surface temperature."
 msgstr "Les produits Satelllite sont des ensembles de données provenant de satellites en orbite autour de la Terre. Ces ensembles de données ont subi un certain prétraitement par les opérateurs de satellites, mais sont par ailleurs des données «brutes», mesurant des quantités telles que la réflectance, le rayonnement et la température de surface."
 
 #: ../session_2/01_products_intro.ipynb:121
@@ -2793,7 +2793,7 @@ msgstr "Ces produits sont fondamentaux pour l'analyse de l'observation de la Ter
 
 #: ../session_2/01_products_intro.ipynb:123
 #: 08dcfa4e124a4b0a8ccc6e2aa9dd7c8a
-msgid "**Spatial resolution (how detailed):** Spatial resolution refers to the pixel size of the satellite product. It is the smallest thing the satellite can ‘see’. A 30 m :math:`\\times` 30 m spatial resolution means the satellite product cannot pick up any details smaller than 30 m :math:`\\times` 30 m."
+msgid "**Spatial resolution (how detailed):** Spatial resolution refers to the pixel size of the satellite product. It is the smallest thing the satellite can 'see'. A 30 m :math:`\\times` 30 m spatial resolution means the satellite product cannot pick up any details smaller than 30 m :math:`\\times` 30 m."
 msgstr "**Résolution spatiale (degré de détail):** La résolution spatiale fait référence à la taille du pixel du produit satellite. Il s'agit de la plus petite chose que le satellite peut \"voir\". Une résolution spatiale de 30 m :math:`\\times` 30 m signifie que le produit satellite ne peut capter aucun détail plus petit que 30 m :math:`\\times` 30 m."
 
 #: ../session_2/01_products_intro.ipynb:134
@@ -2803,7 +2803,7 @@ msgstr "**Résolution temporelle (fréquence):** Les satellites passent au-dessu
 
 #: ../session_2/01_products_intro.ipynb:145
 #: b38b6f0dde2b4c178a91a57e1b0a4a8b
-msgid "**Spectral resolution (how versatile):** Spectral resolution refers to the sensors on the satellite. The sensors are calibrated to collect measurements in certain wavelengths of the electromagnetic spectrum, known as ‘bands’. Different bands are used for identifying different features on Earth, so the more bands a product has, the more versatile it is."
+msgid "**Spectral resolution (how versatile):** Spectral resolution refers to the sensors on the satellite. The sensors are calibrated to collect measurements in certain wavelengths of the electromagnetic spectrum, known as 'bands'. Different bands are used for identifying different features on Earth, so the more bands a product has, the more versatile it is."
 msgstr "**Résolution spectrale (quelle polyvalence):** La résolution spectrale fait référence aux capteurs du satellite. Les capteurs sont calibrés pour recueillir des mesures dans certaines longueurs d'onde du spectre électromagnétique, appelées \"bandes\". Les différentes bandes sont utilisées pour identifier différentes caractéristiques de la Terre. Ainsi, plus un produit possède de bandes, plus il est polyvalent."
 
 #: ../session_2/01_products_intro.ipynb:156
@@ -2823,7 +2823,7 @@ msgstr "Landsat 8 est la dernière version du programme Landsat géré conjointe
 
 #: ../../session_2/01_products_intro.ipynb:181
 #: 76329d755bf5486a843dc737b08d1bc1
-msgid "The Landsat data is organised by collections. Until recently, only Collection 1 was available, but USGS upgraded their pre-processing methodology. This gave rise to a new version of the Landsat data, titled ‘Collection 2’. Collection 2 is planned for public release soon."
+msgid "The Landsat data is organised by collections. Until recently, only Collection 1 was available, but USGS upgraded their pre-processing methodology. This gave rise to a new version of the Landsat data, titled 'Collection 2'. Collection 2 is planned for public release soon."
 msgstr "Les données Landsat sont organisées par collections. Jusqu'à récemment, seule la collection 1 était disponible, mais l'USGS a amélioré sa méthodologie de prétraitement. Cela a donné lieu à une nouvelle version des données Landsat, intitulée «Collection 2». La collection 2 est prévue pour une sortie publique prochainement."
 
 #: ../session_2/01_products_intro.ipynb:183
@@ -2885,7 +2885,7 @@ msgstr "Produit satellite: Sentinel-2"
 
 #: ../session_2/01_products_intro.ipynb:233
 #: a150c8ff37194fbdb7ca0487f993265f
-msgid "The Sentinel-2 mission is part of the European Union ‘Copernicus’ Earth observation programme. Sentinel-2 consists of twin satellites, Sentinel-2A (launched 23 June 2015) and Sentinel-2B (launched 7 March 2017). Their combined data is used in the Digital Earth Africa Sentinel-2 product."
+msgid "The Sentinel-2 mission is part of the European Union 'Copernicus' Earth observation programme. Sentinel-2 consists of twin satellites, Sentinel-2A (launched 23 June 2015) and Sentinel-2B (launched 7 March 2017). Their combined data is used in the Digital Earth Africa Sentinel-2 product."
 msgstr "La mission Sentinel-2 fait partie du programme d’observation de la Terre Copernicus de l’Union européenne. Sentinel-2 se compose de deux satellites, Sentinel-2A (lancé le 23 juin 2015) et Sentinel-2B (lancé le 7 mars 2017). Leurs données combinées sont utilisées dans le produit Digital Earth Africa Sentinel-2."
 
 #: ../session_2/01_products_intro.ipynb:235
@@ -2942,7 +2942,7 @@ msgstr "Pour plus de détails, voir ``Sentinel_2.ipynb`` dans le dossier **Datas
 
 #: ../session_2/01_products_intro.ipynb:274
 #: 0d78fe8a28fb4f0088a3ae5afda19444
-msgid "Which satellite product is ‘best’?"
+msgid "Which satellite product is 'best'?"
 msgstr "Quel produit satellite est «meilleur»?"
 
 #: ../session_2/01_products_intro.ipynb:285
@@ -2987,7 +2987,7 @@ msgstr "Vidéo: Introduction à la carte de l'Afrique DE"
 
 #: ../session_2/02_deafrica_map.ipynb:57
 #: 59e98c133f8442e69461010f2b77f923
-msgid "This video will show you the basics of the Digital Earth Africa Map portal. In the video, a derived product (called ‘Water Observations from Space’) is loaded."
+msgid "This video will show you the basics of the Digital Earth Africa Map portal. In the video, a derived product (called 'Water Observations from Space') is loaded."
 msgstr "Cette vidéo vous montrera les bases du portail Digital Earth Africa Map. Dans la vidéo, un produit dérivé (appelé «Observations de l’eau depuis l’espace») est chargé."
 
 #: ../session_2/02_deafrica_map.ipynb:59
@@ -3317,7 +3317,7 @@ msgstr "| 5323a00ce7f2492f9d354d48aded5b22 |"
 
 #: ../session_2/03_data_availability.ipynb:166
 #: c0c50c97ab88424fa03842b41f6d0ec0
-msgid "We can see that there is only data available for some African countries. Let’s take a closer look at Tanzania."
+msgid "We can see that there is only data available for some African countries. Let's take a closer look at Tanzania."
 msgstr "On voit qu'il n'y a que des données disponibles pour certains pays africains. Regardons de plus près la Tanzanie."
 
 #: ../session_2/03_data_availability.ipynb:197
@@ -3327,7 +3327,7 @@ msgstr "Zoom sur la Tanzanie"
 
 #: ../session_2/03_data_availability.ipynb:208
 #: 99be9271be964f24a4553cb16f23775f
-msgid "Use the map’s **+** button to zoom in on Africa. Click and drag to see Tanzania."
+msgid "Use the map's **+** button to zoom in on Africa. Click and drag to see Tanzania."
 msgstr "Utilisez le bouton **+** de la carte pour zoomer sur l'Afrique. Cliquez et faites glisser pour voir la Tanzanie."
 
 #: ../../session_2/03_data_availability.ipynb:194
@@ -3365,7 +3365,7 @@ msgstr "Créer un nouveau cahier"
 
 #: ../session_2/04_load_data_exercise.ipynb:55
 #: 9487f994d34540c1bef4fe719c71d9ce
-msgid "Let’s create a new, blank Jupyter notebook for this exercise."
+msgid "Let's create a new, blank Jupyter notebook for this exercise."
 msgstr "Créons un nouveau bloc-notes Jupyter vierge pour cet exercice."
 
 #: ../session_2/04_load_data_exercise.ipynb:57
@@ -3730,7 +3730,7 @@ msgstr "Tracez une image en couleurs vraies"
 
 #: ../session_2/04_load_data_exercise.ipynb:444
 #: 845476570ee64c38ae2fea50bbf8f1b9
-msgid "True-colour images are also known as red-green-blue (RGB) images. They are rendered using the image’s ‘natural’ colours and appear how they might be seen by the human eye. As we loaded red, green and blue bands from Landsat 8, we can now plot an RGB image using the data from ``landsat_ds``."
+msgid "True-colour images are also known as red-green-blue (RGB) images. They are rendered using the image's 'natural' colours and appear how they might be seen by the human eye. As we loaded red, green and blue bands from Landsat 8, we can now plot an RGB image using the data from ``landsat_ds``."
 msgstr "Les images en couleurs réelles sont également connues sous le nom d'images rouge-vert-bleu (RVB). Elles sont rendues en utilisant les couleurs \"naturelles\" de l'image et apparaissent comme elles pourraient être vues par l'œil humain. Comme nous avons chargé les bandes rouge, verte et bleue de Landsat 8, nous pouvons maintenant tracer une image RVB en utilisant les données de ``landsat_ds``."
 
 #: ../session_2/04_load_data_exercise.ipynb:455
@@ -3812,7 +3812,7 @@ msgstr "Encore une fois, nous allons utiliser ``dc.load()`` pour importer les do
 
 #: ../session_2/04_load_data_exercise.ipynb:535
 #: 524a9bc66db84b7c971567c8d0c9eea1
-msgid "How do we fill out the parameters inside the brackets of ``dc.load()``? We can do this by copying some of the information from the Landsat 8 ``dc.load()`` input cell. The first parameter we listed before was ``product``. However, we don’t want to use the Landsat 8 product, we want to select the Sentinel-2 product, ``s2_l2a``."
+msgid "How do we fill out the parameters inside the brackets of ``dc.load()``? We can do this by copying some of the information from the Landsat 8 ``dc.load()`` input cell. The first parameter we listed before was ``product``. However, we don't want to use the Landsat 8 product, we want to select the Sentinel-2 product, ``s2_l2a``."
 msgstr "Comment remplir les paramètres à l'intérieur des parenthèses de ``dc.load()`` ? Nous pouvons le faire en copiant certaines des informations de la cellule d'entrée ``dc.load()`` de Landsat 8. Le premier paramètre que nous avons listé auparavant était ``product``. Cependant, nous ne voulons pas utiliser le produit Landsat 8, nous voulons sélectionner le produit Sentinel-2, ``s2_l2a``."
 
 #: ../session_2/04_load_data_exercise.ipynb:537
@@ -3974,7 +3974,7 @@ msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours,
 #: ../session_3/04_s3_solution.ipynb:45
 #: 67cb6e200760447995a0645c8499188f
 #: dbaa51a724e74f24bbee28a56972ad9e
-msgid "The quiz will ask you to use the notebook you developed for this session’s exercise on loading data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on loading data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
 msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le chargement des données. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
 
 #: ../session_2/05_s2_solution.ipynb:56
@@ -4044,7 +4044,7 @@ msgstr "Cette session consiste à créer des ensembles de données et des images
 
 #: ../session_3/01_intro_composites.ipynb:25
 #: 66c7808c9e5f468995398bd343602d82
-msgid "This is summarised in this week’s video, **Time aggregation of data**. Watch the video to see how to use Earth observation data at different points in time."
+msgid "This is summarised in this week's video, **Time aggregation of data**. Watch the video to see how to use Earth observation data at different points in time."
 msgstr "Ceci est résumé dans la vidéo de cette semaine, **Agrégation temporelle des données**. Regardez la vidéo pour voir comment utiliser les données d'observation de la Terre à différents moments dans le temps."
 
 #: ../session_3/01_intro_composites.ipynb:37
@@ -4064,7 +4064,7 @@ msgstr "Dans la vidéo, nous avons vu que nous pouvons compenser les points de d
 
 #: ../session_3/01_intro_composites.ipynb:71
 #: 7f88f3fc5412480881f58d65116b4755
-msgid "Identify and remove cloudy data — this is known as ‘cloud masking’"
+msgid "Identify and remove cloudy data — this is known as 'cloud masking'"
 msgstr "Identifiez et supprimez les données troubles - c'est ce qu'on appelle le «masquage du cloud»"
 
 #: ../session_3/01_intro_composites.ipynb:72
@@ -4103,12 +4103,12 @@ msgstr "* Données Landsat 8 du 16 février 2018 (à gauche) et données Sentine
 
 #: ../session_3/01_intro_composites.ipynb:117
 #: 1e0733a3ea1a49a7906af402f22b19a1
-msgid "What if we want to know what is underneath those clouds? If you have data at only one point in time, this is not possible. However, if we have data for the same place at a different time, when the clouds are not present, we can use this data to ‘fill’ in areas of cloud."
+msgid "What if we want to know what is underneath those clouds? If you have data at only one point in time, this is not possible. However, if we have data for the same place at a different time, when the clouds are not present, we can use this data to 'fill' in areas of cloud."
 msgstr "Et si nous voulons savoir ce qu'il y a sous ces nuages? Si vous ne disposez de données qu'à un moment donné, cela n'est pas possible. Cependant, si nous avons des données pour le même endroit à un moment différent, lorsque les nuages ne sont pas présents, nous pouvons utiliser ces données pour «remplir» des zones de nuage."
 
 #: ../session_3/01_intro_composites.ipynb:119
 #: ca37adb64f3e48b18e77aacb8ec6272f
-msgid "To do that, we must first identify which pixels are clouds. The process of determining and removing cloud data points is known as ‘cloud masking’."
+msgid "To do that, we must first identify which pixels are clouds. The process of determining and removing cloud data points is known as 'cloud masking'."
 msgstr "Pour ce faire, nous devons d'abord identifier quels pixels sont des nuages. Le processus de détermination et de suppression des points de données cloud est appelé «masquage cloud»."
 
 #: ../session_3/01_intro_composites.ipynb:131
@@ -4118,7 +4118,7 @@ msgstr "``load_ard()`` contre ``dc.load()``"
 
 #: ../session_3/01_intro_composites.ipynb:142
 #: ae6059e4338945c7bbcd5d2a934d61e5
-msgid "The easiest way to apply a cloud mask to your dataset is to load it into the Sandbox using the ``load_ard()`` function. ``ard`` stands for ‘Analysis-Ready Data’ and the ``load_ard()`` function automatically applies a cloud mask."
+msgid "The easiest way to apply a cloud mask to your dataset is to load it into the Sandbox using the ``load_ard()`` function. ``ard`` stands for 'Analysis-Ready Data' and the ``load_ard()`` function automatically applies a cloud mask."
 msgstr "La façon la plus simple d'appliquer un masque de nuage à votre ensemble de données est de le charger dans l'Environnement de test en utilisant la fonction ``load_ard()``. ``ard`` signifie 'Analysis-Ready Data' et la fonction ``load_ard()`` applique automatiquement un masque de nuage."
 
 #: ../session_3/01_intro_composites.ipynb:144
@@ -4182,7 +4182,7 @@ msgstr "Composites médians"
 
 #: ../session_3/01_intro_composites.ipynb:233
 #: 07ed7eaf22fb498097ce6d8437607e9c
-msgid "For each band in the image, median composites set the value of each pixel to the median value for that band. For a given pixel, each band’s median is independent of the others."
+msgid "For each band in the image, median composites set the value of each pixel to the median value for that band. For a given pixel, each band's median is independent of the others."
 msgstr "Pour chaque bande de l'image, les composites médians définissent la valeur de chaque pixel sur la valeur médiane de cette bande. Pour un pixel donné, la médiane de chaque bande est indépendante des autres."
 
 #: ../session_3/01_intro_composites.ipynb:235
@@ -4211,7 +4211,7 @@ msgstr "Composites géomédiens"
 
 #: ../session_3/01_intro_composites.ipynb:276
 #: 35a29a2ebe8f4a32a09e60529be00b81
-msgid "Geomedian — or ‘geometric median’ — composites are multi-band generalisations of median composites. Instead of finding a pixel’s median value for each band **individually**, like a median composite does, a geomedian composite finds the median values of the bands for each pixel when considered **together**."
+msgid "Geomedian — or 'geometric median' — composites are multi-band generalisations of median composites. Instead of finding a pixel's median value for each band **individually**, like a median composite does, a geomedian composite finds the median values of the bands for each pixel when considered **together**."
 msgstr "Les composites géomédiens - ou \"médiane géométrique\" - sont des généralisations multibandes des composites médians. Au lieu de trouver la valeur médiane d'un pixel pour chaque bande **individuellement**, comme le fait un composite médian, un composite géomédian trouve les valeurs médianes des bandes pour chaque pixel lorsqu'elles sont considérées **ensemble**."
 
 #: ../session_3/01_intro_composites.ipynb:278
@@ -4225,7 +4225,7 @@ msgstr "| fea3eab073bc45e4ba5593a9e01e0e82 |"
 
 #: ../session_3/01_intro_composites.ipynb:303
 #: b2ebf478c80045269423f33ce6a601c1
-msgid "*Unlike the median composite, the geometric median (geomedian) considers all bands of data together. Each band adds a dimension to the geomedian calculation. For a three-band dataset, such as the RGB dataset shown in the geomedian compositing algorithm above, each point can be represented on a three-dimensional scatter plot. The geomedian is the minimised ‘sum of distances’ between all the points.*"
+msgid "*Unlike the median composite, the geometric median (geomedian) considers all bands of data together. Each band adds a dimension to the geomedian calculation. For a three-band dataset, such as the RGB dataset shown in the geomedian compositing algorithm above, each point can be represented on a three-dimensional scatter plot. The geomedian is the minimised 'sum of distances' between all the points.*"
 msgstr "* Contrairement au composite médian, la médiane géométrique (géomédiane) considère toutes les bandes de données ensemble. Chaque bande ajoute une dimension au calcul géomédian. Pour un jeu de données à trois bandes, tel que le jeu de données RVB présenté dans l'algorithme de composition géomédian ci-dessus, chaque point peut être représenté sur un nuage de points en trois dimensions. Le géomédian est la «somme des distances» minimisée entre tous les points. *"
 
 #: ../session_3/01_intro_composites.ipynb:315
@@ -4417,12 +4417,12 @@ msgstr "Les éléments du produit doivent être listés entre crochets ``[]``, c
 
 #: ../session_3/02_cloud_masking.ipynb:214
 #: e3beb7db34454f62a570a2e3365541dc
-msgid "``min_gooddata`` stands for ‘minimum good data’ and discards observations with less than the fractional requisite of good quality pixels."
+msgid "``min_gooddata`` stands for 'minimum good data' and discards observations with less than the fractional requisite of good quality pixels."
 msgstr "``min_gooddata`` signifie 'minimum good data' et écarte les observations dont le nombre de pixels de bonne qualité est inférieur à la fraction requise."
 
 #: ../session_3/02_cloud_masking.ipynb:233
 #: 372ff361003a4cb2ac2db95145c6ff16
-msgid "We can use the same ``rgb`` plotting code as in the last session to show an RGB image of one of the timesteps. Let’s start with the first timestep, which has an ``index`` of ``0``."
+msgid "We can use the same ``rgb`` plotting code as in the last session to show an RGB image of one of the timesteps. Let's start with the first timestep, which has an ``index`` of ``0``."
 msgstr "Nous pouvons utiliser le même code de traçage ``rgb`` que dans la dernière session pour afficher une image RVB d'un des pas de temps. Commençons par le premier pas de temps, qui a un ``index`` de ``0``."
 
 #: ../../session_3/02_cloud_masking.ipynb:236
@@ -4440,7 +4440,7 @@ msgstr "| 29e100882c7a4e00bc8f33fb462d507e |"
 
 #: ../session_3/02_cloud_masking.ipynb:283
 #: 116bd279b32e4bec847efb9da05e2617
-msgid "If we want to see RGB images of all the timesteps at once, we can replace the ``index`` parameter with the ``col`` parameter. The parameter ``col`` stands for ‘column’. Specifying ``col='time'`` creates a row of images for the timesteps."
+msgid "If we want to see RGB images of all the timesteps at once, we can replace the ``index`` parameter with the ``col`` parameter. The parameter ``col`` stands for 'column'. Specifying ``col='time'`` creates a row of images for the timesteps."
 msgstr "Si nous voulons voir les images RVB de tous les pas de temps en une seule fois, nous pouvons remplacer le paramètre ``index`` par le paramètre ``col``. Le paramètre ``col`` signifie 'colonne'. En spécifiant ``col='time'``, on crée une ligne d'images pour les pas de temps."
 
 #: ../../session_3/02_cloud_masking.ipynb:286
@@ -4537,7 +4537,7 @@ msgstr "Vérifiez le jeu de données Sentinel-2"
 
 #: ../session_3/03_geomedian_exercise.ipynb:83
 #: b6a6d6c14038433d9934aa3aaebdf9f9
-msgid "Let’s confirm we have successfully loaded our Sentinel-2 dataset. Recall we named it ``sentinel_2_ds``. Scroll to the bottom of the notebook and run the dataset name in the next empty cell."
+msgid "Let's confirm we have successfully loaded our Sentinel-2 dataset. Recall we named it ``sentinel_2_ds``. Scroll to the bottom of the notebook and run the dataset name in the next empty cell."
 msgstr "Confirmons que nous avons chargé avec succès notre jeu de données Sentinel-2. Rappelez-vous que nous l'avons nommé ``sentinel_2_ds``. Faites défiler jusqu'au bas du carnet de notes et exécutez le nom du jeu de données dans la prochaine cellule vide."
 
 #: ../session_3/03_geomedian_exercise.ipynb:107
@@ -4761,7 +4761,7 @@ msgstr "L'un des indices de bande les plus utilisés est l'indice de végétatio
 
 #: ../session_4/01_band_indices.ipynb:237
 #: 53fa1334c3e24ec49352d9245d95e51f
-msgid "NDVI is therefore typically calculated using a satellite’s NIR band and red band. One value is calculated per pixel."
+msgid "NDVI is therefore typically calculated using a satellite's NIR band and red band. One value is calculated per pixel."
 msgstr "Le NDVI est donc généralement calculé en utilisant la bande NIR et la bande rouge d’un satellite. Une valeur est calculée par pixel."
 
 #: ../session_4/01_band_indices.ipynb:248
@@ -4811,7 +4811,7 @@ msgstr "Ci-dessous, nous avons deux parcelles d'une zone de distribution fluvial
 
 #: ../session_4/01_band_indices.ipynb:311
 #: 6212ad7d09ad440cb7e446e65d446f0b
-msgid "Notice the RGB images may show parts of the area to be visibly ‘dry’ or ‘lush’, but in places where this is less obvious, it is easier to analyse NDVI than the multispectral RGB dataset."
+msgid "Notice the RGB images may show parts of the area to be visibly 'dry' or 'lush', but in places where this is less obvious, it is easier to analyse NDVI than the multispectral RGB dataset."
 msgstr "Notez que les images RVB peuvent montrer que certaines parties de la zone sont visiblement «sèches» ou «luxuriantes», mais dans les endroits où cela est moins évident, il est plus facile d’analyser le NDVI que le jeu de données RVB multispectral."
 
 #: ../../session_4/01_band_indices.ipynb:322
@@ -4952,7 +4952,7 @@ msgid "Select **Kernel -> Restart Kernel and Clear All Outputs…**."
 msgstr "Sélectionnez **Kernel -> Restart Kernel and Clear All Outputs...**."
 
 #: ../../session_4/02_calculate_ndvi_part_1.ipynb:66
-msgid "This notebook is still set up to run the Session 3 exercise, so you’ll need to follow the instructions below to modify it. Work cell by cell and pay attention to what needs to be changed."
+msgid "This notebook is still set up to run the Session 3 exercise, so you'll need to follow the instructions below to modify it. Work cell by cell and pay attention to what needs to be changed."
 msgstr "Ce bloc-notes est toujours configuré pour exécuter l'exercice Session 3. Vous devrez donc suivre les instructions ci-dessous pour le modifier. Travaillez cellule par cellule et faites attention à ce qui doit être changé."
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:71
@@ -5115,7 +5115,7 @@ msgstr "Toutes nos félicitations! Vous avez modifié avec succès un bloc-notes
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:299
 #: 0388b0a502fe4fcba5512ca11e7d8a3e
-msgid "If you’d like to experiment futher, try running the code with different resampling values. Did you learn anything interesting to share with us?"
+msgid "If you'd like to experiment futher, try running the code with different resampling values. Did you learn anything interesting to share with us?"
 msgstr "Si vous souhaitez tester davantage, essayez d'exécuter le code avec différentes valeurs de rééchantillonnage. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:301
@@ -5130,7 +5130,7 @@ msgstr "Calcul du NDVI: partie 2"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:11
 #: 2060883c9a644cf0b5dae8d7b0b93243
-msgid "This exercise follows on from the previous section. In the `previous part of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you constructed a notebook to resample a year’s worth of Sentinel-2 data into quarterly time steps."
+msgid "This exercise follows on from the previous section. In the `previous part of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you constructed a notebook to resample a year's worth of Sentinel-2 data into quarterly time steps."
 msgstr "Cet exercice fait suite à la partie précédente. Dans la `première partie de cet exercice <../session_4/03_calcul_ndvi_part_2.ipynb>`__, vous avez construit un cahier pour rééchantillonner une année de données Sentinel-2 en pas de temps trimestriels."
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:13
@@ -5160,7 +5160,7 @@ msgstr "Ajout de la mesure ``nir``"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:59
 #: 392184ebb31249a6913c78c23b1bafad
-msgid "To calculate NDVI, we need to load Sentinel-2’s near-infrared band. In the Sandbox, it is called ``nir``. To add the band, modify the ``load_ard`` cell according to the step below:"
+msgid "To calculate NDVI, we need to load Sentinel-2's near-infrared band. In the Sandbox, it is called ``nir``. To add the band, modify the ``load_ard`` cell according to the step below:"
 msgstr "Pour calculer NDVI, nous devons charger la bande proche infrarouge de Sentinel-2. Dans le bac à sable, elle est appelée ``nir``. Pour ajouter la bande, modifiez la cellule ``load_ard`` en suivant l'étape ci-dessous :"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:61
@@ -5355,7 +5355,7 @@ msgstr "Toutes nos félicitations! Vous avez calculé et visualisé avec succès
 #: ../session_6/02_water_extent.ipynb:459
 #: 5c6353d812e14b8fa8ccb224f4771335
 #: 2a8befa43ebd4801bce9268beb272c57
-msgid "If you’d like to experiment futher, try running the code with different areas. Did you learn anything interesting to share with us?"
+msgid "If you'd like to experiment futher, try running the code with different areas. Did you learn anything interesting to share with us?"
 msgstr "Si vous souhaitez expérimenter davantage, essayez d'exécuter le code avec différentes zones. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
 
 #: ../session_4/04_s4_solution.ipynb:9
@@ -5375,7 +5375,7 @@ msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours,
 
 #: ../session_4/04_s4_solution.ipynb:45
 #: 6d26f31a7d9e40e9931103029fc4cd62
-msgid "The quiz will ask you to use the notebook you developed for this session’s exercise on calculating NDVI. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on calculating NDVI. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
 msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le calcul du NDVI. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
 
 #: ../session_4/04_s4_solution.ipynb:56
@@ -5466,7 +5466,7 @@ msgstr "| f17c9f7ac2fa4c0b967f663294e35221 |"
 
 #: ../session_5/01_vegetation_analysis.ipynb:100
 #: 6cc9baba9fbe4e1e9e9b170be79b019e
-msgid "*Food security is a major focus of the UN’s Sustainable Development Goals (SDGs). The SDGs are a key tenet of the Digital Earth Africa program.* [`Image source <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
+msgid "*Food security is a major focus of the UN's Sustainable Development Goals (SDGs). The SDGs are a key tenet of the Digital Earth Africa program.* [`Image source <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
 msgstr "*La sécurité alimentaire est un axe majeur des Objectifs de développement durable (ODD) de l'ONU. Les ODD sont un principe clé du programme Digital Earth Africa.* [`Source de l'image <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
 
 #: ../session_5/01_vegetation_analysis.ipynb:111
@@ -5599,7 +5599,7 @@ msgstr "| 510f882b061b415e8dbbde25a2dc399f |"
 
 #: ../session_5/01_vegetation_analysis.ipynb:254
 #: b911a382c62b4b6694be79dee076ac99
-msgid "With some understanding of the context behind spatial data analysis, we are now ready to create our own case study notebook. This week’s exercise is about incorporating the additional two steps (analysis purpose, and additional results discussion) to make a well-rounded case study."
+msgid "With some understanding of the context behind spatial data analysis, we are now ready to create our own case study notebook. This week's exercise is about incorporating the additional two steps (analysis purpose, and additional results discussion) to make a well-rounded case study."
 msgstr "Avec une certaine compréhension du contexte derrière l'analyse des données spatiales, nous sommes maintenant prêts à créer notre propre carnet d'étude de cas. L’exercice de cette semaine consiste à incorporer les deux étapes supplémentaires (objectif de l’analyse et discussion supplémentaire sur les résultats) pour réaliser une étude de cas complète."
 
 #: ../session_5/02_vegetation_exercise.ipynb:32
@@ -5817,7 +5817,7 @@ msgstr "La collection Landsat, par exemple ``collection='c1'``"
 
 #: ../../session_5/02_vegetation_exercise.ipynb:421
 #: f83914f22e004f3ca768b4f40d59492f
-msgid "``c1`` stands for ‘Collection 1’, which is the currently-available Landsat collection of data as named by its publishers, US Geological Survey."
+msgid "``c1`` stands for 'Collection 1', which is the currently-available Landsat collection of data as named by its publishers, US Geological Survey."
 msgstr "``c1`` signifie 'Collection 1', qui est la collection de données Landsat actuellement disponible, telle que nommée par ses éditeurs, l'US Geological Survey."
 
 #: ../session_5/02_vegetation_exercise.ipynb:437
@@ -5852,7 +5852,7 @@ msgstr "La division est faite en utilisant ``sel()`` et ``slice()``."
 
 #: ../session_5/02_vegetation_exercise.ipynb:490
 #: 5a263914fd604da1831b12f3ea8c126f
-msgid "``sel()`` stands for ‘selection’ and tells us we are taking a selection of the dataset. We have to define which coordinate we are selecting by. In this case, we will use the ``time`` coordinate."
+msgid "``sel()`` stands for 'selection' and tells us we are taking a selection of the dataset. We have to define which coordinate we are selecting by. In this case, we will use the ``time`` coordinate."
 msgstr "``sel()`` signifie \"sélection\" et nous indique que nous prenons une sélection de l'ensemble des données. Nous devons définir par quelle coordonnée nous allons sélectionner. Dans ce cas, nous allons utiliser la coordonnée ``time``."
 
 #: ../session_5/02_vegetation_exercise.ipynb:491
@@ -5892,7 +5892,7 @@ msgstr "Vérifiez soigneusement toutes vos paires ``.``, ``,``, ``()`` et ``' '`
 
 #: ../session_5/02_vegetation_exercise.ipynb:554
 #: 67c7c6202d7e40e788a7f95c000b3df2
-msgid "Now we have our ‘before’ and ‘after’ datasets, we can compare them for change in EVI. To do this, we will form a composite for each half of the dataset. Then we will calculate the differences in the average EVI for each pixel."
+msgid "Now we have our 'before' and 'after' datasets, we can compare them for change in EVI. To do this, we will form a composite for each half of the dataset. Then we will calculate the differences in the average EVI for each pixel."
 msgstr "Maintenant que nous avons nos ensembles de données «avant» et «après», nous pouvons les comparer pour le changement dans EVI. Pour ce faire, nous allons former un composite pour chaque moitié de l'ensemble de données. Ensuite, nous calculerons les différences de l'EVI moyen pour chaque pixel."
 
 #: ../session_5/02_vegetation_exercise.ipynb:556
@@ -5968,7 +5968,7 @@ msgstr "Vous savez maintenant comment structurer une étude de cas complète - v
 #: ../session_6/02_water_extent.ipynb:473
 #: bf19484f8d6a4a8a9ff0909e3570c142
 #: 2a0d416be2154a86a7b9e869f4c47d6b
-msgid "If you’re curious about how the existing case study works, you can open and run it in the Sandbox:"
+msgid "If you're curious about how the existing case study works, you can open and run it in the Sandbox:"
 msgstr "Si vous êtes curieux de savoir comment fonctionne l'étude de cas existante, vous pouvez l'ouvrir et l'exécuter dans le bac à sable:"
 
 #: ../session_5/02_vegetation_exercise.ipynb:715
@@ -6612,7 +6612,7 @@ msgstr "Toutes nos félicitations! Vous avez créé votre propre carnet d'étend
 
 #: ../session_6/02_water_extent.ipynb:457
 #: f94d3a9761004e31aaf33ad328ebc63a
-msgid "You’ve now built your second case study! You make like to reflect on what was similar and different between the two. Are there any pieces of code you could reuse for a new analysis? How might you modify your case studies to do more complex analysis?"
+msgid "You've now built your second case study! You make like to reflect on what was similar and different between the two. Are there any pieces of code you could reuse for a new analysis? How might you modify your case studies to do more complex analysis?"
 msgstr "Vous avez maintenant construit votre deuxième étude de cas! Vous avez envie de réfléchir à ce qui était similaire et différent entre les deux. Y a-t-il des morceaux de code que vous pourriez réutiliser pour une nouvelle analyse? Comment pourriez-vous modifier vos études de cas pour faire des analyses plus complexes?"
 
 #: ../session_6/02_water_extent.ipynb:476
@@ -6642,7 +6642,7 @@ msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours,
 
 #: ../session_6/03_s6_solution.ipynb:47
 #: 17e986a511a54e6397c5f3e2b4fd5cce
-msgid "The quiz will ask you to use the notebook you developed for this session’s exercise on plotting water extent using WOfS data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
+msgid "The quiz will ask you to use the notebook you developed for this session's exercise on plotting water extent using WOfS data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
 msgstr "Le quiz vous demandera d'utiliser le cahier que vous avez développé pour l'exercice de cette session sur le traçage de l'étendue de l'eau à l'aide des données WOfS. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
 
 #: ../session_6/03_s6_solution.ipynb:86
@@ -6710,7 +6710,7 @@ msgstr "2. Modifier les études de cas pour votre domaine d'intérêt"
 
 #: ../Course_wrap-up.ipynb:157
 #: 8b009b7ab42849a5861bedcab8a0ec78
-msgid "3. Consolidate your Python knowledge using the Python basics and Beginner’s Guide tutorials"
+msgid "3. Consolidate your Python knowledge using the Python basics and Beginner's Guide tutorials"
 msgstr "3. Consolidez vos connaissances de Python à l'aide des tutoriels Python basics et Beginner's Guide."
 
 #: ../Course_wrap-up.ipynb:168
@@ -6925,7 +6925,7 @@ msgstr "Vous pouvez appliquer cette méthode aux carnets déjà existants avec l
 
 #: ../Frequently_asked_questions.ipynb:29
 #: cd0fb2ed9221419ea6ad0fc679e0c5c3
-msgid "I didn’t receive a Sandbox verification code email."
+msgid "I didn't receive a Sandbox verification code email."
 msgstr "Je n'ai pas reçu d'e-mail contenant le code de vérification de la Sandbox."
 
 #: ../Frequently_asked_questions.ipynb:31
@@ -7290,7 +7290,7 @@ msgstr "Pour pouvoir obtenir un certificat de fin de formation DE Africa, vous d
 
 #: ../Quiz_index.ipynb:30
 #: 32951681c137491faa98ce1ddabfca56
-msgid "On each quiz page, read the summary of the week’s contents and note any suggestions or requirements for the quiz. Click the link labelled **complete the quiz** to access the questions."
+msgid "On each quiz page, read the summary of the week's contents and note any suggestions or requirements for the quiz. Click the link labelled **complete the quiz** to access the questions."
 msgstr "Sur chaque page de quiz, lisez le résumé du contenu de la semaine et notez toute suggestion ou exigence pour le quiz. Cliquez sur le lien intitulé **complete the quiz** pour accéder aux questions."
 
 #: ../Quiz_index.ipynb:32
@@ -7509,7 +7509,7 @@ msgstr "Sélectionnez et exécutez la cellule de code gris ci-dessous."
 
 #: ../python_basics/01_jupyter.ipynb:199
 #: fb13a50798094710b7d0ac7807dda53e
-msgid "You’ll see that once the code has executed, any output generated by your code will show up just below the cell."
+msgid "You'll see that once the code has executed, any output generated by your code will show up just below the cell."
 msgstr "Vous verrez qu'une fois le code exécuté, toute sortie générée par votre code s'affichera juste en dessous de la cellule."
 
 #: ../python_basics/01_jupyter.ipynb:225
@@ -7539,7 +7539,7 @@ msgstr "``[1]:`` signifie que la cellule a fini de fonctionner et qu'elle était
 
 #: ../python_basics/01_jupyter.ipynb:256
 #: 25cf555886074a56bf9dab7c03142cd4
-msgid "Sometimes, the code that you run in a cell takes a while to compute because it is loading a large dataset or performing complex computations. You’ll notice the number that appears next to the cell. Before the cell is run you’ll see the symbol ``[ ]`` meaning that cell has not been executed yet. While a cell is running it shows the ``[*]`` symbol and once it has completed running you’ll see a number representing the number of cells being run, for example ``[4]``. This allows you to keep track of the cells that have been run and their relative order."
+msgid "Sometimes, the code that you run in a cell takes a while to compute because it is loading a large dataset or performing complex computations. You'll notice the number that appears next to the cell. Before the cell is run you'll see the symbol ``[ ]`` meaning that cell has not been executed yet. While a cell is running it shows the ``[*]`` symbol and once it has completed running you'll see a number representing the number of cells being run, for example ``[4]``. This allows you to keep track of the cells that have been run and their relative order."
 msgstr "Parfois, le code que vous exécutez dans une cellule prend du temps à calculer parce qu'il charge un grand ensemble de données ou effectue des calculs complexes. Vous remarquerez le numéro qui apparaît à côté de la cellule. Avant l'exécution de la cellule, vous verrez le symbole ``[ ]`` qui signifie que la cellule n'a pas encore été exécutée. Pendant qu'une cellule est en cours d'exécution, le symbole ``[*]`` apparaît et une fois l'exécution terminée, vous verrez un nombre représentant le nombre de cellules en cours d'exécution, par exemple ``[4]``. Cela vous permet de garder une trace des cellules qui ont été exécutées et de leur ordre relatif."
 
 #: ../python_basics/01_jupyter.ipynb:259
@@ -7564,7 +7564,7 @@ msgstr "**Note:** Python est sensible à la casse. La variable ``a`` n'est pas l
 
 #: ../python_basics/01_jupyter.ipynb:332
 #: a70f604d441a463284d887a5dc2f8b6a
-msgid "If you run again the first ``a`` cell you’ll see that it returns ``2``, the updated value. This is called ‘global state’, and means that once a variable is declared it is accessible anywhere in the notebook, even in cells above where it has been declared. This is different to traditional programs which execute sequentially line by line from the top to the bottom. This can be confusing in the beginning, but keep an eye on the number in the brackets ``[ ]`` to see cell execution order."
+msgid "If you run again the first ``a`` cell you'll see that it returns ``2``, the updated value. This is called 'global state', and means that once a variable is declared it is accessible anywhere in the notebook, even in cells above where it has been declared. This is different to traditional programs which execute sequentially line by line from the top to the bottom. This can be confusing in the beginning, but keep an eye on the number in the brackets ``[ ]`` to see cell execution order."
 msgstr "Si vous exécutez à nouveau la première cellule ``a``, vous verrez qu'elle renvoie ``2``, la valeur mise à jour. C'est ce qu'on appelle \"l'état global\", et cela signifie qu'une fois qu'une variable est déclarée, elle est accessible partout dans le cahier, même dans les cellules situées au-dessus de celle où elle a été déclarée. Ceci est différent des programmes traditionnels qui s'exécutent séquentiellement, ligne par ligne, du haut vers le bas. Cela peut être déroutant au début, mais gardez un œil sur le nombre entre les parenthèses ``[ ]`` pour voir l'ordre d'exécution des cellules."
 
 #: ../python_basics/01_jupyter.ipynb:343
@@ -7681,7 +7681,7 @@ msgstr "Nous venons de déclarer une variable ``a`` qui contient le résultat de
 
 #: ../python_basics/02_numpy.ipynb:227
 #: 24c6ec09574042c78f51a77651fe52c3
-msgid "One of numpy’s core concepts is the ``array``. They can hold multi-dimensional data. To declare a numpy array explicity we do:"
+msgid "One of numpy's core concepts is the ``array``. They can hold multi-dimensional data. To declare a numpy array explicity we do:"
 msgstr "L'un des concepts fondamentaux de numpy est le tableau ``array``. Ils peuvent contenir des données multidimensionnelles. Pour déclarer un tableau numpy de manière explicite, on fait :"
 
 #: ../python_basics/02_numpy.ipynb:268
@@ -7701,12 +7701,12 @@ msgstr "Nous pouvons également ajouter des tableaux en utilisant la notation pr
 
 #: ../python_basics/02_numpy.ipynb:364
 #: 2584b44b28ab472b9f605c1739167d13
-msgid "Arrays can be sliced and diced. We can get subsets of the arrays using the indexing notation which is ``[ start : end : stride ]``. Let’s see what this means:"
+msgid "Arrays can be sliced and diced. We can get subsets of the arrays using the indexing notation which is ``[ start : end : stride ]``. Let's see what this means:"
 msgstr "Les tableaux peuvent être découpés en tranches et en dés. Nous pouvons obtenir des sous-ensembles de tableaux en utilisant la notation d'indexation qui est ``[ start : end : stride ]``. Voyons ce que cela signifie :"
 
 #: ../python_basics/02_numpy.ipynb:415
 #: 13c35e92eb7c4625bca54132637d2010
-msgid "Experiment playing with the indexes to understand the meaning of ``start``, ``end`` and ``stride``. What happens if you don’t specify a start? What value does numpy use instead?"
+msgid "Experiment playing with the indexes to understand the meaning of ``start``, ``end`` and ``stride``. What happens if you don't specify a start? What value does numpy use instead?"
 msgstr "Essayez de jouer avec les index pour comprendre la signification de ``start``, ``end`` et ``stride``. Que se passe-t-il si vous ne spécifiez pas de début ? Quelle valeur numpy utilise-t-il à la place ?"
 
 #: ../python_basics/02_numpy.ipynb:417
@@ -7891,7 +7891,7 @@ msgstr "**Introduction:** Le résultat devrait être ``[0,3,6,9,12]``."
 #: ../python_basics/06_python_solutions.ipynb:371
 #: 120626e7c6ff4306a5f1626a02fc2d75
 #: b9950b31872a409ca0bd50a2e4fe2375
-msgid "2.5 You’ll need to combine array comparisons and logical operators to solve this one. Find out the values in the following array that are greater than ``3`` AND less than ``7``. The output should be a boolean array."
+msgid "2.5 You'll need to combine array comparisons and logical operators to solve this one. Find out the values in the following array that are greater than ``3`` AND less than ``7``. The output should be a boolean array."
 msgstr "2.5 Vous devrez combiner les comparaisons de tableaux et les opérateurs logiques pour résoudre cette question. Trouvez les valeurs du tableau suivant qui sont supérieures à ``3`` et inférieures à ``7``. Le résultat doit être un tableau booléen."
 
 #: ../python_basics/02_numpy.ipynb:980
@@ -7971,7 +7971,7 @@ msgstr "Les deux fichiers apparaîtront dans le dossier **Training**. Double-cli
 
 #: ../python_basics/03_matplotlib.ipynb:93
 #: d73f2f6b71ce4dda9bba0d1da3c6e17a
-msgid "Introduction to matplotlib’s pyplot"
+msgid "Introduction to matplotlib's pyplot"
 msgstr "Introduction à pyplot de matplotlib"
 
 #: ../python_basics/03_matplotlib.ipynb:104
@@ -8026,7 +8026,7 @@ msgstr "L'index du tableau a donc sélectionné les 5 premiers pixels de la larg
 
 #: ../python_basics/03_matplotlib.ipynb:313
 #: 08e2c44a9a4a453ebb3c2fde525e444a
-msgid "Now let’s see what that looks like on an actual image."
+msgid "Now let's see what that looks like on an actual image."
 msgstr "Voyons maintenant à quoi cela ressemble sur une image réelle."
 
 #: ../python_basics/03_matplotlib.ipynb:324
@@ -8056,14 +8056,14 @@ msgstr "Les résultats de la cellule ci-dessus montrent que l'image a une hauteu
 
 #: ../python_basics/03_matplotlib.ipynb:406
 #: 20f6140c95404f09bfb4bfd73f85b00f
-msgid "Let’s display this image using the pyplot ``imshow`` function."
+msgid "Let's display this image using the pyplot ``imshow`` function."
 msgstr "Affichons cette image en utilisant la fonction pyplot ``imshow``."
 
 #: ../python_basics/03_matplotlib.ipynb:469
 #: ../python_basics/06_python_solutions.ipynb:506
 #: 6fdd1d3f9c7a4194bc549067f6fb9404
 #: c4d419974645496a9cd9b921d86d0dbf
-msgid "3.1 Let’s use the indexing functionality of numpy to select a portion of this image. Select the top-right corner of this image with shape ``(200,200)``."
+msgid "3.1 Let's use the indexing functionality of numpy to select a portion of this image. Select the top-right corner of this image with shape ``(200,200)``."
 msgstr "3.1 Utilisons la fonctionnalité d'indexation de numpy pour sélectionner une partie de cette image. Sélectionnez le coin supérieur droit de cette image avec la forme ``(200,200)``."
 
 #: ../python_basics/03_matplotlib.ipynb:471
@@ -8082,7 +8082,7 @@ msgstr "Si vous avez choisi le bon coin, il ne devrait pas y avoir beaucoup d'ea
 #: ../python_basics/06_python_solutions.ipynb:567
 #: 6ee63f8d911344bb83cd029cdb2acae5
 #: fa596b862fb244ada8e1ccdea4301f44
-msgid "3.2 Let’s have a look at one of the pixels in this image. We choose the top-left corner with position ``(0,0)`` and show the values of its RGB channels."
+msgid "3.2 Let's have a look at one of the pixels in this image. We choose the top-left corner with position ``(0,0)`` and show the values of its RGB channels."
 msgstr "3.2 Regardons l'un des pixels de cette image. Nous choisissons le coin supérieur gauche avec la position ``(0,0)`` et montrons les valeurs de ses canaux RVB."
 
 #: ../python_basics/03_matplotlib.ipynb:536
@@ -8096,7 +8096,7 @@ msgstr "La première valeur correspond à la composante rouge, la deuxième à l
 #: ../python_basics/06_python_solutions.ipynb:621
 #: 7c7b109d6ab14d8cab9431b4b62a32fa
 #: dc14706da8f148c6b0e650793fe54940
-msgid "Now let’s modify the image."
+msgid "Now let's modify the image."
 msgstr "Maintenant, nous allons modifier l'image."
 
 #: ../python_basics/03_matplotlib.ipynb:550
@@ -8376,12 +8376,12 @@ msgstr "Comme d'habitude, nous allons d'abord importer le paquet xarray."
 
 #: ../python_basics/05_xarray.ipynb:651
 #: dd91b494a8fd46cfb76274487b48e1cd
-msgid "Let’s inspect the data. This image (our dataset) has a height ``y`` of 501 pixels and a width ``x`` of 500 pixels. It has 3 ``variables``, which correspond to the red, green, and blue bands needed to plot a colour image. Each of these bands has a value at each of the pixels, so we have a total of 751500 values (the result of 501 x 500 x 3). Each of the ``x`` and ``y`` values are associated with a longitude and latitude and their values are stored under the ``Coordinates`` section."
+msgid "Let's inspect the data. This image (our dataset) has a height ``y`` of 501 pixels and a width ``x`` of 500 pixels. It has 3 ``variables``, which correspond to the red, green, and blue bands needed to plot a colour image. Each of these bands has a value at each of the pixels, so we have a total of 751500 values (the result of 501 x 500 x 3). Each of the ``x`` and ``y`` values are associated with a longitude and latitude and their values are stored under the ``Coordinates`` section."
 msgstr "Inspectons les données. Cette image (notre jeu de données) a une hauteur ``y`` de 501 pixels et une largeur ``x`` de 500 pixels. Elle possède 3 ``variables``, qui correspondent aux bandes rouge, verte et bleue nécessaires au tracé d'une image couleur. Chacune de ces bandes a une valeur pour chacun des pixels, ce qui nous donne un total de 751500 valeurs (le résultat de 501 x 500 x 3). Chacune des valeurs ``x`` et ``y`` est associée à une longitude et une latitude et leurs valeurs sont stockées dans la section ``Coordinates``."
 
 #: ../python_basics/05_xarray.ipynb:662
 #: 829572dbcf5e4ea1b37c7291ab7d5f57
-msgid "The ``xarray.DataSet`` uses numpy arrays in the backend. What we see above is functionally similar to a bunch of numpy arrays holding the image band measurements and the longitude/latitude coordinates, combined with a dictionary of key-value pairs that defines the ``Attributes`` such as CRS and resolution (``res``). That sounds more complicated, doesn’t it? Accessing the data through ``xarray`` avoids the complications of managing uncorrelated numpy arrays by themselves."
+msgid "The ``xarray.DataSet`` uses numpy arrays in the backend. What we see above is functionally similar to a bunch of numpy arrays holding the image band measurements and the longitude/latitude coordinates, combined with a dictionary of key-value pairs that defines the ``Attributes`` such as CRS and resolution (``res``). That sounds more complicated, doesn't it? Accessing the data through ``xarray`` avoids the complications of managing uncorrelated numpy arrays by themselves."
 msgstr "Le ``xarray.DataSet`` utilise des tableaux numpy dans le backend. Ce que nous voyons ci-dessus est fonctionnellement similaire à un tas de tableaux numpy contenant les mesures de la bande de l'image et les coordonnées de longitude/latitude, combiné avec un dictionnaire de paires clé-valeur qui définit les ``Attributs`` tels que le CRS et la résolution (``res``). Cela semble plus compliqué, n'est-ce pas ? L'accès aux données par ``xarray`` évite les complications liées à la gestion de tableaux numpy non corrélés par eux-mêmes."
 
 #: ../../python_basics/05_xarray.ipynb:673
@@ -8431,7 +8431,7 @@ msgstr "L'ensemble de données que nous avons chargé ne comporte qu'un seul pas
 
 #: ../python_basics/05_xarray.ipynb:1218
 #: 75732ab1416c48c781f769bbb6bccc54
-msgid "**Note:** ``cmap`` stands for ‘colour map’. What happens if you remove this argument? ``plt.imshow`` will then plot all the ``red`` data values in the default colour scheme, which is a purple-to-yellow sequential colour map known as ``viridis``. This is because matplotlib does not know the variable name ``red`` is associated with the colour red — it is just a name. You can find out more about matplotlib colourmaps through this `matplotlib tutorial <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
+msgid "**Note:** ``cmap`` stands for 'colour map'. What happens if you remove this argument? ``plt.imshow`` will then plot all the ``red`` data values in the default colour scheme, which is a purple-to-yellow sequential colour map known as ``viridis``. This is because matplotlib does not know the variable name ``red`` is associated with the colour red — it is just a name. You can find out more about matplotlib colourmaps through this `matplotlib tutorial <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
 msgstr "**Remarque : ``cmap`` signifie ``carte de couleurs``. Que se passe-t-il si vous supprimez cet argument ? ``plt.imshow`` tracera alors toutes les valeurs de données ``red`` dans le schéma de couleurs par défaut, qui est une carte de couleurs séquentielle violet-jaune connue sous le nom de ``viridis``. Ceci est dû au fait que matplotlib ne sait pas que le nom de variable ``red`` est associé à la couleur rouge - c'est juste un nom. Vous pouvez en savoir plus sur les cartes de couleurs de matplotlib grâce à ce tutoriel `matplotlib <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
 
 #: ../python_basics/05_xarray.ipynb:1230
@@ -8561,7 +8561,7 @@ msgstr "Nous copions donc le code avant de taper ``.plot()``."
 
 #: ../python_basics/05_xarray.ipynb:4232
 #: aa05e1ac982246bcbb4c33416e1f1b1d
-msgid "The advantage of using xarray’s ``.plot()`` is that it automatically shows the ``x`` and ``y`` axes using coordinate values, not their positional index."
+msgid "The advantage of using xarray's ``.plot()`` is that it automatically shows the ``x`` and ``y`` axes using coordinate values, not their positional index."
 msgstr "L'avantage d'utiliser la fonction ``.plot()`` de xarray est qu'elle affiche automatiquement les axes ``x`` et ``y`` en utilisant les valeurs des coordonnées, et non leur indice de position."
 
 #: ../python_basics/05_xarray.ipynb:4256
@@ -8652,7 +8652,7 @@ msgstr "Bases de Python 1"
 
 #: ../python_basics/06_python_solutions.ipynb:151
 #: 07438140c0194803a05dee2ab748b40f
-msgid "**Answer:** It should now print ``8760`` as ‘global state’ means the value of ``a`` has been changed."
+msgid "**Answer:** It should now print ``8760`` as 'global state' means the value of ``a`` has been changed."
 msgstr "**Réponse:** Il devrait maintenant imprimer ``8760`` car 'global state' signifie que la valeur de ``a`` a été modifiée."
 
 #: ../python_basics/06_python_solutions.ipynb:163
@@ -10253,8 +10253,8 @@ msgstr "Quantifie le changement à l'aide de tests statistiques (test *t* de Wel
 
 #: ../Course_wrap-up.ipynb:71
 #: 50f34a44d21e40d78df278803ec5c558
-msgid "|289234cf75fb42679201feec2a15b7ca|"
-msgstr ""
+msgid "289234cf75fb42679201feec2a15b7ca"
+msgstr "289234cf75fb42679201feec2a15b7ca"
 
 #: ../Course_wrap-up.ipynb:75
 #: ../Course_wrap-up.ipynb:75
@@ -10270,8 +10270,8 @@ msgstr ""
 
 #: ../External_dataset.ipynb:166
 #: cc51ea0ebe3144308a5bb3a6f6e7e7f6
-msgid "|800879f42d904043af1a422bc793a12c|"
-msgstr ""
+msgid "800879f42d904043af1a422bc793a12c"
+msgstr "800879f42d904043af1a422bc793a12c"
 
 #: ../External_dataset.ipynb:168
 #: ../External_dataset.ipynb:168
@@ -10290,18 +10290,18 @@ msgstr ""
 
 #: ../External_dataset.ipynb:243
 #: 2c1cd0656d75477fb2d46f1d0750f38e
-msgid "|6ff090549d9a421ea089ceb106e50e34|"
-msgstr ""
+msgid "6ff090549d9a421ea089ceb106e50e34"
+msgstr "6ff090549d9a421ea089ceb106e50e34"
 
 #: ../External_dataset.ipynb:290
 #: 893161643dcb4c0fa44ada6f671f2597
-msgid "|bcf6e449c93d471c8449f577b8498c79|"
-msgstr ""
+msgid "bcf6e449c93d471c8449f577b8498c79"
+msgstr "bcf6e449c93d471c8449f577b8498c79"
 
 #: ../Frequently_asked_questions.ipynb:47
 #: 7349997a88bd4af4a77dca3ecee5fa25
-msgid "|9ed4e382b46d4735b8de4b2c8cc55dd5|"
-msgstr ""
+msgid "9ed4e382b46d4735b8de4b2c8cc55dd5"
+msgstr "9ed4e382b46d4735b8de4b2c8cc55dd5"
 
 #: ../Frequently_asked_questions.ipynb:49
 #: ../Frequently_asked_questions.ipynb:49
@@ -10361,8 +10361,8 @@ msgstr ""
 
 #: ../Geomedian_widget.ipynb:45
 #: 6c5ff39c575c468aa6efbc19f453ec48
-msgid "|c2ac1da55dcd4e6fa5bbac8980c0641b|"
-msgstr ""
+msgid "c2ac1da55dcd4e6fa5bbac8980c0641b"
+msgstr "c2ac1da55dcd4e6fa5bbac8980c0641b"
 
 #: ../Geomedian_widget.ipynb:47
 #: ../Geomedian_widget.ipynb:47
@@ -10377,8 +10377,8 @@ msgstr ""
 
 #: ../Geomedian_widget.ipynb:105
 #: 309280e2dd484d5c8fb7f4935592af4a
-msgid "|d7b1add556dc4113b080fc477c88051f|"
-msgstr ""
+msgid "d7b1add556dc4113b080fc477c88051f"
+msgstr "d7b1add556dc4113b080fc477c88051f"
 
 #: ../Geomedian_widget.ipynb:110
 #: ../Geomedian_widget.ipynb:110
@@ -10429,8 +10429,8 @@ msgstr ""
 
 #: ../Maps_help.ipynb:42
 #: 4aa0195a31f54352b521aa4574fcb0e3
-msgid "|2aa55de3563c4d6486704a25d6ef20cd|"
-msgstr ""
+msgid "2aa55de3563c4d6486704a25d6ef20cd"
+msgstr "2aa55de3563c4d6486704a25d6ef20cd"
 
 #: ../Maps_help.ipynb:58
 #: ../Maps_help.ipynb:58
@@ -10449,13 +10449,13 @@ msgstr ""
 
 #: ../Maps_help.ipynb:73
 #: 90b84a08e31f4a00897a9e8cb736788c
-msgid "|5c4a99ab66684d5085ee1822fe14aef9|"
-msgstr ""
+msgid "5c4a99ab66684d5085ee1822fe14aef9"
+msgstr "5c4a99ab66684d5085ee1822fe14aef9"
 
 #: ../Maps_help.ipynb:98
 #: a0575c03dad9434da1b98ee4abea540f
-msgid "|3505c24e541743ff9704f1a187b80bcb|"
-msgstr ""
+msgid "3505c24e541743ff9704f1a187b80bcb"
+msgstr "3505c24e541743ff9704f1a187b80bcb"
 
 #: ../Maps_help.ipynb:169
 #: 947f0a2324454ce8a1228b913de1f8f0
@@ -10469,8 +10469,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:95
 #: c3e9e3cff9254944a69bfb56cd617870
-msgid "|0d07b371ddcb42b88b01a44dc9d0c128|"
-msgstr ""
+msgid "0d07b371ddcb42b88b01a44dc9d0c128"
+msgstr "0d07b371ddcb42b88b01a44dc9d0c128"
 
 #: ../OWS_tutorial.ipynb:120
 #: ../OWS_tutorial.ipynb:120
@@ -10481,8 +10481,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:99
 #: ecd989bcf92c4b99a5125f2201b02e06
-msgid "|7d8911fca2924d1bbcc95b4c11d6b846|"
-msgstr ""
+msgid "7d8911fca2924d1bbcc95b4c11d6b846"
+msgstr "7d8911fca2924d1bbcc95b4c11d6b846"
 
 #: ../OWS_tutorial.ipynb:124
 #: ../OWS_tutorial.ipynb:124
@@ -10493,8 +10493,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:107
 #: 3e2bb12e5961447c845065812b62c342
-msgid "|70245c9b3eba4375b8af800b0a017d13|"
-msgstr ""
+msgid "70245c9b3eba4375b8af800b0a017d13"
+msgstr "70245c9b3eba4375b8af800b0a017d13"
 
 #: ../OWS_tutorial.ipynb:128
 #: ../OWS_tutorial.ipynb:128
@@ -10505,8 +10505,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:113
 #: 53b06a7cdcac4032a8facdd3b8a08f65
-msgid "|8074c3793d4844c48edb7c772d6b2848|"
-msgstr ""
+msgid "8074c3793d4844c48edb7c772d6b2848"
+msgstr "8074c3793d4844c48edb7c772d6b2848"
 
 #: ../OWS_tutorial.ipynb:132
 #: ../OWS_tutorial.ipynb:132
@@ -10517,8 +10517,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:190
 #: 20dd62ef258241999a63bb6822a221ce
-msgid "|f7f4fbbe301c470184700c3632c1b750|"
-msgstr ""
+msgid "f7f4fbbe301c470184700c3632c1b750"
+msgstr "f7f4fbbe301c470184700c3632c1b750"
 
 #: ../OWS_tutorial.ipynb:211
 #: ../OWS_tutorial.ipynb:211
@@ -10529,8 +10529,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:199
 #: 5f53f5d7ac6049f680632b794c64b930
-msgid "|ac91fe8cce6e4d0989a03616f83c2aa3|"
-msgstr ""
+msgid "ac91fe8cce6e4d0989a03616f83c2aa3"
+msgstr "ac91fe8cce6e4d0989a03616f83c2aa3"
 
 #: ../OWS_tutorial.ipynb:215
 #: ../OWS_tutorial.ipynb:215
@@ -10541,8 +10541,8 @@ msgstr ""
 
 #: ../OWS_tutorial.ipynb:206
 #: 74b337d0205f4efd88b1a34636e9ec6f
-msgid "|4df5a2c0f3f647bd80ba21061b158c88|"
-msgstr ""
+msgid "4df5a2c0f3f647bd80ba21061b158c88"
+msgstr "4df5a2c0f3f647bd80ba21061b158c88"
 
 #: ../OWS_tutorial.ipynb:219
 #: ../OWS_tutorial.ipynb:219
@@ -10558,8 +10558,8 @@ msgstr ""
 
 #: ../help_documentation.ipynb:33
 #: 04647b2af2aa4f83b7d58a149538eab5
-msgid "|f712a711699245c480e3e37a2c553155|"
-msgstr ""
+msgid "f712a711699245c480e3e37a2c553155"
+msgstr "f712a711699245c480e3e37a2c553155"
 
 #: ../help_documentation.ipynb:45
 #: ../help_documentation.ipynb:45
@@ -10570,8 +10570,8 @@ msgstr ""
 
 #: ../help_documentation.ipynb:60
 #: 1605189a583a4e30986cdd6723d13a01
-msgid "|76234be3a8884f0db5a272777b784146|"
-msgstr ""
+msgid "76234be3a8884f0db5a272777b784146"
+msgstr "76234be3a8884f0db5a272777b784146"
 
 #: ../help_documentation.ipynb:69
 #: ../help_documentation.ipynb:69
@@ -10582,8 +10582,8 @@ msgstr ""
 
 #: ../help_documentation.ipynb:84
 #: 0780207b0460485098f5b955cd957cb3
-msgid "|df20a6dee87b492ba0d60a5192d9f71a|"
-msgstr ""
+msgid "df20a6dee87b492ba0d60a5192d9f71a"
+msgstr "df20a6dee87b492ba0d60a5192d9f71a"
 
 #: ../help_documentation.ipynb:92
 #: ../help_documentation.ipynb:92
@@ -10594,8 +10594,8 @@ msgstr ""
 
 #: ../help_documentation.ipynb:107
 #: 0674ddf21eed4d6c8db68f658c048806
-msgid "|47774b661e7546ecaf0037fefaaa097b|"
-msgstr ""
+msgid "47774b661e7546ecaf0037fefaaa097b"
+msgstr "47774b661e7546ecaf0037fefaaa097b"
 
 #: ../help_documentation.ipynb:127
 #: ../help_documentation.ipynb:127
@@ -10616,18 +10616,18 @@ msgstr ""
 
 #: ../python_basics/01_jupyter.ipynb:106
 #: c820bc1175ac472e8895ba702dc61ea9
-msgid "|52e90438115d4796884f8dcf936edefc|"
-msgstr ""
+msgid "52e90438115d4796884f8dcf936edefc"
+msgstr "52e90438115d4796884f8dcf936edefc"
 
 #: ../python_basics/02_numpy.ipynb:62
 #: 80144f98838e46439437898e08c1b25f
-msgid "|1c209669449d4defbaa40ee4c48d7c80|"
-msgstr ""
+msgid "1c209669449d4defbaa40ee4c48d7c80"
+msgstr "1c209669449d4defbaa40ee4c48d7c80"
 
 #: ../python_basics/02_numpy.ipynb:473
 #: 2cbd6073630049b3929c36d2e894d47f
-msgid "|6d217d5d12a04916a1292fdf30480e4a|"
-msgstr ""
+msgid "6d217d5d12a04916a1292fdf30480e4a"
+msgstr "6d217d5d12a04916a1292fdf30480e4a"
 
 #: ../python_basics/02_numpy.ipynb:475
 #: ../python_basics/02_numpy.ipynb:475
@@ -10638,23 +10638,23 @@ msgstr ""
 
 #: ../python_basics/03_matplotlib.ipynb:64
 #: c5a85ddfd9a04693ace64325d3f235b2
-msgid "|e58d89fc5fe64fb59c0ce19a0a39fff4|"
-msgstr ""
+msgid "e58d89fc5fe64fb59c0ce19a0a39fff4"
+msgstr "e58d89fc5fe64fb59c0ce19a0a39fff4"
 
 #: ../python_basics/04_cleaning_data.ipynb:62
 #: c19c4024afd8409aa3ef5b32408df3e7
-msgid "|4c311a520cac41f39cbdfde909443ef7|"
-msgstr ""
+msgid "4c311a520cac41f39cbdfde909443ef7"
+msgstr "4c311a520cac41f39cbdfde909443ef7"
 
 #: ../python_basics/05_xarray.ipynb:68
 #: 3ac514cc94c8437d9f001ccb082da01b
-msgid "|f61e863a1970405080f8e603cd12898e|"
-msgstr ""
+msgid "f61e863a1970405080f8e603cd12898e"
+msgstr "f61e863a1970405080f8e603cd12898e"
 
 #: ../python_basics/05_xarray.ipynb:673
 #: 75e5fef1135f49ada8fd86dd4ad4740a
-msgid "|f0a850b67c9e4fa199016e0a49205225|"
-msgstr ""
+msgid "f0a850b67c9e4fa199016e0a49205225"
+msgstr "f0a850b67c9e4fa199016e0a49205225"
 
 #: ../python_basics/05_xarray.ipynb:675
 #: ../python_basics/05_xarray.ipynb:675
@@ -10665,8 +10665,8 @@ msgstr ""
 
 #: ../session_1/02_create_a_user_account.ipynb:76
 #: abb75b10d0224331b9d41c0ec10809e2
-msgid "|e84f5d9310ac4f5f95c17ac79d98dd8c|"
-msgstr ""
+msgid "e84f5d9310ac4f5f95c17ac79d98dd8c"
+msgstr "e84f5d9310ac4f5f95c17ac79d98dd8c"
 
 #: ../session_1/02_create_a_user_account.ipynb:83
 #: ../session_1/02_create_a_user_account.ipynb:83
@@ -10677,8 +10677,8 @@ msgstr ""
 
 #: ../session_1/02_create_a_user_account.ipynb:81
 #: 648d0f7e4911403c9b8923daee6ad555
-msgid "|d115876b0e5a4ea3b820258971378d4d|"
-msgstr ""
+msgid "d115876b0e5a4ea3b820258971378d4d"
+msgstr "d115876b0e5a4ea3b820258971378d4d"
 
 #: ../session_1/02_create_a_user_account.ipynb:87
 #: ../session_1/02_create_a_user_account.ipynb:87
@@ -10689,8 +10689,8 @@ msgstr ""
 
 #: ../session_1/02_create_a_user_account.ipynb:109
 #: def6ffdc6089485d900d87a7d41d997d
-msgid "|4210531916fb4972993c840bdf55f0c5|"
-msgstr ""
+msgid "4210531916fb4972993c840bdf55f0c5"
+msgstr "4210531916fb4972993c840bdf55f0c5"
 
 #: ../session_1/02_create_a_user_account.ipynb:115
 #: ../session_1/02_create_a_user_account.ipynb:115
@@ -10701,8 +10701,8 @@ msgstr ""
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:51
 #: 2a7d85dd2e5942cf84cb8bf5db2bf35a
-msgid "|4422b8e3628341c58e90f334b9564fd3|"
-msgstr ""
+msgid "4422b8e3628341c58e90f334b9564fd3"
+msgstr "4422b8e3628341c58e90f334b9564fd3"
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:59
 #: ../session_1/03_navigate_the_sandbox.ipynb:59
@@ -10713,8 +10713,8 @@ msgstr ""
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:78
 #: fc7bdb4ee4ee47608b8606d154f9d29c
-msgid "|5f295b340ac947899c3417173207123e|"
-msgstr ""
+msgid "5f295b340ac947899c3417173207123e"
+msgstr "5f295b340ac947899c3417173207123e"
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:86
 #: ../session_1/03_navigate_the_sandbox.ipynb:86
@@ -10725,8 +10725,8 @@ msgstr ""
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:105
 #: 3bd4dd6e72cf4ac8a49421d8777e74b2
-msgid "|78eaf8c4a54742e0a4c23f50ababad55|"
-msgstr ""
+msgid "78eaf8c4a54742e0a4c23f50ababad55"
+msgstr "78eaf8c4a54742e0a4c23f50ababad55"
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:109
 #: ../session_1/03_navigate_the_sandbox.ipynb:109
@@ -10737,8 +10737,8 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:81
 #: 0716ed4fd3c8436db7bddcdf8ac9453e
-msgid "|1f7fc4885f074cf1888d6720f55d2d0d|"
-msgstr ""
+msgid "1f7fc4885f074cf1888d6720f55d2d0d"
+msgstr "1f7fc4885f074cf1888d6720f55d2d0d"
 
 #: ../session_1/04_running_a_notebook.ipynb:83
 #: ../session_1/04_running_a_notebook.ipynb:83
@@ -10853,28 +10853,28 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:97
 #: 3700bd4fb66146fbba5e566b4d79d156
-msgid "|1ed87761811b4da1b411651d0b979308|"
-msgstr ""
+msgid "1ed87761811b4da1b411651d0b979308"
+msgstr "1ed87761811b4da1b411651d0b979308"
 
 #: ../session_1/04_running_a_notebook.ipynb:115
 #: c834f70ac32f494f8a6fdebf09bab3cd
-msgid "|f89842e6ade74639ad5bf6ac8e2702df|"
-msgstr ""
+msgid "f89842e6ade74639ad5bf6ac8e2702df"
+msgstr "f89842e6ade74639ad5bf6ac8e2702df"
 
 #: ../session_1/04_running_a_notebook.ipynb:131
 #: 4a435882b4a64c3d8446a06787f80b7e
-msgid "|542d0965429d4449aba829bbb43afdd4|"
-msgstr ""
+msgid "542d0965429d4449aba829bbb43afdd4"
+msgstr "542d0965429d4449aba829bbb43afdd4"
 
 #: ../session_1/04_running_a_notebook.ipynb:147
 #: 5e6ad2a5c7a1464298e7ad152e8d6e8a
-msgid "|c4d94b7304504ca9b8e2a66f59f8f6fa|"
-msgstr ""
+msgid "c4d94b7304504ca9b8e2a66f59f8f6fa"
+msgstr "c4d94b7304504ca9b8e2a66f59f8f6fa"
 
 #: ../session_1/04_running_a_notebook.ipynb:163
 #: 1d074314d3fc4665a3dbd476a27cde86
-msgid "|e3b175d359c147b28de780518aa6fcdc|"
-msgstr ""
+msgid "e3b175d359c147b28de780518aa6fcdc"
+msgstr "e3b175d359c147b28de780518aa6fcdc"
 
 #: ../session_1/04_running_a_notebook.ipynb:179
 #: 2594e29f6ff84797810a498a8dd2965b
@@ -10883,28 +10883,28 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:208
 #: 438f11f04d484ac483859e64dcb3a72a
-msgid "|8585519c13da4e2080112e817c769b70|"
-msgstr ""
+msgid "8585519c13da4e2080112e817c769b70"
+msgstr "8585519c13da4e2080112e817c769b70"
 
 #: ../session_1/04_running_a_notebook.ipynb:229
 #: 2913001c7ffe48049c9c301f059c5b53
-msgid "|75a09ac9ccbc4a21a7dc46486504db4e|"
-msgstr ""
+msgid "75a09ac9ccbc4a21a7dc46486504db4e"
+msgstr "75a09ac9ccbc4a21a7dc46486504db4e"
 
 #: ../session_1/04_running_a_notebook.ipynb:251
 #: 7569b640a7d7436a9d5b2eae2b6a9ed5
-msgid "|227439ab42b3494987b6452ce4a1c245|"
-msgstr ""
+msgid "227439ab42b3494987b6452ce4a1c245"
+msgstr "227439ab42b3494987b6452ce4a1c245"
 
 #: ../session_1/04_running_a_notebook.ipynb:272
 #: fae3ac3218424981b31c23979c7a39b8
-msgid "|e80952b8f51d4f87b8f2a66150a50185|"
-msgstr ""
+msgid "e80952b8f51d4f87b8f2a66150a50185"
+msgstr "e80952b8f51d4f87b8f2a66150a50185"
 
 #: ../session_1/04_running_a_notebook.ipynb:297
 #: f985397984514cb9b837c7065ac8cce4
-msgid "|dc9753b1ade243ec95326b508f816fc0|"
-msgstr ""
+msgid "dc9753b1ade243ec95326b508f816fc0"
+msgstr "dc9753b1ade243ec95326b508f816fc0"
 
 #: ../session_1/04_running_a_notebook.ipynb:299
 #: e7bb8ca8b2804c7abdcc38ff614a863f
@@ -10913,8 +10913,8 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:323
 #: a0e04b3e211541c88c93882ff6899e8e
-msgid "|5233346ab279467b88bdfd6b46259615|"
-msgstr ""
+msgid "5233346ab279467b88bdfd6b46259615"
+msgstr "5233346ab279467b88bdfd6b46259615"
 
 #: ../session_1/04_running_a_notebook.ipynb:325
 #: 2e1509a5851b464886b33b9903b987cc
@@ -10923,18 +10923,18 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:346
 #: f6d3e885e5084247be5c6a8b361fafa8
-msgid "|566f1ac4706a41199992ab82898d6f22|"
-msgstr ""
+msgid "566f1ac4706a41199992ab82898d6f22"
+msgstr "566f1ac4706a41199992ab82898d6f22"
 
 #: ../session_1/04_running_a_notebook.ipynb:364
 #: 27294438bcef45c9b5167e5f44e62233
-msgid "|7dc23ee6ad1f4bc9a24e1dde1e82b48b|"
-msgstr ""
+msgid "7dc23ee6ad1f4bc9a24e1dde1e82b48b"
+msgstr "7dc23ee6ad1f4bc9a24e1dde1e82b48b"
 
 #: ../session_1/04_running_a_notebook.ipynb:368
 #: ab955fbf76d4492c88d53bb54abfbf1f
-msgid "|f852e82dac6340cc9d44d43d9bee6f34|"
-msgstr ""
+msgid "f852e82dac6340cc9d44d43d9bee6f34"
+msgstr "f852e82dac6340cc9d44d43d9bee6f34"
 
 #: ../session_1/04_running_a_notebook.ipynb:386
 #: fafc7fa2c43648919a135fe2c0fd6ad4
@@ -10943,13 +10943,13 @@ msgstr ""
 
 #: ../session_1/04_running_a_notebook.ipynb:396
 #: d292bf42998d49e895ebf074388510b0
-msgid "|eabee62cb07042bb8c265ed99e52d351|"
-msgstr ""
+msgid "eabee62cb07042bb8c265ed99e52d351"
+msgstr "eabee62cb07042bb8c265ed99e52d351"
 
 #: ../session_1/04_running_a_notebook.ipynb:402
 #: bb79ef0640d44c2abf16471bd4b61425
-msgid "|cec2bd07b2e545aa972e825f02b0ba91|"
-msgstr ""
+msgid "cec2bd07b2e545aa972e825f02b0ba91"
+msgstr "cec2bd07b2e545aa972e825f02b0ba91"
 
 #: ../session_1/04_running_a_notebook.ipynb:454
 #: 0eb7ef4820fd46509e403be213b04b48
@@ -11047,8 +11047,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:101
 #: b20316d11ff74f8a80ef710c8db45498
-msgid "|172f6d4d9f474e8ab8dbf35187759bc1|"
-msgstr ""
+msgid "172f6d4d9f474e8ab8dbf35187759bc1"
+msgstr "172f6d4d9f474e8ab8dbf35187759bc1"
 
 #: ../session_2/02_deafrica_map.ipynb:103
 #: ../session_2/02_deafrica_map.ipynb:103
@@ -11059,8 +11059,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:143
 #: c788d0370f084cd5bd5dde9aff7e78d8
-msgid "|576cf53b49b6486cbed8c6547adc668e|"
-msgstr ""
+msgid "576cf53b49b6486cbed8c6547adc668e"
+msgstr "576cf53b49b6486cbed8c6547adc668e"
 
 #: ../session_2/02_deafrica_map.ipynb:151
 #: ../session_2/02_deafrica_map.ipynb:151
@@ -11071,8 +11071,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:213
 #: 3e995998525a463d90a5aac8ac6a8609
-msgid "|80c0850dcffa4fe49d2fea5b3cf1c6e6|"
-msgstr ""
+msgid "80c0850dcffa4fe49d2fea5b3cf1c6e6"
+msgstr "80c0850dcffa4fe49d2fea5b3cf1c6e6"
 
 #: ../session_2/02_deafrica_map.ipynb:215
 #: ../session_2/02_deafrica_map.ipynb:215
@@ -11083,8 +11083,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:231
 #: f347662b4a0c41f18bf663f73bc4a779
-msgid "|d5ece935fa25465cb989675f97b249bc|"
-msgstr ""
+msgid "d5ece935fa25465cb989675f97b249bc"
+msgstr "d5ece935fa25465cb989675f97b249bc"
 
 #: ../session_2/02_deafrica_map.ipynb:233
 #: ../session_2/02_deafrica_map.ipynb:233
@@ -11100,8 +11100,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:247
 #: 1c87bd3ad7ec4150a70c5b10728f0d4b
-msgid "|9bfbfe3f60dc437cb5a49fda12a6d85b|"
-msgstr ""
+msgid "9bfbfe3f60dc437cb5a49fda12a6d85b"
+msgstr "9bfbfe3f60dc437cb5a49fda12a6d85b"
 
 #: ../session_2/02_deafrica_map.ipynb:249
 #: ../session_2/02_deafrica_map.ipynb:249
@@ -11112,8 +11112,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:263
 #: 053799f2b7054f96aeef2d34ba054382
-msgid "|0c4c66d8fa0e435bbf2f195a77b5034f|"
-msgstr ""
+msgid "0c4c66d8fa0e435bbf2f195a77b5034f"
+msgstr "0c4c66d8fa0e435bbf2f195a77b5034f"
 
 #: ../session_2/02_deafrica_map.ipynb:269
 #: ../session_2/02_deafrica_map.ipynb:269
@@ -11124,8 +11124,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:267
 #: eb48dc809b9a4dd18a65b1acf04ab26b
-msgid "|73051e31fffb4ad9ad6bd76ebae43242|"
-msgstr ""
+msgid "73051e31fffb4ad9ad6bd76ebae43242"
+msgstr "73051e31fffb4ad9ad6bd76ebae43242"
 
 #: ../session_2/02_deafrica_map.ipynb:273
 #: ../session_2/02_deafrica_map.ipynb:273
@@ -11136,8 +11136,8 @@ msgstr ""
 
 #: ../session_2/02_deafrica_map.ipynb:287
 #: 90a76a5bd8a04ef18cf5571e7b557410
-msgid "|2b1822689bef4b3d959cb58bb7e32380|"
-msgstr ""
+msgid "2b1822689bef4b3d959cb58bb7e32380"
+msgstr "2b1822689bef4b3d959cb58bb7e32380"
 
 #: ../session_2/02_deafrica_map.ipynb:289
 #: ../session_2/02_deafrica_map.ipynb:289
@@ -11148,8 +11148,8 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:104
 #: 6e55de6487cc49599decd68a27f4c7ef
-msgid "|78ab0c165af5409594cf3e19ab98144b|"
-msgstr ""
+msgid "78ab0c165af5409594cf3e19ab98144b"
+msgstr "78ab0c165af5409594cf3e19ab98144b"
 
 #: ../session_2/03_data_availability.ipynb:106
 #: ../session_2/03_data_availability.ipynb:106
@@ -11165,8 +11165,8 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:148
 #: 962593e31c6a4e988648a92a29e82f39
-msgid "|983fe7efc17f40e29164fe2ff4b8679b|"
-msgstr ""
+msgid "983fe7efc17f40e29164fe2ff4b8679b"
+msgstr "983fe7efc17f40e29164fe2ff4b8679b"
 
 #: ../session_2/03_data_availability.ipynb:168
 #: ../session_2/03_data_availability.ipynb:168
@@ -11177,8 +11177,8 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:152
 #: b607c1cc55f94f3caef03fe5d6a4bd0f
-msgid "|f1ae10ed0383438b904a349f123b3d89|"
-msgstr ""
+msgid "f1ae10ed0383438b904a349f123b3d89"
+msgstr "f1ae10ed0383438b904a349f123b3d89"
 
 #: ../session_2/03_data_availability.ipynb:172
 #: ../session_2/03_data_availability.ipynb:176
@@ -11210,8 +11210,8 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:156
 #: 66aaea8712b046f1b1a5ac8bb3a9f4d5
-msgid "|5a56f5700f1f4434a9d70522bf739e24|"
-msgstr ""
+msgid "5a56f5700f1f4434a9d70522bf739e24"
+msgstr "5a56f5700f1f4434a9d70522bf739e24"
 
 #: ../session_2/03_data_availability.ipynb:158
 #: 420a8478ebc34d80a8a2fc07b5059101
@@ -11220,8 +11220,8 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:160
 #: 4660b771de7f496c8e773756d97803ba
-msgid "|8460f703aff547889d75637aa9a89aad|"
-msgstr ""
+msgid "8460f703aff547889d75637aa9a89aad"
+msgstr "8460f703aff547889d75637aa9a89aad"
 
 #: ../session_2/03_data_availability.ipynb:162
 #: d81efe8f71d84443b03a961e4f88c500
@@ -11230,13 +11230,13 @@ msgstr ""
 
 #: ../session_2/03_data_availability.ipynb:164
 #: ad9debb137ca4043aecf5167ef919be4
-msgid "|f185637d79de418aac7c720488cb0754|"
-msgstr ""
+msgid "f185637d79de418aac7c720488cb0754"
+msgstr "f185637d79de418aac7c720488cb0754"
 
 #: ../session_2/03_data_availability.ipynb:210
 #: 7e23935c0fad40d99c186bfcff97d13d
-msgid "|23c291137e384a3ebdc3129f1b91055f|"
-msgstr ""
+msgid "23c291137e384a3ebdc3129f1b91055f"
+msgstr "23c291137e384a3ebdc3129f1b91055f"
 
 #: ../session_2/03_data_availability.ipynb:212
 #: 4daba02b692c446fbc7cda05eab50e74
@@ -11479,13 +11479,13 @@ msgstr ""
 
 #: ../session_2/05_s2_solution.ipynb:92
 #: 3b50701333824988ac923d736c3c3398
-msgid "|87d26842e543439eb2c94241af4cd1f6|"
-msgstr ""
+msgid "87d26842e543439eb2c94241af4cd1f6"
+msgstr "87d26842e543439eb2c94241af4cd1f6"
 
 #: ../session_3/01_intro_composites.ipynb:101
 #: 6cb6068203224f50a9e1b23ba9b52fd6
-msgid "|ba7117434b3746e6a809025873c74487|"
-msgstr ""
+msgid "ba7117434b3746e6a809025873c74487"
+msgstr "ba7117434b3746e6a809025873c74487"
 
 #: ../session_3/01_intro_composites.ipynb:105
 #: ../session_3/01_intro_composites.ipynb:105
@@ -11496,8 +11496,8 @@ msgstr ""
 
 #: ../session_3/01_intro_composites.ipynb:159
 #: d31e2cfc1d91445593b1eabe7431fc60
-msgid "|7fcf42a8cdc44c689defc77ca16a8e21|"
-msgstr ""
+msgid "7fcf42a8cdc44c689defc77ca16a8e21"
+msgstr "7fcf42a8cdc44c689defc77ca16a8e21"
 
 #: ../session_3/01_intro_composites.ipynb:161
 #: ../session_3/01_intro_composites.ipynb:161
@@ -11513,8 +11513,8 @@ msgstr ""
 
 #: ../session_3/01_intro_composites.ipynb:248
 #: 7b6a4fb3d810435bb799899355eaff98
-msgid "|b9c67d96afb9400d8a6012b0d41a4ae0|"
-msgstr ""
+msgid "b9c67d96afb9400d8a6012b0d41a4ae0"
+msgstr "b9c67d96afb9400d8a6012b0d41a4ae0"
 
 #: ../session_3/01_intro_composites.ipynb:250
 #: ../session_3/01_intro_composites.ipynb:250
@@ -11525,8 +11525,8 @@ msgstr ""
 
 #: ../session_3/01_intro_composites.ipynb:289
 #: a54f89c84ca34ea28273ccb5d2b00465
-msgid "|7f3dbbfc494745f9ada9e082ab569df1|"
-msgstr ""
+msgid "7f3dbbfc494745f9ada9e082ab569df1"
+msgstr "7f3dbbfc494745f9ada9e082ab569df1"
 
 #: ../session_3/01_intro_composites.ipynb:291
 #: ../session_3/01_intro_composites.ipynb:291
@@ -11537,8 +11537,8 @@ msgstr ""
 
 #: ../session_3/01_intro_composites.ipynb:337
 #: 9be71a4b532f48409ec10bd474141867
-msgid "|0970518a40c048e2aa76096e0aae03b3|"
-msgstr ""
+msgid "0970518a40c048e2aa76096e0aae03b3"
+msgstr "0970518a40c048e2aa76096e0aae03b3"
 
 #: ../session_3/01_intro_composites.ipynb:339
 #: ../session_3/01_intro_composites.ipynb:339
@@ -11549,8 +11549,8 @@ msgstr ""
 
 #: ../session_3/01_intro_composites.ipynb:353
 #: bc561b6368064e599746148ed0d19b47
-msgid "|a245c90c7bee444e95a7885a44c1d64c|"
-msgstr ""
+msgid "a245c90c7bee444e95a7885a44c1d64c"
+msgstr "a245c90c7bee444e95a7885a44c1d64c"
 
 #: ../session_3/01_intro_composites.ipynb:357
 #: 9af19c5282e449c3843646cd92f3f492
@@ -11578,8 +11578,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:170
 #: 3cd886502a304f8d9235f930b58eeb99
-msgid "|48937ac5834047a0ad75a108103a2233|"
-msgstr ""
+msgid "48937ac5834047a0ad75a108103a2233"
+msgstr "48937ac5834047a0ad75a108103a2233"
 
 #: ../session_3/02_cloud_masking.ipynb:172
 #: ../session_3/02_cloud_masking.ipynb:172
@@ -11590,8 +11590,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:195
 #: 8fb848646db04ca38ecfdb8bc7abf7e9
-msgid "|8c0250eca93149e79dd274b975c58878|"
-msgstr ""
+msgid "8c0250eca93149e79dd274b975c58878"
+msgstr "8c0250eca93149e79dd274b975c58878"
 
 #: ../session_3/02_cloud_masking.ipynb:197
 #: ../session_3/02_cloud_masking.ipynb:197
@@ -11602,8 +11602,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:244
 #: 2f957224db4b446ea538c1dfd9f59bb0
-msgid "|990231e7c15b414e9d131c92a33c63e9|"
-msgstr ""
+msgid "990231e7c15b414e9d131c92a33c63e9"
+msgstr "990231e7c15b414e9d131c92a33c63e9"
 
 #: ../session_3/02_cloud_masking.ipynb:246
 #: ../session_3/02_cloud_masking.ipynb:246
@@ -11614,8 +11614,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:269
 #: 201da28eeb2247d8b3cc9f07d0bcbca6
-msgid "|8c3d4428145142b9adad19c40fd47f8b|"
-msgstr ""
+msgid "8c3d4428145142b9adad19c40fd47f8b"
+msgstr "8c3d4428145142b9adad19c40fd47f8b"
 
 #: ../session_3/02_cloud_masking.ipynb:271
 #: ../session_3/02_cloud_masking.ipynb:271
@@ -11626,8 +11626,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:294
 #: 3b596c30480c42ff963b4585feab81dd
-msgid "|414083ea93dd4490b123763eb85de9d9|"
-msgstr ""
+msgid "414083ea93dd4490b123763eb85de9d9"
+msgstr "414083ea93dd4490b123763eb85de9d9"
 
 #: ../session_3/02_cloud_masking.ipynb:296
 #: ../session_3/02_cloud_masking.ipynb:296
@@ -11638,8 +11638,8 @@ msgstr ""
 
 #: ../session_3/02_cloud_masking.ipynb:310
 #: 581e0543fa5b4effa840fe03be94bb42
-msgid "|4e393efe2c8e4f319c85873fe56e76aa|"
-msgstr ""
+msgid "4e393efe2c8e4f319c85873fe56e76aa"
+msgstr "4e393efe2c8e4f319c85873fe56e76aa"
 
 #: ../session_3/02_cloud_masking.ipynb:312
 #: ../session_3/02_cloud_masking.ipynb:312
@@ -11655,13 +11655,13 @@ msgstr ""
 
 #: ../session_3/04_s3_solution.ipynb:92
 #: 9086033d478e49748cc762db40617007
-msgid "|03108819bb45496a938711ed0e084a86|"
-msgstr ""
+msgid "03108819bb45496a938711ed0e084a86"
+msgstr "03108819bb45496a938711ed0e084a86"
 
 #: ../session_4/01_band_indices.ipynb:89
 #: f3acb21ff01c44169a96468051e2bbe7
-msgid "|86d60a73cfb64859b1aa6b73e5d2d00b|"
-msgstr ""
+msgid "86d60a73cfb64859b1aa6b73e5d2d00b"
+msgstr "86d60a73cfb64859b1aa6b73e5d2d00b"
 
 #: ../session_4/01_band_indices.ipynb:91
 #: ../session_4/01_band_indices.ipynb:91
@@ -11672,8 +11672,8 @@ msgstr ""
 
 #: ../session_4/01_band_indices.ipynb:127
 #: f1ec1c1c998b465baa0bc8bda665c52b
-msgid "|36c184b43b1f497899af140a629b0e5f|"
-msgstr ""
+msgid "36c184b43b1f497899af140a629b0e5f"
+msgstr "36c184b43b1f497899af140a629b0e5f"
 
 #: ../session_4/01_band_indices.ipynb:129
 #: ../session_4/01_band_indices.ipynb:129
@@ -11684,8 +11684,8 @@ msgstr ""
 
 #: ../session_4/01_band_indices.ipynb:322
 #: d4261c2b04024983a8ee8a37c26d1582
-msgid "|bc61c893d01a45f590428b85893bf809|"
-msgstr ""
+msgid "bc61c893d01a45f590428b85893bf809"
+msgstr "bc61c893d01a45f590428b85893bf809"
 
 #: ../session_4/01_band_indices.ipynb:324
 #: ../session_4/01_band_indices.ipynb:324
@@ -11701,8 +11701,8 @@ msgstr ""
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:130
 #: a2c5b48c134a4f578a216c56fe4d04cb
-msgid "|09691b5c8af8499e9a125c5e188a08b0|"
-msgstr ""
+msgid "09691b5c8af8499e9a125c5e188a08b0"
+msgstr "09691b5c8af8499e9a125c5e188a08b0"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:159
 #: 97aeda33d5b245548dabc659fba5af5c
@@ -11726,28 +11726,28 @@ msgstr ""
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:232
 #: 128a0c8310ca4e8d98e4fdfbefbc17e2
-msgid "|916bf34604e24bf690a34ec9eead2587|"
-msgstr ""
+msgid "916bf34604e24bf690a34ec9eead2587"
+msgstr "916bf34604e24bf690a34ec9eead2587"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:253
 #: 9e0809afca5946a58158448aa3d18f9e
-msgid "|768169565d3546dc8b9008740dac405c|"
-msgstr ""
+msgid "768169565d3546dc8b9008740dac405c"
+msgstr "768169565d3546dc8b9008740dac405c"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:269
 #: 2e0ca038400d419ea0b75555e46616e1
-msgid "|643723ca30ae496285311a6533dd1705|"
-msgstr ""
+msgid "643723ca30ae496285311a6533dd1705"
+msgstr "643723ca30ae496285311a6533dd1705"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:100
 #: e08f1879ae174050944e5f77b3879264
-msgid "|f5eccc39d462478fb13c264b5031da79|"
-msgstr ""
+msgid "f5eccc39d462478fb13c264b5031da79"
+msgstr "f5eccc39d462478fb13c264b5031da79"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:121
 #: 249c2fa9eac544d2a6d1769e9ef865a1
-msgid "|eb9b81eb2fec4dc69df9d2a8fc59523d|"
-msgstr ""
+msgid "eb9b81eb2fec4dc69df9d2a8fc59523d"
+msgstr "eb9b81eb2fec4dc69df9d2a8fc59523d"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:132
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:132
@@ -11758,8 +11758,8 @@ msgstr ""
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:199
 #: 4a32fd5b0fab443e810936619ebf0806
-msgid "|f82088e9573b478090282f90a06d5120|"
-msgstr ""
+msgid "f82088e9573b478090282f90a06d5120"
+msgstr "f82088e9573b478090282f90a06d5120"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:214
 #: 2a65235099ce4516ad4d989138c19f0e
@@ -11768,23 +11768,23 @@ msgstr ""
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:240
 #: f2e6f41254f14872b29b13db5c5c81d4
-msgid "|8a9c8ae1e81240f2b765e12cb82c9a00|"
-msgstr ""
+msgid "8a9c8ae1e81240f2b765e12cb82c9a00"
+msgstr "8a9c8ae1e81240f2b765e12cb82c9a00"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:252
 #: a502947a7b82445b9a85977b17fc14b9
-msgid "|7d91af583cc94f30bf89ed066b384f17|"
-msgstr ""
+msgid "7d91af583cc94f30bf89ed066b384f17"
+msgstr "7d91af583cc94f30bf89ed066b384f17"
 
 #: ../session_4/04_s4_solution.ipynb:94
 #: 2787a6a701d749f2a6b3ae4ed08b8356
-msgid "|0fd9765991204892b76fcdb2d44604d1|"
-msgstr ""
+msgid "0fd9765991204892b76fcdb2d44604d1"
+msgstr "0fd9765991204892b76fcdb2d44604d1"
 
 #: ../session_5/01_vegetation_analysis.ipynb:20
 #: 2b86c375ebfe4fbda2af816d7b74d880
-msgid "|9e5bc6daf61a4a1e9b17dd0c62756655|"
-msgstr ""
+msgid "9e5bc6daf61a4a1e9b17dd0c62756655"
+msgstr "9e5bc6daf61a4a1e9b17dd0c62756655"
 
 #: ../session_5/01_vegetation_analysis.ipynb:22
 #: ../session_5/01_vegetation_analysis.ipynb:22
@@ -11795,8 +11795,8 @@ msgstr ""
 
 #: ../session_5/01_vegetation_analysis.ipynb:86
 #: 25f2afaa38ce447e93ada3fb5e9349f5
-msgid "|2270bbb37281401c9d05ad89dd76a04f|"
-msgstr ""
+msgid "2270bbb37281401c9d05ad89dd76a04f"
+msgstr "2270bbb37281401c9d05ad89dd76a04f"
 
 #: ../session_5/01_vegetation_analysis.ipynb:88
 #: ../session_5/01_vegetation_analysis.ipynb:88
@@ -11807,8 +11807,8 @@ msgstr ""
 
 #: ../session_5/01_vegetation_analysis.ipynb:228
 #: cc08291f93d94102a1397306528d1f29
-msgid "|59c399aee41942c0a61e3a6fa64dc27e|"
-msgstr ""
+msgid "59c399aee41942c0a61e3a6fa64dc27e"
+msgstr "59c399aee41942c0a61e3a6fa64dc27e"
 
 #: ../session_5/01_vegetation_analysis.ipynb:230
 #: ../session_5/01_vegetation_analysis.ipynb:230
@@ -11819,8 +11819,8 @@ msgstr ""
 
 #: ../session_5/02_vegetation_exercise.ipynb:218
 #: 4581b21c188e4e7f974e468cf3d6f867
-msgid "|61a088e92cdf4929b7848a5cac840376|"
-msgstr ""
+msgid "61a088e92cdf4929b7848a5cac840376"
+msgstr "61a088e92cdf4929b7848a5cac840376"
 
 #: ../session_5/02_vegetation_exercise.ipynb:220
 #: ../session_5/02_vegetation_exercise.ipynb:220
@@ -11851,8 +11851,8 @@ msgstr ""
 
 #: ../session_5/02_vegetation_exercise.ipynb:647
 #: f4527b74c25a4e18bb03c32dc6baa881
-msgid "|bc62a7d947ad4659a64e536fecfcabe9|"
-msgstr ""
+msgid "bc62a7d947ad4659a64e536fecfcabe9"
+msgstr "bc62a7d947ad4659a64e536fecfcabe9"
 
 #: ../session_5/02_vegetation_exercise.ipynb:649
 #: ../session_5/02_vegetation_exercise.ipynb:649
@@ -11863,13 +11863,13 @@ msgstr ""
 
 #: ../session_5/03_s5_solution.ipynb:92
 #: a6f2fc9c615b4034925b662d7d398b8c
-msgid "|dc1f25139b5f434496062471f53553d1|"
-msgstr ""
+msgid "dc1f25139b5f434496062471f53553d1"
+msgstr "dc1f25139b5f434496062471f53553d1"
 
 #: ../session_6/01_intro_water_analyses.ipynb:55
 #: 3941fa9c252441d38e95bcd570420b3f
-msgid "|d21b94b196e84a12962a0b746a6c7563|"
-msgstr ""
+msgid "d21b94b196e84a12962a0b746a6c7563"
+msgstr "d21b94b196e84a12962a0b746a6c7563"
 
 #: ../session_6/01_intro_water_analyses.ipynb:57
 #: ../session_6/01_intro_water_analyses.ipynb:57
@@ -11880,8 +11880,8 @@ msgstr ""
 
 #: ../session_6/01_intro_water_analyses.ipynb:212
 #: 592e5c16ddb647bdb002ec716c6e00e1
-msgid "|dac2d2585ded4ce9b76a42bf23f3f4d1|"
-msgstr ""
+msgid "dac2d2585ded4ce9b76a42bf23f3f4d1"
+msgstr "dac2d2585ded4ce9b76a42bf23f3f4d1"
 
 #: ../session_6/01_intro_water_analyses.ipynb:214
 #: ../session_6/01_intro_water_analyses.ipynb:214
@@ -11892,8 +11892,8 @@ msgstr ""
 
 #: ../session_6/02_water_extent.ipynb:219
 #: 5900f932eb7d46d39a55ea2a75820fd8
-msgid "|b02dd6efbd5b4a4c9c4b3dcc3231cbb7|"
-msgstr ""
+msgid "b02dd6efbd5b4a4c9c4b3dcc3231cbb7"
+msgstr "b02dd6efbd5b4a4c9c4b3dcc3231cbb7"
 
 #: ../session_6/02_water_extent.ipynb:237
 #: ../session_6/02_water_extent.ipynb:241
@@ -11916,21 +11916,21 @@ msgstr ""
 
 #: ../session_6/02_water_extent.ipynb:235
 #: e266df38cf0b4e56a73b85f57f81d16e
-msgid "|fea270a24e6f43e98554e5c80635e48f|"
-msgstr ""
+msgid "fea270a24e6f43e98554e5c80635e48f"
+msgstr "fea270a24e6f43e98554e5c80635e48f"
 
 #: ../session_6/02_water_extent.ipynb:393
 #: c255f02bc93b440aa58cadfb564d0648
-msgid "|3d73a06682de4dacb7c19d473b4109ab|"
-msgstr ""
+msgid "3d73a06682de4dacb7c19d473b4109ab"
+msgstr "3d73a06682de4dacb7c19d473b4109ab"
 
 #: ../session_6/02_water_extent.ipynb:434
 #: bfc1bfb3199244298815f1941f7fbb3b
-msgid "|d41acd5c12f3469d9d76513e99921e71|"
-msgstr ""
+msgid "d41acd5c12f3469d9d76513e99921e71"
+msgstr "d41acd5c12f3469d9d76513e99921e71"
 
 #: ../session_6/03_s6_solution.ipynb:94
 #: f771517913ec4670ba27ab4c13ef6dfc
-msgid "|75205cc873704e8fbe0222b0af8b5982|"
-msgstr ""
+msgid "75205cc873704e8fbe0222b0af8b5982"
+msgstr "75205cc873704e8fbe0222b0af8b5982"
 

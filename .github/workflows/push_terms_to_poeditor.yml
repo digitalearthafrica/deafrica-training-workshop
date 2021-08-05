@@ -1,7 +1,7 @@
 name: "Export terms to POEditor"
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   docs:
@@ -14,7 +14,7 @@ jobs:
       env:
         GITHUB_ACTIONS: 1
       with:
-        docs-folder: "./"
+        docs-folder: "./docs/"
         pre-build-command: "apt-get update -y && apt-get install -y pandoc git"
         build-command: "sphinx-build -T -b gettext . _build"
     - name: Install dependencies
@@ -22,20 +22,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install poeditor
     - name: Display the dir
-      run: ls -la ./_build
+      run: ls -la ./docs/_build
       shell: bash
     - name: CHMOD
-      run: sudo chmod a+rw ./_build/docs.pot
+      run: sudo chmod a+rw ./docs/_build/docs.pot
       shell: bash
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with:
         name: save-docs-pot
         path: |
-          ./_build/*.pot
+          ./docs/_build/*.pot
     - name: Upload terms
       env:
         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
         POEDITOR_PROJECT_ID: "392089"
       run: |
-        python upload_terms.py
+        python docs/upload_terms.py

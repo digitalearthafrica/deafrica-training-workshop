@@ -38,4 +38,4 @@ jobs:
         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
         POEDITOR_PROJECT_ID: "392089"
       run: |
-        python docs/upload_terms.py
+        cd docs && python upload_terms.py

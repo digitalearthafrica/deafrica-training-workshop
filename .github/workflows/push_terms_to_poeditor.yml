@@ -1,0 +1,41 @@
+name: "Export terms to POEditor"
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+    - name: Build sphinx terms
+      uses: ammaraskar/sphinx-action@35082eb35b69713fe335801c4d5846a4cc3c91ff
+      env:
+        GITHUB_ACTIONS: 1
+      with:
+        docs-folder: "./"
+        pre-build-command: "apt-get update -y && apt-get install -y pandoc git"
+        build-command: "sphinx-build -T -b gettext . _build"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install poeditor
+    - name: Display the dir
+      run: ls -la ./_build
+      shell: bash
+    - name: CHMOD
+      run: sudo chmod a+rw ./_build/docs.pot
+      shell: bash
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: save-docs-pot
+        path: |
+          ./_build/*.pot
+    - name: Upload terms
+      env:
+        POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
+        POEDITOR_PROJECT_ID: "392089"
+      run: |
+        python upload_terms.py

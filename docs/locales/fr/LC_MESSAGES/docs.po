@@ -314,10 +314,6 @@ msgstr "Fluctuations de l'étendue de l'eau sur les barrages ou les bassins vers
 msgid "You can also try selecting a different index from the ``calculate_indices`` function. The full list of available indices can be viewed by accessing the **Scripts** folder in the Sandbox, and opening ``deafrica_bandindices.py``."
 msgstr "Vous pouvez également essayer de sélectionner un indice différent à partir de la fonction ``calculate_indices``. La liste complète des indices disponibles peut être consultée en accédant au dossier **Scripts** dans le bac à sable, et en ouvrant ``deafrica_bandindices.py``."
 
-#: ../../Course_wrap-up.ipynb:152 c758db2393114601b70b5baaacb0d756
-msgid "2. Consolidate your Python knowledge using the Beginner's Guide tutorials"
-msgstr "2. Consolidez vos connaissances Python à l'aide des didacticiels du Guide du débutant"
-
 #: ../../Course_wrap-up.ipynb:163 e3f3f2c994e7433fb7e3427ba3cee558
 msgid "During the six sessions, we gradually introduced Python coding concepts with hands-on examples. If you would like to study the theory behind some of the functions and commands we used, have a look at the **Beginners_guide** folder in the Sandbox."
 msgstr "Au cours des six sessions, nous avons progressivement introduit les concepts de codage Python à l'aide d'exemples pratiques. Si vous souhaitez étudier la théorie derrière certaines des fonctions et commandes que nous avons utilisées, consultez le dossier **Beginners_guide** dans le bac à sable."
@@ -335,11 +331,6 @@ msgstr "3. Explorez des exemples du monde réel"
 #: 9923c9d38d9c43c1b5195f1e995cbe07
 msgid "The case studies we created in Sessions 5 and 6 were based off more complex analyses documented in the **Real_world_examples** folder of the Sandbox."
 msgstr "Les études de cas que nous avons créées dans les sessions 5 et 6 étaient basées sur des analyses plus complexes documentées dans le dossier **Real_world_examples** du bac à sable."
-
-#: ../Course_wrap-up.ipynb:213
-#: fed4c151de8c4a1389b6b71bd547837d
-msgid "These case studies often have a few more data processing steps than the exercises in the training course. After reviewing the Beginner's Guide contents, these steps should be more accessible and easy to understand."
-msgstr "Ces études de cas comportent souvent quelques étapes de traitement des données de plus que les exercices du cours de formation. Après avoir examiné le contenu du guide du débutant, ces étapes devraient être plus accessibles et faciles à comprendre."
 
 #: ../Course_wrap-up.ipynb:224
 #: 397c908e3c9c4907a26a0addd6509816
@@ -369,11 +360,6 @@ msgstr "Rester en contact"
 #: 123aca21ed214beb9794ae4366031c53
 msgid "Thank you for joining us to explore Digital Earth Africa. We hope you found the training course helpful and informative."
 msgstr "Merci de vous joindre à nous pour explorer Digital Earth Africa. Nous espérons que vous avez trouvé la formation utile et informative."
-
-#: ../Course_wrap-up.ipynb:283
-#: a519f5021b704f409c59a507284333b8
-msgid "If you have any questions or feedback on the Digital Earth Africa training course, don't hesitate to `contact the course convenors or access the community knowledge bank on Slack <./Contact_us.ipynb>`__."
-msgstr "Si vous avez des questions ou des commentaires sur le cours de formation Digital Earth Africa, n'hésitez pas à `contacter les organisateurs du cours ou à accéder à la banque de connaissances communautaire sur Slack <./Contact_us.ipynb>`__."
 
 #: ../Course_wrap-up.ipynb:285
 #: ba7d5c3c859740e59bf3e4369b73fbb1
@@ -443,11 +429,6 @@ msgstr "Sélectionnez **Launch Server** et **Start**."
 #: b9df2b523017421c826b547ad6841581
 msgid "I have fallen behind on course content. Can I still complete the course?"
 msgstr "J'ai pris du retard sur le contenu des cours. Puis-je quand même terminer le cours?"
-
-#: ../Frequently_asked_questions.ipynb:95
-#: 503a9c9dec554df0b4e56240e353fe5d
-msgid "Yes. It is recommended to spend 2 hours a week on new content. This will allow you to build on the previous week's content and finish the training course in around 6 weeks. However, this training course is self-paced, so there is no cut-off date for access. You are encouraged and welcome to spend more time on the course as necessary."
-msgstr "Oui. Il est recommandé de passer 2 heures par semaine sur du nouveau contenu. Cela vous permettra de vous appuyer sur le contenu de la semaine précédente et de terminer la formation en environ 6 semaines. Cependant, ce cours de formation est auto-rythmé, il n'y a donc pas de date limite d'accès. Vous êtes encouragé et invité à passer plus de temps sur le cours si nécessaire."
 
 #: ../Frequently_asked_questions.ipynb:97
 #: 1ce83986ab4348e8ad8bb471208a9441
@@ -994,11 +975,6 @@ msgstr "Naviguer sur la carte"
 #: ../../Maps_help.ipynb:98 fed62d9f2a504fbaa7e0528bd233e8b2
 msgid "|d160d701952a41d5a6da1e7edd9400b2|"
 msgstr "| d160d701952a41d5a6da1e7edd9400b2 |"
-
-#: ../Maps_help.ipynb:100
-#: e0f3feb161e84e9cafcb4562aa44880a
-msgid "There are multiple ways to navigate DE Africa Map's map view:"
-msgstr "Il existe plusieurs façons de naviguer dans la vue cartographique de DE Africa Map:"
 
 #: ../Maps_help.ipynb:103
 #: a60d618d4d8341e4b86a565726b84cb0
@@ -1646,10 +1622,6 @@ msgstr "Nous créons une nouvelle connexion à l'Open Data Cube, et la sauvegard
 msgid "Select area of interest"
 msgstr "Sélectionnez la zone d'intérêt"
 
-#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:119
-msgid "Below, we save the lat/lon extents of our area of interest into variables that we will use to load the data. We use the 'buffer method' to define the area in terms of a center point plus or minus a buffer of 0.2 degrees. In the previous exercie we used a single buffer variable for both latitude and longitude; this time we will define both a ``lat_buffer`` and a ``lon_buffer`` so that we can easily define a rectangular region of interest."
-msgstr "Ci-dessous, nous enregistrons les étendues lat/lon de notre zone d'intérêt dans des variables que nous utiliserons pour charger les données. Nous utilisons la 'méthode du tampon' pour définir la zone en termes de point central plus ou moins un tampon de 0,2 degrés. Dans l'exercice précédent, nous avons utilisé une seule variable tampon pour la latitude et la longitude ; cette fois-ci, nous allons définir à la fois un ``lat_buffer`` et un ``lon_buffer`` afin de pouvoir facilement définir une région rectangulaire d'intérêt."
-
 #: ../session_6/02_water_extent.ipynb:158
 #: e0c8463112654e558cbad76e9709cda9
 msgid "Create query object"
@@ -1663,10 +1635,6 @@ msgstr "Dans la cellule suivante, nous créons un dictionnaire Python et l'assig
 #: 220cdeda60664841b70e03a78b01565d
 msgid "Load Landsat 8"
 msgstr "Charger Landsat 8"
-
-#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:260
-msgid "Note that the following call to ``load_ard`` omits several of the parameters we're used to seeing (such as the extents and resolution). Instead we use the ``query`` variable that we defined above. Passing ``**query`` tells Python to send each of the values stored in the dictionary to ``load_ard`` as if we had supplied that value for the parameter identified by the corresponding key. For example, since the ``query`` dictionary defines ``'x'`` to be ``lon_range``, it is as if we had included the usual ``x = lon_range,`` line in our call to ``load_ard``."
-msgstr "Notez que l'appel suivant à ``load_ard`` omet plusieurs des paramètres que nous avons l'habitude de voir (comme les extents et la résolution). A la place, nous utilisons la variable ``query`` que nous avons définie plus haut. Passer la variable ``**query`` indique à Python d'envoyer chacune des valeurs stockées dans le dictionnaire à ``load_ard`` comme si nous avions fourni cette valeur pour le paramètre identifié par la clé correspondante. Par exemple, puisque le dictionnaire ``query`` définit ``x`` comme étant ``lon_range``, c'est comme si nous avions inclus la ligne habituelle ``x = lon_range`` dans notre appel à ``load_ard``."
 
 #: ../session_6/02_water_extent.ipynb:222
 #: da2cd1ace0034a85bbab244d36a4ff73
@@ -1700,10 +1668,6 @@ msgstr "Lorsque nous visualisons le contenu de la variable ``ds_valid_water``, n
 msgid "Calculate the area per pixel"
 msgstr "Calculez la surface par pixel"
 
-#: ../../_static/session_6/Water_extent_exercise-solution.ipynb:2058
-msgid "We can calculate the area of a pixel by converting its resolution (which we specified in meters per pixel in our ``query`` variable's ``'resolution'`` key) into square kilometers per pixel:"
-msgstr "Nous pouvons calculer la surface d'un pixel en convertissant sa résolution (que nous avons spécifiée en mètres par pixel dans la clé ``Resolution'`` de notre variable ``query'') en kilomètres carrés par pixel :"
-
 #: ../session_6/02_water_extent.ipynb:339
 #: a25cafd6029540f691d28591a2c46269
 msgid "Calculate area of water pixels"
@@ -1735,16 +1699,6 @@ msgstr "Enfin, nous choisissons l'un des moments de notre série chronologique p
 msgid "Sandbox help documentation"
 msgstr "Documentation d'aide de Sandbox"
 
-#: ../help_documentation.ipynb:11
-#: c32b8274a6254e0eaf7d9c48d61cd2b2
-msgid "The Digital Earth Africa Sandbox, by default, will load several folders containing helpful notebooks and source code. They are essential to the Sandbox's operation, so do not delete or move any of the files."
-msgstr "Le bac à sable Digital Earth Africa, par défaut, chargera plusieurs dossiers contenant des blocs-notes utiles et du code source. Ils sont essentiels au fonctionnement du Sandbox, donc ne supprimez ni ne déplacez aucun des fichiers."
-
-#: ../help_documentation.ipynb:13
-#: 3dc6c48d427e4038a9b71af57f9917f9
-msgid "The Beginner's Guide notebooks cover similar material to the explanations and exercises in this workshop series. However, they also provides more in-depth detail on how to perform data extraction and analysis. The Beginner's Guide notebooks, along with the 'frequently used code' notebooks, are a great reference tool."
-msgstr "Les cahiers du Guide du débutant couvrent des éléments similaires aux explications et aux exercices de cette série d'ateliers. Cependant, ils fournissent également des détails plus détaillés sur la façon d'exécuter l'extraction et l'analyse des données. Les blocs-notes du Guide du débutant, ainsi que les blocs-notes «code fréquemment utilisé», sont un excellent outil de référence."
-
 #: ../help_documentation.ipynb:15
 #: f5f4efb173124882ae01b3893a07cd4b
 msgid "This section provides a summary of these folders and their contents. It also contains some recommended but **not compulsory** activities that will help increase your familiarity with Digital Earth Africa and the Sandbox."
@@ -1759,11 +1713,6 @@ msgstr "Pour obtenir des conseils sur la façon d'accéder aux fichiers et aux d
 #: f94f1736d0374d7b8cc9fc02a7d341d8
 msgid "For a review on how to execute code in a notebook, see this section on `running a notebook <./session_1/04_running_a_notebook.ipynb>`__."
 msgstr "Pour un examen de la façon d'exécuter du code dans un notebook, voir cette section sur `l'exécution d'un notebook <./session_1/04_running_a_notebook.ipynb>`__."
-
-#: ../help_documentation.ipynb:31
-#: f1896993993e40aba61f498ac3a734d0
-msgid "Beginner's Guide - start here"
-msgstr "Guide du débutant - commencez ici"
 
 #: ../../help_documentation.ipynb:33 a1faa5b737e34f0699be2cbbc02b01f4
 msgid "|3c778e1898b449a8b2ebde7edab558a6|"
@@ -1783,11 +1732,6 @@ msgstr "Si vous n'êtes toujours pas clair sur la portée et l'objectif de Digit
 #: 45bce081d3c54fb9a02b6e99819eea9a
 msgid "The notebooks are numbered in progress order; start at ``01_Jupyter_notebooks.ipynb``. There are no prerequisites to be able to complete this notebook."
 msgstr "Les carnets sont numérotés dans l'ordre d'avancement ; commencez à ``01_Jupyter_notebooks.ipynb``. Il n'y a pas de pré-requis pour pouvoir compléter ce carnet."
-
-#: ../help_documentation.ipynb:41
-#: b60b17ed769a47d6a0fc764258a1c68b
-msgid "**Suggested activity:** Read and follow examples in the Beginner's Guide notebooks, starting with ``01_Jupyter_notebooks.ipynb``. This can be done interactively (recommended), as detailed in `running a notebook <./session_1/04_running_a_notebook.ipynb>`__. Open the file and from the horizontal menu bar select **Kernel -> Restart Kernel and Clear All Outputs**, then follow instructions in the notebook."
-msgstr "**Activité suggérée:** Lisez et suivez les exemples dans les notebooks du Guide du débutant, en commençant par ``01_Jupyter_notebooks.ipynb``. Cela peut être fait de manière interactive (recommandé), comme détaillé dans `l'exécution d'un notebook <./session_1/04_running_a_notebook.ipynb>`__. Ouvrez le fichier et dans la barre de menu horizontale, sélectionnez **Kernel -> Restart Kernel and Clear All Outputs**, puis suivez les instructions du notebook."
 
 #: ../help_documentation.ipynb:43
 #: 0ded470c93ef46c6aa8aa4536ab3a42e
@@ -1826,11 +1770,6 @@ msgstr "Exemples du monde réel"
 #: ../../help_documentation.ipynb:84 f6e350d16df04d65a89b42ff69a3117c
 msgid "|948213747587460a8750768e69d7d401|"
 msgstr "| 948213747587460a8750768e69d7d401 |"
-
-#: ../help_documentation.ipynb:86
-#: 6cb448941f5b47d9b63fc81b5152f7a9
-msgid "The analytical power of the Sandbox is shown in the folder **Real_world_examples**. This folder contains multiple notebooks which cater to 'real world' use cases, from monitoring crop health to detecting water."
-msgstr "La puissance analytique de l'Environnement de test est illustrée dans le dossier **Real_world_examples**. Ce dossier contient plusieurs carnets de notes qui répondent à des cas d'utilisation du \"monde réel\", de la surveillance de la santé des cultures à la détection de l'eau."
 
 #: ../help_documentation.ipynb:88
 #: e1bb54765acf401d8f49fe05a1169fa9
@@ -1950,11 +1889,6 @@ msgstr "L'Afrique est un continent avec un environnement riche et diversifié qu
 #: f46c1cf31c804be69d14e14c6b8874c0
 msgid "The Digital Earth Africa (DE Africa) program aims to increase this understanding through three main tenets:"
 msgstr "Le programme Digital Earth Africa (DE Africa) vise à accroître cette compréhension à travers trois principes principaux:"
-
-#: ../session_1/01_what_is_digital_earth_africa.ipynb:38
-#: 5b991b277b134c5e8e33698c3b2a56bd
-msgid "**Explore**: Allow access to satellite data in ways that address Africa's needs"
-msgstr "**Explore** : Permettre l'accès aux données satellitaires de manière à répondre aux besoins de l'Afrique."
 
 #: ../session_1/01_what_is_digital_earth_africa.ipynb:39
 #: d9acc23c128b4dd095db0373cd937faa
@@ -2249,11 +2183,6 @@ msgstr "Pour plus d'informations, reportez-vous à cette section de la documenta
 msgid "Close a Jupyter Notebook"
 msgstr "Fermer un bloc-notes Jupyter"
 
-#: ../../session_1/03_navigate_the_sandbox.ipynb:101
-#: ba9ceb0bc057435eba417537176a4ee9
-msgid "Closing a notebook browser tab will not shut down its 'computational engine' (called the kernel). It is good practice to shut down the kernel of any notebooks you aren't using, as it will free up memory in your Sandbox session. Follow the instructions below to completely shut down the notebook you opened in the previous section."
-msgstr "La fermeture d’un onglet de navigateur de notebook n’arrêtera pas son «moteur de calcul» (appelé noyau). Il est conseillé d’arrêter le noyau de tous les blocs-notes que vous n’utilisez pas, car cela libèrera de la mémoire dans votre session Sandbox. Suivez les instructions ci-dessous pour arrêter complètement le portable que vous avez ouvert dans la section précédente."
-
 #: ../session_1/03_navigate_the_sandbox.ipynb:103
 #: ef44f5a6ab4748a484a51cf63eb248df
 msgid "With the notebook open, click on the menu option **File -> Close and Shutdown Notebook**."
@@ -2323,11 +2252,6 @@ msgstr "Créer une copie du cahier"
 #: 365861b96f7d49219706bd3faebbd14c
 msgid "The Sandbox comes with a large number of existing notebooks, which you can use as reference material. To keep these in their original format, we recommend making a copy of a notebook when you want to run it. For the rest of this training material, we will ask you to make copies of notebooks and store them in a new **Training** folder. Follow the instructions below to set up this folder and add a copy of the notebook for this session."
 msgstr "L'Environnement de test est livré avec un grand nombre de carnets existants, que vous pouvez utiliser comme matériel de référence. Pour les conserver dans leur format d'origine, nous vous recommandons de faire une copie d'un carnet lorsque vous souhaitez l'utiliser. Pour le reste de ce matériel de formation, nous vous demanderons de faire des copies des carnets et de les stocker dans un nouveau dossier **Training**. Suivez les instructions ci-dessous pour configurer ce dossier et ajouter une copie du carnet de notes pour cette session."
-
-#: ../session_1/04_running_a_notebook.ipynb:79
-#: 79c8d7144f5648a9a9a679a1f9c449f0
-msgid "Click the **Folder icon** in the folder path to make sure you're in the **Home** folder."
-msgstr "Cliquez sur l'icône **Dossier** dans le chemin du dossier pour vous assurer que vous êtes dans le dossier **Home**."
 
 #: ../../session_1/04_running_a_notebook.ipynb:72
 msgid "|1350456745fb42c7a87a3ba21a5d85fb|"
@@ -2538,11 +2462,6 @@ msgstr "Appuyez sur ``Maj + Entrée`` sur votre clavier pour exécuter la cellul
 msgid "When the cell has finished running, the ``[ ]`` icon to the left of the cell should change to ``[3]``."
 msgstr "Lorsque la cellule a fini de fonctionner, l'icône ``[ ]`` à gauche de la cellule doit se transformer en ``[3]``."
 
-#: ../session_1/04_running_a_notebook.ipynb:321
-#: b31ec341b0b945b89f6b3fedc2d130be
-msgid "As the cell is running, you should see outputs describing the function's actions. The output is shown in the image below:"
-msgstr "Lorsque la cellule est en cours d’exécution, vous devriez voir des sorties décrivant les actions de la fonction. La sortie est affichée dans l'image ci-dessous:"
-
 #: ../../session_1/04_running_a_notebook.ipynb:166
 msgid "|d187166a56454707950e9d146eeda7e5|"
 msgstr "| d187166a56454707950e9d146eeda7e5 |"
@@ -2628,11 +2547,6 @@ msgstr "Toutes nos félicitations! Vous avez terminé la première session de ce
 msgid "Optional activity"
 msgstr "Activité optionnelle"
 
-#: ../../session_1/04_running_a_notebook.ipynb:291
-#: 521603b43e494538a10efbd63a704cb3
-msgid "If you'd like to re-run this notebook using a different area of interest, follow these steps:"
-msgstr "Si vous souhaitez réexécuter ce bloc-notes en utilisant un autre domaine d'intérêt, procédez comme suit:"
-
 #: ../session_1/04_running_a_notebook.ipynb:439
 #: 3fe240fe9f31428ca3c640d00f25ba9c
 msgid "Restart the notebook and clear all outputs."
@@ -2690,11 +2604,6 @@ msgstr "Quiz"
 #: 06ea7a00281e4254a8fef332d2e92270
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
 msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://forms.gle/ShuYhKvhjhg1rKqA7>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
-
-#: ../session_1/05_s1_quiz.ipynb:45
-#: e280fa70e57446268795a50274ac8594
-msgid "The quiz will ask you to use the Crop Health notebook you developed for this session's exercise. To review the exercise, visit the section **Running a Notebook** or click the **Previous** button."
-msgstr "Le questionnaire vous demandera d'utiliser le carnet de notes sur la santé des cultures que vous avez élaboré pour l'exercice de cette session. Pour revoir l'exercice, visitez la section **Exécution d'un carnet de notes** ou cliquez sur le bouton **Précédent**."
 
 #: ../session_1/index.rst:4
 #: a02e2ae013dc49e7a644539eb90dfcf0
@@ -2781,30 +2690,15 @@ msgstr "| Sentinel2 |"
 msgid "*An artistic rendering of one of the Sentinel-2 satellites.* [`Source <https://www.esa.int/Enabling_Support/Operations/Sentinel-2_operations>`__]"
 msgstr "*Un rendu artistique d'un des satellites Sentinel-2.* [`Source <https://www.esa.int/Enabling_Support/Operations/Sentinel-2_operations>`__]"
 
-#: ../session_2/01_products_intro.ipynb:119
-#: f239ebff062944ca9b233732c7ed47be
-msgid "Satelllite products are datasets output from satellites orbiting Earth. These datasets have undergone some pre-processing by the satellite operators, but are otherwise 'raw' data, measuring quantities such as reflectance, radiation and surface temperature."
-msgstr "Les produits Satelllite sont des ensembles de données provenant de satellites en orbite autour de la Terre. Ces ensembles de données ont subi un certain prétraitement par les opérateurs de satellites, mais sont par ailleurs des données «brutes», mesurant des quantités telles que la réflectance, le rayonnement et la température de surface."
-
 #: ../session_2/01_products_intro.ipynb:121
 #: 5ed7daf325fe4cc38ee446044719d6c1
 msgid "These products are fundamental to Earth observation analytics. They are distinguished by a few key attributes:"
 msgstr "Ces produits sont fondamentaux pour l'analyse de l'observation de la Terre. Ils se distinguent par quelques attributs clés:"
 
-#: ../session_2/01_products_intro.ipynb:123
-#: 08dcfa4e124a4b0a8ccc6e2aa9dd7c8a
-msgid "**Spatial resolution (how detailed):** Spatial resolution refers to the pixel size of the satellite product. It is the smallest thing the satellite can 'see'. A 30 m :math:`\\times` 30 m spatial resolution means the satellite product cannot pick up any details smaller than 30 m :math:`\\times` 30 m."
-msgstr "**Résolution spatiale (degré de détail):** La résolution spatiale fait référence à la taille du pixel du produit satellite. Il s'agit de la plus petite chose que le satellite peut \"voir\". Une résolution spatiale de 30 m :math:`\\times` 30 m signifie que le produit satellite ne peut capter aucun détail plus petit que 30 m :math:`\\times` 30 m."
-
 #: ../session_2/01_products_intro.ipynb:134
 #: 7d124e94391345a59663905599415585
 msgid "**Temporal resolution (how often):** Satellites pass over different parts of the Earth at different times of the day and month. The frequency of measurements depends on how many satellites are contributing to the product."
 msgstr "**Résolution temporelle (fréquence):** Les satellites passent au-dessus de différentes parties de la Terre à différents moments de la journée et du mois. La fréquence des mesures dépend du nombre de satellites qui contribuent au produit."
-
-#: ../session_2/01_products_intro.ipynb:145
-#: b38b6f0dde2b4c178a91a57e1b0a4a8b
-msgid "**Spectral resolution (how versatile):** Spectral resolution refers to the sensors on the satellite. The sensors are calibrated to collect measurements in certain wavelengths of the electromagnetic spectrum, known as 'bands'. Different bands are used for identifying different features on Earth, so the more bands a product has, the more versatile it is."
-msgstr "**Résolution spectrale (quelle polyvalence):** La résolution spectrale fait référence aux capteurs du satellite. Les capteurs sont calibrés pour recueillir des mesures dans certaines longueurs d'onde du spectre électromagnétique, appelées \"bandes\". Les différentes bandes sont utilisées pour identifier différentes caractéristiques de la Terre. Ainsi, plus un produit possède de bandes, plus il est polyvalent."
 
 #: ../session_2/01_products_intro.ipynb:156
 #: 82b698c173174eb0a73ce421dfaf2436
@@ -2820,11 +2714,6 @@ msgstr "Produit satellite: Landsat 8"
 #: 7e0ec429e28646d9b61828dfee1659ae
 msgid "Landsat 8 is the latest iteration of the Landsat program run jointly by the United States Geological Survey (USGS) and National Aeronautics and Space Administration (NASA). It consists of one satellite in a polar orbit, launched on February 11, 2013, and is still in operation today."
 msgstr "Landsat 8 est la dernière version du programme Landsat géré conjointement par le United States Geological Survey (USGS) et la National Aeronautics and Space Administration (NASA). Il consiste en un satellite en orbite polaire, lancé le 11 février 2013, et est toujours en service aujourd'hui."
-
-#: ../../session_2/01_products_intro.ipynb:181
-#: 76329d755bf5486a843dc737b08d1bc1
-msgid "The Landsat data is organised by collections. Until recently, only Collection 1 was available, but USGS upgraded their pre-processing methodology. This gave rise to a new version of the Landsat data, titled 'Collection 2'. Collection 2 is planned for public release soon."
-msgstr "Les données Landsat sont organisées par collections. Jusqu'à récemment, seule la collection 1 était disponible, mais l'USGS a amélioré sa méthodologie de prétraitement. Cela a donné lieu à une nouvelle version des données Landsat, intitulée «Collection 2». La collection 2 est prévue pour une sortie publique prochainement."
 
 #: ../session_2/01_products_intro.ipynb:183
 #: 967443cb01be48ef83b983535fb5c47c
@@ -2883,11 +2772,6 @@ msgstr "Pour plus de détails, consultez le fichier ``Landsat_collections.ipynb`
 msgid "Satellite product: Sentinel-2"
 msgstr "Produit satellite: Sentinel-2"
 
-#: ../session_2/01_products_intro.ipynb:233
-#: a150c8ff37194fbdb7ca0487f993265f
-msgid "The Sentinel-2 mission is part of the European Union 'Copernicus' Earth observation programme. Sentinel-2 consists of twin satellites, Sentinel-2A (launched 23 June 2015) and Sentinel-2B (launched 7 March 2017). Their combined data is used in the Digital Earth Africa Sentinel-2 product."
-msgstr "La mission Sentinel-2 fait partie du programme d’observation de la Terre Copernicus de l’Union européenne. Sentinel-2 se compose de deux satellites, Sentinel-2A (lancé le 23 juin 2015) et Sentinel-2B (lancé le 7 mars 2017). Leurs données combinées sont utilisées dans le produit Digital Earth Africa Sentinel-2."
-
 #: ../session_2/01_products_intro.ipynb:235
 #: 5909847171134fa0be4b3bd7dda4fd26
 msgid "Like the Landsat datasets, Sentinel-2 data is tiered by level of pre-processing. Level-0, Level-1A and Level-1B data contain raw data from the satellites, with little to no pre-processing. Level-1C has been corrected to top-of-atmosphere reflectance, while Level-2A is bottom-of-atmosphere reflectance. As with Landsat, the Level-2A bottom-of-atmosphere measurements are most ideal for further research activities."
@@ -2940,11 +2824,6 @@ msgstr "Notez que les données autonomes Sentinel-2A existent pour la période 2
 msgid "For more details, see ``Sentinel_2.ipynb`` in the **Datasets** folder of the Sandbox."
 msgstr "Pour plus de détails, voir ``Sentinel_2.ipynb`` dans le dossier **Datasets** de l'Environnement de test."
 
-#: ../session_2/01_products_intro.ipynb:274
-#: 0d78fe8a28fb4f0088a3ae5afda19444
-msgid "Which satellite product is 'best'?"
-msgstr "Quel produit satellite est «meilleur»?"
-
 #: ../session_2/01_products_intro.ipynb:285
 #: 381aca69046143b1979fd1e6aee718a2
 msgid "This question depends on the analysis you are doing. It helps to consider the available resolutions of the satellite products. For example:"
@@ -2984,11 +2863,6 @@ msgstr "Dans cette section, nous allons vous montrer comment naviguer sur la `Ca
 #: 800aa30a5ff84b54a6f0fd4896c72276
 msgid "Video: Introduction to the DE Africa Map"
 msgstr "Vidéo: Introduction à la carte de l'Afrique DE"
-
-#: ../session_2/02_deafrica_map.ipynb:57
-#: 59e98c133f8442e69461010f2b77f923
-msgid "This video will show you the basics of the Digital Earth Africa Map portal. In the video, a derived product (called 'Water Observations from Space') is loaded."
-msgstr "Cette vidéo vous montrera les bases du portail Digital Earth Africa Map. Dans la vidéo, un produit dérivé (appelé «Observations de l’eau depuis l’espace») est chargé."
 
 #: ../session_2/02_deafrica_map.ipynb:59
 #: db6df4e9fcdb4758a15fbd76da646c01
@@ -3315,20 +3189,10 @@ msgstr "L'affichage **de la carte** montrera maintenant tous les ensembles de do
 msgid "|5323a00ce7f2492f9d354d48aded5b22|"
 msgstr "| 5323a00ce7f2492f9d354d48aded5b22 |"
 
-#: ../session_2/03_data_availability.ipynb:166
-#: c0c50c97ab88424fa03842b41f6d0ec0
-msgid "We can see that there is only data available for some African countries. Let's take a closer look at Tanzania."
-msgstr "On voit qu'il n'y a que des données disponibles pour certains pays africains. Regardons de plus près la Tanzanie."
-
 #: ../session_2/03_data_availability.ipynb:197
 #: d741670d5d204b3ba3379a97d7f63808
 msgid "Zoom in on Tanzania"
 msgstr "Zoom sur la Tanzanie"
-
-#: ../session_2/03_data_availability.ipynb:208
-#: 99be9271be964f24a4553cb16f23775f
-msgid "Use the map's **+** button to zoom in on Africa. Click and drag to see Tanzania."
-msgstr "Utilisez le bouton **+** de la carte pour zoomer sur l'Afrique. Cliquez et faites glisser pour voir la Tanzanie."
 
 #: ../../session_2/03_data_availability.ipynb:194
 msgid "|a022c991d4864db4b3a50b5513112ade|"
@@ -3362,11 +3226,6 @@ msgstr "Dans cet exercice, nous chargerons les données du datacube. Tout d'abor
 #: c66d6ffd25344a8098cdf3e68e45428b
 msgid "Make a new notebook"
 msgstr "Créer un nouveau cahier"
-
-#: ../session_2/04_load_data_exercise.ipynb:55
-#: 9487f994d34540c1bef4fe719c71d9ce
-msgid "Let's create a new, blank Jupyter notebook for this exercise."
-msgstr "Créons un nouveau bloc-notes Jupyter vierge pour cet exercice."
 
 #: ../session_2/04_load_data_exercise.ipynb:57
 #: 5dc6e8d5a6ea4f999c4df76a7c2a1b59
@@ -3728,11 +3587,6 @@ msgstr "**Attributs:** Métadonnées sur ce jeu de données. Le CRS est à nouve
 msgid "Plot a true-colour image"
 msgstr "Tracez une image en couleurs vraies"
 
-#: ../session_2/04_load_data_exercise.ipynb:444
-#: 845476570ee64c38ae2fea50bbf8f1b9
-msgid "True-colour images are also known as red-green-blue (RGB) images. They are rendered using the image's 'natural' colours and appear how they might be seen by the human eye. As we loaded red, green and blue bands from Landsat 8, we can now plot an RGB image using the data from ``landsat_ds``."
-msgstr "Les images en couleurs réelles sont également connues sous le nom d'images rouge-vert-bleu (RVB). Elles sont rendues en utilisant les couleurs \"naturelles\" de l'image et apparaissent comme elles pourraient être vues par l'œil humain. Comme nous avons chargé les bandes rouge, verte et bleue de Landsat 8, nous pouvons maintenant tracer une image RVB en utilisant les données de ``landsat_ds``."
-
 #: ../session_2/04_load_data_exercise.ipynb:455
 #: eac25e8adc144edea04298b43cec522a
 msgid "In the next blank cell, enter the following code. Run the cell to generate an RGB image."
@@ -3809,11 +3663,6 @@ msgstr "| Ensemble de données Sentinel-2 |"
 #: 97edf78f58654f77a504c659918bf7d3
 msgid "Again, we will use ``dc.load()`` to import Sentinel-2 data. After ``sentinel_2_ds``, type ``= dc.load()``. It should look like ``sentinel_2_ds = dc.load()``."
 msgstr "Encore une fois, nous allons utiliser ``dc.load()`` pour importer les données Sentinel-2. Après ``sentinel_2_ds``, tapez ``= dc.load()``. Cela devrait ressembler à ``sentinel_2_ds = dc.load()``."
-
-#: ../session_2/04_load_data_exercise.ipynb:535
-#: 524a9bc66db84b7c971567c8d0c9eea1
-msgid "How do we fill out the parameters inside the brackets of ``dc.load()``? We can do this by copying some of the information from the Landsat 8 ``dc.load()`` input cell. The first parameter we listed before was ``product``. However, we don't want to use the Landsat 8 product, we want to select the Sentinel-2 product, ``s2_l2a``."
-msgstr "Comment remplir les paramètres à l'intérieur des parenthèses de ``dc.load()`` ? Nous pouvons le faire en copiant certaines des informations de la cellule d'entrée ``dc.load()`` de Landsat 8. Le premier paramètre que nous avons listé auparavant était ``product``. Cependant, nous ne voulons pas utiliser le produit Landsat 8, nous voulons sélectionner le produit Sentinel-2, ``s2_l2a``."
 
 #: ../session_2/04_load_data_exercise.ipynb:537
 #: 62224596501a4ec0a2a680587ad35e58
@@ -3970,13 +3819,6 @@ msgstr "Au cours de la session 2, vous avez construit un bloc-notes pour charger
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
 msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSeE7pdbIEaJq-5FLZaGwn6FkVuo_Pfzkpfsd1kgNy1XcnNi1A/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
 
-#: ../session_2/05_s2_solution.ipynb:45
-#: ../session_3/04_s3_solution.ipynb:45
-#: 67cb6e200760447995a0645c8499188f
-#: dbaa51a724e74f24bbee28a56972ad9e
-msgid "The quiz will ask you to use the notebook you developed for this session's exercise on loading data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
-msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le chargement des données. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
-
 #: ../session_2/05_s2_solution.ipynb:56
 #: ../session_3/04_s3_solution.ipynb:56
 #: 799479e987f94ce488bc7bfca2883d6f
@@ -4042,11 +3884,6 @@ msgstr "Introduction aux composites sans cloud"
 msgid "This session is about creating representative datasets and images from multiple timesteps. This allows us to remove and replace unwanted data, such as clouds, and also form images that accurately represent the area of interest over a period of time."
 msgstr "Cette session consiste à créer des ensembles de données et des images représentatifs à partir de plusieurs pas de temps. Cela nous permet de supprimer et de remplacer les données indésirables, telles que les nuages, et également de former des images qui représentent avec précision la zone d'intérêt sur une période de temps."
 
-#: ../session_3/01_intro_composites.ipynb:25
-#: 66c7808c9e5f468995398bd343602d82
-msgid "This is summarised in this week's video, **Time aggregation of data**. Watch the video to see how to use Earth observation data at different points in time."
-msgstr "Ceci est résumé dans la vidéo de cette semaine, **Agrégation temporelle des données**. Regardez la vidéo pour voir comment utiliser les données d'observation de la Terre à différents moments dans le temps."
-
 #: ../session_3/01_intro_composites.ipynb:37
 #: b558ee0ec5644986bcae2251f279b6b8
 msgid "Video: Time aggregation of data"
@@ -4061,11 +3898,6 @@ msgstr "`Télécharger les diapositives de la vidéo au format PDF <../_static/s
 #: 474ac317396c46fea99495dc1d980716
 msgid "In the video, we saw that we can compensate for missing or cloudy data points by using data from different points in time to fill in the gaps. This is a two-step process:"
 msgstr "Dans la vidéo, nous avons vu que nous pouvons compenser les points de données manquants ou troubles en utilisant des données de différents points dans le temps pour combler les lacunes. Il s'agit d'un processus en deux étapes:"
-
-#: ../session_3/01_intro_composites.ipynb:71
-#: 7f88f3fc5412480881f58d65116b4755
-msgid "Identify and remove cloudy data — this is known as 'cloud masking'"
-msgstr "Identifiez et supprimez les données troubles - c'est ce qu'on appelle le «masquage du cloud»"
 
 #: ../session_3/01_intro_composites.ipynb:72
 #: 6689da2542bc4234abc8b4057a23b4b9
@@ -4101,25 +3933,10 @@ msgstr "| 6d6fef6a010d4488a455e70b21e18df3 |"
 msgid "*Landsat 8 data from 16 February 2018 (left), and Sentinel-2 data from 15 February 2018 (right). Some cloud cover is visible in both images.*"
 msgstr "* Données Landsat 8 du 16 février 2018 (à gauche) et données Sentinel-2 du 15 février 2018 (à droite). Une certaine couverture nuageuse est visible sur les deux images. *"
 
-#: ../session_3/01_intro_composites.ipynb:117
-#: 1e0733a3ea1a49a7906af402f22b19a1
-msgid "What if we want to know what is underneath those clouds? If you have data at only one point in time, this is not possible. However, if we have data for the same place at a different time, when the clouds are not present, we can use this data to 'fill' in areas of cloud."
-msgstr "Et si nous voulons savoir ce qu'il y a sous ces nuages? Si vous ne disposez de données qu'à un moment donné, cela n'est pas possible. Cependant, si nous avons des données pour le même endroit à un moment différent, lorsque les nuages ne sont pas présents, nous pouvons utiliser ces données pour «remplir» des zones de nuage."
-
-#: ../session_3/01_intro_composites.ipynb:119
-#: ca37adb64f3e48b18e77aacb8ec6272f
-msgid "To do that, we must first identify which pixels are clouds. The process of determining and removing cloud data points is known as 'cloud masking'."
-msgstr "Pour ce faire, nous devons d'abord identifier quels pixels sont des nuages. Le processus de détermination et de suppression des points de données cloud est appelé «masquage cloud»."
-
 #: ../session_3/01_intro_composites.ipynb:131
 #: e4bd5590b6df4e8c90a4307b51bbb49d
 msgid "``load_ard()`` vs ``dc.load()``"
 msgstr "``load_ard()`` contre ``dc.load()``"
-
-#: ../session_3/01_intro_composites.ipynb:142
-#: ae6059e4338945c7bbcd5d2a934d61e5
-msgid "The easiest way to apply a cloud mask to your dataset is to load it into the Sandbox using the ``load_ard()`` function. ``ard`` stands for 'Analysis-Ready Data' and the ``load_ard()`` function automatically applies a cloud mask."
-msgstr "La façon la plus simple d'appliquer un masque de nuage à votre ensemble de données est de le charger dans l'Environnement de test en utilisant la fonction ``load_ard()``. ``ard`` signifie 'Analysis-Ready Data' et la fonction ``load_ard()`` applique automatiquement un masque de nuage."
 
 #: ../session_3/01_intro_composites.ipynb:144
 #: c80d28e3a3654a9c935c9f2683b47c32
@@ -4180,11 +3997,6 @@ msgstr "Nous comparerons brièvement les composites médians et géomédiens, et
 msgid "Median composites"
 msgstr "Composites médians"
 
-#: ../session_3/01_intro_composites.ipynb:233
-#: 07ed7eaf22fb498097ce6d8437607e9c
-msgid "For each band in the image, median composites set the value of each pixel to the median value for that band. For a given pixel, each band's median is independent of the others."
-msgstr "Pour chaque bande de l'image, les composites médians définissent la valeur de chaque pixel sur la valeur médiane de cette bande. Pour un pixel donné, la médiane de chaque bande est indépendante des autres."
-
 #: ../session_3/01_intro_composites.ipynb:235
 #: edcc61cfefd544a4962f2082ec4ca599
 msgid "The benefit of a median composite is that it is very fast to compute, so it can be used to quickly create cloud-free images for an area."
@@ -4209,11 +4021,6 @@ msgstr "* Une médiane considère les données de chaque bande indépendamment. 
 msgid "Geomedian composites"
 msgstr "Composites géomédiens"
 
-#: ../session_3/01_intro_composites.ipynb:276
-#: 35a29a2ebe8f4a32a09e60529be00b81
-msgid "Geomedian — or 'geometric median' — composites are multi-band generalisations of median composites. Instead of finding a pixel's median value for each band **individually**, like a median composite does, a geomedian composite finds the median values of the bands for each pixel when considered **together**."
-msgstr "Les composites géomédiens - ou \"médiane géométrique\" - sont des généralisations multibandes des composites médians. Au lieu de trouver la valeur médiane d'un pixel pour chaque bande **individuellement**, comme le fait un composite médian, un composite géomédian trouve les valeurs médianes des bandes pour chaque pixel lorsqu'elles sont considérées **ensemble**."
-
 #: ../session_3/01_intro_composites.ipynb:278
 #: 6ba4eabe23bd46be9bfe0c900194949d
 msgid "This means they represent the data **better** than median composites."
@@ -4222,11 +4029,6 @@ msgstr "Cela signifie qu'ils représentent les données **mieux** que les compos
 #: ../../session_3/01_intro_composites.ipynb:289
 msgid "|fea3eab073bc45e4ba5593a9e01e0e82|"
 msgstr "| fea3eab073bc45e4ba5593a9e01e0e82 |"
-
-#: ../session_3/01_intro_composites.ipynb:303
-#: b2ebf478c80045269423f33ce6a601c1
-msgid "*Unlike the median composite, the geometric median (geomedian) considers all bands of data together. Each band adds a dimension to the geomedian calculation. For a three-band dataset, such as the RGB dataset shown in the geomedian compositing algorithm above, each point can be represented on a three-dimensional scatter plot. The geomedian is the minimised 'sum of distances' between all the points.*"
-msgstr "* Contrairement au composite médian, la médiane géométrique (géomédiane) considère toutes les bandes de données ensemble. Chaque bande ajoute une dimension au calcul géomédian. Pour un jeu de données à trois bandes, tel que le jeu de données RVB présenté dans l'algorithme de composition géomédian ci-dessus, chaque point peut être représenté sur un nuage de points en trois dimensions. Le géomédian est la «somme des distances» minimisée entre tous les points. *"
 
 #: ../session_3/01_intro_composites.ipynb:315
 #: cbe91021aef648fbbb378cd341f59ea1
@@ -4415,16 +4217,6 @@ msgstr "Le paramètre pour charger les produits est ``products`` (pluriel) et no
 msgid "Product items must be listed inside square brackets ``[]``, which is not required for ``dc.load()``."
 msgstr "Les éléments du produit doivent être listés entre crochets ``[]``, ce qui n'est pas nécessaire pour ``dc.load()``."
 
-#: ../session_3/02_cloud_masking.ipynb:214
-#: e3beb7db34454f62a570a2e3365541dc
-msgid "``min_gooddata`` stands for 'minimum good data' and discards observations with less than the fractional requisite of good quality pixels."
-msgstr "``min_gooddata`` signifie 'minimum good data' et écarte les observations dont le nombre de pixels de bonne qualité est inférieur à la fraction requise."
-
-#: ../session_3/02_cloud_masking.ipynb:233
-#: 372ff361003a4cb2ac2db95145c6ff16
-msgid "We can use the same ``rgb`` plotting code as in the last session to show an RGB image of one of the timesteps. Let's start with the first timestep, which has an ``index`` of ``0``."
-msgstr "Nous pouvons utiliser le même code de traçage ``rgb`` que dans la dernière session pour afficher une image RVB d'un des pas de temps. Commençons par le premier pas de temps, qui a un ``index`` de ``0``."
-
 #: ../../session_3/02_cloud_masking.ipynb:236
 msgid "|476ad0c2d116411a9ef380374c17a2cf|"
 msgstr "| 476ad0c2d116411a9ef380374c17a2cf |"
@@ -4437,11 +4229,6 @@ msgstr "Cela devrait produire une seule image RVB comme indiqué ci-dessous. Que
 #: ../../session_3/02_cloud_masking.ipynb:261
 msgid "|29e100882c7a4e00bc8f33fb462d507e|"
 msgstr "| 29e100882c7a4e00bc8f33fb462d507e |"
-
-#: ../session_3/02_cloud_masking.ipynb:283
-#: 116bd279b32e4bec847efb9da05e2617
-msgid "If we want to see RGB images of all the timesteps at once, we can replace the ``index`` parameter with the ``col`` parameter. The parameter ``col`` stands for 'column'. Specifying ``col='time'`` creates a row of images for the timesteps."
-msgstr "Si nous voulons voir les images RVB de tous les pas de temps en une seule fois, nous pouvons remplacer le paramètre ``index`` par le paramètre ``col``. Le paramètre ``col`` signifie 'colonne'. En spécifiant ``col='time'``, on crée une ligne d'images pour les pas de temps."
 
 #: ../../session_3/02_cloud_masking.ipynb:286
 msgid "|dc3e64dc5abf45a4a6d0f60dfc5150d2|"
@@ -4534,11 +4321,6 @@ msgstr "L'exécution du notebook peut prendre un peu de temps. Vérifiez que tou
 #: 34c907b80a244dd8833c276dd7b06a2d
 msgid "Check the Sentinel-2 dataset"
 msgstr "Vérifiez le jeu de données Sentinel-2"
-
-#: ../session_3/03_geomedian_exercise.ipynb:83
-#: b6a6d6c14038433d9934aa3aaebdf9f9
-msgid "Let's confirm we have successfully loaded our Sentinel-2 dataset. Recall we named it ``sentinel_2_ds``. Scroll to the bottom of the notebook and run the dataset name in the next empty cell."
-msgstr "Confirmons que nous avons chargé avec succès notre jeu de données Sentinel-2. Rappelez-vous que nous l'avons nommé ``sentinel_2_ds``. Faites défiler jusqu'au bas du carnet de notes et exécutez le nom du jeu de données dans la prochaine cellule vide."
 
 #: ../session_3/03_geomedian_exercise.ipynb:107
 #: 311424ccfe234b1abe1f22181bde9008
@@ -4759,11 +4541,6 @@ msgstr "Exemple: Indice de végétation par différence normalisée (NDVI)"
 msgid "One of the most widely-used band indices is the Normalised Difference Vegetation Index (NDVI). It is used to show the presence of live green vegetation. Generally, green vegetation has a low red band measurement, as red light is absorbed by chlorophyll. In addition to this, healthy leaf cell structures reflect near-infrared light, giving a high near-infrared (NIR) band measurement."
 msgstr "L'un des indices de bande les plus utilisés est l'indice de végétation par différence normalisée (NDVI). Il est utilisé pour montrer la présence de végétation verte vivante. En général, la végétation verte a une faible bande rouge, car la lumière rouge est absorbée par la chlorophylle. En plus de cela, les structures cellulaires saines des feuilles réfléchissent la lumière proche infrarouge, donnant une mesure de bande proche infrarouge (NIR) élevée."
 
-#: ../session_4/01_band_indices.ipynb:237
-#: 53fa1334c3e24ec49352d9245d95e51f
-msgid "NDVI is therefore typically calculated using a satellite's NIR band and red band. One value is calculated per pixel."
-msgstr "Le NDVI est donc généralement calculé en utilisant la bande NIR et la bande rouge d’un satellite. Une valeur est calculée par pixel."
-
 #: ../session_4/01_band_indices.ipynb:248
 #: 3dc30b95ca4444fdadfc6beb7e3dcf50
 msgid ":nbsphinx-math:`\\begin{equation} \\text{NDVI} \\ = \\ \\frac{\\text{NIR} - \\text{Red}}{\\text{NIR} + \\text{Red}} \\end{equation}`"
@@ -4808,11 +4585,6 @@ msgstr "La normalisation des indices de bande afin que leurs valeurs se situent 
 #: 18bc1162af034ca78fe79cb767f8ee7d
 msgid "Below we have two plots of an area with river distributaries in Guinea-Bissau, a country that experiences monsoonal-like seasons. We see the amount of vegetation as detected by NDVI fluctuates over time. The top image shows NDVI in April, at the end of the dry season. NDVI readings are much lower than when compared to the same area in November (bottom image), after several months of rain during the wet season."
 msgstr "Ci-dessous, nous avons deux parcelles d'une zone de distribution fluviale en Guinée-Bissau, un pays qui connaît des saisons de mousson. Nous constatons que la quantité de végétation détectée par NDVI fluctue avec le temps. L'image du haut montre le NDVI en avril, à la fin de la saison sèche. Les lectures de NDVI sont bien inférieures à celles de la même zone en novembre (image du bas), après plusieurs mois de pluie pendant la saison des pluies."
-
-#: ../session_4/01_band_indices.ipynb:311
-#: 6212ad7d09ad440cb7e446e65d446f0b
-msgid "Notice the RGB images may show parts of the area to be visibly 'dry' or 'lush', but in places where this is less obvious, it is easier to analyse NDVI than the multispectral RGB dataset."
-msgstr "Notez que les images RVB peuvent montrer que certaines parties de la zone sont visiblement «sèches» ou «luxuriantes», mais dans les endroits où cela est moins évident, il est plus facile d’analyser le NDVI que le jeu de données RVB multispectral."
 
 #: ../../session_4/01_band_indices.ipynb:322
 msgid "|9288be2a1db94016b2440ab1da11e975|"
@@ -4950,10 +4722,6 @@ msgstr "Nous devrons supprimer toute sortie des exécutions précédentes du not
 #: 705a02af49f84bbfb9372a1e19a5452e
 msgid "Select **Kernel -> Restart Kernel and Clear All Outputs…**."
 msgstr "Sélectionnez **Kernel -> Restart Kernel and Clear All Outputs...**."
-
-#: ../../session_4/02_calculate_ndvi_part_1.ipynb:66
-msgid "This notebook is still set up to run the Session 3 exercise, so you'll need to follow the instructions below to modify it. Work cell by cell and pay attention to what needs to be changed."
-msgstr "Ce bloc-notes est toujours configuré pour exécuter l'exercice Session 3. Vous devrez donc suivre les instructions ci-dessous pour le modifier. Travaillez cellule par cellule et faites attention à ce qui doit être changé."
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:71
 #: 070e2ae60e684926b098ac8aaaed3b33
@@ -5113,11 +4881,6 @@ msgstr "Jetez un coup d'oeil aux dimensions. Le jeu de données brut ``sentinel_
 msgid "Congratulations! You have successfully modified a notebook to create a quarterly geomedian composite by resampling Sentinel-2 data."
 msgstr "Toutes nos félicitations! Vous avez modifié avec succès un bloc-notes pour créer un composite géomédian trimestriel en rééchantillonnant les données Sentinel-2."
 
-#: ../session_4/02_calculate_ndvi_part_1.ipynb:299
-#: 0388b0a502fe4fcba5512ca11e7d8a3e
-msgid "If you'd like to experiment futher, try running the code with different resampling values. Did you learn anything interesting to share with us?"
-msgstr "Si vous souhaitez tester davantage, essayez d'exécuter le code avec différentes valeurs de rééchantillonnage. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
-
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:301
 #: 5a56db12ca9a40809a0226404dcf94a4
 msgid "In the next section, we will continue working with this notebook to calculate the NDVI values for each of our quarterly geomedians."
@@ -5127,11 +4890,6 @@ msgstr "Dans la section suivante, nous continuerons à travailler avec ce cahier
 #: 0144e45f204a4ecba3b0d3b504d5d6cd
 msgid "Calculating NDVI: Part 2"
 msgstr "Calcul du NDVI: partie 2"
-
-#: ../session_4/03_calculate_ndvi_part_2.ipynb:11
-#: 2060883c9a644cf0b5dae8d7b0b93243
-msgid "This exercise follows on from the previous section. In the `previous part of this exercise <../session_4/03_calculate_ndvi_part_2.ipynb>`__, you constructed a notebook to resample a year's worth of Sentinel-2 data into quarterly time steps."
-msgstr "Cet exercice fait suite à la partie précédente. Dans la `première partie de cet exercice <../session_4/03_calcul_ndvi_part_2.ipynb>`__, vous avez construit un cahier pour rééchantillonner une année de données Sentinel-2 en pas de temps trimestriels."
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:13
 #: 888719e18ac1468ba35eb4d7e2b43081
@@ -5157,11 +4915,6 @@ msgstr "Apportez les modifications suivantes ci-dessous pour modifier la cellule
 #: 81bae9bf3c5e4e6386233ae4696b70a5
 msgid "Adding ``nir`` measurement"
 msgstr "Ajout de la mesure ``nir``"
-
-#: ../session_4/03_calculate_ndvi_part_2.ipynb:59
-#: 392184ebb31249a6913c78c23b1bafad
-msgid "To calculate NDVI, we need to load Sentinel-2's near-infrared band. In the Sandbox, it is called ``nir``. To add the band, modify the ``load_ard`` cell according to the step below:"
-msgstr "Pour calculer NDVI, nous devons charger la bande proche infrarouge de Sentinel-2. Dans le bac à sable, elle est appelée ``nir``. Pour ajouter la bande, modifiez la cellule ``load_ard`` en suivant l'étape ci-dessous :"
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:61
 #: 9620b5bb85db4785b14d90f0c9d10d8e
@@ -5351,13 +5104,6 @@ msgstr "| 52f52530765f455db1856d0ff3da1b2d |"
 msgid "Congratulations! You have successfully calculated and visualised the NDVI for a series of geomedian composite images."
 msgstr "Toutes nos félicitations! Vous avez calculé et visualisé avec succès le NDVI pour une série d'images composites géomédiennes."
 
-#: ../session_4/03_calculate_ndvi_part_2.ipynb:277
-#: ../session_6/02_water_extent.ipynb:459
-#: 5c6353d812e14b8fa8ccb224f4771335
-#: 2a8befa43ebd4801bce9268beb272c57
-msgid "If you'd like to experiment futher, try running the code with different areas. Did you learn anything interesting to share with us?"
-msgstr "Si vous souhaitez expérimenter davantage, essayez d'exécuter le code avec différentes zones. Avez-vous appris quelque chose d'intéressant à partager avec nous?"
-
 #: ../session_4/04_s4_solution.ipynb:9
 #: 11f8a05f98ed402b876018d4cd7d1b0b
 msgid "Session 4 Quiz and Solution"
@@ -5372,11 +5118,6 @@ msgstr "Dans la session 4, vous avez créé un bloc-notes pour charger les produ
 #: 568fcb9985764c8692b15850323a3e47
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
 msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSffGiKtV5lgBBYrgBwplYUlDhsZ05td6CRAufJ05MeAkNRWMw/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
-
-#: ../session_4/04_s4_solution.ipynb:45
-#: 6d26f31a7d9e40e9931103029fc4cd62
-msgid "The quiz will ask you to use the notebook you developed for this session's exercise on calculating NDVI. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
-msgstr "Le quiz vous demandera d'utiliser le bloc-notes que vous avez développé pour l'exercice de cette session sur le calcul du NDVI. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
 
 #: ../session_4/04_s4_solution.ipynb:56
 #: b3088143cc5146a1bd376dca677a9396
@@ -5463,11 +5204,6 @@ msgstr "L'importance de la végétation"
 #: ../../session_5/01_vegetation_analysis.ipynb:86
 msgid "|f17c9f7ac2fa4c0b967f663294e35221|"
 msgstr "| f17c9f7ac2fa4c0b967f663294e35221 |"
-
-#: ../session_5/01_vegetation_analysis.ipynb:100
-#: 6cc9baba9fbe4e1e9e9b170be79b019e
-msgid "*Food security is a major focus of the UN's Sustainable Development Goals (SDGs). The SDGs are a key tenet of the Digital Earth Africa program.* [`Image source <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
-msgstr "*La sécurité alimentaire est un axe majeur des Objectifs de développement durable (ODD) de l'ONU. Les ODD sont un principe clé du programme Digital Earth Africa.* [`Source de l'image <https://rcmrd.org/servir-regional-cropland-assessment-and-monitoring-service>`__]"
 
 #: ../session_5/01_vegetation_analysis.ipynb:111
 #: a95430a0b583455bb382737f7885ae42
@@ -5596,11 +5332,6 @@ msgstr "Étendre l'analyse et la discussion des résultats"
 #: ../../session_5/01_vegetation_analysis.ipynb:228
 msgid "|510f882b061b415e8dbbde25a2dc399f|"
 msgstr "| 510f882b061b415e8dbbde25a2dc399f |"
-
-#: ../session_5/01_vegetation_analysis.ipynb:254
-#: b911a382c62b4b6694be79dee076ac99
-msgid "With some understanding of the context behind spatial data analysis, we are now ready to create our own case study notebook. This week's exercise is about incorporating the additional two steps (analysis purpose, and additional results discussion) to make a well-rounded case study."
-msgstr "Avec une certaine compréhension du contexte derrière l'analyse des données spatiales, nous sommes maintenant prêts à créer notre propre carnet d'étude de cas. L’exercice de cette semaine consiste à incorporer les deux étapes supplémentaires (objectif de l’analyse et discussion supplémentaire sur les résultats) pour réaliser une étude de cas complète."
 
 #: ../session_5/02_vegetation_exercise.ipynb:32
 #: 75080034e44e485e822bc832db059e07
@@ -5815,11 +5546,6 @@ msgstr "Le nom de l'indice à calculer, par exemple ``index='EVI'``"
 msgid "The Landsat collection, e.g. ``collection='c1'``"
 msgstr "La collection Landsat, par exemple ``collection='c1'``"
 
-#: ../../session_5/02_vegetation_exercise.ipynb:421
-#: f83914f22e004f3ca768b4f40d59492f
-msgid "``c1`` stands for 'Collection 1', which is the currently-available Landsat collection of data as named by its publishers, US Geological Survey."
-msgstr "``c1`` signifie 'Collection 1', qui est la collection de données Landsat actuellement disponible, telle que nommée par ses éditeurs, l'US Geological Survey."
-
 #: ../session_5/02_vegetation_exercise.ipynb:437
 #: 4518c319e6244c6f998e2a85dcf65443
 msgid "In the next cell, enter the following code, and then run it to calculate the EVI vegetation index for this data."
@@ -5849,11 +5575,6 @@ msgstr "Premièrement, nous diviserons les données de l'indice de végétation 
 #: 03e4f6579a694c2b9932380dd56a4b6c
 msgid "The split is done using ``sel()`` and ``slice()``."
 msgstr "La division est faite en utilisant ``sel()`` et ``slice()``."
-
-#: ../session_5/02_vegetation_exercise.ipynb:490
-#: 5a263914fd604da1831b12f3ea8c126f
-msgid "``sel()`` stands for 'selection' and tells us we are taking a selection of the dataset. We have to define which coordinate we are selecting by. In this case, we will use the ``time`` coordinate."
-msgstr "``sel()`` signifie \"sélection\" et nous indique que nous prenons une sélection de l'ensemble des données. Nous devons définir par quelle coordonnée nous allons sélectionner. Dans ce cas, nous allons utiliser la coordonnée ``time``."
 
 #: ../session_5/02_vegetation_exercise.ipynb:491
 #: b75acf245ac447a7a0317fd875a9a459
@@ -5889,11 +5610,6 @@ msgstr "Ici, l'utilisation de ``time[0]`` nous donnera la première date que nou
 #: 3c46b1567d9d47fa95ad5e1cf7887819
 msgid "Carefully check all your ``.``, ``,``, ``()`` pairs, and ``' '`` pairs in the above code to avoid generating errors."
 msgstr "Vérifiez soigneusement toutes vos paires ``.``, ``,``, ``()`` et ``' '`` dans le code ci-dessus pour éviter de générer des erreurs."
-
-#: ../session_5/02_vegetation_exercise.ipynb:554
-#: 67c7c6202d7e40e788a7f95c000b3df2
-msgid "Now we have our 'before' and 'after' datasets, we can compare them for change in EVI. To do this, we will form a composite for each half of the dataset. Then we will calculate the differences in the average EVI for each pixel."
-msgstr "Maintenant que nous avons nos ensembles de données «avant» et «après», nous pouvons les comparer pour le changement dans EVI. Pour ce faire, nous allons former un composite pour chaque moitié de l'ensemble de données. Ensuite, nous calculerons les différences de l'EVI moyen pour chaque pixel."
 
 #: ../session_5/02_vegetation_exercise.ipynb:556
 #: 13356f0f96a94d60ab7a4c81c90a9630
@@ -5963,13 +5679,6 @@ msgstr "Toutes nos félicitations! Vous avez créé votre propre cahier de déte
 #: eeff804ad1fa40efbd59c9b427ffaf0d
 msgid "You now understand how to structure a complete case study – you can calculate a relevant band index and indentify meaningful changes in that index over time."
 msgstr "Vous savez maintenant comment structurer une étude de cas complète - vous pouvez calculer un indice de bande pertinent et identifier les changements significatifs de cet index au fil du temps."
-
-#: ../session_5/02_vegetation_exercise.ipynb:713
-#: ../session_6/02_water_extent.ipynb:473
-#: bf19484f8d6a4a8a9ff0909e3570c142
-#: 2a0d416be2154a86a7b9e869f4c47d6b
-msgid "If you're curious about how the existing case study works, you can open and run it in the Sandbox:"
-msgstr "Si vous êtes curieux de savoir comment fonctionne l'étude de cas existante, vous pouvez l'ouvrir et l'exécuter dans le bac à sable:"
 
 #: ../session_5/02_vegetation_exercise.ipynb:715
 #: ../session_6/02_water_extent.ipynb:475
@@ -6610,11 +6319,6 @@ msgstr "Essayez différentes valeurs de ``timestep`` - pouvez-vous trouver une i
 msgid "Congratulations! You have made your own water extent notebook. It is comparible to `the existing Sandbox water extent notebook <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/master/Real_world_examples/Water_extent.ipynb>`__."
 msgstr "Toutes nos félicitations! Vous avez créé votre propre carnet d'étendue d'eau. Il est comparable au «cahier d'étendue d'eau Sandbox existant <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/master/Real_world_examples/Water_extent.ipynb>« __."
 
-#: ../session_6/02_water_extent.ipynb:457
-#: f94d3a9761004e31aaf33ad328ebc63a
-msgid "You've now built your second case study! You make like to reflect on what was similar and different between the two. Are there any pieces of code you could reuse for a new analysis? How might you modify your case studies to do more complex analysis?"
-msgstr "Vous avez maintenant construit votre deuxième étude de cas! Vous avez envie de réfléchir à ce qui était similaire et différent entre les deux. Y a-t-il des morceaux de code que vous pourriez réutiliser pour une nouvelle analyse? Comment pourriez-vous modifier vos études de cas pour faire des analyses plus complexes?"
-
 #: ../session_6/02_water_extent.ipynb:476
 #: 812a57b0847647a8babb7c8d89e97e73
 msgid "Double-click the **Water_extent.ipynb** notebook to open it"
@@ -6639,11 +6343,6 @@ msgstr "Dans la session 6, vous avez utilisé le cadre d'étude de cas pour cons
 #: f9c096d531e747a6a14a714e971f8ee2
 msgid "If you would like to be awarded a certificate of achievement at the end of the course, we ask that you `complete the quiz <https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. You will need to supply your email address to progress towards the certificate. After you complete the quiz, you can check if your answers were correct by pressing the **View Accuracy** button."
 msgstr "Si vous souhaitez obtenir un certificat de réussite à la fin du cours, nous vous demandons de remplir `le quiz <https://docs.google.com/forms/d/e/1FAIpQLSfUWOI56hUsK-nrbtUd_r39DqXD2oXm7ULgdmhGp6YvYlvGtg/viewform?usp=sf_link>`__. Vous devrez fournir votre adresse e-mail pour progresser vers le certificat. Après avoir terminé le quiz, vous pouvez vérifier si vos réponses étaient correctes en appuyant sur le bouton **Voir l'exactitude**."
-
-#: ../session_6/03_s6_solution.ipynb:47
-#: 17e986a511a54e6397c5f3e2b4fd5cce
-msgid "The quiz will ask you to use the notebook you developed for this session's exercise on plotting water extent using WOfS data. If you would like to confirm that your notebook works as expected, you can check it against the solution notebook provided below."
-msgstr "Le quiz vous demandera d'utiliser le cahier que vous avez développé pour l'exercice de cette session sur le traçage de l'étendue de l'eau à l'aide des données WOfS. Si vous souhaitez confirmer que votre ordinateur portable fonctionne comme prévu, vous pouvez le comparer au bloc-notes de solution fourni ci-dessous."
 
 #: ../session_6/03_s6_solution.ipynb:86
 #: 9356f524f2b24f6e86697baf0d9fe477
@@ -6707,11 +6406,6 @@ msgstr "Vos commentaires, suggestions et idées sont très importants pour nous.
 #: dd4ef1ac53dc430b89bcaa2a19a1b588
 msgid "2. Modify case studies for your area of interest"
 msgstr "2. Modifier les études de cas pour votre domaine d'intérêt"
-
-#: ../Course_wrap-up.ipynb:157
-#: 8b009b7ab42849a5861bedcab8a0ec78
-msgid "3. Consolidate your Python knowledge using the Python basics and Beginner's Guide tutorials"
-msgstr "3. Consolidez vos connaissances de Python à l'aide des tutoriels Python basics et Beginner's Guide."
 
 #: ../Course_wrap-up.ipynb:168
 #: 2a29a1b4791a4d43ab769f5a3b2a141d
@@ -6922,11 +6616,6 @@ msgstr "|0ffb8d6c06e14216bff55a34412b3436|"
 #: 99182c47ae0c4e35baa74c0114508671
 msgid "You can apply this method to already exisiting notebooks you are working with. It is useful for selecting specific areas of interest, and for transferring information between the Sandbox and GIS platorms."
 msgstr "Vous pouvez appliquer cette méthode aux carnets déjà existants avec lesquels vous travaillez. Elle est utile pour sélectionner des zones d'intérêt spécifiques et pour transférer des informations entre les platines Sandbox et SIG."
-
-#: ../Frequently_asked_questions.ipynb:29
-#: cd0fb2ed9221419ea6ad0fc679e0c5c3
-msgid "I didn't receive a Sandbox verification code email."
-msgstr "Je n'ai pas reçu d'e-mail contenant le code de vérification de la Sandbox."
 
 #: ../Frequently_asked_questions.ipynb:31
 #: e60de1f1823c4799b314ab648a3a61a8
@@ -7288,11 +6977,6 @@ msgstr "Index du quiz"
 msgid "To be eligible for a DE Africa Training Course Certificate of Completion, you must successfully complete all six assessment quizzes. The links to the quiz page for each week can be found below."
 msgstr "Pour pouvoir obtenir un certificat de fin de formation DE Africa, vous devez réussir les six tests d'évaluation. Les liens vers la page des quiz pour chaque semaine se trouvent ci-dessous."
 
-#: ../Quiz_index.ipynb:30
-#: 32951681c137491faa98ce1ddabfca56
-msgid "On each quiz page, read the summary of the week's contents and note any suggestions or requirements for the quiz. Click the link labelled **complete the quiz** to access the questions."
-msgstr "Sur chaque page de quiz, lisez le résumé du contenu de la semaine et notez toute suggestion ou exigence pour le quiz. Cliquez sur le lien intitulé **complete the quiz** pour accéder aux questions."
-
 #: ../Quiz_index.ipynb:32
 #: 84fb787e3c7845038a60ee70d383166d
 msgid "You may submit more than one response to each quiz. Your highest score for each quiz will be used in assessing Certificate of Completion eligibility. Full marks must be scored to successfully pass each quiz."
@@ -7507,11 +7191,6 @@ msgstr "**Tip:** Utilisez le raccourci ``Shift+Enter`` pour exécuter la cellule
 msgid "Select and run the grey code cell below."
 msgstr "Sélectionnez et exécutez la cellule de code gris ci-dessous."
 
-#: ../python_basics/01_jupyter.ipynb:199
-#: fb13a50798094710b7d0ac7807dda53e
-msgid "You'll see that once the code has executed, any output generated by your code will show up just below the cell."
-msgstr "Vous verrez qu'une fois le code exécuté, toute sortie générée par votre code s'affichera juste en dessous de la cellule."
-
 #: ../python_basics/01_jupyter.ipynb:225
 #: 440570bc2a01420c89648fa440efe4ba
 msgid "We can do mathematical computation using Python. Below, we have assigned the sum to a variable. We have chosen to name this variable ``result``."
@@ -7537,11 +7216,6 @@ msgstr "``[*]:`` signifie que la cellule est en cours d'exécution."
 msgid "``[1]:`` means that the cell has finished running and was the first cell run."
 msgstr "``[1]:`` signifie que la cellule a fini de fonctionner et qu'elle était la première cellule exécutée."
 
-#: ../python_basics/01_jupyter.ipynb:256
-#: 25cf555886074a56bf9dab7c03142cd4
-msgid "Sometimes, the code that you run in a cell takes a while to compute because it is loading a large dataset or performing complex computations. You'll notice the number that appears next to the cell. Before the cell is run you'll see the symbol ``[ ]`` meaning that cell has not been executed yet. While a cell is running it shows the ``[*]`` symbol and once it has completed running you'll see a number representing the number of cells being run, for example ``[4]``. This allows you to keep track of the cells that have been run and their relative order."
-msgstr "Parfois, le code que vous exécutez dans une cellule prend du temps à calculer parce qu'il charge un grand ensemble de données ou effectue des calculs complexes. Vous remarquerez le numéro qui apparaît à côté de la cellule. Avant l'exécution de la cellule, vous verrez le symbole ``[ ]`` qui signifie que la cellule n'a pas encore été exécutée. Pendant qu'une cellule est en cours d'exécution, le symbole ``[*]`` apparaît et une fois l'exécution terminée, vous verrez un nombre représentant le nombre de cellules en cours d'exécution, par exemple ``[4]``. Cela vous permet de garder une trace des cellules qui ont été exécutées et de leur ordre relatif."
-
 #: ../python_basics/01_jupyter.ipynb:259
 #: f50109db7e72447595abeab3a0fc7d00
 msgid "**Note:** To check whether a cell is currently executing in a Jupyter notebook, inspect the small circle in the top-right of the window. The circle will turn black (“Kernel busy”) when the cell is running, and return to white (“Kernel idle”) when the process is complete."
@@ -7561,11 +7235,6 @@ msgstr "Nous pouvons décomposer ce programme et exécuter chaque ligne en utili
 #: 55e016a89d704987b7c7c827a7d0990c
 msgid "**Note:** Python is case sensitive. The variable ``a`` is not the same as ``A``."
 msgstr "**Note:** Python est sensible à la casse. La variable ``a`` n'est pas la même que ``A``."
-
-#: ../python_basics/01_jupyter.ipynb:332
-#: a70f604d441a463284d887a5dc2f8b6a
-msgid "If you run again the first ``a`` cell you'll see that it returns ``2``, the updated value. This is called 'global state', and means that once a variable is declared it is accessible anywhere in the notebook, even in cells above where it has been declared. This is different to traditional programs which execute sequentially line by line from the top to the bottom. This can be confusing in the beginning, but keep an eye on the number in the brackets ``[ ]`` to see cell execution order."
-msgstr "Si vous exécutez à nouveau la première cellule ``a``, vous verrez qu'elle renvoie ``2``, la valeur mise à jour. C'est ce qu'on appelle \"l'état global\", et cela signifie qu'une fois qu'une variable est déclarée, elle est accessible partout dans le cahier, même dans les cellules situées au-dessus de celle où elle a été déclarée. Ceci est différent des programmes traditionnels qui s'exécutent séquentiellement, ligne par ligne, du haut vers le bas. Cela peut être déroutant au début, mais gardez un œil sur le nombre entre les parenthèses ``[ ]`` pour voir l'ordre d'exécution des cellules."
 
 #: ../python_basics/01_jupyter.ipynb:343
 #: 70ceb725cebc4a039c3cbd6a3b8fd09b
@@ -7679,11 +7348,6 @@ msgstr "Par défaut, le résultat d'une fonction ou d'une opération est affich�
 msgid "We have just declared a variable ``a`` that holds the result of the function. We can now use of display this variable, at any point of this notebook. For example we can show its contents by typing the variable name in a new cell:"
 msgstr "Nous venons de déclarer une variable ``a`` qui contient le résultat de la fonction. Nous pouvons maintenant utiliser ou afficher cette variable, à n'importe quel moment de ce cahier. Par exemple, nous pouvons afficher son contenu en tapant le nom de la variable dans une nouvelle cellule :"
 
-#: ../python_basics/02_numpy.ipynb:227
-#: 24c6ec09574042c78f51a77651fe52c3
-msgid "One of numpy's core concepts is the ``array``. They can hold multi-dimensional data. To declare a numpy array explicity we do:"
-msgstr "L'un des concepts fondamentaux de numpy est le tableau ``array``. Ils peuvent contenir des données multidimensionnelles. Pour déclarer un tableau numpy de manière explicite, on fait :"
-
 #: ../python_basics/02_numpy.ipynb:268
 #: 9b4c4d33e4ba4ea09a69c9b4c7d79931
 msgid "**Note:** The array defined above has only 1 dimension."
@@ -7698,16 +7362,6 @@ msgstr "La plupart des fonctions et opérations définies dans numpy peuvent êt
 #: 35b40977baab4e72af58a5da41674bda
 msgid "We can also add arrays using the following convenient notation:"
 msgstr "Nous pouvons également ajouter des tableaux en utilisant la notation pratique suivante :"
-
-#: ../python_basics/02_numpy.ipynb:364
-#: 2584b44b28ab472b9f605c1739167d13
-msgid "Arrays can be sliced and diced. We can get subsets of the arrays using the indexing notation which is ``[ start : end : stride ]``. Let's see what this means:"
-msgstr "Les tableaux peuvent être découpés en tranches et en dés. Nous pouvons obtenir des sous-ensembles de tableaux en utilisant la notation d'indexation qui est ``[ start : end : stride ]``. Voyons ce que cela signifie :"
-
-#: ../python_basics/02_numpy.ipynb:415
-#: 13c35e92eb7c4625bca54132637d2010
-msgid "Experiment playing with the indexes to understand the meaning of ``start``, ``end`` and ``stride``. What happens if you don't specify a start? What value does numpy use instead?"
-msgstr "Essayez de jouer avec les index pour comprendre la signification de ``start``, ``end`` et ``stride``. Que se passe-t-il si vous ne spécifiez pas de début ? Quelle valeur numpy utilise-t-il à la place ?"
 
 #: ../python_basics/02_numpy.ipynb:417
 #: 7b41eda23b0849e7b693c9ec37907051
@@ -7887,13 +7541,6 @@ msgstr "2.4 Utilisez ``arr`` comme défini en 2.3. Excluez le dernier élément 
 msgid "**Hint:** The result should be ``[0,3,6,9,12]``."
 msgstr "**Introduction:** Le résultat devrait être ``[0,3,6,9,12]``."
 
-#: ../python_basics/02_numpy.ipynb:978
-#: ../python_basics/06_python_solutions.ipynb:371
-#: 120626e7c6ff4306a5f1626a02fc2d75
-#: b9950b31872a409ca0bd50a2e4fe2375
-msgid "2.5 You'll need to combine array comparisons and logical operators to solve this one. Find out the values in the following array that are greater than ``3`` AND less than ``7``. The output should be a boolean array."
-msgstr "2.5 Vous devrez combiner les comparaisons de tableaux et les opérateurs logiques pour résoudre cette question. Trouvez les valeurs du tableau suivant qui sont supérieures à ``3`` et inférieures à ``7``. Le résultat doit être un tableau booléen."
-
 #: ../python_basics/02_numpy.ipynb:980
 #: ../python_basics/06_python_solutions.ipynb:373
 #: 1038bb6dc18b4cab9fbaf2d35a361c84
@@ -7969,11 +7616,6 @@ msgstr "Répétez l'opération pour télécharger le fichier image dans le dossi
 msgid "Both files will appear in the **Training** folder. Double-click the tutorial notebook to open it and begin the tutorial."
 msgstr "Les deux fichiers apparaîtront dans le dossier **Training**. Double-cliquez sur le cahier de formation pour l'ouvrir et commencer le tutoriel."
 
-#: ../python_basics/03_matplotlib.ipynb:93
-#: d73f2f6b71ce4dda9bba0d1da3c6e17a
-msgid "Introduction to matplotlib's pyplot"
-msgstr "Introduction à pyplot de matplotlib"
-
 #: ../python_basics/03_matplotlib.ipynb:104
 #: 16b732cd4cc64ed9b5140e8c0e53a67d
 msgid "We are going to use part of matplotlib called ``pyplot``. We can import pyplot by specifying it comes from matplotlib. We will abbreviate ``pyplot`` to ``plt``."
@@ -8024,11 +7666,6 @@ msgstr "Si aucun index n'est saisi, le tableau prendra toutes les valeurs. Cela 
 msgid "Therefore the array index selected the first 5 pixels along the width, at all vertical values."
 msgstr "L'index du tableau a donc sélectionné les 5 premiers pixels de la largeur, à toutes les valeurs verticales."
 
-#: ../python_basics/03_matplotlib.ipynb:313
-#: 08e2c44a9a4a453ebb3c2fde525e444a
-msgid "Now let's see what that looks like on an actual image."
-msgstr "Voyons maintenant à quoi cela ressemble sur une image réelle."
-
 #: ../python_basics/03_matplotlib.ipynb:324
 #: b2ba485979c9436e990dca6278b77a11
 msgid "**Tip**: Ensure you uploaded the file ``Guinea_Bissau.JPG`` to your **Training** folder along with the tutorial notebook. We will be using this file in the next few steps and exercises."
@@ -8054,18 +7691,6 @@ msgstr "``Guinea_Bissau.JPG`` est une image de Rio Baboque en Guinée-Bissau en 
 msgid "The results of the above cell show that the image is 590 pixels tall, 602 pixels wide, and has 3 channels. The three channels are red, green, and blue (in that order)."
 msgstr "Les résultats de la cellule ci-dessus montrent que l'image a une hauteur de 590 pixels, une largeur de 602 pixels et qu'elle possède 3 canaux. Ces trois canaux sont le rouge, le vert et le bleu (dans cet ordre)."
 
-#: ../python_basics/03_matplotlib.ipynb:406
-#: 20f6140c95404f09bfb4bfd73f85b00f
-msgid "Let's display this image using the pyplot ``imshow`` function."
-msgstr "Affichons cette image en utilisant la fonction pyplot ``imshow``."
-
-#: ../python_basics/03_matplotlib.ipynb:469
-#: ../python_basics/06_python_solutions.ipynb:506
-#: 6fdd1d3f9c7a4194bc549067f6fb9404
-#: c4d419974645496a9cd9b921d86d0dbf
-msgid "3.1 Let's use the indexing functionality of numpy to select a portion of this image. Select the top-right corner of this image with shape ``(200,200)``."
-msgstr "3.1 Utilisons la fonctionnalité d'indexation de numpy pour sélectionner une partie de cette image. Sélectionnez le coin supérieur droit de cette image avec la forme ``(200,200)``."
-
 #: ../python_basics/03_matplotlib.ipynb:471
 #: ../python_basics/06_python_solutions.ipynb:508
 #: 81c87027ba924fa98ab96141f3cb6653
@@ -8078,26 +7703,12 @@ msgstr "**Introduction:** Rappelez-vous qu'il y a trois dimensions dans cette im
 msgid "If you have selected the correct corner, there should be not much water in it!"
 msgstr "Si vous avez choisi le bon coin, il ne devrait pas y avoir beaucoup d'eau !"
 
-#: ../python_basics/03_matplotlib.ipynb:514
-#: ../python_basics/06_python_solutions.ipynb:567
-#: 6ee63f8d911344bb83cd029cdb2acae5
-#: fa596b862fb244ada8e1ccdea4301f44
-msgid "3.2 Let's have a look at one of the pixels in this image. We choose the top-left corner with position ``(0,0)`` and show the values of its RGB channels."
-msgstr "3.2 Regardons l'un des pixels de cette image. Nous choisissons le coin supérieur gauche avec la position ``(0,0)`` et montrons les valeurs de ses canaux RVB."
-
 #: ../python_basics/03_matplotlib.ipynb:536
 #: ../python_basics/06_python_solutions.ipynb:610
 #: 8dbe89b618ab4db989223158cbec79aa
 #: ad4d9180a27a45b88a85508bc3c5f587
 msgid "The first value corresponds to the red component, the second to the green and the third to the blue. ``uint8`` can contain values in the range ``[0-255]`` so the pixel has a lot of red, some green, and not much blue. This pixel is a orange-yellow sandy colour."
 msgstr "La première valeur correspond à la composante rouge, la deuxième à la composante verte et la troisième à la composante bleue. ``uint8`` peut contenir des valeurs dans la plage ``[0-255]`` donc le pixel a beaucoup de rouge, un peu de vert, et peu de bleu. Ce pixel est d'une couleur sableuse jaune orangé."
-
-#: ../python_basics/03_matplotlib.ipynb:547
-#: ../python_basics/06_python_solutions.ipynb:621
-#: 7c7b109d6ab14d8cab9431b4b62a32fa
-#: dc14706da8f148c6b0e650793fe54940
-msgid "Now let's modify the image."
-msgstr "Maintenant, nous allons modifier l'image."
 
 #: ../python_basics/03_matplotlib.ipynb:550
 #: ../python_basics/06_python_solutions.ipynb:624
@@ -8374,16 +7985,6 @@ msgstr "Nous pourrions également charger le fichier ``.JPG`` comme un ensemble 
 msgid "As usual, we will first import the xarray package."
 msgstr "Comme d'habitude, nous allons d'abord importer le paquet xarray."
 
-#: ../python_basics/05_xarray.ipynb:651
-#: dd91b494a8fd46cfb76274487b48e1cd
-msgid "Let's inspect the data. This image (our dataset) has a height ``y`` of 501 pixels and a width ``x`` of 500 pixels. It has 3 ``variables``, which correspond to the red, green, and blue bands needed to plot a colour image. Each of these bands has a value at each of the pixels, so we have a total of 751500 values (the result of 501 x 500 x 3). Each of the ``x`` and ``y`` values are associated with a longitude and latitude and their values are stored under the ``Coordinates`` section."
-msgstr "Inspectons les données. Cette image (notre jeu de données) a une hauteur ``y`` de 501 pixels et une largeur ``x`` de 500 pixels. Elle possède 3 ``variables``, qui correspondent aux bandes rouge, verte et bleue nécessaires au tracé d'une image couleur. Chacune de ces bandes a une valeur pour chacun des pixels, ce qui nous donne un total de 751500 valeurs (le résultat de 501 x 500 x 3). Chacune des valeurs ``x`` et ``y`` est associée à une longitude et une latitude et leurs valeurs sont stockées dans la section ``Coordinates``."
-
-#: ../python_basics/05_xarray.ipynb:662
-#: 829572dbcf5e4ea1b37c7291ab7d5f57
-msgid "The ``xarray.DataSet`` uses numpy arrays in the backend. What we see above is functionally similar to a bunch of numpy arrays holding the image band measurements and the longitude/latitude coordinates, combined with a dictionary of key-value pairs that defines the ``Attributes`` such as CRS and resolution (``res``). That sounds more complicated, doesn't it? Accessing the data through ``xarray`` avoids the complications of managing uncorrelated numpy arrays by themselves."
-msgstr "Le ``xarray.DataSet`` utilise des tableaux numpy dans le backend. Ce que nous voyons ci-dessus est fonctionnellement similaire à un tas de tableaux numpy contenant les mesures de la bande de l'image et les coordonnées de longitude/latitude, combiné avec un dictionnaire de paires clé-valeur qui définit les ``Attributs`` tels que le CRS et la résolution (``res``). Cela semble plus compliqué, n'est-ce pas ? L'accès aux données par ``xarray`` évite les complications liées à la gestion de tableaux numpy non corrélés par eux-mêmes."
-
 #: ../../python_basics/05_xarray.ipynb:673
 #: 19666ccc92e549149b8f21af4802143e
 msgid "|a3ce6c3a6043417e8b13ea7061a869b1|"
@@ -8428,11 +8029,6 @@ msgstr "**Note:** Les noms des variables sont souvent des chaînes de caractère
 #: aabd4f8b74cd456c9c955603254f37f6
 msgid "The dataset we loaded only has 1 timestep. We will now pull just the ``'red'`` variable data from our ``guinea_bissau`` ``xarray.Dataset``, and then plot it."
 msgstr "L'ensemble de données que nous avons chargé ne comporte qu'un seul pas de temps. Nous allons maintenant extraire uniquement les données de la variable ``'red'`` de notre ensemble de données ``guinea_bissau`` ``xarray.Dataset``, puis les tracer."
-
-#: ../python_basics/05_xarray.ipynb:1218
-#: 75732ab1416c48c781f769bbb6bccc54
-msgid "**Note:** ``cmap`` stands for 'colour map'. What happens if you remove this argument? ``plt.imshow`` will then plot all the ``red`` data values in the default colour scheme, which is a purple-to-yellow sequential colour map known as ``viridis``. This is because matplotlib does not know the variable name ``red`` is associated with the colour red — it is just a name. You can find out more about matplotlib colourmaps through this `matplotlib tutorial <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
-msgstr "**Remarque : ``cmap`` signifie ``carte de couleurs``. Que se passe-t-il si vous supprimez cet argument ? ``plt.imshow`` tracera alors toutes les valeurs de données ``red`` dans le schéma de couleurs par défaut, qui est une carte de couleurs séquentielle violet-jaune connue sous le nom de ``viridis``. Ceci est dû au fait que matplotlib ne sait pas que le nom de variable ``red`` est associé à la couleur rouge - c'est juste un nom. Vous pouvez en savoir plus sur les cartes de couleurs de matplotlib grâce à ce tutoriel `matplotlib <https://matplotlib.org/tutorials/colors/colormaps.html>`__."
 
 #: ../python_basics/05_xarray.ipynb:1230
 #: f8fb9cc6bf5d4f4cbea9c24c23f34814
@@ -8559,11 +8155,6 @@ msgstr "La syntaxe de la fonction xarray plot est :"
 msgid "Therefore we copy the code before we type ``.plot()``."
 msgstr "Nous copions donc le code avant de taper ``.plot()``."
 
-#: ../python_basics/05_xarray.ipynb:4232
-#: aa05e1ac982246bcbb4c33416e1f1b1d
-msgid "The advantage of using xarray's ``.plot()`` is that it automatically shows the ``x`` and ``y`` axes using coordinate values, not their positional index."
-msgstr "L'avantage d'utiliser la fonction ``.plot()`` de xarray est qu'elle affiche automatiquement les axes ``x`` et ``y`` en utilisant les valeurs des coordonnées, et non leur indice de position."
-
 #: ../python_basics/05_xarray.ipynb:4256
 #: ../python_basics/06_python_solutions.ipynb:1053
 #: 8861b28241f742989bfb1f5e7e0d5337
@@ -8649,11 +8240,6 @@ msgstr "Pour visualiser les solutions sous la forme d'un carnet de notes interac
 #: 204eafdb409841978199d23569b62868
 msgid "Python basics 1"
 msgstr "Bases de Python 1"
-
-#: ../python_basics/06_python_solutions.ipynb:151
-#: 07438140c0194803a05dee2ab748b40f
-msgid "**Answer:** It should now print ``8760`` as 'global state' means the value of ``a`` has been changed."
-msgstr "**Réponse:** Il devrait maintenant imprimer ``8760`` car 'global state' signifie que la valeur de ``a`` a été modifiée."
 
 #: ../python_basics/06_python_solutions.ipynb:163
 #: fe24be3a5cdc479bbc6d388c811350a5
@@ -10261,12 +9847,12 @@ msgstr "|289234cf75fb42679201feec2a15b7ca|"
 #: 37b515a42dec435dbabc0fbeb12c5888
 #: 72a5beee7aa8412dbdfb0eb0738a66a2
 msgid "Plot montage"
-msgstr ""
+msgstr "Montage de l'intrigue"
 
 #: ../Course_wrap-up.ipynb:113
 #: 08cd093e511d463c838bf5a6e3adcfb5
 msgid "1. Complete the training course participant survey"
-msgstr ""
+msgstr "1. Remplir l'enquête auprès des participants au cours de formation"
 
 #: ../External_dataset.ipynb:166
 #: cc51ea0ebe3144308a5bb3a6f6e7e7f6
@@ -10286,7 +9872,7 @@ msgstr "|800879f42d904043af1a422bc793a12c|"
 #: 8ef9c5b86c614a15bf84212b41b35463
 #: 38d61a89359842eeaf175af1c78dba02
 msgid "The DE Africa"
-msgstr ""
+msgstr "Le DE Afrique"
 
 #: ../External_dataset.ipynb:243
 #: 2c1cd0656d75477fb2d46f1d0750f38e
@@ -10308,56 +9894,56 @@ msgstr "|9ed4e382b46d4735b8de4b2c8cc55dd5|"
 #: c7dccf44522844a4a47e19d97b67bb7e
 #: 7da3bd3670fb4d4ea88ea51960d01bd2
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Vous avez oublié votre mot de passe ?"
 
 #: ../Frequently_asked_questions.ipynb:137
 #: ../Frequently_asked_questions.ipynb:137
 #: 4a677a9a6d6342698a1916cac6aa04d5
 #: 8e3b00d39f52496c805456c4b8191b76
 msgid "Latest"
-msgstr ""
+msgstr "Les plus récents"
 
 #: ../Frequently_asked_questions.ipynb:139
 #: ../Frequently_asked_questions.ipynb:139
 #: bccd63101b3c41f0aec12c4d83600993
 #: 8b9828db33b1493c811cb638b2ac0bf1
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: ../Frequently_asked_questions.ipynb:177
 #: ../Frequently_asked_questions.ipynb:177
 #: 31ce38dec3334f48bf97080c8813b7ff
 #: 6111b969816842d09a5d89f92d1ab855
 msgid "Kernel error"
-msgstr ""
+msgstr "Erreur de noyau"
 
 #: ../Frequently_asked_questions.ipynb:248
 #: ../Frequently_asked_questions.ipynb:248
 #: a4b8ee014ed441a5a93fa154e7e4e26a
 #: 3b94cc6af01c43e6b9ea48cc4b9cc187
 msgid "ODC slack invite page"
-msgstr ""
+msgstr "Page d'invitation slack de l'ODC"
 
 #: ../Frequently_asked_questions.ipynb:250
 #: ../Frequently_asked_questions.ipynb:250
 #: 707c2a506b62401594fa26befe2a512e
 #: ce9d33872ac046b6aa685cc07438e48c
 msgid "Add channels button"
-msgstr ""
+msgstr "Bouton d'ajout de chaînes"
 
 #: ../Frequently_asked_questions.ipynb:252
 #: ../Frequently_asked_questions.ipynb:252
 #: 5a94dcbe5ce54a4586fede2434ad3af3
 #: 190bffe9a2bd4564b0cea577ba72513c
 msgid "Browse channels button"
-msgstr ""
+msgstr "Bouton \"Parcourir les canaux"
 
 #: ../Frequently_asked_questions.ipynb:254
 #: ../Frequently_asked_questions.ipynb:254
 #: 8dcbc003319a48448b22d49a6f03a28b
 #: 418a39af8d7d457f98c9fb98efd0ad08
 msgid "Join channel"
-msgstr ""
+msgstr "Rejoindre le canal"
 
 #: ../Geomedian_widget.ipynb:45
 #: 6c5ff39c575c468aa6efbc19f453ec48
@@ -10373,7 +9959,7 @@ msgstr "|c2ac1da55dcd4e6fa5bbac8980c0641b|"
 #: 2e128e7648ab46dbb59c6147a3cd13e6
 #: e0de82f040954450b9b6735012ac2e09
 msgid "Example of the widget."
-msgstr ""
+msgstr "Exemple de widget."
 
 #: ../Geomedian_widget.ipynb:105
 #: 309280e2dd484d5c8fb7f4935592af4a
@@ -10425,7 +10011,7 @@ msgstr "|d7b1add556dc4113b080fc477c88051f|"
 #: c65de5f7aecf41be9ca6b488503ca0cc
 #: c92ca1eccf01469c878ea1a5037d16ca
 msgid "Upload button."
-msgstr ""
+msgstr "Bouton de téléchargement."
 
 #: ../Maps_help.ipynb:42
 #: 4aa0195a31f54352b521aa4574fcb0e3
@@ -10445,7 +10031,7 @@ msgstr "|2aa55de3563c4d6486704a25d6ef20cd|"
 #: 2717559b2ce0486aa3f60e20bcbd7938
 #: 24ef8f22ebab4c28b852d022636a0f8d
 msgid "DE Africa maps image"
-msgstr ""
+msgstr "DE Afrique cartes image"
 
 #: ../Maps_help.ipynb:73
 #: 90b84a08e31f4a00897a9e8cb736788c
@@ -10460,12 +10046,12 @@ msgstr "|3505c24e541743ff9704f1a187b80bcb|"
 #: ../Maps_help.ipynb:169
 #: 947f0a2324454ce8a1228b913de1f8f0
 msgid "`Split functionality video <http://www.youtube.com/watch?v=H3htpdYAE7w>`__"
-msgstr ""
+msgstr "`Split functionality video <http://www.youtube.com/watch?v=H3htpdYAE7w>`__"
 
 #: ../Maps_help.ipynb:203
 #: 8ca39fd50a7e443988ea8f0d0c34f997
 msgid "`Upload Location <http://www.youtube.com/watch?v=XKP90TcBq6A>`__"
-msgstr ""
+msgstr "`L'emplacement du téléchargement <http://www.youtube.com/watch?v=XKP90TcBq6A>`___."
 
 #: ../OWS_tutorial.ipynb:95
 #: c3e9e3cff9254944a69bfb56cd617870
@@ -10477,7 +10063,7 @@ msgstr "|0d07b371ddcb42b88b01a44dc9d0c128|"
 #: 2de0b549639d43e19e2b4fe57f88026e
 #: 522be9b88d1e495ea5e0629b64f346a2
 msgid "QGIS - Add Layer"
-msgstr ""
+msgstr "QGIS - Ajouter une couche"
 
 #: ../OWS_tutorial.ipynb:99
 #: ecd989bcf92c4b99a5125f2201b02e06
@@ -10489,7 +10075,7 @@ msgstr "|7d8911fca2924d1bbcc95b4c11d6b846|"
 #: 7411936a1b2349a3b2bbaa5634b84e8e
 #: 2074ed1cfecc4d25ae718052717f27b3
 msgid "QGIS - New Layer"
-msgstr ""
+msgstr "QGIS - Nouvelle couche"
 
 #: ../OWS_tutorial.ipynb:107
 #: 3e2bb12e5961447c845065812b62c342
@@ -10501,7 +10087,7 @@ msgstr "|70245c9b3eba4375b8af800b0a017d13|"
 #: 0d8817383ab34196a658cfdc67cba905
 #: effb3c62d1c948088bdb579ccfba34d3
 msgid "QGIS - Create New Connection"
-msgstr ""
+msgstr "QGIS - Créer une nouvelle connexion"
 
 #: ../OWS_tutorial.ipynb:113
 #: 53b06a7cdcac4032a8facdd3b8a08f65
@@ -10513,7 +10099,7 @@ msgstr "|8074c3793d4844c48edb7c772d6b2848|"
 #: 20185902fc5c483884cc4493d6bd8cee
 #: b7a0d8aa3208499bbb8aa2ff29267e85
 msgid "QGIS - View Connection"
-msgstr ""
+msgstr "QGIS - Connexion à la vue"
 
 #: ../OWS_tutorial.ipynb:190
 #: 20dd62ef258241999a63bb6822a221ce
@@ -10525,7 +10111,7 @@ msgstr "|f7f4fbbe301c470184700c3632c1b750|"
 #: 758b05d7b44f43e985667af087c16f03
 #: 72e8743ff43f4b99b649b96392f40e3a
 msgid "QGIS - Add WCS"
-msgstr ""
+msgstr "QGIS - Ajouter WCS"
 
 #: ../OWS_tutorial.ipynb:199
 #: 5f53f5d7ac6049f680632b794c64b930
@@ -10537,7 +10123,7 @@ msgstr "|ac91fe8cce6e4d0989a03616f83c2aa3|"
 #: 7d8bf111a8854ef5a55fc9dd44dacbd3
 #: 29c3794d253b4d22b99c26a6ce5a950f
 msgid "QGIS - WCS Connection"
-msgstr ""
+msgstr "Connexion QGIS - WCS"
 
 #: ../OWS_tutorial.ipynb:206
 #: 74b337d0205f4efd88b1a34636e9ec6f
@@ -10549,12 +10135,12 @@ msgstr "|4df5a2c0f3f647bd80ba21061b158c88|"
 #: 9730cb1a86614b0f9ac0aabc0c6b8e77
 #: fa591c65b0404de097a2c0142074ffc5
 msgid "QGIS - Loaded WCS"
-msgstr ""
+msgstr "QGIS - WCS chargé"
 
 #: ../Quiz_index.ipynb:20
 #: c823b66bf3bb4f199962b0f2da9e07f6
 msgid "The Digital Earth Africa Training website will experience a scheduled downtime from 31 May 2021 to 2 June 2021 to upgrade data hosting services. During this time, the Sandbox will be cleared of personal user data. The Sandbox may be inaccessible and you may experience some code errors with notebooks and quizzes. Sandbox users will have received an email regarding these changes. This Training website will be updated to reflect changes to data loading processes following the upgrade."
-msgstr ""
+msgstr "Le site Web de Digital Earth Africa Training connaîtra une interruption programmée du 31 mai 2021 au 2 juin 2021 afin de mettre à niveau les services d'hébergement de données. Pendant cette période, l'Environnement Numérique sera vidé des données personnelles des utilisateurs. Il se peut que le bac à sable soit inaccessible et que vous rencontriez des erreurs de code dans les carnets de notes et les quiz. Les utilisateurs de l'Environnement de test auront reçu un courriel concernant ces changements. Le site Web de la formation sera mis à jour pour refléter les modifications apportées aux processus de chargement des données après la mise à niveau."
 
 #: ../help_documentation.ipynb:33
 #: 04647b2af2aa4f83b7d58a149538eab5
@@ -10566,7 +10152,7 @@ msgstr "|f712a711699245c480e3e37a2c553155|"
 #: b9d463a4bc964b588213ed6de20cd278
 #: 576146b4abae49d68bd2b639a905f95c
 msgid "Beginners Guide folder"
-msgstr ""
+msgstr "Dossier du guide du débutant"
 
 #: ../help_documentation.ipynb:60
 #: 1605189a583a4e30986cdd6723d13a01
@@ -10578,7 +10164,7 @@ msgstr "|76234be3a8884f0db5a272777b784146|"
 #: 24bc514c048b4bd59b7a977e96103168
 #: d59ee893ebd847c094050815cb51e07a
 msgid "Frequently used code folder"
-msgstr ""
+msgstr "Dossier des codes fréquemment utilisés"
 
 #: ../help_documentation.ipynb:84
 #: 0780207b0460485098f5b955cd957cb3
@@ -10590,7 +10176,7 @@ msgstr "|df20a6dee87b492ba0d60a5192d9f71a|"
 #: 0e7371cd14b04291adf7a91763fa7e60
 #: 343aa95b4732462295ca9d2ff7948090
 msgid "Real world examples folder"
-msgstr ""
+msgstr "Dossier d'exemples concrets"
 
 #: ../help_documentation.ipynb:107
 #: 0674ddf21eed4d6c8db68f658c048806
@@ -10602,17 +10188,17 @@ msgstr "|47774b661e7546ecaf0037fefaaa097b|"
 #: 0e199dfc5bf2423b80b316a23563c18e
 #: b55255c8d22d4293be0817ea6a9e6f84
 msgid "Datasets folder"
-msgstr ""
+msgstr "Dossier \"Datasets"
 
 #: ../index.rst:10
 #: c1a0112cf14a4679be9ff36f2a472285
 msgid "As of June 2021, DE Africa Landsat data has been upgraded to Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. For more information on Landsat Collection 2, visit the `DE Africa Landsat documentation <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`_. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the `DE Africa Tools module documentation <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
-msgstr ""
+msgstr "À partir de juin 2021, les données Landsat de DE Africa ont été mises à niveau vers la collection 2. Les noms des cubes de données ont été mis à jour en \"lls5_sr\", \"lls7_sr\" et \"lls8_sr\". Les conventions de dénomination obsolètes telles que \"ls8_usgs_sr_scene\" ne fonctionneront plus. Pour plus d'informations sur la collection Landsat 2, visitez la documentation ``DE Africa Landsat <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`_. De plus, le paquet ``deafrica_tools`` a remplacé l'importation de fichiers ``sys.path.append('../Scripts')`` dépréciée. Pour plus d'informations sur ``deafrica_tools``, visitez la documentation du module `DE Africa Tools'' <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
 
 #: ../index.rst:45
 #: f48c2e8ede46456baa338a1b2bbbe2d7
 msgid "**01/06/2021:** Digital Earth Africa Landsat datasets have been upgraded to USGS Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import."
-msgstr ""
+msgstr "**01/06/2021:** Les jeux de données Landsat de Digital Earth Africa ont été mis à niveau avec la collection 2 de l'USGS. Les noms des cubes de données ont été mis à jour en \"ls5_sr\", \"ls7_sr\" et \"ls8_sr\". Les conventions de dénomination obsolètes telles que \"ls8_usgs_sr_scene\" ne fonctionneront plus. De plus, le paquet \" Deafrica_tools \" a remplacé l'importation de fichiers \" sys.path.append('../Scripts')`` qui n'est plus utilisée."
 
 #: ../python_basics/01_jupyter.ipynb:106
 #: c820bc1175ac472e8895ba702dc61ea9
@@ -10634,7 +10220,7 @@ msgstr "|6d217d5d12a04916a1292fdf30480e4a|"
 #: 66e6a531fca142df9c85abb7aa7d8db5
 #: 160292366f944c28bcced1e7742fe09f
 msgid "drawing"
-msgstr ""
+msgstr "dessin"
 
 #: ../python_basics/03_matplotlib.ipynb:64
 #: c5a85ddfd9a04693ace64325d3f235b2
@@ -10661,7 +10247,7 @@ msgstr "|f0a850b67c9e4fa199016e0a49205225|"
 #: 060171712ef646a68b3ca01fe8f462d9
 #: 8b78331ba6864b9699a159bd958ea26d
 msgid "Xarray dataset breakdown"
-msgstr ""
+msgstr "Ventilation de l'ensemble de données Xarray"
 
 #: ../session_1/02_create_a_user_account.ipynb:76
 #: abb75b10d0224331b9d41c0ec10809e2
@@ -10673,7 +10259,7 @@ msgstr "|e84f5d9310ac4f5f95c17ac79d98dd8c|"
 #: 65be5e8ba6b643c887a67d751a35be77
 #: f3081a7a6ed840f695935a07ab6e0995
 msgid "The DE Africa Sandbox new user registration page."
-msgstr ""
+msgstr "La page d'enregistrement des nouveaux utilisateurs de DE Africa Sandbox."
 
 #: ../session_1/02_create_a_user_account.ipynb:81
 #: 648d0f7e4911403c9b8923daee6ad555
@@ -10685,7 +10271,7 @@ msgstr "|d115876b0e5a4ea3b820258971378d4d|"
 #: 954f21786b9343b5930913b66ac092eb
 #: df9086b7f8bd4c428dfe409247d761e3
 msgid "The DE Africa Sandbox new user confirm account page."
-msgstr ""
+msgstr "La page de confirmation du compte du nouvel utilisateur de DE Africa Sandbox."
 
 #: ../session_1/02_create_a_user_account.ipynb:109
 #: def6ffdc6089485d900d87a7d41d997d
@@ -10697,7 +10283,7 @@ msgstr "|4210531916fb4972993c840bdf55f0c5|"
 #: b1cc36f674a4447bb7eab07e02e31146
 #: ab90eecc9ed643c6b988f28a44f7ebc3
 msgid "The DE Africa Sandbox start server page."
-msgstr ""
+msgstr "La page du serveur de démarrage de DE Africa Sandbox."
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:51
 #: 2a7d85dd2e5942cf84cb8bf5db2bf35a
@@ -10709,7 +10295,7 @@ msgstr "|4422b8e3628341c58e90f334b9564fd3|"
 #: d2a6933bdb104fa3bc204d1db7fd9d05
 #: 6008c50396564aa19f6164e2e8b1ab78
 msgid "The DE Africa Sandbox Jupyterlab default home screen."
-msgstr ""
+msgstr "L'écran d'accueil par défaut de DE Africa Sandbox Jupyterlab."
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:78
 #: fc7bdb4ee4ee47608b8606d154f9d29c
@@ -10721,7 +10307,7 @@ msgstr "|5f295b340ac947899c3417173207123e|"
 #: a6c50d9c5edb4e2389707a18a0ad9259
 #: 43e12dabdd414b39b0532960f7116d3d
 msgid "Opening the Beginners_guide folder."
-msgstr ""
+msgstr "Ouverture du dossier Beginners_guide."
 
 #: ../session_1/03_navigate_the_sandbox.ipynb:105
 #: 3bd4dd6e72cf4ac8a49421d8777e74b2
@@ -10733,7 +10319,7 @@ msgstr "|78eaf8c4a54742e0a4c23f50ababad55|"
 #: 5db86cc7e34746d8b1e6e24b7e943a2c
 #: fb35aee1d20446939ab33bc02f196e76
 msgid "Close and Shutdown Notebook option."
-msgstr ""
+msgstr "Option de fermeture et d'arrêt de l'ordinateur portable."
 
 #: ../session_1/04_running_a_notebook.ipynb:81
 #: 0716ed4fd3c8436db7bddcdf8ac9453e
@@ -10849,7 +10435,7 @@ msgstr "|1f7fc4885f074cf1888d6720f55d2d0d|"
 #: 2fb366b1ea3c4e61ba83e07f17965221
 #: 34be18debf9c40188977f533ac7d825d
 msgid "The DE Africa Sandbox Jupyterlab tutorial image."
-msgstr ""
+msgstr "L'image du tutoriel Jupyterlab de DE Africa Sandbox."
 
 #: ../session_1/04_running_a_notebook.ipynb:97
 #: 3700bd4fb66146fbba5e566b4d79d156
@@ -10879,7 +10465,7 @@ msgstr "|e3b175d359c147b28de780518aa6fcdc|"
 #: ../session_1/04_running_a_notebook.ipynb:179
 #: 2594e29f6ff84797810a498a8dd2965b
 msgid "|144190c177274e92b75284b4829be2b9| |4cd0cf72f2f4477496c65ee7c8c34924|"
-msgstr ""
+msgstr "|144190c177274e92b75284b4829be2b9| |4cd0cf72f2f4477496c65ee7c8c34924|"
 
 #: ../session_1/04_running_a_notebook.ipynb:208
 #: 438f11f04d484ac483859e64dcb3a72a
@@ -10909,7 +10495,7 @@ msgstr "|dc9753b1ade243ec95326b508f816fc0|"
 #: ../session_1/04_running_a_notebook.ipynb:299
 #: e7bb8ca8b2804c7abdcc38ff614a863f
 msgid "The ``load_crophealth_data`` function goes through a number of steps. It identifies the available Sentinel-2 data over the last two years, then masks the bad quality pixels such as cloud and cloud shadow. After the masking step, the function only keeps images where more than half the pixels are good. Finally, it calculates the Normalised Difference Vegetation Index (NDVI) and returns the data. The returned data are stored in the ``dataset`` object."
-msgstr ""
+msgstr "La fonction ``load_crophealth_data`` passe par un certain nombre d'étapes. Elle identifie les données Sentinel-2 disponibles au cours des deux dernières années, puis masque les pixels de mauvaise qualité tels que les nuages et l'ombre des nuages. Après l'étape de masquage, la fonction ne conserve que les images dont plus de la moitié des pixels sont de bonne qualité. Enfin, elle calcule l'indice de végétation par différence normalisée (NDVI) et renvoie les données. Les données retournées sont stockées dans l'objet ``dataset``."
 
 #: ../session_1/04_running_a_notebook.ipynb:323
 #: a0e04b3e211541c88c93882ff6899e8e
@@ -10919,7 +10505,7 @@ msgstr "|5233346ab279467b88bdfd6b46259615|"
 #: ../session_1/04_running_a_notebook.ipynb:325
 #: 2e1509a5851b464886b33b9903b987cc
 msgid "In this case, the function identified 145 observations over the last 2 years, then kept and loaded 100 that met the quality requirements."
-msgstr ""
+msgstr "Dans ce cas, la fonction a identifié 145 observations sur les 2 dernières années, puis en a conservé et chargé 100 qui répondaient aux exigences de qualité."
 
 #: ../session_1/04_running_a_notebook.ipynb:346
 #: f6d3e885e5084247be5c6a8b361fafa8
@@ -10939,7 +10525,7 @@ msgstr "|f852e82dac6340cc9d44d43d9bee6f34|"
 #: ../session_1/04_running_a_notebook.ipynb:386
 #: fafc7fa2c43648919a135fe2c0fd6ad4
 msgid "The map in this app shows an ESRI basemap which is higher resolution than the Sentinel-2 data used to calculate the NDVI index. The purpose of the map is to guide you in drawing field boundaries."
-msgstr ""
+msgstr "La carte de cette application montre une carte de base ESRI dont la résolution est supérieure à celle des données Sentinel-2 utilisées pour calculer l'indice NDVI. L'objectif de cette carte est de vous guider dans le tracé des limites du champ."
 
 #: ../session_1/04_running_a_notebook.ipynb:396
 #: d292bf42998d49e895ebf074388510b0
@@ -10954,96 +10540,96 @@ msgstr "|cec2bd07b2e545aa972e825f02b0ba91|"
 #: ../session_1/04_running_a_notebook.ipynb:454
 #: 0eb7ef4820fd46509e403be213b04b48
 msgid "If you're going to use your own area of interest, make sure data is available by looking at the Sandbox Metadata Explorer for Sentinel-2 at https://explorer.digitalearth.africa/s2_l2a. You will also need to make sure you provide latitude and longitude values (rather than Easting and Northing values)."
-msgstr ""
+msgstr "Si vous comptez utiliser votre propre zone d'intérêt, assurez-vous que les données sont disponibles en consultant le Sandbox Metadata Explorer pour Sentinel-2 à l'adresse https://explorer.digitalearth.africa/s2_l2a. Vous devrez également vous assurer que vous fournissez des valeurs de latitude et de longitude (plutôt que des valeurs d'est et de nord)."
 
 #: ../session_2/01_products_intro.ipynb:24
 #: 0e1172918ea548aa92f3f87b6123d55c
 msgid "Satellite input products: datasets of measurements taken by satellites"
-msgstr ""
+msgstr "Produits d'entrée satellitaires : ensembles de données de mesures prises par les satellites."
 
 #: ../session_2/01_products_intro.ipynb:27
 #: d89741d0b79445549e323e73c5ec0fbe
 msgid "For now, we will focus on satellite input products. This section describes the two main datasets we will see in this training course — **Landsat 8** and **Sentinel-2**."
-msgstr ""
+msgstr "Pour l'instant, nous allons nous concentrer sur les produits d'entrée satellitaires. Cette section décrit les deux principaux ensembles de données que nous verrons dans ce cours de formation - **Landsat 8** et **Sentinel-2**."
 
 #: ../session_2/01_products_intro.ipynb:96
 #: ../session_2/01_products_intro.ipynb:96
 #: 0da699c526f545e3b58acb7dea953284
 #: 1befcbeae2494faf9878bcc9ebf272a7
 msgid "Sentinel2"
-msgstr ""
+msgstr "Sentinel2"
 
 #: ../session_2/01_products_intro.ipynb:181
 #: 3a0ac4320e644c6a9ff6674a90c9b65e
 msgid "The Landsat data is organised by collections. Recent pre-processing methodology upgrades by USGS have allowed the release of ‘Collection 2’. This supersedes the older ‘Collection 1’ of Landsat data. Collection 2 is the collection used in Digital Earth Africa."
-msgstr ""
+msgstr "Les données Landsat sont organisées par collections. De récentes mises à jour de la méthodologie de prétraitement par l'USGS ont permis la publication de la \"Collection 2\". Celle-ci remplace l'ancienne \"Collection 1\" des données Landsat. La collection 2 est la collection utilisée dans Digital Earth Africa."
 
 #: ../session_2/01_products_intro.ipynb:185
 #: 1a72b3e69d9b48918282bf7163d56c66
 msgid "The Digital Earth Africa Landsat 8 product uses Collection 2 Level-2 data, and holds the following characteristics:"
-msgstr ""
+msgstr "Le produit Digital Earth Africa Landsat 8 utilise les données de la Collection 2 Niveau 2, et possède les caractéristiques suivantes :"
 
 #: ../session_2/01_products_intro.ipynb:187
 #: 5696e98b62e64aaa917bb6872ac59ae5
 msgid "**Sandbox alias:** ``ls8_sr``"
-msgstr ""
+msgstr "**Alias Sandbox:** ``ls8_sr``"
 
 #: ../session_2/01_products_intro.ipynb:189
 #: 50ad9a74bbc949729f7ebdc537c841fe
 msgid "**Data timespan:** March 2013 – present"
-msgstr ""
+msgstr "**Durée des données : **Mars 2013 - aujourd'hui"
 
 #: ../session_2/01_products_intro.ipynb:204
 #: ../session_2/01_products_intro.ipynb:258
 #: 70f2be0aa93c491885f2bcf579b7ffad
 #: db5d6f33567f447a8f6b02a537c22be2
 msgid "For more details, see the following resources:"
-msgstr ""
+msgstr "Pour plus de détails, consultez les ressources suivantes :"
 
 #: ../session_2/01_products_intro.ipynb:206
 #: cfe3d95360694b6da1149c8905a303e2
 msgid "`Digital Earth Africa dataset specifications: Landsat Collection 2 Level-2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
-msgstr ""
+msgstr "Spécifications du jeu de données Digital Earth Africa : Landsat Collection 2 Level-2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
 
 #: ../session_2/01_products_intro.ipynb:207
 #: 7ad8a933653c48b79605699d48c2d8f0
 msgid "``Landsat.ipynb`` in the **Datasets** folder of the Sandbox"
-msgstr ""
+msgstr "``Landsat.ipynb`` dans le dossier **Datasets** du Sandbox"
 
 #: ../session_2/01_products_intro.ipynb:208
 #: 28bf9edd3be742c994f1204b8b22986f
 msgid "`USGS Landsat Collections website <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__"
-msgstr ""
+msgstr "Site web des collections Landsat de l'USGS <https://www.usgs.gov/land-resources/nli/landsat/landsat-collections?qt-science_support_page_related_con=2#qt-science_support_page_related_con>`__"
 
 #: ../session_2/01_products_intro.ipynb:210
 #: 84906a822ddd4de4b3fd28f6ff1c4734
 msgid "These sources also contain information about previous Landsat missions; together, Landsat 5/7/8 data covers the time period 1984 – present."
-msgstr ""
+msgstr "Ces sources contiennent également des informations sur les missions Landsat précédentes ; ensemble, les données Landsat 5/7/8 couvrent la période 1984 - aujourd'hui."
 
 #: ../session_2/01_products_intro.ipynb:260
 #: 259dd06330e240bcbe8e8a312fdc86a9
 msgid "`Digital Earth Africa dataset specifications: Sentinel-2 Level-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`__"
-msgstr ""
+msgstr "Spécifications du jeu de données Digital Earth Africa : Sentinel-2 Level-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`__"
 
 #: ../session_2/01_products_intro.ipynb:261
 #: 0e20f42f2cfa449795c7bfa8b6cd6eab
 msgid "``Sentinel_2.ipynb`` in the **Datasets** folder of the Sandbox"
-msgstr ""
+msgstr "``Sentinel_2.ipynb`` dans le dossier **Datasets** du Sandbox"
 
 #: ../session_2/01_products_intro.ipynb:262
 #: 834596a84e5348a9948b5ead77889f2e
 msgid "`ESA Sentinel-2 mission website <https://sentinel.esa.int/web/sentinel/missions/sentinel-2>`__"
-msgstr ""
+msgstr "Site web de la mission Sentinel-2 de l'ESA <https://sentinel.esa.int/web/sentinel/missions/sentinel-2>`___."
 
 #: ../session_2/01_products_intro.ipynb:287
 #: 7ed39c5b44d3452795b909afb32dc038
 msgid "**Analysis timespan:** Recent short-term changes (for example, over a couple of months) are best captured by the Sentinel-2 product, which has good temporal resolution. However, if it were changes over several years (or decades), then the Landsat 8 product might be more suitable."
-msgstr ""
+msgstr "**Période d'analyse : ** Les changements récents à court terme (par exemple, sur quelques mois) sont mieux saisis par le produit Sentinel-2, qui a une bonne résolution temporelle. Cependant, s'il s'agit de changements sur plusieurs années (ou décennies), alors le produit Landsat 8 pourrait être plus approprié."
 
 #: ../session_2/01_products_intro.ipynb:289
 #: b20ee0711a32440b9e6b2174973f6985
 msgid "**Analysis region size and level of detail:** Sentinel-2 data has better native resolution than Landsat 8, so it is often preferred as it can distinguish smaller artifacts. However, if your region of analysis is expansive and you are looking for larger landmarks (for example, large bodies of water), then Landsat 8 may provide the level of detail required. Using Landsat 8 in that case may significantly reduce computation time while still providing comparable results."
-msgstr ""
+msgstr "**Taille de la région d'analyse et niveau de détail : les données de Sentinel-2 ont une meilleure résolution native que celles de Landsat 8, et sont donc souvent préférées car elles permettent de distinguer des artefacts plus petits. Cependant, si votre région d'analyse est étendue et que vous recherchez des points de repère plus importants (par exemple, de grandes étendues d'eau), Landsat 8 peut fournir le niveau de détail requis. L'utilisation de Landsat 8 dans ce cas peut réduire considérablement le temps de calcul tout en fournissant des résultats comparables."
 
 #: ../session_2/02_deafrica_map.ipynb:101
 #: b20316d11ff74f8a80ef710c8db45498
@@ -11055,7 +10641,7 @@ msgstr "|172f6d4d9f474e8ab8dbf35187759bc1|"
 #: 7b2a571ae4a94db5ac6889053efb98d7
 #: a3891e4c1bb44a04a0c3f90aa74df666
 msgid "The DE Africa Map user interface."
-msgstr ""
+msgstr "L'interface utilisateur de DE Africa Map."
 
 #: ../session_2/02_deafrica_map.ipynb:143
 #: c788d0370f084cd5bd5dde9aff7e78d8
@@ -11067,7 +10653,7 @@ msgstr "|576cf53b49b6486cbed8c6547adc668e|"
 #: a2454172b23f4b78aa3951084de529a8
 #: 93ecd20d7c814669b8d1c428d4f461f1
 msgid "Finding longitude and latitude of a point."
-msgstr ""
+msgstr "Trouver la longitude et la latitude d'un point."
 
 #: ../session_2/02_deafrica_map.ipynb:213
 #: 3e995998525a463d90a5aac8ac6a8609
@@ -11079,7 +10665,7 @@ msgstr "|80c0850dcffa4fe49d2fea5b3cf1c6e6|"
 #: ec7dae94c74f449d915f0dbe0469b680
 #: 5ed3bf61b7c64699ac927f9a8578d996
 msgid "The DE Africa Map data workbench."
-msgstr ""
+msgstr "L'atelier de données DE Africa Map."
 
 #: ../session_2/02_deafrica_map.ipynb:231
 #: f347662b4a0c41f18bf663f73bc4a779
@@ -11091,12 +10677,12 @@ msgstr "|d5ece935fa25465cb989675f97b249bc|"
 #: 74bce8a6a0fa4dc7bb357762221838d6
 #: 829dfc0224ca4924ab89358d443155d3
 msgid "The DE Africa Map data catalogue."
-msgstr ""
+msgstr "Le catalogue de données DE Africa Map."
 
 #: ../session_2/02_deafrica_map.ipynb:245
 #: cfe39567e8294d5387efa6fffbd140db
 msgid "The Landsat 8 data will be displayed in the map interface as blue shaded areas. By default, the data shows the latest available timestep. In this example, this is 25 January 2020."
-msgstr ""
+msgstr "Les données Landsat 8 seront affichées dans l'interface cartographique sous forme de zones ombrées en bleu. Par défaut, les données affichent le dernier pas de temps disponible. Dans cet exemple, il s'agit du 25 janvier 2020."
 
 #: ../session_2/02_deafrica_map.ipynb:247
 #: 1c87bd3ad7ec4150a70c5b10728f0d4b
@@ -11108,7 +10694,7 @@ msgstr "|9bfbfe3f60dc437cb5a49fda12a6d85b|"
 #: 768b6e4b05c24ac39aac7f6bd6348a34
 #: 61cae9fe43684d1eb61c33a42e8d7066
 msgid "Shaded areas show where data exists."
-msgstr ""
+msgstr "Les zones ombragées montrent où les données existent."
 
 #: ../session_2/02_deafrica_map.ipynb:263
 #: 053799f2b7054f96aeef2d34ba054382
@@ -11120,7 +10706,7 @@ msgstr "|0c4c66d8fa0e435bbf2f195a77b5034f|"
 #: 3496d64e21be4c25bf89cf14c00b1a18
 #: 9cdea38446104afa9ea025617bc6c62c
 msgid "DE Africa map zoom."
-msgstr ""
+msgstr "DE Afrique zoom carte."
 
 #: ../session_2/02_deafrica_map.ipynb:267
 #: eb48dc809b9a4dd18a65b1acf04ab26b
@@ -11132,7 +10718,7 @@ msgstr "|73051e31fffb4ad9ad6bd76ebae43242|"
 #: 57ca20ed46af4c2a9a28bfd4eb50b67d
 #: 126887f516254bf7bfc48dfb5155990d
 msgid "Data area as true-colour."
-msgstr ""
+msgstr "Zone de données en couleur réelle."
 
 #: ../session_2/02_deafrica_map.ipynb:287
 #: 90a76a5bd8a04ef18cf5571e7b557410
@@ -11144,7 +10730,7 @@ msgstr "|2b1822689bef4b3d959cb58bb7e32380|"
 #: 7824b20a3e01418ea1463c97a38bf6d8
 #: ea477e23b20846a4aa3b63c0050dd4c6
 msgid "Workbench time selection menu."
-msgstr ""
+msgstr "Menu de sélection du temps de travail."
 
 #: ../session_2/03_data_availability.ipynb:104
 #: 6e55de6487cc49599decd68a27f4c7ef
@@ -11156,12 +10742,12 @@ msgstr "|78ab0c165af5409594cf3e19ab98144b|"
 #: 45f3980596604c609325b47c042915d7
 #: 91d49443eb5244a6bbff867ddd2dcd53
 msgid "The DE Africa Metadata Explorer."
-msgstr ""
+msgstr "L'explorateur de métadonnées DE Africa."
 
 #: ../session_2/03_data_availability.ipynb:146
 #: a343f00e53bf49fa9206f88ffef70aac
 msgid "Click the **product selection** bar to open the dropdown menu. Select **ls8_sr**. This selects the Landsat 8 product."
-msgstr ""
+msgstr "Cliquez sur la barre **sélection de produits** pour ouvrir le menu déroulant. Sélectionnez **ls8_sr**. Ceci sélectionne le produit Landsat 8."
 
 #: ../session_2/03_data_availability.ipynb:148
 #: 962593e31c6a4e988648a92a29e82f39
@@ -11173,7 +10759,7 @@ msgstr "|983fe7efc17f40e29164fe2ff4b8679b|"
 #: c234a2bc8a0e4dc99aeca1c8cb82c395
 #: 46aac975b02b4c2cacde2420c2769545
 msgid "Metadata Explorer Landsat 8."
-msgstr ""
+msgstr "Metadata Explorer Landsat 8."
 
 #: ../session_2/03_data_availability.ipynb:152
 #: b607c1cc55f94f3caef03fe5d6a4bd0f
@@ -11201,12 +10787,12 @@ msgstr "|f1ae10ed0383438b904a349f123b3d89|"
 #: 5ee252844cc74e67afcd933274c2820d
 #: 6e01959224ba4783922ef9306d383595
 msgid "Metadata Explorer Landsat 8 2018."
-msgstr ""
+msgstr "Metadata Explorer Landsat 8 2018."
 
 #: ../session_2/03_data_availability.ipynb:154
 #: 0f8dd01688ea49489efffbdd90caf1cf
 msgid "Click the **all months** bar to open the dropdown menu. Select **August**. This will show all the Landsat 8 datasets for August 2018."
-msgstr ""
+msgstr "Cliquez sur la barre **tous les mois** pour ouvrir le menu déroulant. Sélectionnez **Août**. Cela affichera tous les jeux de données Landsat 8 pour août 2018."
 
 #: ../session_2/03_data_availability.ipynb:156
 #: 66aaea8712b046f1b1a5ac8bb3a9f4d5
@@ -11216,7 +10802,7 @@ msgstr "|5a56f5700f1f4434a9d70522bf739e24|"
 #: ../session_2/03_data_availability.ipynb:158
 #: 420a8478ebc34d80a8a2fc07b5059101
 msgid "Clicl the **all days** bar to open the dropdown menu. Select **11th**, This will show all the Landsat 8 datasets for 11 August 2018."
-msgstr ""
+msgstr "Cliquez sur la barre **tous les jours** pour ouvrir le menu déroulant. Sélectionnez **11th**, ce qui affichera tous les jeux de données Landsat 8 pour le 11 août 2018."
 
 #: ../session_2/03_data_availability.ipynb:160
 #: 4660b771de7f496c8e773756d97803ba
@@ -11226,7 +10812,7 @@ msgstr "|8460f703aff547889d75637aa9a89aad|"
 #: ../session_2/03_data_availability.ipynb:162
 #: d81efe8f71d84443b03a961e4f88c500
 msgid "The **map display** will now show all the Landsat 8 datasets for 11 August 2018 as blue shaded boxes. Use the **+** button on the map to zoom in, and click and drag to pan the map."
-msgstr ""
+msgstr "L'affichage **de la carte** montrera maintenant tous les ensembles de données Landsat 8 pour le 11 août 2018 sous forme de boîtes ombrées en bleu. Utilisez le bouton **+** sur la carte pour effectuer un zoom avant, et cliquez et faites glisser pour effectuer un panoramique de la carte."
 
 #: ../session_2/03_data_availability.ipynb:164
 #: ad9debb137ca4043aecf5167ef919be4
@@ -11241,12 +10827,12 @@ msgstr "|23c291137e384a3ebdc3129f1b91055f|"
 #: ../session_2/03_data_availability.ipynb:212
 #: 4daba02b692c446fbc7cda05eab50e74
 msgid "We can see the data for 11 August 2018 (blue shaded boxes) covers certain parts of Tanzania, which means areas within Tanzania are a suitable location to choose for data analysis for that day. For example, for that day (11 August 2018) we would not be able to do any Landsat 8 analysis over the city of Dodoma in Tanzania, as it does not have any data available for that time."
-msgstr ""
+msgstr "Nous pouvons voir que les données pour le 11 août 2018 (cases ombrées en bleu) couvrent certaines parties de la Tanzanie, ce qui signifie que les zones au sein de la Tanzanie sont un endroit approprié à choisir pour l'analyse des données pour ce jour. Par exemple, pour cette journée (11 août 2018), nous ne pourrions pas faire d'analyse Landsat 8 au-dessus de la ville de Dodoma en Tanzanie, car elle ne dispose d'aucune donnée pour cette période."
 
 #: ../session_2/04_load_data_exercise.ipynb:32
 #: 5c9edb6c86df4769a9ddb5c96cb789f0
 msgid "In this exercise, we will load data from the datacube. First, we will set up a new notebook to work in. Then, we will load Landsat 8 data for a specific time, and use that data to plot a colour image. Finally, we will show you how to modify the load process to load and plot Sentinel-2 data."
-msgstr ""
+msgstr "Dans cet exercice, nous allons charger des données à partir du datacube. Tout d'abord, nous allons créer un nouvel ordinateur portable dans lequel nous allons travailler. Ensuite, nous chargerons des données Landsat 8 pour une période spécifique, et nous utiliserons ces données pour tracer une image en couleur. Enfin, nous vous montrerons comment modifier le processus de chargement pour charger et tracer les données Sentinel-2."
 
 #: ../session_2/04_load_data_exercise.ipynb:81
 #: ../session_2/04_load_data_exercise.ipynb:81
@@ -11257,7 +10843,7 @@ msgstr ""
 #: 29b4a01b57a94534a1c70730f558027f
 #: 5c981cdc76d546b3a22eb80a3058ff0d
 msgid "image1"
-msgstr ""
+msgstr "image1"
 
 #: ../session_2/04_load_data_exercise.ipynb:82
 #: ../session_2/04_load_data_exercise.ipynb:82
@@ -11268,35 +10854,35 @@ msgstr ""
 #: 3b8b0ff32c794445952b8af3278a93bc
 #: 5f2007b576ee4b78b76c96207ea5425c
 msgid "image2"
-msgstr ""
+msgstr "image2"
 
 #: ../session_2/04_load_data_exercise.ipynb:83
 #: ../session_2/04_load_data_exercise.ipynb:83
 #: d1e5a150bb8c490d96d2f0ee36e8e3ad
 #: 4e5b678ca8504b9bb922ea1c2b0024d0
 msgid "image3"
-msgstr ""
+msgstr "image3"
 
 #: ../session_2/04_load_data_exercise.ipynb:84
 #: ../session_2/04_load_data_exercise.ipynb:84
 #: c86a613330624829bd174239932fd810
 #: ba76693d35de429aa007dee2215dad3d
 msgid "image4"
-msgstr ""
+msgstr "image4"
 
 #: ../session_2/04_load_data_exercise.ipynb:85
 #: ../session_2/04_load_data_exercise.ipynb:85
 #: e0fac95b6f154135bf5c6f0697ef7789
 #: 57fafa8b34d64f1ab8d7b97b764fd398
 msgid "image5"
-msgstr ""
+msgstr "image5"
 
 #: ../session_2/04_load_data_exercise.ipynb:86
 #: ../session_2/04_load_data_exercise.ipynb:86
 #: 9bf378665cd64c688f89195ac4f7b215
 #: f093fa24e09d44ae8ac73b5cd3d43f13
 msgid "image6"
-msgstr ""
+msgstr "image6"
 
 #: ../session_2/04_load_data_exercise.ipynb:143
 #: ../session_2/04_load_data_exercise.ipynb:143
@@ -11307,17 +10893,17 @@ msgstr ""
 #: 787f16ce435241ff997bdd077aead8ab
 #: 6059c15d699e4db38a6f48761d5ade48
 msgid "image7"
-msgstr ""
+msgstr "image7"
 
 #: ../session_2/04_load_data_exercise.ipynb:139
 #: 9dcc9390821246d6880e89611f05ae39
 msgid "The package ``deafrica_tools`` contains several modules which help load, analyse and output data from Digital Earth Africa. Here we call upon the module ``deafrica_tools.plotting`` to import the ``rgb`` plot function, which allows us to visualise data as true-colour (red-green-blue, or RGB) images"
-msgstr ""
+msgstr "Le paquet ``deafrica_tools`` contient plusieurs modules qui aident à charger, analyser et sortir les données de Digital Earth Africa. Ici, nous faisons appel au module ``deafrica_tools.plotting`` pour importer la fonction ``rgb`` plot, qui nous permet de visualiser les données sous forme d'images en couleurs réelles (rouge-vert-bleu, ou RVB)."
 
 #: ../session_2/04_load_data_exercise.ipynb:154
 #: bacb90d6a12048d4bd00e37d22d3c2a1
 msgid "As of June 2021, the ``deafrica_tools`` package replaces the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the `DE Africa Tools module documentation <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
-msgstr ""
+msgstr "À partir de juin 2021, le paquet ``deafrica_tools`` remplace l'importation de fichiers dépréciée ``sys.path.append('../Scripts')``. Pour plus d'informations sur ``deafrica_tools``, visitez la documentation du module `DE Africa Tools'' <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
 
 #: ../session_2/04_load_data_exercise.ipynb:182
 #: ../session_2/04_load_data_exercise.ipynb:182
@@ -11328,21 +10914,21 @@ msgstr ""
 #: a0d253c0af53490580f710692af66873
 #: bb2fea992397417daccf8798a9894de5
 msgid "image8"
-msgstr ""
+msgstr "image8"
 
 #: ../session_2/04_load_data_exercise.ipynb:211
 #: ../session_2/04_load_data_exercise.ipynb:211
 #: 8c7124eb88754a268218e09af186e98a
 #: 886ea97448a3405d83d6b0c44908b4a7
 msgid "image8+"
-msgstr ""
+msgstr "image8+"
 
 #: ../session_2/04_load_data_exercise.ipynb:226
 #: ../session_2/04_load_data_exercise.ipynb:226
 #: 44a8f980d18242bf8e5fae908800ae24
 #: ec99c9ae3e1a41efb94a67619f61dd42
 msgid "image8++"
-msgstr ""
+msgstr "image8++"
 
 #: ../session_2/04_load_data_exercise.ipynb:241
 #: ../session_2/04_load_data_exercise.ipynb:241
@@ -11353,50 +10939,50 @@ msgstr ""
 #: b5606989bf6b4f9580c14b24e4eb9cf2
 #: 8ac75de4409841a294572216bdc1e1e6
 msgid "image9"
-msgstr ""
+msgstr "image9"
 
 #: ../session_2/04_load_data_exercise.ipynb:252
 #: a2a4cdf36c864fb889af49664f506064
 msgid "We load data with the ``dc.load()`` function. We have chosen to call the loaded dataset ``landsat_ds``. The text between the brackets of ``dc.load()`` are our parameters. We have chosen to put the parameters on separate lines to make the code easier to read (and errors easier to spot). Each parameter must be separated by a comma."
-msgstr ""
+msgstr "Nous chargeons les données avec la fonction ``dc.load()``. Nous avons choisi d'appeler le jeu de données chargé ``landsat_ds``. Le texte entre les parenthèses de ``dc.load()`` sont nos paramètres. Nous avons choisi de mettre les paramètres sur des lignes séparées pour rendre le code plus facile à lire (et les erreurs plus faciles à repérer). Chaque paramètre doit être séparé par une virgule."
 
 #: ../session_2/04_load_data_exercise.ipynb:254
 #: 6c8b25c6cb5a4c0d805e7aaaf3bd3e28
 msgid "The ``product`` argument is the datacube product to load data from. We want to access the Landsat 8 dataset, which is named ``ls8_sr``."
-msgstr ""
+msgstr "L'argument ``product`` est le produit du datacube à partir duquel charger les données. Nous voulons accéder au jeu de données Landsat 8, qui est nommé ``ls8_sr``."
 
 #: ../session_2/04_load_data_exercise.ipynb:258
 #: 95bf8e8982274e84ac9c8313df788c98
 msgid "``ls8_sr`` uses only numbers and lowercase letters. It stands for **L**\\ andsat **8** **S**\\ urface **R**\\ eflectance."
-msgstr ""
+msgstr "``ls8_sr`` n'utilise que des chiffres et des lettres minuscules. C'est l'abréviation de **L*** et de **8** **S*** urface **R*** eflectance."
 
 #: ../session_2/04_load_data_exercise.ipynb:281
 #: ../session_5/02_vegetation_exercise.ipynb:380
 #: 0c1ee1aa03284d62bf058b2dae943cdf
 #: 4832e83e1988403caa610a49695fdf47
 msgid "As of June 2021, DE Africa Landsat data has been upgraded to Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. For more information on Landsat Collection 2, visit the `DE Africa Landsat documentation <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`_."
-msgstr ""
+msgstr "À partir de juin 2021, les données Landsat de DE Africa ont été mises à niveau vers la collection 2. Les noms des cubes de données ont été mis à jour en \"lls5_sr\", \"lls7_sr\" et \"lls8_sr\". Les conventions de dénomination obsolètes telles que \"ls8_usgs_sr_scene\" ne fonctionneront plus. Pour plus d'informations sur Landsat Collection 2, visitez la documentation `DE Africa Landsat <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`_."
 
 #: ../session_2/04_load_data_exercise.ipynb:307
 #: ../session_2/04_load_data_exercise.ipynb:307
 #: 2aae9c69b4b440d2859b1f3b0e08cdbe
 #: d55d6a7c41a646d08147186ba3a43e6a
 msgid "image9+"
-msgstr ""
+msgstr "image9+"
 
 #: ../session_2/04_load_data_exercise.ipynb:324
 #: ../session_2/04_load_data_exercise.ipynb:324
 #: 312f9a0a9249451d8910560f643b8ffc
 #: af7478b7fa744670bdd18eabcc2b015e
 msgid "image9++"
-msgstr ""
+msgstr "image9++"
 
 #: ../session_2/04_load_data_exercise.ipynb:362
 #: ../session_2/04_load_data_exercise.ipynb:362
 #: 1b00bf7a79714c4da4a51c7996518805
 #: 17acbdbfd93443faa9741000228cbd65
 msgid "image9+++"
-msgstr ""
+msgstr "image9+++"
 
 #: ../session_2/04_load_data_exercise.ipynb:401
 #: ../session_2/04_load_data_exercise.ipynb:401
@@ -11407,75 +10993,75 @@ msgstr ""
 #: 632e82437b174ba38af16e2fd410fb2a
 #: 553ac246ab544e57af24f443c53bfb65
 msgid "image10"
-msgstr ""
+msgstr "image10"
 
 #: ../session_2/04_load_data_exercise.ipynb:402
 #: ../session_2/04_load_data_exercise.ipynb:402
 #: 978065ed0a0847d084fa48aa530410b7
 #: 3aa2f2e014e04e24bd44471ec2b8b764
 msgid "image11"
-msgstr ""
+msgstr "image11"
 
 #: ../session_2/04_load_data_exercise.ipynb:459
 #: ../session_2/04_load_data_exercise.ipynb:459
 #: 101d7494270145c99f406cf27f40620b
 #: 6f9585232566479eb893609b9dcb59b0
 msgid "image12"
-msgstr ""
+msgstr "image12"
 
 #: ../session_2/04_load_data_exercise.ipynb:484
 #: ../session_2/04_load_data_exercise.ipynb:484
 #: 2bd02cf830464a43b41d0fa0fe7ad443
 #: 47f76b6f680f426c85037c929edef2c4
 msgid "image13"
-msgstr ""
+msgstr "image13"
 
 #: ../session_2/04_load_data_exercise.ipynb:539
 #: ../session_2/04_load_data_exercise.ipynb:539
 #: 00381d41c4024b9eacec62cdb3ca070a
 #: 995e427e6e954ff9bb9e4457d6036f54
 msgid "Sentinel-2 dataset"
-msgstr ""
+msgstr "Jeu de données Sentinel-2"
 
 #: ../session_2/04_load_data_exercise.ipynb:540
 #: ../session_2/04_load_data_exercise.ipynb:540
 #: 44a0f274ad4a4e619fee5b51c976c24e
 #: 8be920b3c95a41308012f5935cebaaeb
 msgid "Sentinel-2 dataset product"
-msgstr ""
+msgstr "Produit du jeu de données Sentinel-2"
 
 #: ../session_2/04_load_data_exercise.ipynb:551
 #: a06eea62097c41beb92843012f18ae17
 msgid "``s2_l2a`` stands for **S**\\ entinel-**2** **L**\\evel-**2A**. The fourth character is a lowercase alphabet 'l'. Double-check you have entered the product name correctly to avoid errors."
-msgstr ""
+msgstr "``s2_l2a`` signifie **S**\\ entinel-**2** **L**\\evel-**2A**. Le quatrième caractère est un \"l\" alphabétique minuscule. Vérifiez que vous avez saisi le nom du produit correctement pour éviter les erreurs."
 
 #: ../session_2/04_load_data_exercise.ipynb:590
 #: ../session_2/04_load_data_exercise.ipynb:590
 #: 9028385f7b784edcbfecccef7a24298c
 #: add3b58a1c3540de944273c7380c32a1
 msgid "Sentinel-2 dataset resolution"
-msgstr ""
+msgstr "Résolution du jeu de données Sentinel-2"
 
 #: ../session_2/04_load_data_exercise.ipynb:591
 #: ../session_2/04_load_data_exercise.ipynb:591
 #: db0af1e177ea454db1564638a1451696
 #: 9af4d7595e5a44e4b961d6c6acf8e576
 msgid "Sentinel-2 dc.load"
-msgstr ""
+msgstr "Sentinel-2 dc.load"
 
 #: ../session_2/04_load_data_exercise.ipynb:592
 #: ../session_2/04_load_data_exercise.ipynb:592
 #: b22f30b912d542d7abc04b05aee8ba36
 #: a1edc04a793e460b86b986e60dde5796
 msgid "image15"
-msgstr ""
+msgstr "image15"
 
 #: ../session_2/04_load_data_exercise.ipynb:593
 #: ../session_2/04_load_data_exercise.ipynb:593
 #: c1ee90daa70e44218a28112344610864
 #: 05855ad36bc24f6faf887eb43ea30c2b
 msgid "image16"
-msgstr ""
+msgstr "image16"
 
 #: ../session_2/05_s2_solution.ipynb:92
 #: 3b50701333824988ac923d736c3c3398
@@ -11492,7 +11078,7 @@ msgstr "|ba7117434b3746e6a809025873c74487|"
 #: 6cad6c0244ca4bbcb16c59352adbbdbb
 #: 15e54c0acac9464ea8952803d1aad60c
 msgid "dc.load images from previous session."
-msgstr ""
+msgstr "dc.charger les images de la session précédente."
 
 #: ../session_3/01_intro_composites.ipynb:159
 #: d31e2cfc1d91445593b1eabe7431fc60
@@ -11504,12 +11090,12 @@ msgstr "|7fcf42a8cdc44c689defc77ca16a8e21|"
 #: 813509a4ca2b4405bb81765a046f6efd
 #: bc70cb06be934cf1919aaa50a980e670
 msgid "dc.load vs load_ard."
-msgstr ""
+msgstr "dc.load vs load_ard."
 
 #: ../session_3/01_intro_composites.ipynb:195
 #: 8951688fcd53414096e73c5b37ff6346
 msgid "``load_ard()`` is compatible with both the Sentinel-2 dataset and the Landsat 8 dataset we used in the last session. However, it is not compatible with some other Digital Earth Africa products, such as Water Observations from Space or GeoMAD, with which you will need to use ``dc.load()``."
-msgstr ""
+msgstr "``load_ard()`` est compatible avec le jeu de données Sentinel-2 et le jeu de données Landsat 8 que nous avons utilisé lors de la dernière session. Cependant, il n'est pas compatible avec certains autres produits Digital Earth Africa, tels que Water Observations from Space ou GeoMAD, avec lesquels vous devrez utiliser ``dc.load()``."
 
 #: ../session_3/01_intro_composites.ipynb:248
 #: 7b6a4fb3d810435bb799899355eaff98
@@ -11521,7 +11107,7 @@ msgstr "|b9c67d96afb9400d8a6012b0d41a4ae0|"
 #: b0a350020efb44449177ec0d33158d43
 #: 15e58502f1dc49c9b681c03fe8b7a61f
 msgid "Median composite explanation"
-msgstr ""
+msgstr "Explication composite médiane"
 
 #: ../session_3/01_intro_composites.ipynb:289
 #: a54f89c84ca34ea28273ccb5d2b00465
@@ -11533,7 +11119,7 @@ msgstr "|7f3dbbfc494745f9ada9e082ab569df1|"
 #: 2bbb057a435b4ceaafca6974c1b064cb
 #: daafc9b0c2ad4c74bed5c04fbc05da83
 msgid "Geomedian composite explanation"
-msgstr ""
+msgstr "Explication du composite géomédiatique"
 
 #: ../session_3/01_intro_composites.ipynb:337
 #: 9be71a4b532f48409ec10bd474141867
@@ -11545,7 +11131,7 @@ msgstr "|0970518a40c048e2aa76096e0aae03b3|"
 #: 26ba3bb3e53a4bb09b2270b0b46c1f54
 #: 5dfddac130a447438393687adac71693
 msgid "RGBs of median and geomedian"
-msgstr ""
+msgstr "RVB de la médiane et de la géomédiane"
 
 #: ../session_3/01_intro_composites.ipynb:353
 #: bc561b6368064e599746148ed0d19b47
@@ -11555,17 +11141,17 @@ msgstr "|a245c90c7bee444e95a7885a44c1d64c|"
 #: ../session_3/01_intro_composites.ipynb:357
 #: 9af19c5282e449c3843646cd92f3f492
 msgid "`Download the widget notebook here <../_static/other_information/Geomedian_interactive_extend1.ipynb>`__ or visit the `Geomedian widget <../Geomedian_widget.ipynb>`__ page for for more information, including instructions on running the widget in the Sandbox."
-msgstr ""
+msgstr "`Téléchargez le carnet de notes du widget ici <../_static/other_information/Geomedian_interactive_extend1.ipynb>`__ ou visitez la page `Didget geomedien <../Geomedian_widget.ipynb>`__ pour plus d'informations, y compris des instructions sur l'exécution du widget dans le bac à sable."
 
 #: ../session_3/01_intro_composites.ipynb:394
 #: 469f53cda2c941f3b69ac589227ac9f9
 msgid "DE Africa produces a pre-computed annual geomedian as part of the GeoMAD service. We will not be using it in this training course, but it produces stunning cloud-free geomedian imagery which can be explored via `DE Africa Maps <http://maps.digitalearth.africa/#share=s-2TViCU6SsK34rNBQucalxIxLvUF>`_ or in the Sandbox. Take a look at the `GeoMAD documentation <https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html>`_ to learn more."
-msgstr ""
+msgstr "DE Africa produit une géomédiane annuelle pré-calculée dans le cadre du service GeoMAD. Nous ne l'utiliserons pas dans ce cours de formation, mais il produit de superbes images géomédiennes sans nuages qui peuvent être explorées via `DE Africa Maps <http://maps.digitalearth.africa/#share=s-2TViCU6SsK34rNBQucalxIxLvUF>`_ ou dans le Sandbox. Jetez un coup d'œil à la `Documentation GeoMAD <https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html>`_ pour en savoir plus."
 
 #: ../session_3/02_cloud_masking.ipynb:89
 #: f7a40a3b7e2349789ef8453d9587da53
 msgid "We used most of these packages and functions in the previous exercise on loading data in the Sandbox. ``rgb`` is for plotting true-colour images. ``display_map`` is for visualising the area we have selected."
-msgstr ""
+msgstr "Nous avons utilisé la plupart de ces paquets et fonctions dans l'exercice précédent sur le chargement des données dans le bac à sable. ``rgb`` permet de tracer des images en couleur. ``display_map`` permet de visualiser la zone que nous avons sélectionnée."
 
 #: ../session_3/02_cloud_masking.ipynb:102
 #: ../session_5/02_vegetation_exercise.ipynb:128
@@ -11574,7 +11160,7 @@ msgstr ""
 #: d690b03ed1da416aa48cf11a04fe013d
 #: 8eddcdb835e34a08ad3392d71be91fbd
 msgid "As of June 2021, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import. For more information on ``deafrica_tools``, visit the `DE Africa Tools module documentation <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
-msgstr ""
+msgstr "À partir de juin 2021, le paquet ``deafrica_tools`` a remplacé l'importation de fichiers dépréciée ``sys.path.append('../Scripts')``. Pour plus d'informations sur ``deafrica_tools``, visitez la documentation du module `DE Africa Tools'' <https://docs.digitalearthafrica.org/en/latest/sandbox/api.html>`_."
 
 #: ../session_3/02_cloud_masking.ipynb:170
 #: 3cd886502a304f8d9235f930b58eeb99
@@ -11586,7 +11172,7 @@ msgstr "|48937ac5834047a0ad75a108103a2233|"
 #: a44bc0cedb2d46b8bb3dd4915a93f638
 #: 32d5b96b72714e75ba23df3d4d832153
 msgid "Example of display_map input and output."
-msgstr ""
+msgstr "Exemple d'entrée et de sortie de display_map."
 
 #: ../session_3/02_cloud_masking.ipynb:195
 #: 8fb848646db04ca38ecfdb8bc7abf7e9
@@ -11598,7 +11184,7 @@ msgstr "|8c0250eca93149e79dd274b975c58878|"
 #: 33454f7629674d12996e3e3254fa4b61
 #: 38a5151b70424841b647b58e4b70168b
 msgid "Using load_ard."
-msgstr ""
+msgstr "J'utilise load_ard."
 
 #: ../session_3/02_cloud_masking.ipynb:244
 #: 2f957224db4b446ea538c1dfd9f59bb0
@@ -11610,7 +11196,7 @@ msgstr "|990231e7c15b414e9d131c92a33c63e9|"
 #: 94df82a3416247c1bcd16acd7c6d9df8
 #: 02c0bed9c62b43c58a1c7f0c11a25277
 msgid "Plotting an RGB of the first timestep."
-msgstr ""
+msgstr "Tracé d'un RVB du premier pas de temps."
 
 #: ../session_3/02_cloud_masking.ipynb:269
 #: 201da28eeb2247d8b3cc9f07d0bcbca6
@@ -11622,7 +11208,7 @@ msgstr "|8c3d4428145142b9adad19c40fd47f8b|"
 #: 6af1b34eb0e2467fa10f99506e5c9503
 #: d86cbb3fdce7464a871fee0416ea2cf9
 msgid "Output RGB of the first timestep."
-msgstr ""
+msgstr "Sortie RVB du premier pas de temps."
 
 #: ../session_3/02_cloud_masking.ipynb:294
 #: 3b596c30480c42ff963b4585feab81dd
@@ -11634,7 +11220,7 @@ msgstr "|414083ea93dd4490b123763eb85de9d9|"
 #: a73180df5c59478380f8b6dd01e699a4
 #: f9f8f3d475344dbd8bea3ae6da8c677a
 msgid "Plotting RGBs of all timestep."
-msgstr ""
+msgstr "Tracé des RVB de tous les pas de temps."
 
 #: ../session_3/02_cloud_masking.ipynb:310
 #: 581e0543fa5b4effa840fe03be94bb42
@@ -11646,12 +11232,12 @@ msgstr "|4e393efe2c8e4f319c85873fe56e76aa|"
 #: e4d006c653eb4f488e65e972d73157c0
 #: 8b256f292a59462aa2bf796be17086d9
 msgid "Output RGBs from col=time."
-msgstr ""
+msgstr "Sortie des RGB de col=time."
 
 #: ../session_3/03_geomedian_exercise.ipynb:197
 #: 958fa1d126434ea39125322774480453
 msgid "There are some visual anomalies, but most of the image accurately represents the area. Note that this image is a representation of what the area looked like over the loaded time range, so from 1 February, 2018, to 15 March, 2018."
-msgstr ""
+msgstr "Il y a quelques anomalies visuelles, mais la majeure partie de l'image représente fidèlement la zone. Notez que cette image est une représentation de ce à quoi ressemblait la zone sur la plage de temps chargée, donc du 1er février 2018 au 15 mars 2018."
 
 #: ../session_3/04_s3_solution.ipynb:92
 #: 9086033d478e49748cc762db40617007
@@ -11668,7 +11254,7 @@ msgstr "|86d60a73cfb64859b1aa6b73e5d2d00b|"
 #: 89928464a4234cbe9cd2a8aba5dc2e2e
 #: ca1b6c9c7b11465ca2f1b093e6424eb1
 msgid "Some of the Landsat 8 bands on the EM spectrum."
-msgstr ""
+msgstr "Certaines des bandes de Landsat 8 sur le spectre EM."
 
 #: ../session_4/01_band_indices.ipynb:127
 #: f1ec1c1c998b465baa0bc8bda665c52b
@@ -11680,7 +11266,7 @@ msgstr "|36c184b43b1f497899af140a629b0e5f|"
 #: fd5a468284284644a6d4cbc5399cc4e3
 #: bccb1a6da3e148fa9854cba603c8e915
 msgid "Table of commonly-used Landsat 8 and Sentinel-2 bands."
-msgstr ""
+msgstr "Tableau des bandes Landsat 8 et Sentinel-2 couramment utilisées."
 
 #: ../session_4/01_band_indices.ipynb:322
 #: d4261c2b04024983a8ee8a37c26d1582
@@ -11692,12 +11278,12 @@ msgstr "|bc61c893d01a45f590428b85893bf809|"
 #: a5a068bc0ef249429d7f6895c63b5c77
 #: 738a543798974f7486db37d740fd19b0
 msgid "NDVI in Guinea-Bissau."
-msgstr ""
+msgstr "NDVI en Guinée-Bissau."
 
 #: ../session_4/01_band_indices.ipynb:347
 #: b3df2732f0844539a886a1094d59ecb6
 msgid "We see in the table above that satellites have slightly different band ranges for the same band name (e.g. 'Red' for Landsat 8 is slightly different than 'Red' for Sentinel-2). This means they will produce different band index values even at approximately the same time and place. It is good practice to compare like datasets only."
-msgstr ""
+msgstr "Nous voyons dans le tableau ci-dessus que les satellites ont des plages de bande légèrement différentes pour le même nom de bande (par exemple, \"Red\" pour Landsat 8 est légèrement différent de \"Red\" pour Sentinel-2). Cela signifie qu'ils produiront des valeurs d'indice de bande différentes même à peu près au même moment et au même endroit. Une bonne pratique consiste à ne comparer que des ensembles de données similaires."
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:130
 #: a2c5b48c134a4f578a216c56fe4d04cb
@@ -11707,22 +11293,22 @@ msgstr "|09691b5c8af8499e9a125c5e188a08b0|"
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:159
 #: 97aeda33d5b245548dabc659fba5af5c
 msgid "``'nD'`` - number of days (e.g. ``'7D'`` for seven days)"
-msgstr ""
+msgstr "``'nD'`` - nombre de jours (par exemple, ``'7D'`` pour sept jours)"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:160
 #: d8b158b042ae4f6196ea01a3edf67914
 msgid "``'nM'`` - number of months (e.g. ``'6M'`` for six months)"
-msgstr ""
+msgstr "``'nM'`` - nombre de mois (par exemple, ``'6M'`` pour six mois)"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:161
 #: 706f3f1efd8f48189ba7c28dcb3d49a6
 msgid "``'nY'`` - number of years (e.g. ``'2Y'`` for two years)"
-msgstr ""
+msgstr "``'nY'`` - nombre d'années (par exemple, ``'2Y'`` pour deux ans)"
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:209
 #: c531b48fc1054398b711dfda906f8123
 msgid "For this session, instead of calling ``xr_geomedian(sentinel_2_ds)`` on the entire array as we did in the previous exercise, we pass the ``xr_geomedian`` function to ``map`` and apply it separately to each resampled group(\\ ``resample_sentinel_2_ds``)."
-msgstr ""
+msgstr "Pour cette session, au lieu d'appeler ``xr_geomedian(sentinel_2_ds)`` sur le tableau entier comme nous l'avons fait dans l'exercice précédent, nous passons la fonction ``xr_geomedian`` à ``map`` et l'appliquons séparément à chaque groupe rééchantillonné (``resample_sentinel_2_ds``)."
 
 #: ../session_4/02_calculate_ndvi_part_1.ipynb:232
 #: 128a0c8310ca4e8d98e4fdfbefbc17e2
@@ -11754,7 +11340,7 @@ msgstr "|eb9b81eb2fec4dc69df9d2a8fc59523d|"
 #: 6440fd198bf64e669b15f0124ea39bab
 #: c1299423c3f6435883e852d4e502287c
 msgid "The geomedian_resample dataset with NIR band."
-msgstr ""
+msgstr "Le jeu de données geomedian_resample avec la bande NIR."
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:199
 #: 4a32fd5b0fab443e810936619ebf0806
@@ -11764,7 +11350,7 @@ msgstr "|f82088e9573b478090282f90a06d5120|"
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:214
 #: 2a65235099ce4516ad4d989138c19f0e
 msgid "The ``xarray`` ``.plot()`` function is briefly described in `Python basics 5: Xarray <../python_basics/05_xarray.ipynb>`_."
-msgstr ""
+msgstr "La fonction ``xarray`` ``.plot()`` est brièvement décrite dans `Python basics 5 : Xarray <../python_basics/05_xarray.ipynb>`_."
 
 #: ../session_4/03_calculate_ndvi_part_2.ipynb:240
 #: f2e6f41254f14872b29b13db5c5c81d4
@@ -11791,7 +11377,7 @@ msgstr "|9e5bc6daf61a4a1e9b17dd0c62756655|"
 #: d409e43e36d046819436236fa4daa7a8
 #: 2b668052bfe9443994ac0856c2756795
 msgid "Screenshot from the crop health notebook."
-msgstr ""
+msgstr "Capture d'écran du carnet de santé des cultures."
 
 #: ../session_5/01_vegetation_analysis.ipynb:86
 #: 25f2afaa38ce447e93ada3fb5e9349f5
@@ -11803,7 +11389,7 @@ msgstr "|2270bbb37281401c9d05ad89dd76a04f|"
 #: cc39baac67a34f86bf0f542c211e421e
 #: 7cdf7b278a984e96936e3795703c72a2
 msgid "A crop field in Africa."
-msgstr ""
+msgstr "Un champ de culture en Afrique."
 
 #: ../session_5/01_vegetation_analysis.ipynb:228
 #: cc08291f93d94102a1397306528d1f29
@@ -11815,7 +11401,7 @@ msgstr "|59c399aee41942c0a61e3a6fa64dc27e|"
 #: e722216889da4a2ab05f29056089c3e4
 #: f340867a86b647f7a8c7314b61935f6d
 msgid "Components of a"
-msgstr ""
+msgstr "Composants d'un"
 
 #: ../session_5/02_vegetation_exercise.ipynb:218
 #: 4581b21c188e4e7f974e468cf3d6f867
@@ -11827,27 +11413,27 @@ msgstr "|61a088e92cdf4929b7848a5cac840376|"
 #: 7364bd5682a94a86aafb4f69f4fb12e6
 #: ebf0c625307d45ac8a178745385d468c
 msgid "Two different methods of defining an area of interest."
-msgstr ""
+msgstr "Deux méthodes différentes pour définir une zone d'intérêt."
 
 #: ../session_5/02_vegetation_exercise.ipynb:431
 #: 40690b16687a44178c593a6e5838db06
 msgid "The dataset name, e.g. ``landsat_ds``"
-msgstr ""
+msgstr "Le nom du jeu de données, par exemple \"landsat_ds\"."
 
 #: ../session_5/02_vegetation_exercise.ipynb:432
 #: a669f3f0588a4730a6d8d315792188c9
 msgid "The name of the index to calculate, e.g. ``index='EVI'``"
-msgstr ""
+msgstr "Le nom de l'indice à calculer, par exemple ``index='EVI'``"
 
 #: ../session_5/02_vegetation_exercise.ipynb:433
 #: 4fb472482d46497ab8d20024981b4b71
 msgid "The Landsat collection number, e.g. ``collection='c2'``"
-msgstr ""
+msgstr "Le numéro de la collection Landsat, par exemple \"collection='c2'``\"."
 
 #: ../session_5/02_vegetation_exercise.ipynb:435
 #: 97611fc3a40144ff82dab0fb729d8951
 msgid "``c2`` stands for ‘Collection 2’, which is the currently-available Landsat collection of data as named by its publishers, US Geological Survey."
-msgstr ""
+msgstr "\" c2 \" signifie \" Collection 2 \", qui est la collection de données Landsat actuellement disponible, telle que nommée par ses éditeurs, l'US Geological Survey."
 
 #: ../session_5/02_vegetation_exercise.ipynb:647
 #: f4527b74c25a4e18bb03c32dc6baa881
@@ -11859,7 +11445,7 @@ msgstr "|bc62a7d947ad4659a64e536fecfcabe9|"
 #: 083595e3c48941058228873ace20d66e
 #: d0f02ea843b54abd9cb7ceab71b9b55e
 msgid "EVI difference plot."
-msgstr ""
+msgstr "Graphique de différence EVI."
 
 #: ../session_5/03_s5_solution.ipynb:92
 #: a6f2fc9c615b4034925b662d7d398b8c
@@ -11876,7 +11462,7 @@ msgstr "|d21b94b196e84a12962a0b746a6c7563|"
 #: 6b566c1178d1410c9927459d310b6950
 #: 620256f47e67457b968da8290c9a530c
 msgid "Drought in Cape Town in 2018."
-msgstr ""
+msgstr "Sécheresse au Cap en 2018."
 
 #: ../session_6/01_intro_water_analyses.ipynb:212
 #: 592e5c16ddb647bdb002ec716c6e00e1
@@ -11888,7 +11474,7 @@ msgstr "|dac2d2585ded4ce9b76a42bf23f3f4d1|"
 #: ac3a12ebdb6d4bae9320cf822919e4b9
 #: 6cedc4b6086f4bcf9b92148c365b1ad8
 msgid "Example of WOfS over Senegal."
-msgstr ""
+msgstr "Exemple de WOfS sur le Sénégal."
 
 #: ../session_6/02_water_extent.ipynb:219
 #: 5900f932eb7d46d39a55ea2a75820fd8
@@ -11912,7 +11498,7 @@ msgstr "|b02dd6efbd5b4a4c9c4b3dcc3231cbb7|"
 #: 1368f96601bc4364b8b932f6cd33e994
 #: 2d08e5c064fc4da7beaf5fa9148177d5
 msgid "."
-msgstr ""
+msgstr "."
 
 #: ../session_6/02_water_extent.ipynb:235
 #: e266df38cf0b4e56a73b85f57f81d16e

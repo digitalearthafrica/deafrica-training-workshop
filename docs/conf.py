@@ -90,4 +90,5 @@ html_context = {
 # Translation options
 gettext_uuid = True
 gettext_compact = "docs"  # makes a single "docs.po" file
+gettext_location = False  # location seems to cause issues
 locale_dirs = ['locales/']

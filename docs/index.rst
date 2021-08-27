@@ -7,6 +7,7 @@ Digital Earth Africa Training
 =============================
 
 .. note:: 
+..
     Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
 
 Welcome to the Digital Earth Africa training course!
@@ -42,7 +43,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 --------------
 
- - **09/08/2021:** Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
+ - **09/08/2021:** *Postponed.* Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
  - **01/06/2021:** Digital Earth Africa Landsat datasets have been upgraded to USGS Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import.
  - **21/01/2021:** `Virtual live sessions <./Events.ipynb>`_ run by our course convenors have resumed for 2021. We encourage all current and past course participants to join in.
  - **15/12/2020:** If you have completed any or all sections of the Digital Earth Africa training course, complete our `participant survey <https://forms.gle/QSuoFWXuevyKTgVZ7>`_.

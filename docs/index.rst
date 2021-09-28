@@ -42,7 +42,7 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 
 Latest Updates
 --------------
-
+ - **29/09/2021:** The Water Observations from Space (WOfS) dataset used in `Session 6 <./session_6/index.rst>`_ can now be accessed by its new product name ``wofs_ls``. The session content and demonstration notebook have been updated. The deprecated product ``ga_ls8c_wofs_2`` will slowly be phased out.
  - **09/08/2021:** *Postponed.* Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
  - **01/06/2021:** Digital Earth Africa Landsat datasets have been upgraded to USGS Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import.
  - **21/01/2021:** `Virtual live sessions <./Events.ipynb>`_ run by our course convenors have resumed for 2021. We encourage all current and past course participants to join in.

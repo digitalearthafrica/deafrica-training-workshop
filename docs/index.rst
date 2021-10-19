@@ -7,8 +7,9 @@ Digital Earth Africa Training
 =============================
 
 .. note:: 
-..
-    Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
+    Training at Digital Earth Africa is moving! Register at `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_ to enrol in the revised and updated 6-week training course, now called `Intro to the Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_(EN) and `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_ (FR). Current participants on this website have until **30 November 2021** to successfully complete all quizzes for certification. After 30 November 2021, certificates can be obtained by completing the Intro to Sandbox course on `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_. 
+    
+    Second paragraph?
 
 Welcome to the Digital Earth Africa training course!
 
@@ -43,7 +44,6 @@ Should you require help, see the :doc:`Frequently_asked_questions` and :doc:`Con
 Latest Updates
 --------------
  - **29/09/2021:** The Water Observations from Space (WOfS) dataset used in `Session 6 <./session_6/index.rst>`_ can now be accessed by its new product name ``wofs_ls``. The session content and demonstration notebook have been updated. The deprecated product ``ga_ls8c_wofs_2`` will slowly be phased out.
- - **09/08/2021:** *Postponed.* Training at Digital Earth Africa is moving! We will be migrating to our new learning platform soon. For now, this **will not impact** any new or current participants in the self-paced course. Certification is still available for participants who successfully complete all quizzes. Please check back here for dates and further information as it is released.
  - **01/06/2021:** Digital Earth Africa Landsat datasets have been upgraded to USGS Collection 2. Datacube names have been updated to ``ls5_sr``, ``ls7_sr`` and ``ls8_sr``. Deprecated naming conventions such as ``ls8_usgs_sr_scene`` will no longer work. Additionally, the ``deafrica_tools`` package has replaced the deprecated ``sys.path.append('../Scripts')`` file import.
  - **21/01/2021:** `Virtual live sessions <./Events.ipynb>`_ run by our course convenors have resumed for 2021. We encourage all current and past course participants to join in.
  - **15/12/2020:** If you have completed any or all sections of the Digital Earth Africa training course, complete our `participant survey <https://forms.gle/QSuoFWXuevyKTgVZ7>`_.

@@ -8,7 +8,8 @@ Digital Earth Africa Training
 
 .. note:: 
     **Training at Digital Earth Africa has moved!** Register at `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_ to enrol in the revised and updated 6-week training course, now called `Intro to Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_ (EN) and `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_ (FR). 
-    Current participants on this website `training.digitalearthafrica.org <https://training.digitalearthafrica.org/>`_ have until **30 November 2021** to successfully complete all quizzes for certification. After 30 November 2021, certificates can be obtained by completing the Intro to Sandbox course on `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_. Find out more about the move on `our blog <https://www.digitalearthafrica.org/media-center/blog/now-available-learning-platform-and-new-intro-sandbox-course>`_ .
+    
+    Current participants on this website `training.digitalearthafrica.org <https://training.digitalearthafrica.org/>`_ have until **30 November 2021** to successfully complete all quizzes for certification. After 30 November 2021, certificates can be obtained by completing the Intro to Sandbox course on `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_. Find out more about the move on `our blog <https://www.digitalearthafrica.org/media-center/blog/now-available-learning-platform-and-new-intro-sandbox-course>`_.
 
 Welcome to the Digital Earth Africa training course!
 

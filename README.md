@@ -1,5 +1,8 @@
 # deafrica-training-workshop
-Training material on how to use DE Africa data at https://training.digitalearthafrica.org/
+
+## Content on this site may be deprecated. Please visit [learn.digitalearthafrica.org](https://learn.digitalearthafrica.org) for the most up-to-date information.
+
+Training material on how to use DE Africa data at https://training.digitalearthafrica.org/. Site will be decommissioned by the end of 2021. Training material can be alternatively accessed at [learn.digitalearthafrica.org](https://learn.digitalearthafrica.org).
 
 English: [![Documentation Status](https://readthedocs.org/projects/digital-earth-africa-workshop/badge/?version=latest)](https://training.digitalearthafrica.org/en/latest/?badge=latest) | [RTD](https://readthedocs.org/projects/digital-earth-africa-workshop/)
 

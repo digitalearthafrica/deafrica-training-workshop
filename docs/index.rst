@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Digital Earth Africa Training
-=============================
+Digital Earth Africa Training has moved! La formation à Digital Earth Africa a déménagé ! 
+==============================================================================================
 
 .. note:: 
     **Training at Digital Earth Africa has moved!** Register at `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_ to enrol in the revised and updated 6-week training course, now called `Intro to Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_ (EN) and `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_ (FR). Find out more about the move on `our blog <https://www.digitalearthafrica.org/media-center/blog/now-available-learning-platform-and-new-intro-sandbox-course>`_.
@@ -15,9 +15,6 @@ Digital Earth Africa Training
 
     Les liens de quiz ne sont plus disponibles sur ce site Web. Veuillez suivre le cours Introduction à la sandbox sur `learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_ pour recevoir un certificat.
     
-.. youtube:: -jGkL9kx6rg
-   :width: 100%
-
 .. toctree::
    :hidden:
 
